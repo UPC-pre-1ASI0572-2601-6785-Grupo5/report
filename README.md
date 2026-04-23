@@ -56,3 +56,62 @@ Asimismo, cada *User Story* incluye sus respectivos *Acceptance Criteria*, los c
 | *US36* | Proveedor | TBD | EP02 | *Visualizar gráfico de ventas* | Como proveedor, quiere visualizar ventas por mes. | *Esc 1 – Con datos: **Given* despachos realizados, *When* consulta, *Then* el sistema expone totales por mes. *Esc 2 – Sin datos: **Given* sin ventas, *When* consulta, *Then* el sistema informa que no hay datos suficientes. |
 | *US37* | Usuario | TBD | EP01/EP02 | *Descargar reporte en PDF* | Como usuario, quiere descargar resúmenes operativos en PDF. | *Esc 1 – Exportación con datos: **Given* periodo con información, *When* solicita exportar, *Then* el sistema genera el documento. *Esc 2 – Exportación sin datos: **Given* periodo vacío, *When* solicita, *Then* el sistema informa que no hay contenido exportable. *Esc 3 – Falla de generación: **Given* error de backend, *When* exporta, *Then* el sistema informa el fallo y conserva sesión. |
 | *SP01* | Equipo (Spike) | TBD | EP02/EP03 | *Investigar conciliación de pagos y validación automática* | Como equipo, quiere investigar opciones de integración (e.g., pasarela/conciliación bancaria) para reducir retrasos por validación manual. | *Esc 1 – Documentación revisada: **Given* proveedores de pago seleccionados, *When* se revisa documentación y webhooks, *Then* se documentan flujos recomendados. *Esc 2 – PoC mínimo: **Given* entorno de pruebas, *When* se implementa PoC de conciliación, *Then* se registra en repo y se documentan resultados. *Esc 3 – Criterios de decisión: **Given* hallazgos, *When* se comparan costos/riesgos, *Then* se proponen alternativas y estimaciones. |
+
+
+### 3.2. Impact Mapping
+
+<img width="1240" height="1402" alt="image" src="https://github.com/user-attachments/assets/bb99c7fe-a9b6-44c6-b95f-0905c0dded52" />
+
+<img width="1240" height="1562" alt="image" src="https://github.com/user-attachments/assets/809da5ce-9426-4f49-973a-08d6658bbf29" />
+
+### 3.3. Product Backlog
+
+| # Orden | User Story Id | Título | Story Points (1/2/3/5/8) |
+| :---: | :--- | :--- | :---: |
+| 01 | US01 | Crear nuevo pedido | 5 |
+| 02 | US02 | Consultar historial de pedidos | 3 |
+| 03 | US03 | Editar pedido no confirmado | 5 |
+| 04 | US04 | Confirmar recepción de pedido | 3 |
+| 05 | US05 | Actualizar pedido | 5 |
+| 06 | US06 | Notificar cambios al cliente | 5 |
+| 07 | US07 | Cancelar o rechazar pedido | 3 |
+| 08 | US08 | Iniciar sesión | 3 |
+| 09 | US09 | Registrar cuenta nueva | 3 |
+| 10 | US10 | Recuperar contraseña | 3 |
+| 11 | US11 | Restringir acceso por rol | 2 |
+| 12 | US12 | Verificar MFA en pedidos | 5 |
+| 13 | US13 | Explorar landing (pública) | 2 |
+| 14 | TS01 | Exponer endpoint de pedidos (POST) | 5 |
+| 15 | TS02 | Emitir token de autenticación (JWT) | 5 |
+| 16 | TS03 | Enviar notificaciones por cambio de estado | 3 |
+| 17 | TS04 | Registrar ubicación GPS en ruta | 5 |
+| 18 | US14 | Consultar Home pública | 2 |
+| 19 | US15 | Conocer About Us | 2 |
+| 20 | US16 | Entender cómo funciona | 2 |
+| 21 | US17 | Enviar contacto | 3 |
+| 22 | US18 | Aprobar pedido | 3 |
+| 23 | TS19 | Despachar pedido | 5 |
+| 24 | US20 | Cerrar pedido | 3 |
+| 25 | US21 | Generar reporte de ventas | 5 |
+| 26 | US22 | Visualizar KPIs de pedidos (Solicitante) | 5 |
+| 27 | US23 | Visualizar KPIs de pedidos (Proveedor) | 5 |
+| 28 | TS05 | Autenticar (endpoint login) | 5 |
+| 29 | TS06 | Recuperar contraseña (endpoint) | 3 |
+| 30 | TS07 | Cerrar sesión (endpoint logout) | 2 |
+| 31 | TS24 | Asignar vehículo a pedido | 5 |
+| 32 | US25 | Asignar conductor a pedido | 3 |
+| 33 | TS26 | Validar disponibilidad de transporte | 8 |
+| 34 | US27 | Consultar perfil | 2 |
+| 35 | US28 | Actualizar perfil | 3 |
+| 36 | US29 | Buscar pedido por código | 2 |
+| 37 | US30 | Filtrar pedidos por estado | 2 |
+| 38 | US31 | Recibir notificación de aprobación/rechazo | 3 |
+| 39 | TS32 | Recibir notificación de despacho | 5 |
+| 40 | US33 | Listar empresas solicitantes | 3 |
+| 41 | US34 | Consultar detalle de empresa | 3 |
+| 42 | US35 | Visualizar gráfico de consumo | 5 |
+| 43 | US36 | Visualizar gráfico de ventas | 5 |
+| 44 | US37 | Descargar reporte en PDF | 5 |
+| 45 | SP01 | Investigar conciliación de pagos y validación | 8 |
+
+---
