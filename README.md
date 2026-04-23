@@ -28,23 +28,27 @@ A continuación, se presenta el Competitive Analysis Landscape, el cual nos perm
         <tr style="text-align: center">
             <th colspan="2">Competidores</th>
             <th>
-                <div>
-                    <strong>FuelTrack (Nuestra Startup)</strong>
+                <div style="text-align: center">
+                    <strong>FuelTrack</strong><br>
+                    <img src="img/logo-fueltrack.jpg" height="120" alt="Logo FuelTrack"/>
                 </div>
             </th>
             <th>
-                <div>
-                    <strong>Zavgar</strong>
+                <div style="text-align: center">
+                    <strong>Zavgar</strong><br>
+                    <img src="img/logo-zavgar.jpg" height="120" alt="Logo Zavgar"/>
                 </div>
             </th>
             <th>
-                <div>
-                    <strong>FuelCloud</strong>
+                <div style="text-align: center">
+                    <strong>FuelCloud</strong><br>
+                    <img src="img/logo-fuelcloud.jpg" height="120" alt="Logo FuelCloud"/>
                 </div>
             </th>
             <th>
-                <div>
-                    <strong>Wialon</strong>
+                <div style="text-align: center">
+                    <strong>Wialon</strong><br>
+                    <img src="img/logo-wialon.jpg" height="120" alt="Logo Wialon"/>
                 </div>
             </th>
         </tr>
