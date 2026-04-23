@@ -1,4 +1,4 @@
-## Capítulo Iv: Solution Software Design
+## Capítulo IV: Solution Software Design
 
 ### 4.1. Strategic-Level Domain-Driven Design
 
