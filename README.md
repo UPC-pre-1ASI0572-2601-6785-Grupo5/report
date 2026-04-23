@@ -5,7 +5,7 @@
 ### 4.1.1. Design-Level EventStorming
 Se llevó a cabo un proceso de Event Storming para identificar los Bounded Contexts de nuestro sistema. Durante este proceso, se siguieron los pasos que se describen a continuación:
 
-Collect Domain Events
+## Collect Domain Events
 
 Se plantean eventos importantes de todos los grupos funcionales en tiempo pasado y nomenclatura en inglés.
 
