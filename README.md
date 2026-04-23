@@ -60,11 +60,18 @@ Asimismo, cada *User Story* incluye sus respectivos *Acceptance Criteria*, los c
 
 ### 3.2. Impact Mapping
 
+En esta sección, se presenta el Impact Mapping para cada segmento objetivo. Esta técnica permite visualizar cómo las características del producto contribuyen a los objetivos de negocio y cómo se alinean con las necesidades de los usuarios.
+
+
 <img width="1240" height="1402" alt="image" src="https://github.com/user-attachments/assets/bb99c7fe-a9b6-44c6-b95f-0905c0dded52" />
 
 <img width="1240" height="1562" alt="image" src="https://github.com/user-attachments/assets/809da5ce-9426-4f49-973a-08d6658bbf29" />
 
 ### 3.3. Product Backlog
+
+Utilizamos la escala de Fibonacci para la estimación de los Story Points.
+
+
 
 | # Orden | User Story Id | Título | Story Points (1/2/3/5/8) |
 | :---: | :--- | :--- | :---: |
