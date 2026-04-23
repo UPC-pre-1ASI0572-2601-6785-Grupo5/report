@@ -16,6 +16,9 @@ Se plantean eventos importantes de todos los grupos funcionales en tiempo pasado
 <img width="899" height="302" alt="image" src="https://github.com/user-attachments/assets/b106fc48-1643-4278-9595-4173b6fd6bb4" />
 
 
+
+
+
 <img width="856" height="285" alt="image" src="https://github.com/user-attachments/assets/76c6dcde-c783-4cf1-a26c-0a017d0130d6" />
 
 ### 4.1.1.1. Candidate Context Discovery
