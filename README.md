@@ -24,3 +24,7 @@ En este paso se resaltan con un diamante los eventos por aclarar o que requieren
 <img width="577" height="357" alt="image" src="https://github.com/user-attachments/assets/36dfe51b-8b70-47ab-b7ce-1c40e95320f1" />
 
 ### 4.1.1.1. Candidate Context Discovery
+
+<img width="768" height="769" alt="image" src="https://github.com/user-attachments/assets/471b6c99-3999-4d43-8442-dfc5301b5a15" />
+
+<img width="811" height="464" alt="image" src="https://github.com/user-attachments/assets/3bbde438-aed5-40e4-bb24-b453903588cf" />
