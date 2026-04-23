@@ -16,4 +16,7 @@ Se plantean eventos importantes de todos los grupos funcionales en tiempo pasado
 
 <img width="856" height="285" alt="image" src="https://github.com/user-attachments/assets/76c6dcde-c783-4cf1-a26c-0a017d0130d6" />
 
+## Pain and Pivotal Points
+En este paso se resaltan con un diamante los eventos por aclarar o que requieren de más conocimientos de especialistas. Por otro lado, los pivotal points son puntos de cambios que se marcan con una barra vertical. Por otro lado, los pivotal points son puntos de cambios que se marcan con una barra vertical
+
 ### 4.1.1.1. Candidate Context Discovery
