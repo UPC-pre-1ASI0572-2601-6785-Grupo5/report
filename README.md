@@ -289,7 +289,81 @@ A continuación, se presenta el Competitive Analysis Landscape, el cual nos perm
     </tbody>
 </table>
 
-### 2.1.2. Estrategias y tácticas frente a competidores
+### 2.1.2. Estrategias y tácticas frente a competidores.
+
+Para definir nuestras estrategias frente a competidores como Zavgar, FuelCloud y Wialon, hemos desarrollado una **Matriz CAME** (Corregir, Afrontar, Mantener, Explotar) basada en nuestro análisis FODA competitivo. Esto nos permite trazar tácticas claras para aprovechar el entorno IoT y mitigar los riesgos del mercado y la competencia.
+
+<table>
+    <thead>
+        <tr>
+            <th colspan="3" style="text-align: center; font-size: 1.1em;">Matriz CAME para el desarrollo de estrategias en base al análisis FODA</th>
+        </tr>
+        <tr>
+            <th style="width: 20%;">Análisis FODA cruzado</th>
+            <th style="width: 40%;">Oportunidades (O)
+                <ul style="font-weight: normal; text-align: left; font-size: 0.9em;">
+                    <li>O1. Crecimiento del IIoT (Internet Industrial de las Cosas).</li>
+                    <li>O2. Predicción de demanda mediante Big Data.</li>
+                    <li>O3. Nuevas exigencias de trazabilidad de OSINERGMIN.</li>
+                </ul>
+            </th>
+            <th style="width: 40%;">Amenazas (A)
+                <ul style="font-weight: normal; text-align: left; font-size: 0.9em;">
+                    <li>A1. Sistemas ERP desarrollando módulos IoT nativos.</li>
+                    <li>A2. Baja conectividad de red en zonas rurales/mineras.</li>
+                    <li>A3. Entrada de hardware IoT asiático de bajo costo.</li>
+                </ul>
+            </th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+            <th>Fortalezas (F)
+                <ul style="font-weight: normal; text-align: left; font-size: 0.9em;">
+                    <li>F1. Integración B2B (Pedido logístico + IoT).</li>
+                    <li>F2. Automatización total de stock y reabastecimiento.</li>
+                    <li>F3. Diseño UX moderno y accesible.</li>
+                </ul>
+            </th>
+            <td>
+                <strong>Estrategia (FO) Ofensivas: Explotar</strong>
+                <ul style="text-align: left; font-size: 0.95em;">
+                    <li><strong>Especialización B2B impulsada por datos (F1, O2):</strong> Utilizar los datos recopilados por nuestros sensores IoT para ofrecer a los proveedores reportes predictivos de demanda. Esto nos diferencia de Wialon o Zavgar, que solo muestran el consumo pasado, permitiendo a nuestros clientes anticipar sus ventas.</li>
+                    <li><strong>Cumplimiento normativo automatizado (F2, O3):</strong> Posicionar FuelTrack como la herramienta definitiva para cumplir con las regulaciones de trazabilidad de OSINERGMIN, utilizando nuestra plataforma web moderna (F3) para generar reportes automáticos basados en las lecturas reales de los tanques.</li>
+                </ul>
+            </td>
+            <td>
+                <strong>Estrategia (FA) Defensivas: Mantener</strong>
+                <ul style="text-align: left; font-size: 0.95em;">
+                    <li><strong>Robustez frente a la desconexión (F2, A2):</strong> Desarrollar tácticas de almacenamiento local (Edge Computing) en nuestros nodos IoT. Si se pierde la conectividad en una mina o zona rural, el sensor guarda el registro y actualiza el stock/pedido automáticamente al recuperar la señal, superando la fiabilidad de la competencia de bajo costo.</li>
+                    <li><strong>Diferenciación por valor y soporte (F1, F3, A3):</strong> Frente a la amenaza del hardware barato asiático, enfocar la estrategia de marketing en el valor del ecosistema completo (SaaS amigable + hardware) y el soporte técnico B2B local, algo que los importadores de dispositivos genéricos no pueden ofrecer.</li>
+                </ul>
+            </td>
+        </tr>
+        <tr>
+            <th>Debilidades (D)
+                <ul style="font-weight: normal; text-align: left; font-size: 0.9em;">
+                    <li>D1. Dependencia de instalación física en tanques.</li>
+                    <li>D2. Resistencia tecnológica en empresas tradicionales.</li>
+                </ul>
+            </th>
+            <td>
+                <strong>Estrategia (DO) de Reorientación: Corregir</strong>
+                <ul style="text-align: left; font-size: 0.95em;">
+                    <li><strong>Instalación como servicio de adecuación (D1, O3):</strong> Para mitigar la fricción que causa la instalación de hardware físico (a diferencia de soluciones puramente software), empaquetaremos la instalación del sensor como un servicio de "Auditoría y Adecuación a normativas IIoT", agregando valor inmediato a la infraestructura del cliente.</li>
+                    <li><strong>Pilotos de adopción tecnológica (D2, O1):</strong> Reducir la resistencia al cambio en el sector logístico ofreciendo programas piloto de 30 días. Demostraremos cómo el IoT elimina las fallas humanas en la medición manual, ganando su confianza antes de cobrar la suscripción completa.</li>
+                </ul>
+            </td>
+            <td>
+                <strong>Estrategia (DA) de Supervivencia: Afrontar</strong>
+                <ul style="text-align: left; font-size: 0.95em;">
+                    <li><strong>Alianzas de conectividad (D1, A2):</strong> Para asegurar el funcionamiento de nuestro hardware en zonas remotas, formaremos alianzas con proveedores de telecomunicaciones (tecnologías NB-IoT o LoRaWAN), garantizando a los clientes que su inversión no se perderá por falta de señal.</li>
+                    <li><strong>Estrategia de API Abierta (D2, A1):</strong> Para evitar que las empresas tradicionales prefieran los módulos IoT nativos deficientes de sus propios ERP, FuelTrack ofrecerá integraciones sencillas (API REST). De este modo, en lugar de competir contra los ERP, nos convertiremos en una extensión especializada que alimenta de datos precisos a sus sistemas contables.</li>
+                </ul>
+            </td>
+        </tr>
+    </tbody>
+</table>
 
 ## 2.2. Entrevistas
 ### 2.2.1. Diseño de entrevistas
