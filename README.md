@@ -1,4 +1,10 @@
-### Cuadro único de Epics & Stories
+## Capítulo III: Requirements Specification
+
+### 3.1. User Stories
+
+En esta sección se presentan los requisitos definidos junto con el conjunto de *User Stories* y *Epics* correspondientes a las necesidades identificadas del sistema. Las *User Stories* permiten al equipo de desarrollo comprender de manera clara las expectativas de los usuarios finales, facilitando así la priorización y planificación de las funcionalidades del producto.
+
+Asimismo, cada *User Story* incluye sus respectivos *Acceptance Criteria*, los cuales establecen las condiciones necesarias para validar su correcta implementación y garantizar que los requerimientos sean cumplidos de forma efectiva.
 
 | Story ID | User/Rol | Priority | Epic | Title (verbo) | Description | Acceptance Criteria |
 |---|---|---|---|---|---|---|
