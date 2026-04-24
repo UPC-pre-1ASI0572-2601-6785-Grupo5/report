@@ -55,14 +55,14 @@ A continuación, se presenta el Competitive Analysis Landscape, el cual nos perm
         <tr>
             <th rowspan="2"><strong>Perfil</strong></th>
             <td>Overview</td>
-            <td>Plataforma integral basada en web y dispositivos IoT (sensores de nivel en tanques) que digitaliza y automatiza el proceso completo de pedido de combustible entre empresas y proveedores, basándose en lecturas de stock en tiempo real.</td>
+            <td>Plataforma integral basada en web y telemetría IoT (sensores DUT-E CAN) en cisternas en ruta y control de presupuesto (Burn Rate) que digitaliza y automatiza el proceso completo de pedido de combustible entre empresas y proveedores, basándose en lecturas de stock en tiempo real.</td>
             <td>SaaS para la gestión de flotas que se integra con dispositivos telemáticos (OBD-II) para monitorear el consumo de combustible, enfocado en eficiencia y reducción de costos operativos.</td>
             <td>Solución integral de hardware IoT y software para el control físico del despacho de combustible en tanques propios, autorizando y midiendo el flujo en tiempo real.</td>
             <td>Plataforma global de telemetría IoT y gestión de flotas que se integra con sensores de nivel de combustible y GPS para ofrecer reportes operativos avanzados y prevención de robos.</td>
         </tr>
         <tr>
             <td>Ventaja competitiva ¿Qué valor ofrece a los clientes?</td>
-            <td>Especialización en el flujo logístico B2B. Al integrar sensores IoT, elimina el error humano creando notificaciones y pedidos automáticos cuando el tanque llega a un nivel crítico, garantizando un abastecimiento ininterrumpido.</td>
+            <td>Especialización en el flujo logístico B2B. Al integrar sensores IoT, elimina el error humano creando notificaciones y pedidos automáticos cuando el tanque llega a un nivel crítico, garantizando un abastecimiento ininterrumpido. Además, FuelTrack previene sobregiros financieros y robos en tránsito bloqueando vehículos remotamente, cerrando el ciclo con Vouchers PDF firmados digitalmente</td>
             <td>Implementación sin necesidad de hardware propietario pesado; centraliza la información de mantenimiento y gasto de combustible de la flota en un solo dashboard analítico.</td>
             <td>Control físico extremadamente riguroso mediante hardware instalado en el surtidor. Evita mermas y robos autorizando extracciones mediante PIN o tarjetas RFID.</td>
             <td>Compatibilidad universal con más de 2,400 dispositivos IoT del mercado. Trazabilidad de rutas en tiempo real y análisis profundo de variaciones de nivel de combustible.</td>
@@ -70,7 +70,7 @@ A continuación, se presenta el Competitive Analysis Landscape, el cual nos perm
         <tr>
             <th rowspan="2"><strong>Perfil de Marketing</strong></th>
             <td>Mercado objetivo</td>
-            <td>Empresas (mineras, constructoras, agrícolas) con tanques estacionarios que requieren abastecimiento constante, y proveedores de combustible que buscan automatizar sus ventas.</td>
+            <td>Empresas (mineras, constructoras, agrícolas) con monitoreo de flotas de cisternas que requieren abastecimiento constante, y proveedores de combustible que buscan automatizar sus ventas.</td>
             <td>Empresas con flotas vehiculares (transporte, logística) que desean monitorear y reducir el consumo interno de combustible.</td>
             <td>Empresas con tanques de combustible de autoconsumo e infraestructura física que necesitan control estricto de su inventario.</td>
             <td>Empresas logísticas, proveedores de combustible, integradores de sistemas GPS y corporaciones de transporte pesado.</td>
@@ -380,6 +380,10 @@ Para definir nuestras estrategias frente a competidores como Zavgar, FuelCloud y
 ![empathymap_segmento2](img/empathymap_segmento2.png)
 
 ## 2.4. Big Picture EventStorming
+
+Nos reunimos para realizar una lluvia de ideas preliminar sobre los eventos que tendría nuestro proyecto.
+
+![BigPictureEventStorming](img/BigPictureEventStorming.png)
 
 ## 2.5. Ubiquitous Language
 
