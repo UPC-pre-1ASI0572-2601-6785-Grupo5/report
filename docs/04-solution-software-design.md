@@ -45,9 +45,215 @@ A continuación, se presentan los escenarios clave que garantizan la trazabilida
 
 ![Container Level Diagram](../assets/Scenario2.png)
 
-#### 4.1.1.3 Bounded Context Canvases
+### 4.1.1.3 Bounded Context Canvases
 
+Se crearon lienzos de Bounded Context (Canvases) para cada uno de los contextos identificados en el proceso de EventStorming. La elaboración de estos lienzos siguió un proceso iterativo que incluye la definición general del contexto, destilación de reglas de negocio, captura del lenguaje ubicuo y el análisis de capacidades y dependencias. 
 
+Estos lienzos ayudan a definir los límites de cada contexto, sus responsabilidades y las interacciones formales con otros contextos en el ecosistema de FuelTrack.
+
+<br>
+
+<table border="1" style="width:100%; border-collapse: collapse; text-align: left;">
+  <tr>
+    <td style="width:50%; padding: 10px;"><b>Name:</b> Order & Payment</td>
+    <td style="width:50%; padding: 10px;"><b>Model Traits:</b> Draft, execute, audit, gateway</td>
+  </tr>
+  <tr>
+    <td style="padding: 10px;">
+      <b>Description:</b><br>
+      <small>Summary of purposes and responsibilities</small><br>
+      Este contexto se encarga de la captura inicial de la solicitud comercial del cliente, la verificación de inventario disponible y la interacción con la pasarela bancaria para validar fondos.
+    </td>
+    <td style="padding: 10px;" rowspan="3">
+      <b>Messages Consumed and Produced:</b><br><br>
+      <i>Messages Consumed:</i><br>
+      - <b>Command:</b> Create order<br>
+      - <b>Command:</b> Validate payment<br><br>
+      <i>Messages Produced:</i><br>
+      - <b>Event:</b> Order created<br>
+      - <b>Event:</b> Payment validated
+    </td>
+  </tr>
+  <tr>
+    <td style="padding: 10px;">
+      <b>Strategic Classification:</b><br>
+      <small>Domain: Core | Business Model: Compliance | Evolution: Custom built</small>
+    </td>
+  </tr>
+  <tr>
+    <td style="padding: 10px;">
+      <b>Business Decisions:</b><br>
+      <small>Key business rules, policies, and decisions</small><br>
+      - <b>Policy:</b> Verify stock availability.<br>
+      - <b>Policy:</b> If payment is valid, allow dispatch.
+    </td>
+  </tr>
+  <tr>
+    <td style="padding: 10px;">
+      <b>Ubiquitous Language:</b><br>
+      <small>Key domain terminology</small><br>
+      <code>Order</code>, <code>Payment</code>, <code>Stock</code>, <code>Bank System</code>
+    </td>
+    <td style="padding: 10px;">
+      <b>Dependencies and Relationships:</b><br>
+      - <b>Message Suppliers:</b> Bank System (Provides payment confirmation)<br>
+      - <b>Message Consumers:</b> Logistics & IoT Telemetry (Consumes validation to start dispatch)
+    </td>
+  </tr>
+</table>
+
+<br>
+
+<table border="1" style="width:100%; border-collapse: collapse; text-align: left;">
+  <tr>
+    <td style="width:50%; padding: 10px;"><b>Name:</b> Logistics & IoT Telemetry</td>
+    <td style="width:50%; padding: 10px;"><b>Model Traits:</b> Execute, monitor, track</td>
+  </tr>
+  <tr>
+    <td style="padding: 10px;">
+      <b>Description:</b><br>
+      <small>Summary of purposes and responsibilities</small><br>
+      Es el núcleo operativo. Gestiona la asignación de la flota y procesa en tiempo real la telemetría (ubicación GPS) enviada por los sensores IoT para evaluar geocercas y prevenir mermas en ruta.
+    </td>
+    <td style="padding: 10px;" rowspan="3">
+      <b>Messages Consumed and Produced:</b><br><br>
+      <i>Messages Consumed:</i><br>
+      - <b>Command:</b> Start dispatch<br>
+      - <b>Event:</b> Payment validated<br>
+      - <b>Event:</b> GPS location transmitted<br><br>
+      <i>Messages Produced:</i><br>
+      - <b>Event:</b> Vehicle assigned<br>
+      - <b>Event:</b> Order dispatched<br>
+      - <b>Event:</b> Geofence entered
+    </td>
+  </tr>
+  <tr>
+    <td style="padding: 10px;">
+      <b>Strategic Classification:</b><br>
+      <small>Domain: Core | Business Model: Core differentiator | Evolution: Custom built</small>
+    </td>
+  </tr>
+  <tr>
+    <td style="padding: 10px;">
+      <b>Business Decisions:</b><br>
+      <small>Key business rules, policies, and decisions</small><br>
+      - <b>Policy:</b> Activate live tracking upon dispatch.<br>
+      - <b>Policy:</b> Check distance to client constantly.
+    </td>
+  </tr>
+  <tr>
+    <td style="padding: 10px;">
+      <b>Ubiquitous Language:</b><br>
+      <small>Key domain terminology</small><br>
+      <code>Vehicle</code>, <code>Dispatch</code>, <code>Telemetry</code>, <code>Live Tracking</code>, <code>Geofence</code>
+    </td>
+    <td style="padding: 10px;">
+      <b>Dependencies and Relationships:</b><br>
+      - <b>Message Suppliers:</b> Order & Payment, GPS IoT Device, Geofencing System<br>
+      - <b>Message Consumers:</b> Fulfillment (Depends on Geofence entered event)
+    </td>
+  </tr>
+</table>
+
+<br>
+
+<table border="1" style="width:100%; border-collapse: collapse; text-align: left;">
+  <tr>
+    <td style="width:50%; padding: 10px;"><b>Name:</b> Fulfillment</td>
+    <td style="width:50%; padding: 10px;"><b>Model Traits:</b> Execute, physical interaction</td>
+  </tr>
+  <tr>
+    <td style="padding: 10px;">
+      <b>Description:</b><br>
+      <small>Summary of purposes and responsibilities</small><br>
+      Ejecuta de forma segura la entrega física en campo. Interpreta la llegada a la geocerca para interactuar directamente con el hardware de la cisterna, evitando descargas no autorizadas.
+    </td>
+    <td style="padding: 10px;" rowspan="3">
+      <b>Messages Consumed and Produced:</b><br><br>
+      <i>Messages Consumed:</i><br>
+      - <b>Event:</b> Geofence entered<br>
+      - <b>Event:</b> Discharge flow registered<br><br>
+      <i>Messages Produced:</i><br>
+      - <b>Command:</b> Unlock valve<br>
+      - <b>Event:</b> Order delivered
+    </td>
+  </tr>
+  <tr>
+    <td style="padding: 10px;">
+      <b>Strategic Classification:</b><br>
+      <small>Domain: Core | Business Model: Core differentiator | Evolution: Custom built</small>
+    </td>
+  </tr>
+  <tr>
+    <td style="padding: 10px;">
+      <b>Business Decisions:</b><br>
+      <small>Key business rules, policies, and decisions</small><br>
+      - <b>Policy:</b> Unlock valve ONLY if inside geofence.<br>
+      - <b>Policy:</b> Mark order completed when flow stops.
+    </td>
+  </tr>
+  <tr>
+    <td style="padding: 10px;">
+      <b>Ubiquitous Language:</b><br>
+      <small>Key domain terminology</small><br>
+      <code>Smart Valve</code>, <code>Flowmeter</code>, <code>Discharge Flow</code>, <code>Fulfillment</code>
+    </td>
+    <td style="padding: 10px;">
+      <b>Dependencies and Relationships:</b><br>
+      - <b>Message Suppliers:</b> Logistics & IoT Telemetry, IoT Flowmeter<br>
+      - <b>Message Consumers:</b> Smart Valve Hardware, Reporting
+    </td>
+  </tr>
+</table>
+
+<br>
+
+<table border="1" style="width:100%; border-collapse: collapse; text-align: left;">
+  <tr>
+    <td style="width:50%; padding: 10px;"><b>Name:</b> Reporting</td>
+    <td style="width:50%; padding: 10px;"><b>Model Traits:</b> Audit, summary, notification</td>
+  </tr>
+  <tr>
+    <td style="padding: 10px;">
+      <b>Description:</b><br>
+      <small>Summary of purposes and responsibilities</small><br>
+      Contexto de soporte encargado de recopilar la data transaccional y telemétrica final para generar los resúmenes de consumo, métricas de negocio y notificar a los clientes.
+    </td>
+    <td style="padding: 10px;" rowspan="3">
+      <b>Messages Consumed and Produced:</b><br><br>
+      <i>Messages Consumed:</i><br>
+      - <b>Event:</b> Order delivered<br><br>
+      <i>Messages Produced:</i><br>
+      - <b>Event:</b> Consumption report generated<br>
+      - <b>Event:</b> Notification sent
+    </td>
+  </tr>
+  <tr>
+    <td style="padding: 10px;">
+      <b>Strategic Classification:</b><br>
+      <small>Domain: Supporting | Business Model: Engagement | Evolution: Commodity</small>
+    </td>
+  </tr>
+  <tr>
+    <td style="padding: 10px;">
+      <b>Business Decisions:</b><br>
+      <small>Key business rules, policies, and decisions</small><br>
+      - <b>Policy:</b> Generate final metrics based on delivered orders.
+    </td>
+  </tr>
+  <tr>
+    <td style="padding: 10px;">
+      <b>Ubiquitous Language:</b><br>
+      <small>Key domain terminology</small><br>
+      <code>Consumption Report</code>, <code>Metrics</code>, <code>Notification</code>, <code>Dashboard</code>
+    </td>
+    <td style="padding: 10px;">
+      <b>Dependencies and Relationships:</b><br>
+      - <b>Message Suppliers:</b> Fulfillment (Provides delivery confirmation)<br>
+      - <b>Message Consumers:</b> Client / External Notification Services
+    </td>
+  </tr>
+</table>
 
 ### 4.1.2. Context Mapping
 ### 4.1.3. Software Architecture
