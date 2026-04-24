@@ -417,9 +417,11 @@ Para comprender a profundidad las necesidades operativas y logísticas de nuestr
 
 Entrevista 1:
 
-Nombre: Maria Elena Muñoz
-Edad: 23
-Distrito: Olivos
+- Nombre: Maria Elena Muñoz
+  
+- Edad: 23
+  
+- Distrito: Olivos
 
 <img width="1920" height="1040" alt="image" src="https://github.com/user-attachments/assets/524a2e4e-8539-49aa-8b13-b117c6db4d4f" />
 
