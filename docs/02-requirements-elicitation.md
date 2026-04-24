@@ -427,11 +427,12 @@ Entrevista 1:
 
 Link de Entrevista: https://upcedupe-my.sharepoint.com/:v:/g/personal/u202310425_upc_edu_pe/IQCfkcUktPEWRauuu2W1srTQAboKi2wAirJeCJC7AZahiyY?e=MSTjfd
 
+La empresa gestiona el combustible de forma manual y sin control en tiempo real, lo que genera errores, desabastecimientos y pérdidas económicas. Además, hay poca visibilidad del transporte y problemas con la documentación, dificultando la conciliación con proveedores. Una solución como FuelTech permitiría mejorar el control y la eficiencia.
 ### 2.2.3. Análisis de entrevistas
 
 | Nombre                            | Preferencias y Recomendaciones |
 |----------------------------------|--------------------------------|
-|  Maria Elena Muñoz  | La empresa gestiona el combustible de forma manual y sin monitoreo en tiempo real, lo que genera errores, desabastecimientos y pérdidas económicas. Además, existe baja visibilidad del transporte y problemas con la documentación física, lo que dificulta la conciliación con proveedores. Una solución como FuelTech permitiría mejorar el control, optimizar la logística y detectar pérdidas o robos de manera inmediata. |
+|  Maria Elena Muñoz  | La entrevista evidencia una gestión ineficiente del combustible, basada en procesos manuales y herramientas reactivas, lo que incrementa el riesgo de errores, pérdidas y paralizaciones operativas. La falta de visibilidad en tiempo real y la baja trazabilidad logística limitan la toma de decisiones y generan sobrecostos. Estos hallazgos validan la necesidad de implementar una solución IoT como FuelTech, que optimice el control, mejore la transparencia y permita una gestión más eficiente y preventiva. |
 |              |  |
 |      | |
 |                |  |
