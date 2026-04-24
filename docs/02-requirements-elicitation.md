@@ -463,34 +463,41 @@ Para comprender a profundidad las necesidades operativas y logísticas de nuestr
 <table border="1">
   <tr>
     <th>Entrevista</th>
-    <td>1</td>
+    <td>2</td>
     <th>Nombre</th>
-    <td>Rosa Lopez</td>
+    <td>Nicolas Pineda</td>
   </tr>
   <tr>
     <th>Edad</th>
-    <td>28</td>
+    <td>22</td>
     <th>Distrito</th>
-    <td>San Martín de Porres</td>
+    <td>San Juan de Lurigancho</td>
   </tr>
   <tr>
-    <th>Captura de la entrevista: <img src="assets/chapter-4/Segmento 1 - Milagros Almerco.png" alt="Captura de la entrevista" width="200"></th>
-    <td colspan="3">
-        resumen.
+    <th>Captura de la entrevista:</th>
+<td colspan="3">
+        <img width="350" height="200" alt="Entrevista 2" src="../assets/interview2_screenshot.png" /> 
     </td>
   </tr>
   <tr>
     <th>URL de la grabación</th>
     <td colspan="3">
-      <a href="link---">
+      <a href="https://upcedupe-my.sharepoint.com/:v:/g/personal/u20221c275_upc_edu_pe/IQBqzoHpq9JwQr67PhjmhAadAer3MCKj-SyvnfFnDt4Dvi4?e=ly8uH3&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D">
         Ver grabación
       </a>
     </td>
   </tr>
+
+<tr>
+    <th>Resumen</th>
+    <td colspan="3">
+La empresa de transporte gestiona su suministro de combustible mediante procesos semi-manuales en Excel, lo que ocasiona paradas operativas de la flota y sobrecostos por compras de emergencia. Además, enfrentan una visibilidad muy limitada sobre el trayecto de los camiones y manejan la documentación en formato físico, lo que hace que la conciliación mensual con el proveedor sea lenta, demandante y propensa a descuadres. La implementación de un dashboard en tiempo real permitiría monitorear el consumo exacto, optimizar los pedidos, reducir los gastos logísticos y garantizar una total transparencia para las auditorías.    </td>
+  </tr>
+
   <tr>
    <th>Timing</th>
     <td colspan="3">
-         00:00 -5:48
+         00:00 - 10:23
     </td>
   </tr>
 </table>
