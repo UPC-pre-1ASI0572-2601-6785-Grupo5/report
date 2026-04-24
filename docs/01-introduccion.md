@@ -20,7 +20,7 @@ Convertirnos en el estándar de gestión inteligente de combustible B2B en Latin
 | Foto                                          | Nombre completo               | Código     | Carrera                | Habilidades técnicas y rol                                   |
 |-----------------------------------------------|-------------------------------|------------|------------------------|--------------------------------------------------------------|
 | <img width="260" height="280" alt="image" src="https://github.com/user-attachments/assets/dafe372e-7f1f-428c-bab5-933c2f00b5ba" /> | Aguirre Castillo, Sergio Cesar | U202310425 | Ingeniería de Software | Desarrollo Backend, Gestión de APIs RESTful, Arquitectura DDD |
-| ![Cristian](/assets/foto_cristian.jpg) | Iparraguirre Rueda, Cristian Luis    | U202113111 | Ingeniería de Software | Desarrollo Frontend (Vue/React), UI/UX, Integración de servicios externos |
+| <img width="260" height="280" alt="Cristian" src="../assets/foto_cristian.jpg" /> | Iparraguirre Rueda, Cristian Luis    | U202113111 | Ingeniería de Software | Desarrollo Frontend (Vue/React), UI/UX, Integración de servicios externos |
 | ![Alumno 3](img/foto_bryan.png)           | Bryan Ronald Espejo Gamarra     | U202213278 | Ingeniería de Software | Backend, Base de Datos, DevOps, Coordinación técnica del proyecto |
 | ![Alumno 4](img/foto_jhon.png)           | Alumno     | xxxxx | Ingeniería de Software | Desarrollo Móvil Nativo (Kotlin/Swift), Testing y QA          |
 | ![Renzo Luque](img/foto_renzo.png)            | Renzo Andres Luque Minaya       | U20221C275 | Ingeniería de Software | Desarrollo Frontend, Cloud Deployment, Seguridad y Autenticación |
