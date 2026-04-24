@@ -56,43 +56,43 @@ El objetivo de esta sección es resumir las modificaciones relevantes que se rea
     </tr>
     <tr>
       <td>12/04/2026</td>
-      <td>Burga Loarte, Anaely Zarely</td>
+      <td>Jocelyn Damaly Almerco almeroc Rojas</td>
       <td>Desarrollo puntos 2.1, 2.3, 2.3.1</td>
     </tr>
     <tr>
       <td>12/04/2026</td>
-      <td>Mamani Marca, Gabriel Cristian</td>
+      <td>Iparraguirre Rueda, Cristian Luis</td>
       <td>Desarrollo el capítulo 1 y punto 3.2</td>
     </tr>
     <tr>
       <td>07/04/2026</td>
-      <td>Oshiro Yamashita, Daiki Oscar</td>
+      <td>Aguirre Castillo, Sergio Cesar</td>
       <td>Desarrollo de los puntos 2.3.2 a 2.3.5</td>
     </tr>
     <tr>
       <td>12/04/2026</td>
-      <td>Oshiro Yamashita, Daiki Oscar</td>
+      <td>Jocelyn Damaly Almerco almeroc Rojas</td>
       <td>Revisión general del documento</td>
     </tr>
     <tr>
       <td>14/04/2026</td>
-      <td>Montes Maza, Augusto Sebastian</td>
+      <td>Iparraguirre Rueda, Cristian Luis</td>
       <td>Desarrollo de conclusiones y recomendaciones del proyecto</td>
     </tr>
     <tr>
       <td>14/04/2026</td>
-      <td>Montes Maza, Augusto Sebastian</td>
+      <td>Bryan Ronald Espejo Gamarra</td>
       <td>Elaborar presentación tras revisión del documento</td>
     </tr>
     <tr>
       <td rowspan="7" style="text-align: center; vertical-align: middle;"><b>TB2</b></td>
       <td> - </td>
-      <td>Aguirre Castillo, Sergio Cesar</td>
+      <td>Renzo Andres Luque Minaya</td>
       <td> - </td>
     </tr>
     <tr>
       <td>23/04/2026</td>
-      <td>Oshiro Yamashita, Daiki Oscar</td>
+      <td>Jocelyn Damaly Almerco almeroc Rojas</td>
       <td> Desarrollo del punto 4.1.3 y 4.1.4</td>
     </tr>
   </tbody>
