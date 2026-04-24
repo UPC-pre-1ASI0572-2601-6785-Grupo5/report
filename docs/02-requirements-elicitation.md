@@ -549,7 +549,7 @@ La empresa de transporte gestiona su suministro de combustible mediante procesos
 <table border="1">
   <tr>
     <th>Entrevista</th>
-    <td>2</td>
+    <td>1</td>
     <th>Nombre</th>
     <td>Leonardo Gamboa</td>
   </tr>
@@ -592,7 +592,7 @@ La empresa de transporte gestiona su suministro de combustible mediante procesos
 <table border="1">
   <tr>
     <th>Entrevista</th>
-    <td>1</td>
+    <td>2</td>
     <th>Nombre</th>
     <td>Marllely Arias</td>
   </tr>
