@@ -35,6 +35,9 @@ En este paso se resaltan con un diamante los eventos por aclarar o que requieren
 ### 4.1.2. Context Mapping
 ### 4.1.3. Software Architecture
 #### 4.1.3.1. Software Architecture System Landscape Diagram
+
+![System Landscape Diagram](/img/SystemLandscapeDiagram.png)
+
 #### 4.1.3.2. Software Architecture Context Level Diagrams
 #### 4.1.3.3. Software Architecture Container Level Diagrams
 #### 4.1.3.4. Software Architecture Deployment Diagrams
