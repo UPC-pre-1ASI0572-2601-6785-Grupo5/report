@@ -549,34 +549,40 @@ La empresa de transporte gestiona su suministro de combustible mediante procesos
 <table border="1">
   <tr>
     <th>Entrevista</th>
-    <td>1</td>
+    <td>2</td>
     <th>Nombre</th>
-    <td>Rosa Lopez</td>
+    <td>Leonardo Gamboa</td>
   </tr>
   <tr>
     <th>Edad</th>
-    <td>28</td>
+    <td>27</td>
     <th>Distrito</th>
-    <td>San Martín de Porres</td>
+    <td>Ate</td>
   </tr>
   <tr>
-    <th>Captura de la entrevista: <img src="assets/chapter-4/Segmento 1 - Milagros Almerco.png" alt="Captura de la entrevista" width="200"></th>
+    <th>Captura de la entrevista:</th>
     <td colspan="3">
-        resumen.
+      <img src="../assets/cap2/Segmento2_Persona1.png" alt="Captura de la entrevista" width="200">
+    </td>
+  </tr>
+  <tr>
+    <th>Resumen</th>
+    <td colspan="3">
+      Leonardo Gamboa, conductor de cisterna con 8 años de experiencia, indicó que actualmente el monitoreo se limita al uso de GPS, sin información en tiempo real sobre el estado del combustible. Señaló que el control es manual y que las mermas o posibles robos se detectan recién al final del proceso, lo que genera desconfianza y penalizaciones injustas. Asimismo, destacó la dependencia de documentos físicos, lo que retrasa la facturación y genera riesgos de pérdida o deterioro. Considera que una solución digital con IoT sería útil siempre que sea sencilla de usar, reduzca errores y evite sanciones por situaciones fuera de su control.
     </td>
   </tr>
   <tr>
     <th>URL de la grabación</th>
     <td colspan="3">
-      <a href="link---">
+      <a href="https://drive.google.com/file/d/11L819TbztDc0YqwB2WM7qR0-Egn5gLBC/view?usp=sharing">
         Ver grabación
       </a>
     </td>
   </tr>
   <tr>
-   <th>Timing</th>
+    <th>Timing</th>
     <td colspan="3">
-         00:00 -5:48
+      00:00 - 06:18
     </td>
   </tr>
 </table>
@@ -588,32 +594,38 @@ La empresa de transporte gestiona su suministro de combustible mediante procesos
     <th>Entrevista</th>
     <td>1</td>
     <th>Nombre</th>
-    <td>Rosa Lopez</td>
+    <td>Marllely Arias</td>
   </tr>
   <tr>
     <th>Edad</th>
-    <td>28</td>
+    <td>23</td>
     <th>Distrito</th>
-    <td>San Martín de Porres</td>
+    <td>Lince</td>
   </tr>
   <tr>
-    <th>Captura de la entrevista: <img src="assets/chapter-4/Segmento 1 - Milagros Almerco.png" alt="Captura de la entrevista" width="200"></th>
+    <th>Captura de la entrevista:</th>
     <td colspan="3">
-        resumen.
+      <img src="../assets/cap2/Segmento2_Persona2.png" alt="Captura de la entrevista" width="200">
+    </td>
+  </tr>
+  <tr>
+    <th>Resumen</th>
+    <td colspan="3">
+      Marllely Arias, de 23 años, describió que actualmente la empresa monitorea sus cisternas mediante GPS, lo que permite conocer su ubicación, pero sin información en tiempo real sobre el estado del combustible. Indicó que existen casos de mermas o posibles robos que se detectan de manera tardía, así como un control manual del combustible y una alta dependencia de documentos físicos, lo que retrasa la facturación y la atención a clientes. Considera que una solución basada en IoT y digitalización permitiría mejorar el control, reducir pérdidas y optimizar los procesos operativos.
     </td>
   </tr>
   <tr>
     <th>URL de la grabación</th>
     <td colspan="3">
-      <a href="link---">
+      <a href="https://drive.google.com/file/d/1UBl6ci4B9Mjg_y2_GnBcxZ2FXDWzrbx9/view?usp=sharing">
         Ver grabación
       </a>
     </td>
   </tr>
   <tr>
-   <th>Timing</th>
+    <th>Timing</th>
     <td colspan="3">
-         00:00 -5:48
+      00:00 - 05:44
     </td>
   </tr>
 </table>
@@ -622,34 +634,40 @@ La empresa de transporte gestiona su suministro de combustible mediante procesos
 <table border="1">
   <tr>
     <th>Entrevista</th>
-    <td>1</td>
+    <td>3</td>
     <th>Nombre</th>
-    <td>Rosa Lopez</td>
+    <td>Kevin Díaz</td>
   </tr>
   <tr>
     <th>Edad</th>
-    <td>28</td>
+    <td>32</td>
     <th>Distrito</th>
-    <td>San Martín de Porres</td>
+    <td>Callao</td>
   </tr>
   <tr>
-    <th>Captura de la entrevista: <img src="assets/chapter-4/Segmento 1 - Milagros Almerco.png" alt="Captura de la entrevista" width="200"></th>
+    <th>Captura de la entrevista:</th>
     <td colspan="3">
-        resumen.
+      <img src="../assets/cap2/Segmento2_Persona3.png" alt="Captura de la entrevista" width="200">
+    </td>
+  </tr>
+  <tr>
+    <th>Resumen</th>
+    <td colspan="3">
+      Kevin Díaz, coordinador logístico de 32 años, indicó que actualmente el monitoreo de cisternas se realiza únicamente mediante GPS, sin contar con información en tiempo real sobre el estado del combustible. Señaló que se han presentado mermas o posibles robos, los cuales se detectan de manera tardía al final del proceso. Asimismo, destacó que el control operativo y la facturación dependen en gran medida de documentos físicos, lo que genera retrasos y riesgos de pérdida de información. Considera que la implementación de una solución basada en IoT y digitalización permitiría mejorar el control, reducir pérdidas y optimizar la gestión logística.
     </td>
   </tr>
   <tr>
     <th>URL de la grabación</th>
     <td colspan="3">
-      <a href="link---">
+      <a href="https://drive.google.com/drive/folders/1F7boyBz8lgLgsvLIgOnqx1KyeuxvCFUi">
         Ver grabación
       </a>
     </td>
   </tr>
   <tr>
-   <th>Timing</th>
+    <th>Timing</th>
     <td colspan="3">
-         00:00 -5:48
+      00:00 - 06:00
     </td>
   </tr>
 </table>
