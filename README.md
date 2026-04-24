@@ -50,54 +50,42 @@ El objetivo de esta sección es resumir las modificaciones relevantes que se rea
   <tbody>
     <tr>
       <td rowspan="7" style="text-align: center; vertical-align: middle;"><b>TB1</b></td>
-      <td>10/04/2026</td>
+      <td>11/04/2026</td>
       <td>Aguirre Castillo, Sergio Cesar</td>
       <td>Desarrollo del capítulo 3</td>
     </tr>
     <tr>
-      <td>12/04/2026</td>
+      <td>14/04/2026</td>
       <td>Jocelyn Damaly Almerco almeroc Rojas</td>
       <td>Desarrollo puntos 2.1, 2.3, 2.3.1</td>
     </tr>
     <tr>
-      <td>12/04/2026</td>
+      <td>16/04/2026</td>
       <td>Iparraguirre Rueda, Cristian Luis</td>
       <td>Desarrollo el capítulo 1 y punto 3.2</td>
     </tr>
     <tr>
-      <td>07/04/2026</td>
+      <td>18/04/2026</td>
       <td>Aguirre Castillo, Sergio Cesar</td>
       <td>Desarrollo de los puntos 2.3.2 a 2.3.5</td>
     </tr>
     <tr>
-      <td>12/04/2026</td>
+      <td>20/04/2026</td>
       <td>Jocelyn Damaly Almerco almeroc Rojas</td>
       <td>Revisión general del documento</td>
     </tr>
     <tr>
-      <td>14/04/2026</td>
+      <td>20/04/2026</td>
       <td>Iparraguirre Rueda, Cristian Luis</td>
       <td>Desarrollo de conclusiones y recomendaciones del proyecto</td>
     </tr>
     <tr>
-      <td>14/04/2026</td>
+      <td>20/04/2026</td>
       <td>Bryan Ronald Espejo Gamarra</td>
       <td>Elaborar presentación tras revisión del documento</td>
     </tr>
     <tr>
-      <td rowspan="7" style="text-align: center; vertical-align: middle;"><b>TB2</b></td>
-      <td> - </td>
-      <td>Renzo Andres Luque Minaya</td>
-      <td> - </td>
-    </tr>
-    <tr>
-      <td>23/04/2026</td>
-      <td>Jocelyn Damaly Almerco almeroc Rojas</td>
-      <td> Desarrollo del punto 4.1.3 y 4.1.4</td>
-    </tr>
-  </tbody>
-</table>
-
+     
 ## Project Report Collaboration Insights
 El repositorio para el Project Report en la organización de GitHub del equipo se encuentra en el siguiente enlace:
 * **URL del Repositorio:** [https://github.com/UPC-pre-1ASI0572-2601-6785-Grupo5/report](https://github.com/UPC-pre-1ASI0572-2601-6785-Grupo5/report)
