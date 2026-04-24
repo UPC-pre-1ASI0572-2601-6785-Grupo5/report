@@ -508,24 +508,30 @@ La empresa de transporte gestiona su suministro de combustible mediante procesos
     <th>Entrevista</th>
     <td>1</td>
     <th>Nombre</th>
-    <td>Rosa Lopez</td>
+    <td>Alexandra</td>
   </tr>
   <tr>
     <th>Edad</th>
-    <td>28</td>
+    <td>42</td>
     <th>Distrito</th>
-    <td>San Martín de Porres</td>
+    <td>Lima</td>
   </tr>
   <tr>
-    <th>Captura de la entrevista: <img src="assets/chapter-4/Segmento 1 - Milagros Almerco.png" alt="Captura de la entrevista" width="200"></th>
+    <th>Captura de la entrevista</th>
     <td colspan="3">
-        resumen.
+      <img src="../assets/cap2/ENTREVISTA-ALE.png" alt="Captura de la entrevista" width="400">
+    </td>
+  </tr>
+  <tr>
+    <th>Resumen</th>
+    <td colspan="3">
+      <strong>Resumen:</strong> Alexandra (Jefa de Operaciones, 42 años) indica que el proceso actual de solicitud de combustible es manual (vía WhatsApp y Excel), lo que ha provocado desabastecimiento y penalidades por caídas de SLAs. Señala una falta de control en tiempo real sobre la línea de crédito y el presupuesto (análisis "post-mortem"). Además, destaca la "caja negra" logística (visibilidad nula del trayecto de las cisternas) y la dificultad para validar galones ingresados frente a los facturados, confiando solo en guías físicas propensas a perderse. Afirma que un dashboard con ubicación en vivo y <em>Burn Rate</em> mejoraría radicalmente la toma de decisiones preventivas y agilizaría las conciliaciones con contabilidad, que actualmente toman de 3 a 4 días.
     </td>
   </tr>
   <tr>
     <th>URL de la grabación</th>
     <td colspan="3">
-      <a href="link---">
+      <a href="https://upcedupe-my.sharepoint.com/:v:/g/personal/u202213278_upc_edu_pe/IQBBKGS1EeQyQJQiZVX4I9YbAUxrSRpnv4n9nhrrNoL_bHo?e=vCBVeM&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D">
         Ver grabación
       </a>
     </td>
@@ -533,7 +539,7 @@ La empresa de transporte gestiona su suministro de combustible mediante procesos
   <tr>
    <th>Timing</th>
     <td colspan="3">
-         00:00 -5:48
+         00:00 - 04:30
     </td>
   </tr>
 </table>
