@@ -367,6 +367,52 @@ Para definir nuestras estrategias frente a competidores como Zavgar, FuelCloud y
 
 ## 2.2. Entrevistas
 ### 2.2.1. Diseño de entrevistas
+
+Para comprender a profundidad las necesidades operativas y logísticas de nuestros segmentos objetivo, y validar la viabilidad de una solución basada en telemetría IoT y software transaccional, se han diseñado dos guías de entrevistas semiestructuradas. El objetivo principal es identificar los "puntos de dolor" en la cadena de suministro de hidrocarburos que el hardware y el software de FuelTrack buscan resolver.
+
+---
+
+#### A. Segmento: Empresas Solicitantes (Clientes Corporativos / Operaciones en Campo)
+
+**Objetivo:** Identificar cómo la falta de visibilidad física del combustible afecta el presupuesto, la continuidad operativa y los procesos de auditoría financiera.
+
+**Preguntas de exploración operativa:**
+1. ¿Cómo gestionan actualmente la solicitud y recepción de combustible para sus operaciones en campo?
+2. ¿Han sufrido paralizaciones o retrasos operativos por desabastecimiento de combustible? ¿Cómo impactó esto económicamente a la empresa?
+3. ¿De qué manera monitorean hoy que el consumo de combustible no sobrepase el presupuesto mensual o la línea de crédito aprobada?
+4. Al recibir una cisterna en campo, ¿qué método utilizan para validar que los galones facturados coincidan exactamente con lo ingresado a sus tanques?
+5. ¿Qué nivel de visibilidad tienen sobre el trayecto del pedido desde que es aprobado hasta que llega al punto de entrega?
+6. ¿Cómo manejan la documentación física (guías de remisión, vouchers) para sustentar el gasto ante el área de contabilidad?
+7. ¿Qué tan complejo o lento es el proceso de conciliación mensual con su proveedor actual?
+8. Si tuvieran un dashboard que mostrara en vivo la ubicación del combustible y su ritmo de gasto real (Burn Rate), ¿en qué medida mejoraría su toma de decisiones?
+
+**Preguntas de perfil (Contexto):**
+* ¿Cuál es su cargo y qué responsabilidad tiene sobre el suministro energético?
+* ¿Qué edad tiene y cuál es su nivel de experiencia en el sector?
+* ¿Qué herramientas digitales (ERPs, Excel, Apps móviles) utiliza con mayor frecuencia en su jornada laboral?
+
+---
+
+#### B. Segmento: Proveedores de Combustible (Distribuidores / Mayoristas)
+
+**Objetivo:** Detectar pérdidas por mermas o robos en ruta, ineficiencias en la facturación por uso de papel y carencias en el monitoreo telemétrico de la flota.
+
+**Preguntas de exploración logística:**
+1. ¿Cómo monitorean actualmente el estado y la ubicación de sus cisternas una vez que salen de la planta de distribución?
+2. ¿Han enfrentado incidentes de mermas inexplicables o robos de combustible ("ordeño") durante el tránsito? ¿Cómo logran detectar estos eventos?
+3. ¿Cuentan actualmente con sensores que midan la presión o el nivel de los tanques de las cisternas en tiempo real?
+4. ¿Cuánto tiempo transcurre en promedio desde que se realiza la entrega física hasta que el área administrativa recibe la confirmación firmada para facturar?
+5. ¿De qué manera impacta el uso de documentos físicos (papel) en su flujo de caja y tiempos de cobranza?
+6. Cuando un cliente solicita información sobre el estado de su pedido, ¿cuál es el proceso interno para darle una respuesta?
+7. ¿Cómo reacciona su centro de control ante anomalías en ruta (paradas no programadas o desvios de trayectoria)?
+8. ¿Estarían dispuestos a adoptar una solución que integre sensores IoT con una plataforma que automatice las guías digitales y elimine las mermas?
+
+**Preguntas de perfil (Contexto):**
+* ¿Cuál es su rol dentro de la estructura logística de la empresa?
+* ¿Qué edad tiene y qué nivel de estudios posee?
+* ¿Qué sistemas de rastreo GPS o gestión de flotas (FMS) utilizan actualmente?
+* ¿Cómo describiría la apertura de su organización hacia la digitalización y el uso de hardware IoT?
+
 ### 2.2.2. Registro de entrevistas
 ### 2.2.3. Análisis de entrevistas
 
