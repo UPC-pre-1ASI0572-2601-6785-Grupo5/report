@@ -376,6 +376,9 @@ Para definir nuestras estrategias frente a competidores como Zavgar, FuelCloud y
 ### 2.3.3. User Journey Mapping
 ### 2.3.4. Empathy Mapping
 
+![empathymap_segmento1](img/empathymap_segmento1.png)
+![empathymap_segmento2](img/empathymap_segmento2.png)
+
 ## 2.4. Big Picture EventStorming
 
 ## 2.5. Ubiquitous Language
