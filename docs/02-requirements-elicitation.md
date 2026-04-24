@@ -426,7 +426,17 @@ Entrevista 1:
 <img width="1920" height="1040" alt="image" src="https://github.com/user-attachments/assets/524a2e4e-8539-49aa-8b13-b117c6db4d4f" />
 
 Link de Entrevista: https://upcedupe-my.sharepoint.com/:v:/g/personal/u202310425_upc_edu_pe/IQCfkcUktPEWRauuu2W1srTQAboKi2wAirJeCJC7AZahiyY?e=MSTjfd
+
 ### 2.2.3. Análisis de entrevistas
+
+| Nombre                            | Preferencias y Recomendaciones |
+|----------------------------------|--------------------------------|
+|  Maria Elena Muñoz  |  |
+|              |  |
+|      | |
+|                |  |
+|  |  |
+|              |  |
 
 ## 2.3. Needfinding
 ### 2.3.1. User Personas
