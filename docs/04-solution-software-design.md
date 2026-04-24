@@ -457,11 +457,6 @@ Este módulo fundamental sigue los lineamientos de la **Arquitectura Limpia (Cle
 
 ![Component Diagram - Identity Context](../assets/cap4/c4-component-identity.png)
 
----
-### 4.2.2. Bounded Context: IoT & Telemetry Context
-
-
-
 #### 4.2.4.6. Bounded Context Software Architecture Code Level Diagrams.
 
 En este último apartado de diseño táctico (Nivel 4 del Modelo C4), nos enfocamos en el **Identity & Access Context**. El diseño de este módulo está estrictamente aislado del resto de Bounded Contexts para garantizar que la seguridad, autenticación y autorización sean transversales e inviolables.
