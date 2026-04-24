@@ -44,6 +44,10 @@ En esta sección se presenta el diagrama de contexto de la arquitectura de softw
 ![Context Level Diagram](/img/ContextLevelDiagram.png)
 
 #### 4.1.3.3. Software Architecture Container Level Diagrams
+En esta sección se presenta el diagrama de contenedores de la solución propuesta. Este diagrama detalla los contenedores de software y sus interrelaciones, proporcionando una visión general de la estructura interna del sistema.
+
+![Container Level Diagram](/img/ContainerLevelDiagram.png)
+
 #### 4.1.3.4. Software Architecture Deployment Diagrams
 
 ## 4.2. Tactical-Level Domain-Driven Design
