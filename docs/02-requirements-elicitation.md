@@ -415,19 +415,6 @@ Para comprender a profundidad las necesidades operativas y logísticas de nuestr
 
 ### 2.2.2. Registro de entrevistas
 
-Entrevista 1:
-
-- Nombre: Maria Elena Muñoz
-- Edad: 23
-- Distrito: Olivos
-
-<img width="1920" height="1040" alt="image" src="https://github.com/user-attachments/assets/524a2e4e-8539-49aa-8b13-b117c6db4d4f" />
-
-La empresa gestiona el combustible de forma manual y sin control en tiempo real, lo que genera errores, desabastecimientos y pérdidas económicas. Además, hay poca visibilidad del transporte y problemas con la documentación, dificultando la conciliación con proveedores. Una solución como FuelTech permitiría mejorar el control y la eficiencia.
-
-Link de Entrevista: https://upcedupe-my.sharepoint.com/:v:/g/personal/u202310425_upc_edu_pe/IQCfkcUktPEWRauuu2W1srTQAboKi2wAirJeCJC7AZahiyY?e=MSTjfd
-
-
 **Segmento 1: El Cliente Corporativo (Demanda)**
 
 <table border="1">
