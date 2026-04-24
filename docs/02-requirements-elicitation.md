@@ -431,7 +431,7 @@ Link de Entrevista: https://upcedupe-my.sharepoint.com/:v:/g/personal/u202310425
 
 | Nombre                            | Preferencias y Recomendaciones |
 |----------------------------------|--------------------------------|
-|  Maria Elena Muñoz  |  |
+|  Maria Elena Muñoz  | La empresa gestiona el combustible de forma manual y sin monitoreo en tiempo real, lo que genera errores, desabastecimientos y pérdidas económicas. Además, existe baja visibilidad del transporte y problemas con la documentación física, lo que dificulta la conciliación con proveedores. Una solución como FuelTech permitiría mejorar el control, optimizar la logística y detectar pérdidas o robos de manera inmediata. |
 |              |  |
 |      | |
 |                |  |
