@@ -427,6 +427,234 @@ La empresa gestiona el combustible de forma manual y sin control en tiempo real,
 
 Link de Entrevista: https://upcedupe-my.sharepoint.com/:v:/g/personal/u202310425_upc_edu_pe/IQCfkcUktPEWRauuu2W1srTQAboKi2wAirJeCJC7AZahiyY?e=MSTjfd
 
+
+**Segmento 1: El Cliente Corporativo (Demanda)**
+
+<table border="1">
+  <tr>
+    <th>Entrevista</th>
+    <td>1</td>
+    <th>Nombre</th>
+    <td>Maria Elena Muñoz</td>
+  </tr>
+  <tr>
+    <th>Edad</th>
+    <td>23</td>
+    <th>Distrito</th>
+    <td>Los Olivos</td>
+  </tr>
+  <tr>
+    <th>Captura de la entrevista:</th>
+    <td colspan="3">
+      <img src="https://github.com/user-attachments/assets/524a2e4e-8539-49aa-8b13-b117c6db4d4f" alt="Captura de la entrevista" width="200">
+    </td>
+  </tr>
+  <tr>
+    <th>Resumen</th>
+    <td colspan="3">
+      La empresa gestiona el combustible de forma manual y sin control en tiempo real, lo que genera errores, desabastecimientos y pérdidas económicas. Además, existe poca visibilidad del transporte y problemas con la documentación, lo que dificulta la conciliación con proveedores. Una solución como FuelTech permitiría mejorar el control, optimizar la gestión y aumentar la eficiencia operativa.
+    </td>
+  </tr>
+  <tr>
+    <th>URL de la grabación</th>
+    <td colspan="3">
+      <a href="https://upcedupe-my.sharepoint.com/:v:/g/personal/u202310425_upc_edu_pe/IQCfkcUktPEWRauuu2W1srTQAboKi2wAirJeCJC7AZahiyY?e=MSTjfd">
+        Ver grabación
+      </a>
+    </td>
+  </tr>
+  <tr>
+    <th>Timing</th>
+    <td colspan="3">
+      00:00 - 05:48
+    </td>
+  </tr>
+</table>
+<br>
+
+
+<table border="1">
+  <tr>
+    <th>Entrevista</th>
+    <td>1</td>
+    <th>Nombre</th>
+    <td>Rosa Lopez</td>
+  </tr>
+  <tr>
+    <th>Edad</th>
+    <td>28</td>
+    <th>Distrito</th>
+    <td>San Martín de Porres</td>
+  </tr>
+  <tr>
+    <th>Captura de la entrevista: <img src="assets/chapter-4/Segmento 1 - Milagros Almerco.png" alt="Captura de la entrevista" width="200"></th>
+    <td colspan="3">
+        resumen.
+    </td>
+  </tr>
+  <tr>
+    <th>URL de la grabación</th>
+    <td colspan="3">
+      <a href="link---">
+        Ver grabación
+      </a>
+    </td>
+  </tr>
+  <tr>
+   <th>Timing</th>
+    <td colspan="3">
+         00:00 -5:48
+    </td>
+  </tr>
+</table>
+<br>
+
+<table border="1">
+  <tr>
+    <th>Entrevista</th>
+    <td>1</td>
+    <th>Nombre</th>
+    <td>Rosa Lopez</td>
+  </tr>
+  <tr>
+    <th>Edad</th>
+    <td>28</td>
+    <th>Distrito</th>
+    <td>San Martín de Porres</td>
+  </tr>
+  <tr>
+    <th>Captura de la entrevista: <img src="assets/chapter-4/Segmento 1 - Milagros Almerco.png" alt="Captura de la entrevista" width="200"></th>
+    <td colspan="3">
+        resumen.
+    </td>
+  </tr>
+  <tr>
+    <th>URL de la grabación</th>
+    <td colspan="3">
+      <a href="link---">
+        Ver grabación
+      </a>
+    </td>
+  </tr>
+  <tr>
+   <th>Timing</th>
+    <td colspan="3">
+         00:00 -5:48
+    </td>
+  </tr>
+</table>
+<br>
+
+**Segmento 2: El Proveedor / Distribuidor (Oferta)**
+<table border="1">
+  <tr>
+    <th>Entrevista</th>
+    <td>1</td>
+    <th>Nombre</th>
+    <td>Rosa Lopez</td>
+  </tr>
+  <tr>
+    <th>Edad</th>
+    <td>28</td>
+    <th>Distrito</th>
+    <td>San Martín de Porres</td>
+  </tr>
+  <tr>
+    <th>Captura de la entrevista: <img src="assets/chapter-4/Segmento 1 - Milagros Almerco.png" alt="Captura de la entrevista" width="200"></th>
+    <td colspan="3">
+        resumen.
+    </td>
+  </tr>
+  <tr>
+    <th>URL de la grabación</th>
+    <td colspan="3">
+      <a href="link---">
+        Ver grabación
+      </a>
+    </td>
+  </tr>
+  <tr>
+   <th>Timing</th>
+    <td colspan="3">
+         00:00 -5:48
+    </td>
+  </tr>
+</table>
+<br>
+
+
+<table border="1">
+  <tr>
+    <th>Entrevista</th>
+    <td>1</td>
+    <th>Nombre</th>
+    <td>Rosa Lopez</td>
+  </tr>
+  <tr>
+    <th>Edad</th>
+    <td>28</td>
+    <th>Distrito</th>
+    <td>San Martín de Porres</td>
+  </tr>
+  <tr>
+    <th>Captura de la entrevista: <img src="assets/chapter-4/Segmento 1 - Milagros Almerco.png" alt="Captura de la entrevista" width="200"></th>
+    <td colspan="3">
+        resumen.
+    </td>
+  </tr>
+  <tr>
+    <th>URL de la grabación</th>
+    <td colspan="3">
+      <a href="link---">
+        Ver grabación
+      </a>
+    </td>
+  </tr>
+  <tr>
+   <th>Timing</th>
+    <td colspan="3">
+         00:00 -5:48
+    </td>
+  </tr>
+</table>
+<br>
+
+<table border="1">
+  <tr>
+    <th>Entrevista</th>
+    <td>1</td>
+    <th>Nombre</th>
+    <td>Rosa Lopez</td>
+  </tr>
+  <tr>
+    <th>Edad</th>
+    <td>28</td>
+    <th>Distrito</th>
+    <td>San Martín de Porres</td>
+  </tr>
+  <tr>
+    <th>Captura de la entrevista: <img src="assets/chapter-4/Segmento 1 - Milagros Almerco.png" alt="Captura de la entrevista" width="200"></th>
+    <td colspan="3">
+        resumen.
+    </td>
+  </tr>
+  <tr>
+    <th>URL de la grabación</th>
+    <td colspan="3">
+      <a href="link---">
+        Ver grabación
+      </a>
+    </td>
+  </tr>
+  <tr>
+   <th>Timing</th>
+    <td colspan="3">
+         00:00 -5:48
+    </td>
+  </tr>
+</table>
+<br>
+
 ### 2.2.3. Análisis de entrevistas
 
 | Nombre                            | Preferencias y Recomendaciones |
@@ -439,9 +667,90 @@ Link de Entrevista: https://upcedupe-my.sharepoint.com/:v:/g/personal/u202310425
 |              |  |
 
 ## 2.3. Needfinding
+
+En el siguiente apartado, analizaremos a nuestros segmentos objetivos para identificar sus necesidades y en base a esto ofrecerles soluciones óptimas a sus problemas.
+
 ### 2.3.1. User Personas
+
+**Segmento 1: El Cliente Corporativo (Demanda)**
+
+<img src="../assets/User_persona1.png" alt="User persona - segmento 1" width="600"/>
+
+_Imagen (N°2). Elaboración propia. Realizado en UXPressia_
+
+**Segmento 2: El Proveedor / Distribuidor (Oferta)**
+
+<img src="../assets/User_persona2.png" alt="User persona - segmento 2" width="600"/>
+
+_Imagen (N°3). Elaboración propia. Realizado en UXPressia_
+<br> 
+
 ### 2.3.2. User Task Matrix
+
+En esta sección se presenta el *User Task Matrix*, el cual identifica y organiza las principales tareas que realizan los segmentos definidos (Cliente Corporativo y Proveedor/Distribuidor) para cumplir sus objetivos operativos.  
+
+Asimismo, se incorpora el enfoque de IoT (Internet of Things), donde dichas tareas se ven influenciadas por la disponibilidad de datos en tiempo real provenientes de sensores.
+
+**Segmento 1: Cliente Corporativo (Operaciones y Logística)**
+
+| **Task Matrix**                                                                 | **Frecuencia** | **Importancia** |
+|---------------------------------------------------------------------------------|----------------|-----------------|
+| Monitorear niveles de combustible en tanques (sensor ultrasónico)              | Alta           | Alta            |
+| Supervisar consumo de combustible en tiempo real (flow meter)                  | Alta           | Alta            |
+| Detectar variaciones anómalas en consumo                                       | Alta           | Alta            |
+| Verificar condiciones del combustible (temperatura)                            | Media          | Media           |
+| Coordinar pedidos de abastecimiento basados en datos reales                    | Media          | Alta            |
+| Validar volumen recibido vs volumen despachado                                 | Alta           | Alta            |
+| Supervisar presión del sistema durante descarga                                | Media          | Media           |
+| Evaluar eficiencia del uso de combustible (análisis histórico)                 | Baja           | Alta            |
+| Gestionar incidencias operativas relacionadas al suministro                    | Media          | Alta            |
+| Comunicar estado del abastecimiento a la gerencia                              | Media          | Media           |
+| Revisar alertas de bajo nivel o consumo irregular                              | Alta           | Alta            |
+| Auditar consumo vs presupuesto                                                 | Baja           | Alta            |
+
+<br>
+
+---
+
+**Segmento 2: Proveedor / Distribuidor (Control de Flota y Transporte)**
+
+| **Task Matrix**                                                                 | **Frecuencia** | **Importancia** |
+|---------------------------------------------------------------------------------|----------------|-----------------|
+| Monitorear ubicación de cisternas en tiempo real (GPS)                          | Alta           | Alta            |
+| Supervisar volumen de combustible transportado (flow meter)                     | Alta           | Alta            |
+| Detectar pérdidas o robos durante el transporte                                 | Alta           | Alta            |
+| Recibir alertas por caídas de presión o anomalías                               | Alta           | Alta            |
+| Coordinar rutas y tiempos de entrega                                            | Alta           | Alta            |
+| Validar volumen entregado vs volumen registrado                                 | Alta           | Alta            |
+| Supervisar condiciones del combustible durante el transporte (temperatura)      | Media          | Media           |
+| Registrar incidencias en ruta                                                   | Media          | Media           |
+| Comunicarse con conductores para seguimiento operativo                          | Alta           | Media           |
+| Analizar desempeño de rutas y unidades                                          | Baja           | Media           |
+| Controlar el proceso de despacho de combustible                                 | Alta           | Alta            |
+| Revisar alertas de desviación en ruta o consumo                                 | Alta           | Alta            |
+
+<br>
+
 ### 2.3.3. User Journey Mapping
+
+En esta sección se presenta el *User Journey Mapping* para los segmentos identificados, con el objetivo de visualizar las acciones (Doing), pensamientos (Thinking) y emociones (Feeling) de los usuarios a lo largo del proceso de abastecimiento de combustible.  
+
+Se considera un entorno mejorado mediante IoT, donde la información en tiempo real permite reducir incertidumbre, optimizar la toma de decisiones y mejorar la experiencia general del usuario.
+
+
+**Segmento 1: El Cliente Corporativo (Demanda)**
+
+<img src="../assets/Journey_Map1.png" alt="User persona - segmento 1" width="600"/>
+
+_Imagen (N°2). Elaboración propia. Realizado en UXPressia_
+
+**Segmento 2: El Proveedor / Distribuidor (Oferta)**
+
+<img src="../assets/Journey_Map2.png" alt="User persona - segmento 2" width="600"/>
+
+_Imagen (N°3). Elaboración propia. Realizado en UXPressia_
+<br> 
+
 ### 2.3.4. Empathy Mapping
 
 ![empathymap_segmento1](../assets/empathymap_segmento1.png)
