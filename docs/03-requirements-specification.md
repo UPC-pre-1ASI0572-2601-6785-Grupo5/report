@@ -73,52 +73,50 @@ Utilizamos la escala de Fibonacci para la estimación de los Story Points.
 
 
 
-| # Orden | User Story Id | Título | Story Points (1/2/3/5/8) |
-| :---: | :--- | :--- | :---: |
-| 01 | US01 | Crear nuevo pedido | 5 |
-| 02 | US02 | Consultar historial de pedidos | 3 |
-| 03 | US03 | Editar pedido no confirmado | 5 |
-| 04 | US04 | Confirmar recepción de pedido | 3 |
-| 05 | US05 | Actualizar pedido | 5 |
-| 06 | US06 | Notificar cambios al cliente | 5 |
-| 07 | US07 | Cancelar o rechazar pedido | 3 |
-| 08 | US08 | Iniciar sesión | 3 |
-| 09 | US09 | Registrar cuenta nueva | 3 |
-| 10 | US10 | Recuperar contraseña | 3 |
-| 11 | US11 | Restringir acceso por rol | 2 |
-| 12 | US12 | Verificar MFA en pedidos | 5 |
-| 13 | US13 | Explorar landing (pública) | 2 |
-| 14 | TS01 | Exponer endpoint de pedidos (POST) | 5 |
-| 15 | TS02 | Emitir token de autenticación (JWT) | 5 |
-| 16 | TS03 | Enviar notificaciones por cambio de estado | 3 |
-| 17 | TS04 | Registrar ubicación GPS en ruta | 5 |
-| 18 | US14 | Consultar Home pública | 2 |
-| 19 | US15 | Conocer About Us | 2 |
-| 20 | US16 | Entender cómo funciona | 2 |
-| 21 | US17 | Enviar contacto | 3 |
-| 22 | US18 | Aprobar pedido | 3 |
-| 23 | TS19 | Despachar pedido | 5 |
-| 24 | US20 | Cerrar pedido | 3 |
-| 25 | US21 | Generar reporte de ventas | 5 |
-| 26 | US22 | Visualizar KPIs de pedidos (Solicitante) | 5 |
-| 27 | US23 | Visualizar KPIs de pedidos (Proveedor) | 5 |
-| 28 | TS05 | Autenticar (endpoint login) | 5 |
-| 29 | TS06 | Recuperar contraseña (endpoint) | 3 |
-| 30 | TS07 | Cerrar sesión (endpoint logout) | 2 |
-| 31 | TS24 | Asignar vehículo a pedido | 5 |
-| 32 | US25 | Asignar conductor a pedido | 3 |
-| 33 | TS26 | Validar disponibilidad de transporte | 8 |
-| 34 | US27 | Consultar perfil | 2 |
-| 35 | US28 | Actualizar perfil | 3 |
-| 36 | US29 | Buscar pedido por código | 2 |
-| 37 | US30 | Filtrar pedidos por estado | 2 |
-| 38 | US31 | Recibir notificación de aprobación/rechazo | 3 |
-| 39 | TS32 | Recibir notificación de despacho | 5 |
-| 40 | US33 | Listar empresas solicitantes | 3 |
-| 41 | US34 | Consultar detalle de empresa | 3 |
-| 42 | US35 | Visualizar gráfico de consumo | 5 |
-| 43 | US36 | Visualizar gráfico de ventas | 5 |
-| 44 | US37 | Descargar reporte en PDF | 5 |
-| 45 | SP01 | Investigar conciliación de pagos y validación | 8 |
-
----
+| # Orden | User Story Id | Título | Descripción | Story Points (1/2/3/5/8) |
+| :---: | :--- | :--- | :--- | :---: |
+| 01 | US01 | Crear nuevo pedido | Como solicitante, quiere registrar pedidos para agilizar la solicitud y evitar llamadas. | 5 |
+| 02 | US02 | Consultar historial de pedidos | Como solicitante, quiere consultar su historial con estados y detalles. | 3 |
+| 03 | US03 | Editar pedido no confirmado | Como solicitante, quiere editar parámetros antes de confirmación del proveedor. | 5 |
+| 04 | US04 | Confirmar recepción de pedido | Como solicitante, quiere confirmar la recepción del pedido para finalizar la entrega. | 3 |
+| 05 | US05 | Actualizar pedido | Como proveedor, quiere actualizar estado e información operativa del pedido. | 5 |
+| 06 | US06 | Notificar cambios al cliente | Como proveedor, quiere que el cliente reciba notificaciones automáticas ante cambios del pedido. | 5 |
+| 07 | US07 | Cancelar o rechazar pedido | Como proveedor, quiere rechazar/cancelar pedidos con motivo para mantener claridad. | 3 |
+| 08 | US08 | Iniciar sesión | Como usuario, quiere iniciar sesión con credenciales válidas. | 3 |
+| 09 | US09 | Registrar cuenta nueva | Como visitante, quiere crear una cuenta con rol (Solicitante/Proveedor). | 3 |
+| 10 | US10 | Recuperar contraseña | Como usuario, quiere recuperar acceso por correo. | 3 |
+| 11 | US11 | Restringir acceso por rol | Como administrador, quiere que cada usuario acceda solo a recursos de su rol. | 2 |
+| 12 | US12 | Verificar MFA en pedidos | Como solicitante, quiere MFA al emitir pedidos para mayor seguridad. | 5 |
+| 13 | US13 | Explorar landing (pública) | Como usuario no autenticado, quiere visualizar la propuesta y caminos a registro. | 2 |
+| 14 | TS01 | Exponer endpoint de pedidos (POST) | Como developer, quiere un endpoint REST para registrar pedidos. | 5 |
+| 15 | TS02 | Emitir token de autenticación (JWT) | Como developer, quiere servicio de autenticación con JWT. | 5 |
+| 16 | TS03 | Enviar notificaciones por cambio de estado | Como developer, quiere servicio que emite notificaciones ante cambios de pedido. | 3 |
+| 17 | TS04 | Registrar ubicación GPS en ruta | Como developer, quiere registrar coordenadas para trazabilidad. | 5 |
+| 18 | US14 | Consultar Home pública | Como visitante proveedor, quiere un resumen del valor de la solución. | 2 |
+| 19 | US15 | Conocer About Us | Como visitante, quiere conocer el equipo y propósito para generar confianza. | 2 |
+| 20 | US16 | Entender cómo funciona | Como visitante, quiere comprender el flujo de operación. | 2 |
+| 21 | US17 | Enviar contacto | Como visitante, quiere remitir un mensaje de contacto. | 3 |
+| 22 | US18 | Aprobar pedido | Como proveedor, quiere aprobar pedidos según stock disponible. | 3 |
+| 23 | TS19 | Despachar pedido | Como proveedor, quiere marcar un pedido como despachado para notificar al cliente. | 5 |
+| 24 | US20 | Cerrar pedido | Como proveedor, quiere cerrar el pedido cuando la entrega se confirma. | 3 |
+| 25 | US21 | Generar reporte de ventas | Como proveedor, quiere reportes operativos por rango de fechas. | 5 |
+| 26 | US22 | Visualizar KPIs de pedidos (Solicitante) | Como solicitante, quiere ver un resumen por estado. | 5 |
+| 27 | US23 | Visualizar KPIs de pedidos (Proveedor) | Como proveedor, quiere ver resumen operativo por estado. | 5 |
+| 28 | TS05 | Autenticar (endpoint login) | Como developer, quiere endpoint de login. | 5 |
+| 29 | TS06 | Recuperar contraseña (endpoint) | Como developer, quiere endpoint de recuperación. | 3 |
+| 30 | TS07 | Cerrar sesión (endpoint logout) | Como developer, quiere endpoint para invalidar sesión. | 2 |
+| 31 | TS24 | Asignar vehículo a pedido | Como proveedor, quiere asignar vehículo a pedido confirmado. | 5 |
+| 32 | US25 | Asignar conductor a pedido | Como proveedor, quiere asignar conductor disponible. | 3 |
+| 33 | TS26 | Validar disponibilidad de transporte | Como proveedor, quiere verificar disponibilidad de vehículos antes de asignar. | 8 |
+| 34 | US27 | Consultar perfil | Como usuario, quiere ver su perfil para revisar datos. | 2 |
+| 35 | US28 | Actualizar perfil | Como usuario, quiere actualizar sus datos vigentes. | 3 |
+| 36 | US29 | Buscar pedido por código | Como usuario, quiere localizar rápidamente un pedido por su código. | 2 |
+| 37 | US30 | Filtrar pedidos por estado | Como usuario, quiere filtrar pedidos por estado operativo. | 2 |
+| 38 | US31 | Recibir notificación de aprobación/rechazo | Como solicitante, quiere ser notificado cuando cambie el estado del pedido. | 3 |
+| 39 | TS32 | Recibir notificación de despacho | Como solicitante, quiere ser notificado cuando el pedido salga a entrega. | 5 |
+| 40 | US33 | Listar empresas solicitantes | Como proveedor, quiere listar empresas para gestión de clientes. | 3 |
+| 41 | US34 | Consultar detalle de empresa | Como proveedor, quiere ver detalle e historial de una empresa. | 3 |
+| 42 | US35 | Visualizar gráfico de consumo | Como solicitante, quiere visualizar consumo mensual. | 5 |
+| 43 | US36 | Visualizar gráfico de ventas | Como proveedor, quiere visualizar ventas por mes. | 5 |
+| 44 | US37 | Descargar reporte en PDF | Como usuario, quiere descargar resúmenes operativos en PDF. | 5 |
+| 45 | SP01 | Investigar conciliación de pagos y validación | Como equipo, quiere investigar opciones de integración (e.g., pasarela/conciliación bancaria) para reducir retrasos por validación manual. | 8 |
