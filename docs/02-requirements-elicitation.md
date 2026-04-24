@@ -675,15 +675,40 @@ La empresa de transporte gestiona su suministro de combustible mediante procesos
 
 ### 2.2.3. Análisis de entrevistas
 
-| Nombre                            | Preferencias y Recomendaciones |
-|----------------------------------|--------------------------------|
-|  Maria Elena Muñoz  | La entrevista evidencia una gestión ineficiente del combustible, basada en procesos manuales y herramientas reactivas, lo que incrementa el riesgo de errores, pérdidas y paralizaciones operativas. La falta de visibilidad en tiempo real y la baja trazabilidad logística limitan la toma de decisiones y generan sobrecostos. Estos hallazgos validan la necesidad de implementar una solución IoT como FuelTech, que optimice el control, mejore la transparencia y permita una gestión más eficiente y preventiva. |
-| Nicolas Pineda Cardenas | La entrevista revela que la administración del suministro se sostiene en herramientas básicas y procesos semi-manuales, ocasionando demoras logísticas, sobrecostos por compras de urgencia y paralizaciones en la flota de transporte. La limitada visibilidad de los despachos y la dependencia de documentación física complican severamente la conciliación contable. Estos hallazgos reafirman la necesidad de integrar una plataforma centralizada como FuelTrack, que brinde monitoreo en tiempo real para optimizar la programación de pedidos, reducir gastos imprevistos y asegurar auditorías transparentes. |
-|      | |
-|                |  |
-|  |  |
-|              |  |
+A partir de las entrevistas realizadas, se procedió a analizar las respuestas para identificar patrones de comportamiento, puntos de dolor y necesidades. Este análisis sustenta estadísticamente las características objetivas y subjetivas que servirán de base para la posterior construcción de nuestros arquetipos (User Personas).
 
+#### Análisis del Segmento 1: Cliente Corporativo (Demanda)
+
+Los entrevistados (Maria Elena, Nicolas y Alexandra) coinciden en que la gestión actual del suministro de combustible se sostiene en procesos manuales y herramientas ofimáticas (Excel) o canales informales (WhatsApp). Esto genera una "caja negra" logística donde el cliente no tiene visibilidad del trayecto de la cisterna, lo que a menudo resulta en desabastecimientos, paradas operativas y penalidades. Además, la fuerte dependencia de documentos físicos (guías de remisión) retrasa significativamente la conciliación contable. Para este grupo, es imperativo contar con un dashboard que centralice la información en tiempo real, ofrezca control del *Burn Rate* (presupuesto) y automatice el cruce de información para auditorías.
+
+**Características Objetivas y Subjetivas:**
+
+| Característica | Frecuencia (n/3) | Porcentaje | Entrevistas relacionadas |
+| :--- | :--- | :--- | :--- |
+| **(Objetiva)** Gestión manual de pedidos y control (Excel, WhatsApp) | 3/3 | **100%** | 1(Maria), 2(Nicolas), 3(Alexandra) |
+| **(Objetiva)** Uso de documentación física para validar entregas y conciliar | 3/3 | **100%** | 1, 2, 3 |
+| **(Objetiva)** Reporte de desabastecimientos, paradas o penalidades operativas | 3/3 | **100%** | 1, 2, 3 |
+| **(Objetiva)** Necesidad de cruzar galones ingresados vs. facturados | 2/3 | **67%** | 2, 3 |
+| **(Subjetiva)** Frustración por la "caja negra" logística (nula visibilidad en ruta) | 3/3 | **100%** | 1, 2, 3 |
+| **(Subjetiva)** Preocupación constante por sobrecostos y control del presupuesto (*Burn Rate*) | 2/3 | **67%** | 2, 3 |
+| **(Subjetiva)** Deseo de contar con un dashboard centralizado y en tiempo real | 3/3 | **100%** | 1, 2, 3 |
+
+---
+
+#### Análisis del Segmento 2: Proveedor / Distribuidor (Oferta)
+
+Los entrevistados de este segmento (Leonardo, Marllely y Kevin) revelan que el estándar actual de la industria se limita al rastreo GPS tradicional, el cual solo brinda ubicación pero ignora el estado volumétrico de la carga. Esta limitación provoca que las mermas o robos ("ordeño") se detecten de forma muy tardía, recién al finalizar el proceso de entrega. Asimismo, expresan una profunda frustración administrativa: depender de que el chofer retorne con el papel físico firmado retrasa enormemente la facturación y el flujo de caja. Existe una disposición total hacia la adopción de sensores IoT y digitalización documental, siempre que el sistema reduzca errores operativos.
+
+**Características Objetivas y Subjetivas:**
+
+| Característica | Frecuencia (n/3) | Porcentaje | Entrevistas relacionadas |
+| :--- | :--- | :--- | :--- |
+| **(Objetiva)** Monitoreo actual limitado únicamente a ubicación GPS estándar | 3/3 | **100%** | 1(Leonardo), 2(Marllely), 3(Kevin) |
+| **(Objetiva)** Detección tardía de mermas, robos o anomalías en el volumen | 3/3 | **100%** | 1, 2, 3 |
+| **(Objetiva)** Dependencia de documentos en papel para el cierre y facturación | 3/3 | **100%** | 1, 2, 3 |
+| **(Subjetiva)** Frustración por los retrasos en la facturación y cobranza por papeleo | 3/3 | **100%** | 1, 2, 3 |
+| **(Subjetiva)** Inseguridad por penalizaciones injustas al no poder probar la integridad en ruta | 1/3 | **33%** | 1 |
+| **(Subjetiva)** Disposición favorable hacia la adopción de telemetría IoT y digitalización | 3/3 | **100%** | 1, 2, 3 |
 ## 2.3. Needfinding
 
 En el siguiente apartado, analizaremos a nuestros segmentos objetivos para identificar sus necesidades y en base a esto ofrecerles soluciones óptimas a sus problemas.
