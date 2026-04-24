@@ -39,6 +39,10 @@ En este paso se resaltan con un diamante los eventos por aclarar o que requieren
 ![System Landscape Diagram](/img/SystemLandscapeDiagram.png)
 
 #### 4.1.3.2. Software Architecture Context Level Diagrams
+En esta sección se presenta el diagrama de contexto de la arquitectura de software, el cual ilustra a FuelTrack en el centro de las operaciones, interactuando de manera directa con sus usuarios objetivo y los sistemas físicos (hardware) de los que depende para su funcionamiento. Este primer nivel del modelo C4 nos permite tener una visión de alto nivel del alcance del ecosistema.
+
+![Context Level Diagram](/img/ContextLevelDiagram.png)
+
 #### 4.1.3.3. Software Architecture Container Level Diagrams
 #### 4.1.3.4. Software Architecture Deployment Diagrams
 
