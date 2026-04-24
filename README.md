@@ -85,7 +85,8 @@ El objetivo de esta sección es resumir las modificaciones relevantes que se rea
       <td>Elaborar presentación tras revisión del documento</td>
     </tr>
     <tr>
-     
+     <table>
+  <thead>
 ## Project Report Collaboration Insights
 El repositorio para el Project Report en la organización de GitHub del equipo se encuentra en el siguiente enlace:
 * **URL del Repositorio:** [https://github.com/UPC-pre-1ASI0572-2601-6785-Grupo5/report](https://github.com/UPC-pre-1ASI0572-2601-6785-Grupo5/report)
