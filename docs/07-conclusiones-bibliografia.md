@@ -1,4 +1,5 @@
 ##Conclusiones
+<br>
 Alaminkarno. (2024, enero 8). DDD (Domain-Driven Design) in Flutter – Too much or just right? DEV Community. https://dev.to/alaminkarno/ddd-domain-driven-design-in-flutter-too-much-or-just-right-d1g
 
 Allen, C. (2024). The impact of book clubs on millennials: Best way to instill a love of reading. Recuperado de https://catherineallenblog.com/the-impact-of-book-clubs-on-millennials-best-way-to-instill-a-love-of-reading
