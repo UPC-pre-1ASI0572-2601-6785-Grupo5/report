@@ -221,15 +221,18 @@ Objetivo general, ABET – EAC - Student Outcome 7: Aprendizaje Continuo y Autó
 
 ### 1.1.1. Descripción de la Startup
 
-**FuelTrack** es una startup de base tecnológica (DeepTech) orientada a la optimización de la cadena de suministro de hidrocarburos mediante la convergencia de Internet de las Cosas (IoT) y arquitecturas de software transaccionales. Nuestra propuesta de valor se centra en resolver la opacidad logística en sectores industriales críticos —como la minería y la infraestructura— mediante el despliegue de nodos sensores inteligentes que permiten la captura de datos telemétricos en tiempo real.
+**FuelTrack** es una startup de base tecnológica (DeepTech) orientada a optimizar la cadena de suministro de hidrocarburos mediante la convergencia de Internet de las Cosas (IoT) y plataformas transaccionales B2B. Nuestra propuesta de valor busca resolver la opacidad logística presente en operaciones industriales críticas, como minería, telecomunicaciones e infraestructura, mediante la integración de sensores inteligentes y monitoreo telemétrico en tiempo real.
 
-A diferencia de las soluciones convencionales, FuelTrack implementa un ecosistema digital de trazabilidad punta a extremo (End-to-End), vinculando el estado físico de los activos (presión y volumen) con los flujos de aprobación financiera y administrativa. Este enfoque permite mitigar mermas no justificadas, eliminar el fraude operativo y garantizar la continuidad operativa de nuestros stakeholders a través de un modelo de gestión basado en evidencia digital inmutable.
+A diferencia de las soluciones tradicionales de rastreo o software logístico aislado, FuelTrack implementa un ecosistema digital de trazabilidad punta a extremo (*End-to-End*), conectando el estado físico de las cisternas, nivel de combustible, presión del tanque y ubicación GPS, con flujos de aprobación financiera, control operativo y generación automática de comprobantes digitales.
+
+Esta integración permite reducir mermas no justificadas, prevenir robos en tránsito, eliminar procesos manuales y garantizar continuidad operativa mediante un modelo de gestión basado en evidencia digital trazable e información en tiempo real.
 
 **Misión:**
 Desarrollar soluciones tecnológicas que integren IoT y software transaccional para digitalizar y asegurar la cadena de suministro de hidrocarburos, eliminando la informalidad operativa y brindando trazabilidad total a empresas y proveedores en entornos industriales críticos.
 
 **Visión:**
 Convertirnos en el estándar de gestión inteligente de combustible B2B en Latinoamérica, siendo la plataforma de referencia para operaciones que exigen visibilidad financiera, control logístico y seguridad de carga en tiempo real.
+
 
 ### 1.1.2. Perfiles de integrantes del equipo
 
@@ -249,15 +252,21 @@ Convertirnos en el estándar de gestión inteligente de combustible B2B en Latin
 
 **Descripción del problema**
  
-El sector de distribución de hidrocarburos en entornos industriales críticos enfrenta una brecha de visibilidad operativa significativa. Actualmente, la gestión de despachos depende de procesos analógicos y canales de comunicación informales que carecen de integración con el estado físico real de la carga. Esta desconexión entre el flujo físico del combustible y los sistemas de información genera tres problemas críticos:
+El sector de distribución de hidrocarburos en operaciones industriales críticas —como minería, telecomunicaciones e infraestructura— enfrenta una importante brecha de visibilidad operativa dentro de su cadena logística. A pesar de movilizar millones de dólares anualmente y depender de una operación altamente sensible al tiempo, la trazabilidad y la continuidad energética, gran parte de los procesos de abastecimiento todavía se gestionan mediante herramientas fragmentadas y métodos informales, como llamadas telefónicas, hojas de cálculo, correos electrónicos y aplicaciones de mensajería.
 
-Mermas no detectadas: La ausencia de telemetría volumétrica en tiempo real facilita la extracción ilícita de combustible en tránsito (ordeño), resultando en pérdidas económicas millonarias que suelen detectarse de forma reactiva (post-mortem).
+Actualmente, muchas soluciones tecnológicas disponibles en el mercado se enfocan únicamente en rastreo GPS o gestión administrativa aislada, sin integrar el estado físico real del combustible, el monitoreo telemétrico, el control financiero y la trazabilidad documental dentro de un mismo ecosistema digital. Esta desconexión entre el flujo físico del combustible y los sistemas de información genera importantes puntos ciegos operativos y limita la capacidad de supervisión en tiempo real.
 
-Inestabilidad en la continuidad operativa: La falta de analítica predictiva sobre el ritmo de consumo (Burn Rate) provoca paradas de planta no programadas por desabastecimiento, elevando los costos de inactividad.
+Como consecuencia, se presentan tres problemáticas críticas:
 
-Opacidad administrativa: La dependencia de documentación física para la validación de entregas impide una conciliación financiera ágil, extendiendo los ciclos de facturación y auditoría.
+* **Mermas no detectadas:** La ausencia de telemetría volumétrica en tiempo real facilita la extracción ilícita de combustible durante el transporte (“ordeño”), generando pérdidas económicas significativas que normalmente son detectadas de forma reactiva. Recientemente, la Policía Nacional del Perú frustró el robo de una cisterna con más de 10,000 galones de combustible, evidenciando la vulnerabilidad actual de los mecanismos de seguridad y monitoreo logístico (TV Perú, 2026).
 
-Esta problemática exige una transición hacia un modelo de Suministro Inteligente, donde la integración de hardware IoT permita cerrar los puntos ciegos logísticos y automatizar la toma de decisiones basada en datos granulares.
+* **Inestabilidad en la continuidad operativa:** La falta de analítica predictiva sobre el ritmo de consumo (*Burn Rate*) y el estado real de los despachos incrementa el riesgo de desabastecimiento y paradas operativas no programadas. Según La Red de Medios (2026), la paralización temporal del sistema de transporte de gas operado por Transportadora de Gas del Perú (TGP) evidenció la fragilidad de los sistemas actuales de supervisión y abastecimiento energético.
+
+* **Opacidad administrativa y financiera:** La dependencia de documentación física y procesos manuales dificulta la conciliación financiera y auditoría de cada despacho, prolongando los ciclos de validación y facturación. Diversos estudios sobre transformación digital logística señalan que la integración de IoT, monitoreo en tiempo real y trazabilidad documental permite reducir tiempos de inactividad operativa y mejorar significativamente la eficiencia de supervisión logística (Transporte.mx, 2026).
+
+En paralelo, iniciativas internacionales como el proyecto Pyrofuel demuestran que la industria energética está evolucionando hacia modelos más inteligentes y sostenibles basados en monitoreo avanzado, trazabilidad y automatización logística. Según el Consejo Superior de Investigaciones Científicas (CSIC, 2026), la integración de tecnologías innovadoras y sistemas logísticos inteligentes permite optimizar la eficiencia operativa y reducir riesgos dentro de la cadena de suministro energético.
+
+En este contexto, surge la oportunidad de desarrollar plataformas inteligentes basadas en Internet de las Cosas (IoT) y arquitecturas transaccionales capaces de integrar monitoreo telemétrico, control financiero y trazabilidad documental en tiempo real. Este enfoque permitiría reducir pérdidas operativas, eliminar puntos ciegos logísticos y garantizar continuidad operativa mediante un modelo de gestión sustentado en evidencia digital trazable y monitoreo en tiempo real.
  
 ---
  
@@ -292,46 +301,73 @@ La magnitud del problema es considerable en términos económicos y operativos:
 
 #### 1.2.2.1. Lean UX Problem Statements
 
-**Problem Statement 1: Falta de Visibilidad y Control en el Consumo de Combustible**
-Los gerentes de logística y operaciones en sectores críticos enfrentan dificultades para monitorear en tiempo real el consumo de combustible en sus tanques, dependiendo de reportes manuales o lecturas físicas poco frecuentes. La falta de una solución integrada impide conocer el "Burn Rate" exacto, lo que resulta en desabastecimientos inesperados y sobregiros presupuestales. ¿Cómo podemos crear una plataforma integral que permita a los dueños de operaciones monitorear en tiempo real el nivel y presión de sus tanques, mejorando la eficiencia en el control del gasto y la continuidad operativa?
+**Problem Statement 1: Procesos Operativos Manuales y Descoordinados**
+Las empresas con operaciones críticas en campo y sus distribuidores mayoristas enfrentan serias dificultades al gestionar la solicitud y validación de despachos de combustible utilizando métodos manuales e informales (papel, correos, WhatsApp). Esta falta de estandarización genera retrasos, errores en la comunicación y cuellos de botella en la cadena de suministro. Diversos análisis sobre transformación digital logística señalan que las empresas que continúan operando con procesos manuales y sistemas fragmentados presentan mayores dificultades para mantener eficiencia operativa y trazabilidad en sus cadenas de suministro (Transporte.mx, 2026).
 
-**Problem Statement 2: Monitoreo Insuficiente de la Integridad de la Carga en Ruta**
-Los proveedores de combustible tienen acceso limitado a herramientas que permitan monitorear aspectos críticos de la carga durante el transporte, como caídas bruscas de presión (robo por "ordeño") o desvíos de ruta. Esto limita su capacidad para detectar incidentes de seguridad de manera temprana. La falta de integración entre telemetría IoT y la gestión de pedidos contribuye a la falta de eficacia en el seguimiento de la carga. ¿Cómo podemos desarrollar una solución IoT integrada que permita monitorear en tiempo real la ubicación y el volumen de las cisternas, proporcionando datos precisos para mejorar la detección temprana de robos y facilitar una gestión logística más segura?
+*¿Cómo podemos crear una plataforma transaccional corporativa que elimine el uso de papel y automatice el flujo de solicitudes y aprobaciones de despachos de combustible entre clientes y proveedores, mejorando la eficiencia operativa?*
 
-**Problem Statement 3: Coordinación Ineficiente de Pedidos de Reabastecimiento**
-Los clientes corporativos a menudo encuentran difícil coordinar pedidos de combustible debido a la falta de una plataforma centralizada, dependiendo de llamadas o mensajes informales. Esto genera una mala gestión del tiempo y la imposibilidad de asegurar el suministro en momentos de alta demanda operativa. ¿Cómo podemos diseñar una funcionalidad dentro de la aplicación que facilite la coordinación de pedidos de combustible, permitiendo a los usuarios agendar, validar saldos y recibir confirmaciones de despacho de manera rápida, mejorando la disponibilidad del insumo?
+**Problem Statement 2: Riesgo de Sobregiros y Falta de Control Financiero**
+Los gerentes de logística y operaciones tienen una visibilidad limitada y desfasada del "Burn Rate" (ritmo de gasto) frente a las líneas de crédito preaprobadas. Esta carencia de información en tiempo real aumenta significativamente el riesgo de sobregiros presupuestales y paralizaciones por falta de energía. La reciente crisis energética en Perú evidenció el impacto operativo y financiero que puede generar la falta de control y planificación dentro de la cadena de abastecimiento energético (Pastor, 2026).
 
-**Problem Statement 4: Carencia de Evidencia Digital para Auditoría de Despachos**
-Muchos usuarios tienen dificultades para validar que el volumen de combustible facturado coincida exactamente con lo ingresado al tanque debido a la falta de información centralizada e inmutable. La dependencia de guías de remisión físicas propensas a pérdida genera retrasos en la facturación y disputas financieras. ¿Cómo podemos implementar una funcionalidad que genere vouchers digitales automáticos basados en la telemetría del sensor, proporcionando información detallada sobre el volumen recibido para facilitar la auditoría y el cierre contable oportuno?
+*¿Cómo podemos proveer un dashboard financiero interactivo que calcule y muestre en tiempo real el consumo por centros de costo y el ritmo de gasto, permitiendo un control proactivo del presupuesto?*
 
-**Problem Statement 5: Alertas de Niveles Críticos Insuficientes**
-Los encargados de planta a menudo olvidan programar reabastecimientos preventivos debido a la falta de alertas automatizadas basadas en el consumo real. La ausencia de una herramienta que gestione notificaciones de "nivel bajo" puede llevar a la paralización de maquinaria crítica, afectando la productividad. ¿Cómo podemos desarrollar un sistema de alertas dentro de la aplicación que notifique sobre niveles críticos y proyecciones de agotamiento, garantizando que no se pasen por alto las órdenes de compra necesarias para la salud operativa de la empresa?
+**Problem Statement 3: Puntos Ciegos Logísticos y Robo de Combustible**
+Los proveedores mayoristas sufren pérdidas económicas debido al robo de combustible en ruta (mermas) y carecen de visibilidad sobre los signos vitales de su flota de cisternas. La incapacidad de monitorear en vivo el volumen de los tanques y detectar caídas bruscas de presión limita la respuesta rápida ante incidentes. Recientemente, la Policía Nacional del Perú frustró el robo de una cisterna con más de 10,000 galones de combustible en Lima, evidenciando la necesidad de fortalecer los mecanismos de monitoreo y seguridad operativa en el transporte de hidrocarburos (TV Perú, 2026).
+
+*¿Cómo podemos desarrollar un monitor logístico integrado con telemetría IoT que proporcione visibilidad en tiempo real del estado de los vehículos y genere alertas automáticas ante anomalías o posibles robos en ruta?*
+
+**Problem Statement 4: Carencia de Trazabilidad y Auditoría en Despachos**
+Las empresas enfrentan problemas de auditoría y demoras en la facturación debido a la dificultad de sustentar cada galón despachado con su respectiva Orden de Compra (OC), Centro de Costos y firma de recepción. La falta de evidencia digital inmutable retrasa los flujos de pago B2B. Tendencias tecnológicas hacia 2026 destacan que la trazabilidad basada en IoT, blockchain y monitoreo en tiempo real se está convirtiendo en un estándar para garantizar transparencia y control operativo en cadenas de suministro complejas (The Food Tech, 2025).
+*¿Cómo podemos diseñar un sistema de trazabilidad que garantice que cada entrega genere un comprobante digital (Voucher PDF) firmado y enlazado a la documentación financiera correspondiente, asegurando la transparencia total?*
 
 #### 1.2.2.2. Lean UX Assumptions
 
 **Business Assumptions**
-* **Necesidad de Solución Integral:** Creemos que las empresas industriales necesitan una solución que combine la gestión de pedidos, el control de presupuestos y el monitoreo IoT en tiempo real.
-* **Plataforma Web y Móvil Accesible:** Creemos que esta necesidad se resuelve con un dashboard web de control centralizado y una app móvil para supervisión en campo, garantizando una experiencia accesible para distintos perfiles operativos.
-* **Clientes Iniciales:** Nuestros clientes iniciales serán empresas de minería, construcción y telecomunicaciones, así como proveedores mayoristas de hidrocarburos.
-* **Valor Principal:** El valor #1 que los clientes buscan es la visibilidad total del inventario físico y la eliminación de mermas por robo en ruta.
-* **Modelo de Ingresos:** Generaremos ingresos a través de suscripciones mensuales por cada nodo IoT instalado y planes premium de analítica predictiva de consumo.
-* **Competencia y Diferenciación:** Nos diferenciamos al ofrecer una solución que vincula directamente el estado físico del combustible (IoT) con la transacción financiera y de auditoría (Software B2B).
-* **Riesgos de Producto:** Un riesgo posible es la resistencia al cambio por parte del personal operativo. Superaremos esto mediante interfaces intuitivas y capacitación sobre el ahorro directo que genera el sistema.
+
+* Creemos que las empresas de minería, telecomunicaciones e infraestructura están dispuestas a adoptar una plataforma que integre monitoreo IoT, control financiero y logística en tiempo real si esto reduce pérdidas operativas, mejora la trazabilidad y evita desabastecimientos de combustible.
+
+* Creemos que los gerentes de logística y los choferes de cisternas utilizarán herramientas digitales web y móviles si estas simplifican sus operaciones diarias y funcionan correctamente en zonas con conectividad limitada.
+
+* Creemos que las empresas con operaciones críticas en zonas remotas presentan una mayor necesidad de monitoreo y trazabilidad de combustible, convirtiéndose en los primeros segmentos con intención de adopción de FuelTrack.
+
+* Creemos que los clientes corporativos priorizan la continuidad operativa y el control financiero del combustible, mientras que los proveedores priorizan la reducción de robos y la aceleración de la facturación mediante procesos digitales trazables.
+
+* Creemos que las empresas distribuidoras estarán dispuestas a pagar una suscripción SaaS basada en monitoreo de flota y volumen de transacciones si la plataforma logra reducir pérdidas operativas y mejorar la eficiencia logística.
+
+* Creemos que la integración entre hardware IoT y software transaccional representa una propuesta de valor diferenciadora frente a soluciones tradicionales de ERP, GPS o plataformas logísticas aisladas.
 
 **User Assumptions**
-* **Quién es el Usuario:** Gerentes de logística que buscan control financiero y jefes de flota que requieren seguridad en el transporte.
-* **Dónde Encaja el Producto:** El producto se integra en la rutina diaria de control de activos y en el proceso mensual de conciliación de cuentas por pagar.
-* **Problemas del Producto:** Los usuarios pueden preocuparse por la conectividad en zonas remotas. Solucionaremos esto mediante protocolos de almacenamiento local en el hardware (Edge Computing) y sincronización automática.
+
+* Creemos que los principales usuarios de FuelTrack serán gerentes logísticos, jefes de operaciones, supervisores de campo y controladores de flota debido a su necesidad constante de supervisar despachos, costos y estado operativo de las cisternas.
+
+* Creemos que FuelTrack se integrará como herramienta principal de monitoreo y control dentro de las operaciones logísticas diarias de empresas distribuidoras y clientes corporativos.
+
+* Creemos que existe riesgo de resistencia al cambio tecnológico por parte de choferes y operadores de campo acostumbrados a procesos manuales, por lo que la plataforma deberá utilizar interfaces simples y capacitaciones progresivas para facilitar su adopción.
 
 **User Outcomes**
-* **Para Clientes:** Auditar con precisión cada galón recibido y proyectar el gasto mensual para evitar sobregiros.
-* **Para Proveedores:** Reducir pérdidas por robo en tránsito y automatizar la generación de evidencias para facturar sin retrasos.
+
+* **Para el Cliente Corporativo (Demanda):**
+Los usuarios podrán visualizar el Burn Rate y consumo por centros de costo en tiempo real, prevenir desabastecimientos mediante pedidos ágiles y mantener trazabilidad completa de cada despacho realizado.
+
+* **Para el Proveedor Mayorista (Oferta):**
+Los usuarios podrán monitorear telemétricamente sus cisternas, detectar anomalías durante el transporte y automatizar la recolección de evidencias digitales para acelerar la facturación.
 
 **Business Outcomes**
-* **Reducción de Mermas:** Disminuir en un 90% el robo de combustible en las rutas monitoreadas.
-* **Posicionamiento:** Convertirse en el estándar tecnológico para la trazabilidad de hidrocarburos en operaciones críticas del país.
+
+* Reducción de pérdidas económicas asociadas a robos y mermas de combustible.
+
+* Disminución de tiempos de conciliación documental y facturación B2B.
+
+* Incremento de la trazabilidad operativa y financiera en tiempo real.
+
+* Reducción de tiempos de respuesta ante incidentes logísticos y operativos.
+
+* Centralización de la gestión logística, financiera y documental en una sola plataforma.
+
+* Posicionamiento de FuelTrack como solución especializada para operaciones críticas y zonas remotas.
 
 **Features Importantes:**
+
 * Dashboard de monitoreo telemétrico en tiempo real (Nivel, Presión, GPS).
 * Wizard de pedidos automatizado según niveles críticos.
 * Generación de Vouchers Digitales PDF con firma electrónica.
@@ -340,15 +376,53 @@ Los encargados de planta a menudo olvidan programar reabastecimientos preventivo
 
 #### 1.2.2.3. Lean UX Hypothesis Statements
 
-* **Creemos que** al proporcionar una plataforma integral que permita gestionar pedidos y monitorear en tiempo real el nivel de los tanques, los **Gerentes de Logística** encontrarán más eficiente el control del suministro. **Sabremos que hemos tenido éxito cuando** observemos una reducción del 100% en paradas de planta por falta de combustible y una mayor satisfacción en la auditoría de activos.
+**Hipótesis N° 1**
 
-* **Creemos que** al ofrecer una solución IoT que detecte caídas bruscas de presión y desvíos de ruta, los **Proveedores** podrán prevenir robos de manera temprana. **Sabremos que hemos tenido éxito cuando** veamos una disminución del 90% en reportes de mermas inexplicables y un aumento en la seguridad de la carga.
+**Creemos que** al proporcionar una plataforma web centralizada para gestionar pedidos y monitorear en tiempo real el nivel de combustible y estado operativo de las cisternas, los **Gerentes de Logística** podrán mejorar el control del abastecimiento y reducir errores operativos.
 
-* **Creemos que** al permitir a los usuarios generar Vouchers Digitales basados en lecturas reales del sensor, los **Equipos Contables** podrán conciliar facturas más rápido. **Sabremos que hemos tenido éxito cuando** veamos una reducción del 70% en el tiempo dedicado a la validación manual de guías de remisión físicas.
+**Sabremos que hemos tenido éxito**
 
-* **Creemos que** al ofrecer un sistema de alertas automatizadas para niveles críticos, los **Encargados de Planta** cumplirán con los ciclos de reabastecimiento de manera constante. **Sabremos que hemos tenido éxito cuando** observemos una mayor puntualidad en las órdenes de compra y la eliminación de pedidos de emergencia costosos.
+**Cuando** el tiempo promedio de generación y aprobación de pedidos disminuya en al menos un 50% frente a procesos manuales.
 
-* **Creemos que** al integrar todas las funcionalidades de gestión y telemetría en una sola plataforma, los usuarios tendrán una experiencia operativa simplificada. **Sabremos que hemos tenido éxito cuando** veamos un aumento en la retención de clientes corporativos y una disminución en el uso de herramientas fragmentadas como Excel o WhatsApp.
+---
+
+**Hipótesis N° 2**
+
+**Creemos que** al integrar monitoreo telemétrico de presión, nivel de combustible y ubicación GPS dentro de dashboards operativos, los **Proveedores de Combustible** podrán detectar anomalías y posibles robos de manera más rápida.
+
+**Sabremos que hemos tenido éxito**
+
+**Cuando** las pérdidas asociadas a mermas y robos durante el transporte disminuyan en al menos un 60%.
+
+---
+
+**Hipótesis N° 3**
+
+**Creemos que** al generar vouchers digitales basados en registros operativos y trazabilidad documental, los **Equipos Administrativos y Contables** podrán acelerar los procesos de conciliación y validación de entregas.
+
+**Sabremos que hemos tenido éxito**
+
+**Cuando** el tiempo dedicado a validaciones manuales y conciliaciones documentales disminuya en un 70%.
+
+---
+
+**Hipótesis N° 4**
+
+**Creemos que** al ofrecer alertas automáticas sobre niveles críticos de combustible y variaciones anormales de presión, los **Supervisores de Operaciones** podrán responder de manera más rápida ante incidentes logísticos.
+
+**Sabremos que hemos tenido éxito**
+
+**Cuando** el tiempo promedio de respuesta ante incidentes operativos disminuya en un 50%.
+
+---
+
+**Hipótesis N° 5**
+
+**Creemos que** al centralizar monitoreo logístico, control financiero y trazabilidad documental dentro de una sola plataforma web, los **Usuarios Corporativos** podrán gestionar el abastecimiento de combustible de manera más eficiente y organizada.
+
+**Sabremos que hemos tenido éxito**
+
+**Cuando** el uso de herramientas fragmentadas como hojas de cálculo, llamadas telefónicas y aplicaciones de mensajería se reduzca significativamente en las operaciones monitoreadas.
 
 #### 1.2.2.4. Lean UX Canvas
 
@@ -384,7 +458,7 @@ Los encargados de planta a menudo olvidan programar reabastecimientos preventivo
   * **Mermas y Robos:** El robo de combustible en tránsito (conocido coloquialmente como "ordeño") representa pérdidas anuales de millones de dólares para las empresas de transporte en Latinoamérica.
   * **Transformación Digital en Flotas:** Se estima que la integración de telemetría y sistemas de gestión de flotas (FMS) mejora la eficiencia de despachos y reduce tiempos de inactividad operativa hasta en un 25%, justificando la necesidad de un monitor IoT dedicado como el de FuelTrack.
 
-﻿# Capítulo II: Requirements Elicitation & Analysis
+# Capítulo II: Requirements Elicitation & Analysis
 
 ## 2.1. Competidores
 
@@ -1857,7 +1931,7 @@ La Application Layer orquesta los casos de uso financieros, coordinando la gener
 - **FinancialAccountService:** Coordina operaciones sobre cuentas financieras.
 - **TransactionManagementService:** Registra y consulta transacciones financieras.
 
-4.2.3.4. Infrastructure Layer
+#### 4.2.3.4. Infrastructure Layer
 
 La Infrastructure Layer gestiona la persistencia de datos financieros y la integración con sistemas externos.
 
@@ -2019,11 +2093,145 @@ El esquema físico en PostgreSQL para el contexto de identidad está altamente n
 
 ## 5.1. Style Guidelines
 
+En esta sección se establecen los lineamientos de diseño y presentación visual de la solución, con el objetivo de garantizar coherencia gráfica, calidad estética y una experiencia de usuario clara e intuitiva durante el desarrollo e implementación de FuelTrack.
+
 ### 5.1.1. General Style Guidelines
+
+Las decisiones relacionadas al diseño visual de FuelTrack tienen como objetivo transmitir innovación, confiabilidad y profesionalismo dentro de los procesos de monitoreo y gestión de combustible. La interfaz fue concebida para proyectar una imagen moderna y eficiente, alineada con la propuesta tecnológica y operativa de la startup.
+
+**Color**
+
+La paleta de colores fue seleccionada para armonizar con el diseño del logo y reforzar la identidad visual de FuelTrack. Los colores elegidos representan tecnología, confianza y monitoreo industrial, manteniendo una apariencia moderna y profesional orientada al entorno corporativo B2B.
+
+**Tipografía**
+
+La tipografía fue seleccionada priorizando la legibilidad en distintos dispositivos y entornos operativos, permitiendo una lectura clara de dashboards, reportes y datos logísticos. Además, contribuye a fortalecer la identidad visual de la plataforma y diferenciarla frente a soluciones tradicionales del mercado.
+
+**Branding**
+
+El nombre del producto es **FuelTrack**. La identidad visual incorpora un logotipo moderno y minimalista relacionado con el monitoreo y transporte de combustible, representando la integración entre tecnología IoT, logística y trazabilidad operativa.
+
+La marca utiliza colores característicos y amigables visualmente para transmitir profesionalismo, seguridad y eficiencia dentro del sector energético e industrial.
+
+
 ### 5.1.2. Web, Mobile and Iot Style Guidelines
 ## 5.2 Information Architecture
+
+La arquitectura de información de FuelTrack fue estructurada para permitir una navegación clara e intuitiva entre las funcionalidades principales de la plataforma, facilitando la adaptación de los usuarios y optimizando el monitoreo operativo y financiero en tiempo real.
+
 ### 5.2.1. Organization Systems
+
+El sistema de organización de FuelTrack tiene como objetivo facilitar la interacción fluida entre clientes corporativos, proveedores de combustible y operadores logísticos mediante una jerarquía visual clara y orientada a tareas críticas.
+
+La estructura de navegación prioriza las funciones de mayor frecuencia de uso, como la gestión de pedidos, monitoreo telemétrico, trazabilidad documental y control financiero.
+
+**Agrupación lógica de funciones**
+
+Las funcionalidades se organizan en módulos temáticos especializados:
+
+* Gestión de Pedidos
+* Monitoreo IoT
+* Pagos y Facturación
+* Reportes Operativos
+* Gestión Documental
+* Control de Flota
+
+Esta estructura permite a los usuarios identificar rápidamente las acciones disponibles y acceder de forma eficiente a la información relevante.
+
+**Accesibilidad inmediata**
+
+La interfaz principal prioriza dashboards y accesos rápidos a funciones críticas mediante una distribución clara y adaptable tanto para escritorio como dispositivos móviles.
+
+**Menú de navegación**
+
+El menú principal permanece visible para facilitar el acceso continuo a módulos clave como:
+
+* Dashboard
+* Orders
+* Fleet Monitoring
+* Reports
+* Billing
+* Support
+
+**Reducción de fricción**
+
+La plataforma minimiza la cantidad de pasos necesarios para ejecutar acciones frecuentes, como registrar pedidos, validar entregas o generar vouchers digitales, optimizando así la experiencia operativa del usuario.
+
+Este sistema organizativo permite que tanto usuarios nuevos como recurrentes naveguen de forma sencilla dentro de FuelTrack, incrementando la productividad y reduciendo errores operativos.
+
 ### 5.2.2. Labeling Systems
+
+Las etiquetas utilizadas en FuelTrack fueron diseñadas para ser claras, directas y fáciles de comprender, priorizando eficiencia operativa y rapidez de navegación para usuarios con distintos niveles de experiencia tecnológica.
+
+**Principios generales**
+
+* Se limita el uso de etiquetas extensas, priorizando términos cortos y descriptivos.
+* Se mantiene consistencia terminológica en toda la plataforma.
+* Las etiquetas representan acciones directas, estados operativos o categorías claramente identificables.
+* Se prioriza lenguaje empresarial y operativo orientado al entorno logístico-industrial.
+
+**Gestión de Pedidos**
+
+* Nuevo Pedido
+* Estado del Pedido
+* Historial de Pedidos
+* Ver Detalles
+* Confirmar Entrega
+
+**Monitoreo IoT**
+
+* Estado de Flota
+* Nivel de Combustible
+* Alertas Activas
+* Ubicación GPS
+* Monitoreo en Tiempo Real
+
+**Pagos y Facturación**
+
+* Métodos de Pago
+* Mis Facturas
+* Resumen Financiero
+* Confirmar Pago
+* Voucher Digital
+
+**Reportes**
+
+* Reporte de Pedidos
+* Reporte Financiero
+* Reporte de Incidentes
+* Resumen Operativo
+* Generar Informe
+
+**Navegación General**
+
+* Inicio
+* Dashboard
+* Mi Cuenta
+* Soporte
+* Configuración
+* Cerrar Sesión
+
+**Asociaciones y agrupaciones**
+
+Las etiquetas se agrupan en módulos lógicos mediante dashboards y menús laterales especializados, facilitando el acceso rápido a información crítica.
+
+Las acciones se muestran según el contexto operativo del usuario. Por ejemplo:
+
+* “Nuevo Pedido” aparece dentro del módulo de Gestión de Pedidos.
+* “Confirmar Entrega” se habilita únicamente durante procesos de validación logística.
+* “Alertas Activas” se muestra dentro del módulo de Monitoreo IoT.
+
+**Mensajes del sistema**
+
+Los mensajes de retroalimentación del sistema fueron diseñados para ser claros y directos:
+
+* Pedido Confirmado
+* Entrega Registrada
+* Pago Procesado
+* Alerta Detectada
+* Sincronización Completada
+
+Estas etiquetas y mensajes permiten que los usuarios interactúen con FuelTrack de manera intuitiva y eficiente, optimizando la experiencia de uso en operaciones industriales críticas.
 
 ### 5.2.3. SEO Tags and Meta Tags
 
