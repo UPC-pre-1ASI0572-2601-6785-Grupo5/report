@@ -2023,13 +2023,79 @@ El esquema físico en PostgreSQL para el contexto de identidad está altamente n
 ## 5.2 Information Architecture
 ### 5.2.1. Organization Systems
 ### 5.2.2. Labeling Systems
+
 ### 5.2.3. SEO Tags and Meta Tags
+
+Para garantizar el posicionamiento orgánico de la plataforma **FuelTrack** y optimizar su visibilidad en motores de búsqueda, se ha implementado una estrategia de metadatos enfocada en términos de logística e IoT.
+
+* **Keywords:** `FuelTrack`, `Monitoreo de combustible IoT`, `Gestión de flotas hidrocarburos`, `Telemetría de combustible Perú`, `Optimización logística B2B`.
+* **Meta Description:** "Optimiza la logística de hidrocarburos con FuelTrack. Monitoreo en tiempo real, detección de anomalías mediante IoT y analítica predictiva para evitar mermas y paradas de planta."
+* **Open Graph (OG) Tags:** Implementación de etiquetas para mejorar el CTR en redes profesionales, asegurando que el título y la imagen previa comuniquen la robustez de la solución al ser compartida.
+
 ### 5.2.4. Searching Systems
+
+El sistema de búsqueda de FuelTrack ha sido diseñado para permitir una recuperación de información eficiente, crucial para la toma de decisiones operativa en tiempo real.
+
+* **Búsqueda Global:** Permite localizar pedidos o clientes mediante IDs únicos o nombres de empresas desde la cabecera principal.
+* **Filtros Paramétricos:** El usuario puede segmentar la información basándose en el estado del pedido, alertas críticas de sensores o rangos temporales específicos para auditorías.
+* **Indexación:** Se utiliza una arquitectura de filtrado en el lado del servidor para garantizar tiempos de respuesta mínimos ante grandes volúmenes de datos transaccionales.
+
 ### 5.2.5. Navigation Systems
+
+La navegación se rige por principios de usabilidad (UX) para entornos industriales, asegurando que el flujo de trabajo sea intuitivo y minimice la carga cognitiva del usuario.
+
+* **Sidebar Navigation:** Menú lateral persistente que permite el acceso jerárquico a Dashboards, Gestión de Pedidos, Flota y Reportes.
+* **Breadcrumbs:** Implementación de "migas de pan" para mantener el contexto del usuario durante la navegación profunda entre módulos.
+* **Contextual Actions:** Botones de acción rápida en las tablas para aprobar, rechazar o visualizar la telemetría de una unidad sin cambiar de vista.
+
+---
 
 ## 5.3 Landing Page UI Design
 ### 5.3.1. Landing Page Wireframe
+
+El wireframe de la Landing Page establece la arquitectura de información priorizando la conversión de leads corporativos. Se enfoca en una estructura limpia que destaca los puntos de dolor del sector (robo de combustible y desabastecimiento) y cómo la tecnología IoT los resuelve.
+
+<img width="858" height="604" alt="image" src="https://github.com/user-attachments/assets/e6efcf57-44d9-4e9d-9edd-aecbe99ca99c" />
+
+<img width="857" height="489" alt="image" src="https://github.com/user-attachments/assets/d1e2cd24-43c2-44fb-8281-c34b2d79b29d" />
+
+<img width="851" height="430" alt="image" src="https://github.com/user-attachments/assets/c091c044-dbc0-4df7-ace0-76960d087c41" />
+
+<img width="850" height="385" alt="image" src="https://github.com/user-attachments/assets/982ce575-151c-4be2-88ed-c990b9578f0e" />
+
+<img width="857" height="385" alt="image" src="https://github.com/user-attachments/assets/fc5af77a-ef40-41f6-85b5-b8a3a95cb708" />
+
+<img width="864" height="544" alt="image" src="https://github.com/user-attachments/assets/402902bf-13dc-4210-992c-57f3d9a7af31" />
+
+<img width="855" height="372" alt="image" src="https://github.com/user-attachments/assets/2a3ab869-e4d4-4b19-bb53-ea0c263485a1" />
+
+**Elementos clave:**
+1.  **Header:** Menú de navegación directo hacia secciones de Valor, Funcionamiento y Contacto.
+2.  **Hero Section:** Propuesta de valor clara con un Call-To-Action (CTA) de registro.
+3.  **Bento Grid / Features:** Exposición visual de los módulos de IoT, Analítica y Seguridad.
+
 ### 5.3.2. Landing Page Mock-up
+
+El diseño final (Mock-up) utiliza una paleta de colores profesional que transmite confianza, seguridad y modernidad tecnológica. Se ha aplicado un diseño **Responsive Web Design**, asegurando que la interfaz sea funcional tanto en dispositivos móviles de operarios en campo como en estaciones de trabajo administrativas.
+
+<img width="1160" height="797" alt="image" src="https://github.com/user-attachments/assets/4d3a6a8c-080c-4e08-9aca-e6aec0b60cf0" />
+
+<img width="1167" height="656" alt="image" src="https://github.com/user-attachments/assets/77f901b3-a794-4f8d-9c60-d7ab9c421894" />
+
+<img width="1149" height="579" alt="image" src="https://github.com/user-attachments/assets/5fa0fae3-feb4-4a51-ad2c-de6e77eb3633" />
+
+<img width="1150" height="502" alt="image" src="https://github.com/user-attachments/assets/87cd08e9-9153-4ff7-9906-bcf12d9f9e5f" />
+
+<img width="1148" height="528" alt="image" src="https://github.com/user-attachments/assets/91326746-616f-4813-a9eb-f49545a38e9d" />
+
+<img width="1150" height="676" alt="image" src="https://github.com/user-attachments/assets/e75fd695-8265-4b75-aeab-ec8775b6226a" />
+
+<img width="1152" height="431" alt="image" src="https://github.com/user-attachments/assets/d2b4f289-c5ae-4b5d-8f20-e9719a520430" />
+
+**Diferenciadores de diseño:**
+* **Visualización de datos:** Uso de gráficos limpios para representar el ahorro operativo proyectado.
+* **Consistencia de marca:** Tipografías legibles y espaciado optimizado para facilitar la lectura de la propuesta técnica en cualquier dispositivo.
+
 
 ## 5.4 Applications UX/UI Design
 ### 5.4.1. Applications Wireframes
