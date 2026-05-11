@@ -1109,48 +1109,33 @@ _Imagen (N°3). Elaboración propia. Realizado en UXPressia_
 
 ### 2.3.2. User Task Matrix
 
-En esta sección se presenta el *User Task Matrix*, el cual identifica y organiza las principales tareas que realizan los segmentos definidos (Cliente Corporativo y Proveedor/Distribuidor) para cumplir sus objetivos operativos.  
+En esta sección se presenta el *User Task Matrix*, el cual identifica y organiza las principales tareas que realizan los segmentos definidos para cumplir sus objetivos operativos. En esta matriz se destaca cómo la integración de tecnología **IoT** transforma procesos tradicionalmente manuales en flujos de monitoreo automatizado y toma de decisiones basada en datos en tiempo real.
 
-Asimismo, se incorpora el enfoque de IoT (Internet of Things), donde dichas tareas se ven influenciadas por la disponibilidad de datos en tiempo real provenientes de sensores.
+**Segmento 1: Cliente Corporativo (Gestión de Operaciones y Logística)**
 
-**Segmento 1: Cliente Corporativo (Operaciones y Logística)**
-
-| **Task Matrix**                                                                 | **Frecuencia** | **Importancia** |
-|---------------------------------------------------------------------------------|----------------|-----------------|
-| Monitorear niveles de combustible en tanques (sensor ultrasónico)              | Alta           | Alta            |
-| Supervisar consumo de combustible en tiempo real (flow meter)                  | Alta           | Alta            |
-| Detectar variaciones anómalas en consumo                                       | Alta           | Alta            |
-| Verificar condiciones del combustible (temperatura)                            | Media          | Media           |
-| Coordinar pedidos de abastecimiento basados en datos reales                    | Media          | Alta            |
-| Validar volumen recibido vs volumen despachado                                 | Alta           | Alta            |
-| Supervisar presión del sistema durante descarga                                | Media          | Media           |
-| Evaluar eficiencia del uso de combustible (análisis histórico)                 | Baja           | Alta            |
-| Gestionar incidencias operativas relacionadas al suministro                    | Media          | Alta            |
-| Comunicar estado del abastecimiento a la gerencia                              | Media          | Media           |
-| Revisar alertas de bajo nivel o consumo irregular                              | Alta           | Alta            |
-| Auditar consumo vs presupuesto                                                 | Baja           | Alta            |
+| Tareas del Usuario | Objetivo de la Tarea | Frecuencia | Importancia |
+| :--- | :--- | :---: | :---: |
+| **Monitorear niveles de stock (IoT)** | Evitar quiebres de stock mediante la lectura constante de sensores ultrasónicos. | Alta | Crítica |
+| **Auditar consumo real vs. facturado** | Garantizar que el volumen de combustible pagado ingresó realmente al tanque. | Media | Alta |
+| **Analizar "Burn Rate" diario** | Proyectar cuántos días de autonomía operativa quedan según el ritmo de gasto actual. | Alta | Alta |
+| **Programar pedidos de reabastecimiento** | Automatizar la generación de órdenes de compra basada en niveles críticos del sensor. | Media | Alta |
+| **Gestionar alertas de anomalías** | Reaccionar de forma inmediata ante caídas bruscas de nivel fuera del horario operativo. | Baja | Crítica |
+| **Validar comprobantes digitales (Voucher)** | Agilizar la conciliación contable eliminando la dependencia de guías de remisión físicas. | Media | Media |
 
 <br>
 
 ---
 
-**Segmento 2: Proveedor / Distribuidor (Control de Flota y Transporte)**
+**Segmento 2: Proveedor / Distribuidor (Control de Flota y Despacho)**
 
-| **Task Matrix**                                                                 | **Frecuencia** | **Importancia** |
-|---------------------------------------------------------------------------------|----------------|-----------------|
-| Monitorear ubicación de cisternas en tiempo real (GPS)                          | Alta           | Alta            |
-| Supervisar volumen de combustible transportado (flow meter)                     | Alta           | Alta            |
-| Detectar pérdidas o robos durante el transporte                                 | Alta           | Alta            |
-| Recibir alertas por caídas de presión o anomalías                               | Alta           | Alta            |
-| Coordinar rutas y tiempos de entrega                                            | Alta           | Alta            |
-| Validar volumen entregado vs volumen registrado                                 | Alta           | Alta            |
-| Supervisar condiciones del combustible durante el transporte (temperatura)      | Media          | Media           |
-| Registrar incidencias en ruta                                                   | Media          | Media           |
-| Comunicarse con conductores para seguimiento operativo                          | Alta           | Media           |
-| Analizar desempeño de rutas y unidades                                          | Baja           | Media           |
-| Controlar el proceso de despacho de combustible                                 | Alta           | Alta            |
-| Revisar alertas de desviación en ruta o consumo                                 | Alta           | Alta            |
-
+| Tareas del Usuario | Objetivo de la Tarea | Frecuencia | Importancia |
+| :--- | :--- | :---: | :---: |
+| **Rastreo telemétrico de cisternas** | Supervisar en tiempo real la ubicación, velocidad y cumplimiento de rutas de las unidades. | Alta | Alta |
+| **Monitorear integridad de carga (IoT)** | Detectar aperturas de válvulas no autorizadas o caídas de presión del tanque en ruta. | Alta | Crítica |
+| **Asignar unidades y rutas de despacho** | Optimizar la logística de entrega basándose en la demanda real reportada por el sistema. | Alta | Alta |
+| **Validar entregas mediante Geocercas** | Confirmar de forma automática y digital que la unidad llegó al punto de entrega pactado. | Alta | Alta |
+| **Gestionar alertas de "Ordeño" (Robo)** | Activar protocolos de seguridad y bloqueo ante la detección de extracción ilícita en tránsito. | Ocasional | Crítica |
+| **Digitalizar evidencias de entrega** | Eliminar el uso de documentos físicos para acelerar el ciclo de facturación y cobranza. | Alta | Alta |
 <br>
 
 ### 2.3.3. User Journey Mapping
