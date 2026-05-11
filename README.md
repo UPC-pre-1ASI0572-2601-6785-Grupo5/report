@@ -1,4 +1,4 @@
-﻿<div align="center">
+<div align="center">
 
 # Universidad Peruana de Ciencias Aplicadas (UPC)
 ## Ingeniería de Software
@@ -212,3 +212,339 @@ Objetivo general, ABET – EAC - Student Outcome 7: Aprendizaje Continuo y Autó
 |---|---|---|
 | **Actualiza conceptos y conocimientos necesarios para su desarrollo profesional y en especial para su proyecto en soluciones de software.** | **Aguirre Castillo, Sergio Cesar** <br> **TB1:** Actualicé y apliqué conocimientos en desarrollo de software utilizando lenguajes como Python, C# y JavaScript durante el desarrollo de FuelTrack. Participé en la implementación de funcionalidades del sistema y reforcé buenas prácticas de programación para mejorar la calidad del código. <br><br> **Almerco Rojas, Jocelyn Damaly** <br> **TB1:** Actualicé y apliqué conocimientos en diseño y modelado de software, elaborando diagramas y apoyando en la documentación técnica del sistema FuelTrack, asegurando una estructura clara y organizada. <br><br> **Espejo Gamarra, Bryan Ronald** <br> **TB1:** Actualicé conocimientos en backend, bases de datos y DevOps, participando en la configuración y soporte técnico del sistema FuelTrack, asegurando su correcto funcionamiento. <br><br> **Iparraguirre Rueda, Cristian Luis** <br> **TB1:** Actualicé conocimientos en desarrollo de software utilizando lenguajes como Python, C++ y C#, apoyando en la implementación de funcionalidades del sistema y fortaleciendo mis habilidades técnicas. <br><br> **Luque Minaya, Renzo Andrés** <br> **TB1:** Actualicé conocimientos en desarrollo frontend, despliegue en la nube y seguridad, participando en la construcción de interfaces y en la configuración del sistema FuelTrack. | **Aguirre Castillo, Sergio Cesar** <br> **TB1:** La actualización de conocimientos permitió mejorar la calidad del desarrollo y optimizar la implementación de funcionalidades del sistema. <br><br> **Almerco Rojas, Jocelyn Damaly** <br> **TB1:** La actualización en diseño y documentación permitió estructurar de manera clara el sistema, facilitando su desarrollo. <br><br> **Espejo Gamarra, Bryan Ronald** <br> **TB1:** La actualización en backend y bases de datos permitió mejorar el rendimiento y la estabilidad del sistema. <br><br> **Iparraguirre Rueda, Cristian Luis** <br> **TB1:** La actualización de conocimientos técnicos permitió fortalecer las competencias en programación y contribuir al desarrollo del sistema. <br><br> **Luque Minaya, Renzo Andrés** <br> **TB1:** La actualización en frontend y despliegue permitió mejorar la experiencia de usuario y la disponibilidad del sistema. |
 | **Reconoce la necesidad del aprendizaje permanente para el desempeño profesional y el desarrollo de proyectos en soluciones de software.** | **Aguirre Castillo, Sergio Cesar** <br> **TB1:** Reconocí la importancia del aprendizaje continuo al investigar nuevas tecnologías y buenas prácticas de desarrollo para mejorar mi desempeño en FuelTrack. <br><br> **Almerco Rojas, Jocelyn Damaly** <br> **TB1:** Reconocí la necesidad del aprendizaje continuo al investigar nuevas herramientas de modelado y documentación para mejorar la calidad del sistema. <br><br> **Espejo Gamarra, Bryan Ronald** <br> **TB1:** Reconocí la importancia del aprendizaje continuo al investigar nuevas tecnologías de backend y DevOps para optimizar el sistema. <br><br> **Iparraguirre Rueda, Cristian Luis** <br> **TB1:** Reconocí la necesidad del aprendizaje continuo al reforzar conocimientos en programación y nuevas herramientas de desarrollo. <br><br> **Luque Minaya, Renzo Andrés** <br> **TB1:** Reconocí la importancia del aprendizaje continuo al investigar nuevas tecnologías de frontend, cloud y seguridad para mejorar el sistema FuelTrack. | **Aguirre Castillo, Sergio Cesar** <br> **TB1:** El aprendizaje continuo permite mantenerse actualizado y desarrollar soluciones más eficientes y escalables. <br><br> **Almerco Rojas, Jocelyn Damaly** <br> **TB1:** El aprendizaje permanente permite mejorar la calidad del diseño y la documentación del software. <br><br> **Espejo Gamarra, Bryan Ronald** <br> **TB1:** El aprendizaje continuo permite optimizar el rendimiento del sistema y adaptarse a nuevas tecnologías. <br><br> **Iparraguirre Rueda, Cristian Luis** <br> **TB1:** El aprendizaje permanente fortalece las habilidades técnicas necesarias para el desarrollo de software. <br><br> **Luque Minaya, Renzo Andrés** <br> **TB1:** El aprendizaje continuo permite mejorar la experiencia de usuario y la seguridad del sistema. |
+
+
+
+
+
+
+#### 6.2.1.1. Sprint Planning 1.
+En el Sprint Planning 1, se llevó a cabo una sesión de planificación para la elaboración de la primera versión de las soluciones de FuelTrack. Se dividieron las secciones a programar entre los integrantes, además se determinó el plazo de entrega de estas tareas.
+
+<table>
+  <thead>
+    <tr>
+      <th style="text-align:center">Sprint #</th>
+      <th style="text-align:center">Sprint 1</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td colspan="2"><strong>Sprint Planning Background</strong></td>
+    </tr>
+    <tr>
+      <td style="text-align:center">Date</td>
+      <td style="text-align:center">05-04-2026</td>
+    </tr>
+    <tr>
+      <td style="text-align:center">Time</td>
+      <td style="text-align:center">08:00 pm</td>
+    </tr>
+    <tr>
+      <td style="text-align:center">Location</td>
+      <td style="text-align:center">Google Meet</td>
+    </tr>
+    <tr>
+      <td style="text-align:center">Prepared By</td>
+      <td style="text-align:center">Sergio Aguirre</td>
+    </tr>
+    <tr>
+      <td style="text-align:center">Attendees</td>
+      <td style="text-align:center">Sergio Aguirre, Jocelyn Almerco, Bryan Espejo, Cristian Iparraguirre y Renzo Luque</td>
+    </tr>
+    <tr>
+      <td style="text-align:center">Sprint n – 1 Review Summary </td>
+      <td style="text-align:center">Al ser el 1er sprint, aun no se contempla un review de un sprint anterior.</td>
+    </tr>
+    <tr>
+      <td style="text-align:center">Sprint n – 1 Retrospective Summary </td>
+      <td style="text-align:center">Al ser el 1er sprint, aun no se contempla un review de un sprint anterior.</td>
+    </tr>
+    <tr>
+      <td colspan="2"><strong>Sprint Goal & User Stories</strong></td>
+    </tr>
+    <tr>
+      <td style="text-align:center">Sprint 1 Goal</td>
+      <td style="text-align:center">Implementar la primera versión de la Landing Page, autenticación de usuarios y registro básico de pedidos.</td>
+    </tr>
+    <tr>
+      <td style="text-align:center">Sprint 1 Velocity</td>
+      <td style="text-align:center">45</td>
+    </tr>
+    <tr>
+      <td style="text-align:center">Sum of Story Points</td>
+      <td style="text-align:center">45</td>
+    </tr>
+  </tbody>
+</table>
+
+#### 6.2.1.2. Aspect Leaders and Collaborators.
+
+<table>
+  <tr>
+    <td> <strong>Team Member </td>
+    <td> <strong>Github Username </td>
+    <td> <strong>Sprint 1 Leader (L) / Collaborator (C) </td> 
+  </tr>
+  <tr>
+    <td> Sergio Aguirre </td>
+    <td> seratt15a </td>
+    <td> Leader (L) </td>
+  </tr>
+  <tr>
+    <td> Jocelyn Almerco </td>
+    <td> Damaly29 </td>
+    <td> Collaborator (C) </td>
+  </tr>
+  <tr>
+    <td> Bryan Espejo </td>
+    <td> SaeBryxn </td>
+    <td>  Collaborator (C) </td>
+  </tr>
+  <tr>
+    <td> Cristian Iparraguirre </td>
+    <td> cristianipa7 </td>
+    <td>  Collaborator (C) </td>
+  </tr>
+  <tr>
+    <td> Renzo Luque </td>
+    <td> renzoluquem </td>
+    <td>  Collaborator (C) </td>
+  </tr>
+</table>
+
+#### 6.2.1.3. Sprint Backlog 1.
+
+<table>
+  <tr>
+    <td> <strong>Sprint #</strong></td>
+    <td   colspan="7"> <strong>Sprint 1</strong> </td>
+  </tr>
+   <tr>
+    <td   colspan="2"> <strong>User Story</strong></td>
+    <td   colspan="6"> <strong>Work-item/Task</strong></td>
+  </tr>
+  <tr>
+    <td  > <strong>ID</strong> </td>
+    <td  > <strong>Title</strong></td>
+    <td  > <strong>ID</strong> </td>
+    <td  > <strong>Title</strong></td>
+    <td  > <strong>Description</strong></td>
+    <td  > <strong>Estimation (Hours)</strong></td>
+    <td  > <strong>Assigned To</strong></td>
+    <td  > <strong> Status (To-do/In-Process/To-Review/Done) </strong></td>
+  </tr>
+  <!-- US13: Explorar landing -->
+  <tr>
+    <td rowspan="2">US13</td>
+    <td rowspan="2">Explorar landing (pública)</td>
+    <td>TA01</td>
+    <td>Estructura de Landing Page</td>
+    <td>Crear la estructura HTML/CSS de la Landing Page.</td>
+    <td>3</td>
+    <td>Jocelyn Almerco</td>
+    <td>Done</td>
+  </tr>
+  <tr>
+    <td>TA02</td>
+    <td>Despliegue y pruebas</td>
+    <td>Desplegar el Frontend y verificar accesibilidad.</td>
+    <td>2</td>
+    <td>Cristian Iparraguirre</td>
+    <td>Done</td>
+  </tr>
+  <!-- US14: Consultar Home pública -->
+  <tr>
+    <td rowspan="1">US14</td>
+    <td rowspan="1">Consultar Home pública</td>
+    <td>TA01</td>
+    <td>Diseño de la vista Home</td>
+    <td>Implementar la vista Home con el resumen de la solución.</td>
+    <td>3</td>
+    <td>Renzo Luque</td>
+    <td>Done</td>
+  </tr>
+  <!-- US15: Conocer About Us -->
+  <tr>
+    <td rowspan="2">US15</td>
+    <td rowspan="2">Conocer About Us</td>
+    <td>TA01</td>
+    <td>Diseño de sección About Us</td>
+    <td>Maquetar sección About Us con la información del equipo.</td>
+    <td>2</td>
+    <td>Bryan Espejo</td>
+    <td>Done</td>
+  </tr>
+  <tr>
+    <td>TA02</td>
+    <td>Recopilación de información</td>
+    <td>Agregar fotos y perfiles de los miembros.</td>
+    <td>1</td>
+    <td>Sergio Aguirre</td>
+    <td>Done</td>
+  </tr>
+  <!-- US16: Entender cómo funciona -->
+  <tr>
+    <td rowspan="2">US16</td>
+    <td rowspan="2">Entender cómo funciona</td>
+    <td>TA01</td>
+    <td>Diseño de sección Cómo funciona</td>
+    <td>Crear los pasos del flujo de operación en la UI.</td>
+    <td>3</td>
+    <td>Renzo Luque</td>
+    <td>Done</td>
+  </tr>
+  <tr>
+    <td>TA02</td>
+    <td>Recursos gráficos</td>
+    <td>Agregar iconos e imágenes explicativas.</td>
+    <td>2</td>
+    <td>Jocelyn Almerco</td>
+    <td>Done</td>
+  </tr>
+  <!-- US17: Enviar contacto -->
+  <tr>
+    <td rowspan="2">US17</td>
+    <td rowspan="2">Enviar contacto</td>
+    <td>TA01</td>
+    <td>Crear formulario HTML</td>
+    <td>Maquetar el formulario de contacto en Frontend.</td>
+    <td>2</td>
+    <td>Cristian Iparraguirre</td>
+    <td>Done</td>
+  </tr>
+  <tr>
+    <td>TA02</td>
+    <td>Conectar validaciones</td>
+    <td>Agregar validaciones de campos en el formulario.</td>
+    <td>2</td>
+    <td>Bryan Espejo</td>
+    <td>Done</td>
+  </tr>
+  <!-- US08: Iniciar sesión -->
+  <tr>
+    <td rowspan="3">US08</td>
+    <td rowspan="3">Iniciar sesión</td>
+    <td>TA01</td>
+    <td>Vista de Login</td>
+    <td>Crear la vista de inicio de sesión en Frontend.</td>
+    <td>2</td>
+    <td>Renzo Luque</td>
+    <td>Done</td>
+  </tr>
+  <tr>
+    <td>TA02</td>
+    <td>Integración con Backend</td>
+    <td>Conectar formulario de Login con el API.</td>
+    <td>3</td>
+    <td>Sergio Aguirre</td>
+    <td>Done</td>
+  </tr>
+  <tr>
+    <td>TA03</td>
+    <td>Almacenamiento de Token</td>
+    <td>Guardar el token JWT de forma segura en el cliente.</td>
+    <td>2</td>
+    <td>Jocelyn Almerco</td>
+    <td>Done</td>
+  </tr>
+  <!-- TS05: Autenticar (endpoint login) -->
+  <tr>
+    <td rowspan="2">TS05</td>
+    <td rowspan="2">Autenticar (endpoint login)</td>
+    <td>TA01</td>
+    <td>Crear controlador Auth</td>
+    <td>Implementar el controlador y rutas de autenticación.</td>
+    <td>3</td>
+    <td>Sergio Aguirre</td>
+    <td>Done</td>
+  </tr>
+  <tr>
+    <td>TA02</td>
+    <td>Lógica de verificación</td>
+    <td>Validar credenciales contra la base de datos.</td>
+    <td>4</td>
+    <td>Cristian Iparraguirre</td>
+    <td>Done</td>
+  </tr>
+  <!-- TS02: Emitir token de autenticación (JWT) -->
+  <tr>
+    <td rowspan="1">TS02</td>
+    <td rowspan="1">Emitir token de autenticación (JWT)</td>
+    <td>TA01</td>
+    <td>Servicio JWT</td>
+    <td>Configurar e implementar la emisión de tokens JWT.</td>
+    <td>4</td>
+    <td>Bryan Espejo</td>
+    <td>Done</td>
+  </tr>
+  <!-- US09: Registrar cuenta nueva -->
+  <tr>
+    <td rowspan="2">US09</td>
+    <td rowspan="2">Registrar cuenta nueva</td>
+    <td>TA01</td>
+    <td>Vista de Registro</td>
+    <td>Crear la interfaz de registro de usuarios.</td>
+    <td>3</td>
+    <td>Jocelyn Almerco</td>
+    <td>Done</td>
+  </tr>
+  <tr>
+    <td>TA02</td>
+    <td>Integración de Registro</td>
+    <td>Conectar formulario de registro con el API correspondiente.</td>
+    <td>3</td>
+    <td>Renzo Luque</td>
+    <td>Done</td>
+  </tr>
+  <!-- TS01: Exponer endpoint de pedidos (POST) -->
+  <tr>
+    <td rowspan="2">TS01</td>
+    <td rowspan="2">Exponer endpoint de pedidos (POST)</td>
+    <td>TA01</td>
+    <td>Modelo y Esquema</td>
+    <td>Crear el modelo de la BD y esquema de validación para pedidos.</td>
+    <td>4</td>
+    <td>Cristian Iparraguirre</td>
+    <td>Done</td>
+  </tr>
+  <tr>
+    <td>TA02</td>
+    <td>Servicio y Controlador</td>
+    <td>Implementar lógica para registrar un nuevo pedido.</td>
+    <td>4</td>
+    <td>Bryan Espejo</td>
+    <td>Done</td>
+  </tr>
+  <!-- US01: Crear nuevo pedido -->
+  <tr>
+    <td rowspan="2">US01</td>
+    <td rowspan="2">Crear nuevo pedido</td>
+    <td>TA01</td>
+    <td>Formulario de pedido</td>
+    <td>Crear la vista para la solicitud de pedidos.</td>
+    <td>4</td>
+    <td>Sergio Aguirre</td>
+    <td>Done</td>
+  </tr>
+  <tr>
+    <td>TA02</td>
+    <td>Envío de datos</td>
+    <td>Integrar vista con el endpoint POST de pedidos.</td>
+    <td>3</td>
+    <td>Renzo Luque</td>
+    <td>Done</td>
+  </tr>
+</table>
+
+#### 6.2.1.4. Development Evidence for Sprint Review.
+
+#### 6.2.1.5. Testing Suite Evidence for Sprint Review.
+
+#### 6.2.1.6. Execution Evidence for Sprint Review.
+
+#### 6.2.1.7. Services Documentation Evidence for Sprint Review.
+
+#### 6.2.1.8. Software Deployment Evidence for Sprint Review.
+
+#### 6.2.1.9. Team Collaboration Insights during Sprint.
