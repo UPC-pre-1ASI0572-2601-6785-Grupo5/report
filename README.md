@@ -1189,60 +1189,58 @@ Nos reunimos para realizar una lluvia de ideas preliminar sobre los eventos que 
 
 ### 3.1. User Stories
 
-### 3.1. User Stories
-
-En esta sección se presentan los requisitos definidos mediante *User Stories* y *Epics*. Se ha diseñado un conjunto de 48 ítems que cubren desde la funcionalidad básica hasta la integración avanzada de hardware IoT, asegurando una solución innovadora, rentable y eficiente para la gestión de hidrocarburos.
+En esta sección se presentan los requisitos definidos mediante *User Stories* y *Epics*. Se ha diseñado un conjunto de 48 ítems que cubren desde la funcionalidad básica hasta la integración avanzada de hardware IoT, asegurando una solución innovadora y rentable.
 
 | Epic / Story ID | Título | Descripción | Criterios de Aceptación (Gherkin) | Rel. |
 |:---:|---|---|---|:---:|
-| **US_IOT_01** | **Detección de anomalías por telemetría** | Como controlador de flota, quiero recibir alertas automáticas ante caídas bruscas de presión para detectar robos en tiempo real. | **Given** sensor detecta caída > 5% en reposo, **When** está fuera de zona de descarga, **Then** emite alerta crítica. | EP02 |
-| **US_FIN_01** | **Dashboard de proyección (Burn Rate)** | Como gerente de logística, quiero visualizar un gráfico de agotamiento basado en consumo histórico para evitar paradas. | **Given** datos de 30 días, **When** accede al dashboard, **Then** el sistema calcula la fecha estimada de desabastecimiento. | EP01 |
-| **US_LOG_01** | **Wizard de reabastecimiento inteligente** | Como solicitante, quiero que el sistema me sugiera el volumen óptimo de compra basado en mi capacidad. | **Given** nivel actual por sensor IoT, **When** inicia pedido, **Then** precarga cantidad para llenar al 95%. | EP01 |
-| **US_SEC_01** | **Control de válvulas (Smart Lock)** | Como proveedor, quiero que las válvulas solo se habiliten cuando el GPS confirme que está dentro de la geocerca. | **Given** vehículo en destino, **When** valida posición GPS, **Then** envía comando de desbloqueo al hardware. | EP02 |
-| **US_ADM_01** | **Vouchers Digitales inmutables** | Como usuario, quiero un comprobante digital firmado al finalizar la descarga para eliminar el papel. | **Given** descarga finalizada, **When** sensor confirma flujo detenido, **Then** genera PDF con volumen exacto. | EP02 |
-| **US01** | **Registrar pedido** | Como solicitante, quiere registrar pedidos para agilizar la solicitud y evitar llamadas. | **Given** datos válidos, **When** envía solicitud, **Then** crea pedido con ID y estado “Pendiente”. | EP01 |
-| **US02** | **Consultar historial de pedidos** | Como solicitante, quiere consultar su historial con estados y detalles. | **Given** pedidos existentes, **When** consulta historial, **Then** retorna lista con estados actuales. | EP01 |
-| **US03** | **Editar pedido no confirmado** | Como solicitante, quiere editar parámetros antes de confirmación. | **Given** pedido “Pendiente”, **When** solicita edición, **Then** permite modificar campos permitidos. | EP01 |
-| **US04** | **Confirmar recepción de pedido** | Como solicitante, quiere dar la conformidad de la entrega en campo. | **Given** combustible descargado, **When** firma en la app, **Then** el pedido cambia a "Finalizado". | EP01 |
-| **US05** | **Actualizar pedido** | Como proveedor, quiere actualizar estado e información operativa. | **Given** pedido activo, **When** cambia estado, **Then** persiste transición con marca de tiempo. | EP02 |
-| **US06** | **Notificar cambios al cliente** | Como proveedor, quiere que el cliente reciba alertas automáticas. | **Given** cambio de estado, **When** se registra, **Then** envía alerta push/email al cliente. | EP02 |
-| **US07** | **Cancelar o rechazar pedido** | Como proveedor, quiere rechazar pedidos con motivo claro. | **Given** imposibilidad de atención, **When** registra rechazo, **Then** notifica justificación al cliente. | EP02 |
-| **US08** | **Iniciar sesión** | Como usuario, quiere iniciar sesión con credenciales válidas. | **Given** credenciales válidas, **When** inicia sesión, **Then** autentica y emite token JWT. | EP03 |
-| **US09** | **Registrar cuenta** | Como visitante, quiere crear una cuenta con rol. | **Given** datos válidos, **When** confirma alta, **Then** crea cuenta según perfil. | EP03 |
-| **US10** | **Recuperar contraseña** | Como usuario, quiere recuperar acceso por correo. | **Given** correo registrado, **When** solicita recuperación, **Then** envía enlace de reset. | EP03 |
-| **US11** | **Restringir acceso por rol** | Como administrador, quiere que cada usuario acceda solo a su rol. | **Given** sesión activa, **When** intenta entrar a área ajena, **Then** deniega el acceso. | EP03 |
-| **US12** | **Verificar MFA en pedidos** | Como solicitante, quiere MFA en pedidos de alto valor. | **Given** seguridad activa, **When** confirma pedido, **Then** solicita código de verificación adicional. | EP03 |
-| **US13** | **Explorar landing** | Como visitante, quiere visualizar beneficios de la solución. | **Given** acceso sin auth, **When** navega landing, **Then** visualiza beneficios y CTA. | EP04 |
-| **US14** | **Consultar Home pública** | Como visitante, quiere ver el resumen de valor. | **Given** acceso público, **When** entra a home, **Then** presenta propósito y propuesta. | EP04 |
-| **US15** | **Conocer About Us** | Como visitante, quiere conocer al equipo para generar confianza. | **Given** acceso a sección, **When** consulta, **Then** presenta info institucional. | EP04 |
-| **US16** | **Entender funcionamiento** | Como visitante, quiere comprender el flujo operativo. | **Given** sección "Cómo funciona", **When** revisa, **Then** entiende interacción cliente-proveedor. | EP04 |
-| **US17** | **Enviar contacto** | Como visitante, quiere remitir un mensaje de consulta. | **Given** datos válidos, **When** envía, **Then** el sistema confirma recepción. | EP04 |
-| **US18** | **Aprobar pedido** | Como proveedor, quiere aprobar pedidos según stock. | **Given** stock suficiente, **When** aprueba, **Then** estado cambia a “Confirmado”. | EP02 |
-| **US20** | **Cerrar pedido** | Como proveedor, quiere cerrar el ciclo tras entrega. | **Given** entrega confirmada, **When** ejecuta cierre, **Then** pedido pasa a “Finalizado”. | EP02 |
-| **US21** | **Generar reporte de ventas** | Como proveedor, quiere reportes por rango de fechas. | **Given** rango con datos, **When** solicita, **Then** genera resumen operativo. | EP02 |
-| **US22** | **Visualizar KPIs (Solicitante)** | Como solicitante, quiere ver resumen por estado. | **Given** pedidos, **When** consulta KPIs, **Then** ve conteos y métricas. | EP01 |
-| **US23** | **Visualizar KPIs (Proveedor)** | Como proveedor, quiere ver resumen operativo. | **Given** pedidos activos, **When** consulta, **Then** ve KPIs de eficiencia. | EP02 |
-| **US25** | **Asignar conductor** | Como proveedor, quiere asignar conductor disponible. | **Given** conductor libre, **When** asigna, **Then** queda vinculado al pedido. | EP02 |
-| **US27** | **Consultar perfil** | Como usuario, quiere ver sus datos registrados. | **Given** sesión activa, **When** consulta, **Then** retorna info de perfil. | EP03 |
-| **US28** | **Actualizar perfil** | Como usuario, quiere actualizar sus datos vigentes. | **Given** cambios válidos, **When** confirma, **Then** persiste cambios. | EP03 |
-| **US29** | **Buscar pedido por código** | Como usuario, quiere localizar un pedido rápido. | **Given** código existente, **When** busca, **Then** retorna el pedido. | EP01 |
-| **US30** | **Filtrar pedidos por estado** | Como usuario, quiere filtrar vista operativa. | **Given** estado con coincidencias, **When** filtra, **Then** retorna lista segmentada. | EP01 |
-| **US31** | **Notificación de aprobación** | Como solicitante, quiere saber si su pedido fue aceptado. | **Given** cambio a "Confirmado", **When** accede, **Then** la notificación está visible. | EP01 |
-| **US33** | **Listar empresas clientes** | Como proveedor, quiere ver su cartera de clientes. | **Given** empresas registradas, **When** consulta, **Then** retorna listado comercial. | EP02 |
-| **US34** | **Consultar detalle de empresa** | Como proveedor, quiere ver historial de un cliente. | **Given** empresa con historial, **When** consulta, **Then** retorna métricas históricas. | EP02 |
-| **US35** | **Gráfico de consumo mensual** | Como solicitante, quiere ver tendencia de gasto. | **Given** pedidos históricos, **When** consulta, **Then** expone gráfico de barras. | EP01 |
-| **US36** | **Gráfico de ventas mensual** | Como proveedor, quiere ver tendencia de ingresos. | **Given** ventas realizadas, **When** consulta, **Then** expone gráfico de ventas. | EP02 |
-| **US37** | **Descargar reporte PDF** | Como usuario, quiere exportar datos operativos. | **Given** periodo con info, **When** exporta, **Then** genera documento PDF. | EP01 |
-| **TS01** | **Endpoint de pedidos (POST)** | Como developer, quiere servicio REST de creación. | **Given** payload válido, **When** POST /orders, **Then** retorna 201 Created. | EP01 |
-| **TS02** | **Emitir token JWT** | Como developer, quiere servicio de auth seguro. | **Given** credenciales OK, **When** login, **Then** retorna JWT firmado. | EP03 |
-| **TS03** | **Servicio de notificaciones** | Como developer, quiere servicio de mensajería. | **Given** evento de cambio, **When** gatilla, **Then** envía Push/Email. | EP02 |
-| **TS04** | **Registrar ubicación GPS** | Como developer, quiere persistir trazabilidad IoT. | **Given** coordenadas de sensor, **When** recibe, **Then** guarda con timestamp. | EP02 |
-| **TS05** | **Endpoint Login** | Como developer, quiere controlador de acceso. | **Given** request auth, **When** procesa, **Then** valida contra DB y responde. | EP03 |
-| **TS06** | **Endpoint Recuperación** | Como developer, quiere lógica de reset. | **Given** email válido, **When** solicita, **Then** genera token temporal. | EP03 |
-| **TS07** | **Endpoint Logout** | Como developer, quiere invalidar sesiones. | **Given** token activo, **When** logout, **Then** destruye sesión/token. | EP03 |
-| **TS19** | **Marcar despacho (IoT link)** | Como developer, quiere vincular salida con sensor. | **Given** salida de planta, **When** marca despacho, **Then** activa monitoreo de volumen. | EP02 |
-| **TS26** | **Validar disponibilidad IoT** | Como developer, quiere ver estado real de flota. | **Given** consulta de unidad, **When** revisa sensor, **Then** reporta si está libre u ocupado. | EP02 |
-| **SP01** | **Investigar conciliación bancaria** | Como equipo, quiere investigar APIs de pagos. | **Given** necesidad de auto-pago, **When** evalúa, **Then** propone arquitectura de pagos. | EP03 |
+| **US01** | **Detección de anomalías en tanques** | Como controlador de flota, quiero recibir alertas automáticas ante caídas bruscas de presión para detectar robos en tiempo real. | **Given** sensor detecta caída > 5% en reposo, **When** está fuera de zona de descarga, **Then** emite alerta crítica. | EP02 |
+| **US02** | **Dashboard de consumo predictivo** | Como gerente de logística, quiero visualizar un gráfico de agotamiento basado en consumo histórico para evitar paradas. | **Given** datos de 30 días, **When** accede al dashboard, **Then** el sistema calcula la fecha estimada de desabastecimiento. | EP01 |
+| **US03** | **Control de válvulas por geocerca** | Como proveedor, quiero que las válvulas solo se habiliten cuando el GPS confirme que está dentro de la geocerca. | **Given** vehículo en destino, **When** valida posición GPS, **Then** envía comando de desbloqueo al hardware. | EP02 |
+| **US04** | **Emisión de Vouchers inmutables** | Como usuario, quiero un comprobante digital firmado al finalizar la descarga para eliminar el papel y el fraude. | **Given** descarga finalizada, **When** sensor confirma flujo detenido, **Then** genera PDF con volumen exacto recibido. | EP02 |
+| **US05** | **Asistente de reabastecimiento** | Como solicitante, quiere que el sistema sugiera el volumen óptimo de compra basado en su capacidad real. | **Given** nivel por sensor IoT, **When** inicia pedido, **Then** precarga cantidad para llenar al 95% de capacidad. | EP01 |
+| **US06** | **Registrar pedido** | Como solicitante, quiere registrar pedidos para agilizar la solicitud y evitar llamadas. | **Given** datos válidos, **When** envía solicitud, **Then** crea pedido con ID y estado “Pendiente”. | EP01 |
+| **US07** | **Consultar historial de pedidos** | Como solicitante, quiere consultar su historial con estados y detalles. | **Given** pedidos existentes, **When** consulta historial, **Then** retorna lista con estados actuales. | EP01 |
+| **US08** | **Iniciar sesión** | Como usuario, quiere iniciar sesión con credenciales válidas. | **Given** credenciales válidas, **When** inicia sesión, **Then** el sistema autentica y emite token JWT. | EP03 |
+| **US09** | **MFA en pedidos críticos** | Como solicitante, quiere doble factor de autenticación en pedidos de alto valor. | **Given** seguridad activa, **When** confirma pedido, **Then** solicita código de verificación adicional. | EP03 |
+| **US10** | **Actualizar estado de pedido** | Como proveedor, quiere actualizar la fase operativa del despacho. | **Given** pedido activo, **When** cambia estado, **Then** persiste transición (Confirmado/En ruta/Entregado). | EP02 |
+| **US11** | **Notificar cambios al cliente** | Como proveedor, quiere que el cliente reciba alertas automáticas. | **Given** cambio de estado, **When** se registra, **Then** envía alerta push/email al cliente inmediatamente. | EP02 |
+| **US12** | **Aprobación administrativa** | Como proveedor, quiere validar stock y línea de crédito antes de aceptar. | **Given** pedido entrante, **When** revisa disponibilidad, **Then** aprueba o rechaza con motivo. | EP02 |
+| **US13** | **Cierre de orden (Fulfillment)** | Como proveedor, quiere cerrar el ciclo tras la entrega confirmada. | **Given** entrega física realizada, **When** ejecuta cierre, **Then** pedido pasa a estado “Finalizado”. | EP02 |
+| **US14** | **KPIs de gestión (Solicitante)** | Como solicitante, quiere ver resumen de sus consumos por estado. | **Given** pedidos realizados, **When** consulta KPIs, **Then** visualiza métricas de gasto. | EP01 |
+| **US15** | **KPIs operativos (Proveedor)** | Como proveedor, quiere ver resumen de eficiencia de entregas. | **Given** pedidos gestionados, **When** consulta, **Then** visualiza KPIs de logística. | EP02 |
+| **US16** | **Gráfico de tendencia mensual** | Como solicitante, quiere ver tendencia de gasto energético. | **Given** histórico de pedidos, **When** consulta gráfico, **Then** expone barras de consumo mensual. | EP01 |
+| **US17** | **Gráfico de ventas proyectadas** | Como proveedor, quiere ver tendencia de ingresos. | **Given** despachos realizados, **When** consulta gráfico, **Then** expone métricas de ventas. | EP02 |
+| **US18** | **Exportación de reportes PDF** | Como usuario, quiere exportar datos para auditoría contable. | **Given** periodo seleccionado, **When** solicita exportar, **Then** genera documento PDF inmutable. | EP01 |
+| **US19** | **Asignar conductor y unidad** | Como proveedor, quiere registrar responsables del transporte. | **Given** personal disponible, **When** asigna a pedido, **Then** vincula conductor y placa de cisterna. | EP02 |
+| **US20** | **Filtrar pedidos operativos** | Como usuario, quiere organizar su vista por estados o fechas. | **Given** lista de pedidos, **When** aplica filtro, **Then** retorna lista segmentada. | EP01 |
+| **US21** | **Búsqueda por código único** | Como usuario, quiere localizar un pedido de forma inmediata. | **Given** ID de pedido, **When** busca en el sistema, **Then** visualiza el detalle de dicha orden. | EP01 |
+| **US22** | **Registro de nuevos perfiles** | Como visitante, quiere crear cuenta como cliente o proveedor. | **Given** datos de registro, **When** confirma alta, **Then** crea cuenta con el rol seleccionado. | EP03 |
+| **US23** | **Gestión de roles (RBAC)** | Como administrador, quiere que cada usuario acceda solo a sus funciones. | **Given** login exitoso, **When** navega, **Then** el sistema restringe vistas según el rol. | EP03 |
+| **US24** | **Restablecimiento de clave** | Como usuario, quiere recuperar acceso mediante su correo. | **Given** correo válido, **When** solicita reset, **Then** envía enlace temporal de recuperación. | EP03 |
+| **US25** | **Actualización de perfil** | Como usuario, quiere mantener sus datos de contacto al día. | **Given** cambios en perfil, **When** guarda, **Then** persiste la nueva información. | EP03 |
+| **US26** | **Explorar Landing Page** | Como visitante, quiere conocer los beneficios del ecosistema FuelTrack. | **Given** acceso público, **When** navega landing, **Then** visualiza propuesta de valor. | EP04 |
+| **US27** | **Consultar Home pública** | Como visitante, quiere ver el resumen ejecutivo del servicio. | **Given** entrada al sitio, **When** carga home, **Then** presenta visión y CTA de registro. | EP04 |
+| **US28** | **Visualizar "Sobre Nosotros"** | Como visitante, quiere conocer al equipo de desarrollo. | **Given** sección About Us, **When** consulta, **Then** presenta fotos e info institucional. | EP04 |
+| **US29** | **Guía de funcionamiento** | Como visitante, quiere entender el flujo del sistema IoT/Software. | **Given** sección tutorial, **When** revisa, **Then** comprende interacción cliente-proveedor. | EP04 |
+| **US30** | **Formulario de contacto** | Como visitante, quiere remitir consultas comerciales. | **Given** datos de contacto, **When** envía mensaje, **Then** el sistema confirma recepción. | EP04 |
+| **TS31** | **Endpoint de pedidos (POST)** | Como developer, quiere servicio REST para creación de órdenes. | **Given** payload JSON válido, **When** POST /orders, **Then** retorna 201 Created. | EP01 |
+| **TS32** | **Emitir token JWT** | Como developer, quiere servicio de autenticación segura. | **Given** credenciales válidas, **When** login, **Then** retorna JWT firmado. | EP03 |
+| **TS33** | **Servicio de notificaciones Push** | Como developer, quiere gatillar alertas automáticas. | **Given** evento de cambio de estado, **When** ocurre, **Then** envía notificación al dispositivo. | EP02 |
+| **TS34** | **Registro de coordenadas GPS** | Como developer, quiere persistir trazabilidad IoT en la DB. | **Given** trama de ubicación, **When** recibe de sensor, **Then** guarda con marca de tiempo. | EP02 |
+| **TS35** | **Endpoint de Login** | Como developer, quiere controlador para validación de acceso. | **Given** request de login, **When** procesa, **Then** valida contra DB y responde. | EP03 |
+| **TS36** | **Lógica de recuperación de clave** | Como developer, quiere manejo de tokens temporales. | **Given** solicitud de reset, **When** valida email, **Then** genera token de un solo uso. | EP03 |
+| **TS37** | **Invalidación de sesiones (Logout)** | Como developer, quiere cerrar sesiones de forma segura. | **Given** token activo, **When** logout, **Then** destruye sesión en el servidor. | EP03 |
+| **TS38** | **Sincronización de despacho IoT** | Como developer, quiere vincular salida de planta con sensor. | **Given** estado "En ruta", **When** marca despacho, **Then** activa monitoreo de volumen. | EP02 |
+| **TS39** | **Validación de disponibilidad IoT** | Como developer, quiere ver estado real de cisternas. | **Given** consulta de unidad, **When** revisa sensor, **Then** reporta si está libre o en ruta. | EP02 |
+| **TS40** | **Evento de proximidad por Geocerca** | Como developer, quiere alerta automática al llegar a destino. | **Given** unidad en movimiento, **When** entra a radio de geocerca, **Then** dispara evento de llegada. | EP02 |
+| **TS41** | **Integración de Smart Lock** | Como developer, quiere control de hardware desde software. | **Given** validación GPS positiva, **When** autoriza descarga, **Then** envía señal de apertura. | EP02 |
+| **TS42** | **Cálculo de Burn Rate (Back-end)** | Como developer, quiere lógica de predicción de consumo. | **Given** historial de niveles IoT, **When** procesa, **Then** retorna fecha estimada de stock cero. | EP01 |
+| **TS43** | **Filtrado de datos en servidor** | Como developer, quiere optimizar búsqueda de grandes volúmenes. | **Given** parámetros de filtro, **When** consulta DB, **Then** retorna set de datos paginado. | EP01 |
+| **TS44** | **Seguridad de Vouchers (Hashing)** | Como developer, quiere asegurar integridad de comprobantes. | **Given** voucher generado, **When** guarda en storage, **Then** asocia un hash único de seguridad. | EP02 |
+| **TS45** | **Controlador de Perfil de Usuario** | Como developer, quiere manejo de datos de cuenta. | **Given** request de perfil, **When** procesa, **Then** retorna DTO con info del usuario. | EP03 |
+| **TS46** | **Listado de Clientes (Back-end)** | Como developer, quiere servicio de gestión de cartera. | **Given** ID de proveedor, **When** consulta, **Then** retorna lista de empresas asociadas. | EP02 |
+| **SP47** | **Investigación de pasarelas de pago** | Como equipo, quiere evaluar APIs de conciliación bancaria. | **Given** meta de auto-pago, **When** analiza opciones, **Then** propone arquitectura de pagos. | EP03 |
+| **US48** | **Conformidad de entrega en campo** | Como operario, quiere firmar recepción digitalmente. | **Given** descarga terminada, **When** firma en tablet/celular, **Then** sube evidencia al sistema. | EP01 |
 
 
 ### 3.2. Impact Mapping
@@ -1262,51 +1260,55 @@ Utilizamos la escala de Fibonacci para la estimación de los Story Points.
 
 | # Orden | User Story Id | Título | Descripción | Story Points (1/2/3/5/8) |
 | :---: | :--- | :--- | :--- | :---: |
-| 01 | US01 | Crear nuevo pedido | Como solicitante, quiere registrar pedidos para agilizar la solicitud y evitar llamadas. | 5 |
-| 02 | US02 | Consultar historial de pedidos | Como solicitante, quiere consultar su historial con estados y detalles. | 3 |
-| 03 | US03 | Editar pedido no confirmado | Como solicitante, quiere editar parámetros antes de confirmación del proveedor. | 5 |
-| 04 | US04 | Confirmar recepción de pedido | Como solicitante, quiere confirmar la recepción del pedido para finalizar la entrega. | 3 |
-| 05 | US05 | Actualizar pedido | Como proveedor, quiere actualizar estado e información operativa del pedido. | 5 |
-| 06 | US06 | Notificar cambios al cliente | Como proveedor, quiere que el cliente reciba notificaciones automáticas ante cambios del pedido. | 5 |
-| 07 | US07 | Cancelar o rechazar pedido | Como proveedor, quiere rechazar/cancelar pedidos con motivo para mantener claridad. | 3 |
-| 08 | US08 | Iniciar sesión | Como usuario, quiere iniciar sesión con credenciales válidas. | 3 |
-| 09 | US09 | Registrar cuenta nueva | Como visitante, quiere crear una cuenta con rol (Solicitante/Proveedor). | 3 |
-| 10 | US10 | Recuperar contraseña | Como usuario, quiere recuperar acceso por correo. | 3 |
-| 11 | US11 | Restringir acceso por rol | Como administrador, quiere que cada usuario acceda solo a recursos de su rol. | 2 |
-| 12 | US12 | Verificar MFA en pedidos | Como solicitante, quiere MFA al emitir pedidos para mayor seguridad. | 5 |
-| 13 | US13 | Explorar landing (pública) | Como usuario no autenticado, quiere visualizar la propuesta y caminos a registro. | 2 |
-| 14 | TS01 | Exponer endpoint de pedidos (POST) | Como developer, quiere un endpoint REST para registrar pedidos. | 5 |
-| 15 | TS02 | Emitir token de autenticación (JWT) | Como developer, quiere servicio de autenticación con JWT. | 5 |
-| 16 | TS03 | Enviar notificaciones por cambio de estado | Como developer, quiere servicio que emite notificaciones ante cambios de pedido. | 3 |
-| 17 | TS04 | Registrar ubicación GPS en ruta | Como developer, quiere registrar coordenadas para trazabilidad. | 5 |
-| 18 | US14 | Consultar Home pública | Como visitante proveedor, quiere un resumen del valor de la solución. | 2 |
-| 19 | US15 | Conocer About Us | Como visitante, quiere conocer el equipo y propósito para generar confianza. | 2 |
-| 20 | US16 | Entender cómo funciona | Como visitante, quiere comprender el flujo de operación. | 2 |
-| 21 | US17 | Enviar contacto | Como visitante, quiere remitir un mensaje de contacto. | 3 |
-| 22 | US18 | Aprobar pedido | Como proveedor, quiere aprobar pedidos según stock disponible. | 3 |
-| 23 | TS19 | Despachar pedido | Como proveedor, quiere marcar un pedido como despachado para notificar al cliente. | 5 |
-| 24 | US20 | Cerrar pedido | Como proveedor, quiere cerrar el pedido cuando la entrega se confirma. | 3 |
-| 25 | US21 | Generar reporte de ventas | Como proveedor, quiere reportes operativos por rango de fechas. | 5 |
-| 26 | US22 | Visualizar KPIs de pedidos (Solicitante) | Como solicitante, quiere ver un resumen por estado. | 5 |
-| 27 | US23 | Visualizar KPIs de pedidos (Proveedor) | Como proveedor, quiere ver resumen operativo por estado. | 5 |
-| 28 | TS05 | Autenticar (endpoint login) | Como developer, quiere endpoint de login. | 5 |
-| 29 | TS06 | Recuperar contraseña (endpoint) | Como developer, quiere endpoint de recuperación. | 3 |
-| 30 | TS07 | Cerrar sesión (endpoint logout) | Como developer, quiere endpoint para invalidar sesión. | 2 |
-| 31 | TS24 | Asignar vehículo a pedido | Como proveedor, quiere asignar vehículo a pedido confirmado. | 5 |
-| 32 | US25 | Asignar conductor a pedido | Como proveedor, quiere asignar conductor disponible. | 3 |
-| 33 | TS26 | Validar disponibilidad de transporte | Como proveedor, quiere verificar disponibilidad de vehículos antes de asignar. | 8 |
-| 34 | US27 | Consultar perfil | Como usuario, quiere ver su perfil para revisar datos. | 2 |
-| 35 | US28 | Actualizar perfil | Como usuario, quiere actualizar sus datos vigentes. | 3 |
-| 36 | US29 | Buscar pedido por código | Como usuario, quiere localizar rápidamente un pedido por su código. | 2 |
-| 37 | US30 | Filtrar pedidos por estado | Como usuario, quiere filtrar pedidos por estado operativo. | 2 |
-| 38 | US31 | Recibir notificación de aprobación/rechazo | Como solicitante, quiere ser notificado cuando cambie el estado del pedido. | 3 |
-| 39 | TS32 | Recibir notificación de despacho | Como solicitante, quiere ser notificado cuando el pedido salga a entrega. | 5 |
-| 40 | US33 | Listar empresas solicitantes | Como proveedor, quiere listar empresas para gestión de clientes. | 3 |
-| 41 | US34 | Consultar detalle de empresa | Como proveedor, quiere ver detalle e historial de una empresa. | 3 |
-| 42 | US35 | Visualizar gráfico de consumo | Como solicitante, quiere visualizar consumo mensual. | 5 |
-| 43 | US36 | Visualizar gráfico de ventas | Como proveedor, quiere visualizar ventas por mes. | 5 |
-| 44 | US37 | Descargar reporte en PDF | Como usuario, quiere descargar resúmenes operativos en PDF. | 5 |
-| 45 | SP01 | Investigar conciliación de pagos y validación | Como equipo, quiere investigar opciones de integración (e.g., pasarela/conciliación bancaria) para reducir retrasos por validación manual. | 8 |
+|:---:|:---:|---|---|:---:|:---:|
+| 1 | **US01** | **Detección de anomalías en tanques** | Alertas automáticas ante caídas bruscas de presión (Antirrobo IoT). | 8 | Muy Alta |
+| 2 | **US02** | **Dashboard de consumo predictivo** | Analítica de Burn Rate para evitar paradas de planta por stock cero. | 5 | Alta |
+| 3 | **US03** | **Control de válvulas por geocerca** | Bloqueo/Desbloqueo de seguridad basado en la posición GPS real. | 8 | Alta |
+| 4 | **US04** | **Emisión de Vouchers inmutables** | Evidencia digital firmada para acelerar la facturación y auditoría. | 3 | Alta |
+| 5 | **US05** | **Asistente de reabastecimiento** | Sugerencia inteligente de compra basada en el nivel real del sensor. | 5 | Alta |
+| 6 | US06 | Registrar pedido | Registro de solicitudes de combustible en la plataforma web/móvil. | 5 | Alta |
+| 7 | US07 | Consultar historial de pedidos | Acceso a la lista de pedidos realizados con sus estados actuales. | 3 | Alta |
+| 8 | US08 | Iniciar sesión | Autenticación de usuarios para acceso al panel de control. | 3 | Alta |
+| 9 | US09 | Verificación MFA en pedidos | Doble factor de autenticación para órdenes de alto valor monetario. | 5 | Alta |
+| 10 | US10 | Actualizar estado de pedido | Gestión de fases operativas (Confirmado, En ruta, Entregado). | 5 | Alta |
+| 11 | US11 | Notificar cambios al cliente | Alertas automáticas (Push/Email) sobre el estado del suministro. | 5 | Media |
+| 12 | US12 | Aprobación administrativa | Validación de stock y línea de crédito por parte del proveedor. | 3 | Media |
+| 13 | US13 | Cierre de orden (Fulfillment) | Finalización del ciclo tras confirmación de descarga física en campo. | 3 | Media |
+| 14 | US14 | KPIs de gestión (Solicitante) | Dashboard de control de gasto y volumen de consumo acumulado. | 5 | Media |
+| 15 | US15 | KPIs operativos (Proveedor) | Dashboard de eficiencia logística, tiempos y cumplimiento de rutas. | 5 | Media |
+| 16 | US16 | Gráfico de tendencia mensual | Visualización analítica del histórico de consumo energético. | 5 | Media |
+| 17 | US17 | Gráfico de ventas proyectadas | Análisis de crecimiento comercial basado en pedidos completados. | 5 | Media |
+| 18 | US18 | Exportación de reportes PDF | Generación de documentos oficiales para auditorías internas. | 5 | Media |
+| 19 | US19 | Asignar conductor y unidad | Vinculación del personal y la cisterna específica a un pedido. | 3 | Media |
+| 20 | US20 | Filtrar pedidos operativos | Organización de tablas por fecha, cliente o estado operativo. | 2 | Media |
+| 21 | US21 | Búsqueda por código único | Localización inmediata de una orden mediante su ID de rastreo. | 2 | Media |
+| 22 | US22 | Registro de nuevos perfiles | Flujo de alta para usuarios con rol de Solicitante o Proveedor. | 3 | Media |
+| 23 | US23 | Gestión de roles (RBAC) | Restricción de acceso a módulos según el perfil del usuario. | 2 | Media |
+| 24 | US24 | Restablecimiento de clave | Gestión de recuperación de acceso mediante validación por correo. | 3 | Media |
+| 25 | US25 | Actualización de perfil | Edición de información de contacto y preferencias corporativas. | 3 | Media |
+| 26 | US26 | Explorar Landing Page | Visualización de beneficios y propuesta de valor para visitantes. | 2 | Baja |
+| 27 | US27 | Consultar Home pública | Sección principal informativa con resumen de los servicios. | 2 | Baja |
+| 28 | US28 | Visualizar "Sobre Nosotros" | Información sobre el equipo de desarrollo y la visión del proyecto. | 2 | Baja |
+| 29 | US29 | Guía de funcionamiento | Tutorial interactivo sobre el flujo del ecosistema IoT/Software. | 2 | Baja |
+| 30 | US30 | Formulario de contacto | Canal de comunicación para soporte técnico y ventas. | 3 | Baja |
+| 31 | TS31 | Endpoint de pedidos (POST) | Implementación del servicio REST para la persistencia de órdenes. | 5 | Alta |
+| 32 | TS32 | Emitir token JWT | Generación de tokens seguros para el manejo de sesiones activas. | 5 | Alta |
+| 33 | TS33 | Servicio de notificaciones Push | Gatillador de alertas automáticas para dispositivos móviles. | 5 | Media |
+| 34 | TS34 | Registro de coordenadas GPS | Persistencia de la telemetría de ubicación enviada por el sensor. | 5 | Media |
+| 35 | TS35 | Endpoint de Login | Lógica de validación de credenciales en el servidor de aplicaciones. | 5 | Media |
+| 36 | TS36 | Lógica de recuperación de clave | Generación técnica de tokens temporales de reset vía email. | 3 | Baja |
+| 37 | TS37 | Invalidación de sesiones | Destrucción segura de tokens JWT en el servidor (Logout). | 2 | Baja |
+| 38 | TS38 | Sincronización de despacho IoT | Activación del monitoreo volumétrico al marcar salida de planta. | 5 | Media |
+| 39 | TS39 | Validación de disponibilidad IoT | Consulta en tiempo real del estado de actividad de la flota. | 8 | Media |
+| 40 | TS40 | Evento de proximidad (Geocerca) | Disparo de alerta automática al ingresar al radio del destino. | 5 | Media |
+| 41 | TS41 | Integración de Smart Lock | Desarrollo del control de apertura de válvulas vía software. | 8 | Alta |
+| 42 | TS42 | Cálculo de Burn Rate (Back-end) | Algoritmo predictivo basado en series de tiempo de sensores. | 8 | Alta |
+| 43 | TS43 | Filtrado de datos en servidor | Optimización de consultas SQL/NoSQL para grandes volúmenes. | 5 | Baja |
+| 44 | TS44 | Seguridad de Vouchers (Hashing) | Protección de la integridad de documentos mediante firmas hash. | 3 | Media |
+| 45 | TS45 | Controlador de Perfil de Usuario | Gestión de objetos DTO y persistencia de datos de cuenta. | 3 | Baja |
+| 46 | TS46 | Listado de Clientes (Back-end) | Servicio de gestión de cartera comercial para proveedores. | 3 | Baja |
+| 47 | SP47 | Investigación de pagos B2B | Spike para evaluar APIs de conciliación bancaria automática. | 8 | Baja |
+| 48 | US48 | Conformidad de entrega en campo | Captura de firma digital de recepción en el punto de descarga. | 3 | Baja |
 
 # Capítulo IV: Solution Software Design
 
