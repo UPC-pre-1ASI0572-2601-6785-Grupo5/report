@@ -220,9 +220,9 @@ Objetivo general, ABET – EAC - Student Outcome 7: Aprendizaje Continuo y Autó
 
 ### 1.1.1. Descripción de la Startup
 
-**FuelTrack** es una startup tecnológica fundada por estudiantes de la Universidad Peruana de Ciencias Aplicadas (UPC), orientada a transformar la gestión de suministro de combustible en operaciones industriales críticas. A través de la integración de hardware IoT con una plataforma transaccional B2B, FuelTrack conecta a empresas solicitantes y proveedores mayoristas de hidrocarburos en un ecosistema digital unificado, brindando visibilidad en tiempo real sobre cada galón despachado, desde el tanque de la cisterna hasta el punto de entrega final.
+**FuelTrack** es una startup de base tecnológica (DeepTech) orientada a la optimización de la cadena de suministro de hidrocarburos mediante la convergencia de Internet de las Cosas (IoT) y arquitecturas de software transaccionales. Nuestra propuesta de valor se centra en resolver la opacidad logística en sectores industriales críticos —como la minería y la infraestructura— mediante el despliegue de nodos sensores inteligentes que permiten la captura de datos telemétricos en tiempo real.
 
-A diferencia de las soluciones de software tradicionales, FuelTrack incorpora sensores embebidos en las unidades de transporte para monitorear de forma continua el nivel de combustible, la presión del tanque y la ubicación GPS de la flota. Esta telemetría se integra directamente con el flujo de pedidos, aprobaciones y comprobantes digitales de la plataforma, eliminando los puntos ciegos logísticos que hoy generan mermas, robos en tránsito y sobregiros presupuestales en sectores como minería, telecomunicaciones e infraestructura.
+A diferencia de las soluciones convencionales, FuelTrack implementa un ecosistema digital de trazabilidad punta a extremo (End-to-End), vinculando el estado físico de los activos (presión y volumen) con los flujos de aprobación financiera y administrativa. Este enfoque permite mitigar mermas no justificadas, eliminar el fraude operativo y garantizar la continuidad operativa de nuestros stakeholders a través de un modelo de gestión basado en evidencia digital inmutable.
 
 **Misión:**
 Desarrollar soluciones tecnológicas que integren IoT y software transaccional para digitalizar y asegurar la cadena de suministro de hidrocarburos, eliminando la informalidad operativa y brindando trazabilidad total a empresas y proveedores en entornos industriales críticos.
@@ -248,9 +248,15 @@ Convertirnos en el estándar de gestión inteligente de combustible B2B en Latin
 
 **Descripción del problema**
  
-El sector de distribución de hidrocarburos en entornos industriales críticos —como minería, telecomunicaciones e infraestructura— enfrenta una paradoja operativa: a pesar de mover millones de dólares en combustible anualmente, la gestión de sus despachos sigue dependiendo de métodos informales como llamadas telefónicas, correos electrónicos y aplicaciones de mensajería. Esta desconexión entre el flujo físico del combustible y los sistemas de gestión genera pérdidas económicas significativas, riesgos de desabastecimiento y una opacidad financiera que dificulta la toma de decisiones en tiempo real.
- 
-La ausencia de telemetría integrada en las cisternas de transporte agrava el problema: los proveedores no pueden detectar mermas ni robos en ruta, los clientes no tienen visibilidad del estado real de su pedido, y los gerentes de logística operan con información desfasada que aumenta el riesgo de sobregiros presupuestales. La incorporación de tecnologías IoT representa la evolución natural para cerrar esta brecha entre el mundo físico y el sistema de gestión.
+El sector de distribución de hidrocarburos en entornos industriales críticos enfrenta una brecha de visibilidad operativa significativa. Actualmente, la gestión de despachos depende de procesos analógicos y canales de comunicación informales que carecen de integración con el estado físico real de la carga. Esta desconexión entre el flujo físico del combustible y los sistemas de información genera tres problemas críticos:
+
+Mermas no detectadas: La ausencia de telemetría volumétrica en tiempo real facilita la extracción ilícita de combustible en tránsito (ordeño), resultando en pérdidas económicas millonarias que suelen detectarse de forma reactiva (post-mortem).
+
+Inestabilidad en la continuidad operativa: La falta de analítica predictiva sobre el ritmo de consumo (Burn Rate) provoca paradas de planta no programadas por desabastecimiento, elevando los costos de inactividad.
+
+Opacidad administrativa: La dependencia de documentación física para la validación de entregas impide una conciliación financiera ágil, extendiendo los ciclos de facturación y auditoría.
+
+Esta problemática exige una transición hacia un modelo de Suministro Inteligente, donde la integración de hardware IoT permita cerrar los puntos ciegos logísticos y automatizar la toma de decisiones basada en datos granulares.
  
 ---
  
