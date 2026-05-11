@@ -1,33 +1,33 @@
 <div align="center">
 
 # Universidad Peruana de Ciencias Aplicadas (UPC)
-## Ingeniería de Software
+## Facultad de Ingeniería 
 
 ![Logo de la UPC](./assets/logo-upc.png)
 
-### Desarrollo de Soluciones IoT (1ASI0572)
-**Ciclo Académico:** 2026-10  
+
+**Curso:** 1ASI0572 - Desarrollo de Soluciones IoT  
 **NRC:** 6785  
+
 
 **Profesor:** Marco Antonio Leon Baca
 
 # Informe de Trabajo Final
 
-**Startup:** FuelTrack  
-**Producto:** FuelTrack  
+**Nombre del grupo:** FuelTrack  
+**Nombre del producto:** FuelTrack  
 
-### Relación de Integrantes:
-U202310425 - AGUIRRE CASTILLO, Sergio Cesar
+### Integrantes:
 
-U20221G068 - ALMERCO ROJAS, Jocelyn Damaly
+| Código | Apellidos y Nombres |
+|---|---|
+| U202310425 | AGUIRRE CASTILLO, Sergio Cesar |
+| U20221G068 | ALMERCO ROJAS, Jocelyn Damaly |
+| U202213278 | ESPEJO GAMARRA, Bryan Ronald |
+| U202113111 | IPARRAGUIRRE RUEDA, Cristian Luis |
+| U20221C275 | LUQUE MINAYA, Renzo Andrés |
 
-U202213278 - ESPEJO GAMARRA, Bryan Ronald
-
-U202113111 - IPARRAGUIRRE RUEDA, Cristian Luis
-
-U20221C275 - LUQUE MINAYA, Renzo Andrés
-
-**Mes y año:** Abril 2026
+### Lima – abril 2026
 
 </div>
 
@@ -87,6 +87,7 @@ El objetivo de esta sección es resumir las modificaciones relevantes que se rea
     <tr>
      <table>
   <thead>
+
 ## Project Report Collaboration Insights
 El repositorio para el Project Report en la organización de GitHub del equipo se encuentra en el siguiente enlace:
 * **URL del Repositorio:** [https://github.com/UPC-pre-1ASI0572-2601-6785-Grupo5/report](https://github.com/UPC-pre-1ASI0572-2601-6785-Grupo5/report)
@@ -214,7 +215,7 @@ Objetivo general, ABET – EAC - Student Outcome 7: Aprendizaje Continuo y Autó
 | **Reconoce la necesidad del aprendizaje permanente para el desempeño profesional y el desarrollo de proyectos en soluciones de software.** | **Aguirre Castillo, Sergio Cesar** <br> **TB1:** Reconocí la importancia del aprendizaje continuo al investigar nuevas tecnologías y buenas prácticas de desarrollo para mejorar mi desempeño en FuelTrack. <br><br> **Almerco Rojas, Jocelyn Damaly** <br> **TB1:** Reconocí la necesidad del aprendizaje continuo al investigar nuevas herramientas de modelado y documentación para mejorar la calidad del sistema. <br><br> **Espejo Gamarra, Bryan Ronald** <br> **TB1:** Reconocí la importancia del aprendizaje continuo al investigar nuevas tecnologías de backend y DevOps para optimizar el sistema. <br><br> **Iparraguirre Rueda, Cristian Luis** <br> **TB1:** Reconocí la necesidad del aprendizaje continuo al reforzar conocimientos en programación y nuevas herramientas de desarrollo. <br><br> **Luque Minaya, Renzo Andrés** <br> **TB1:** Reconocí la importancia del aprendizaje continuo al investigar nuevas tecnologías de frontend, cloud y seguridad para mejorar el sistema FuelTrack. | **Aguirre Castillo, Sergio Cesar** <br> **TB1:** El aprendizaje continuo permite mantenerse actualizado y desarrollar soluciones más eficientes y escalables. <br><br> **Almerco Rojas, Jocelyn Damaly** <br> **TB1:** El aprendizaje permanente permite mejorar la calidad del diseño y la documentación del software. <br><br> **Espejo Gamarra, Bryan Ronald** <br> **TB1:** El aprendizaje continuo permite optimizar el rendimiento del sistema y adaptarse a nuevas tecnologías. <br><br> **Iparraguirre Rueda, Cristian Luis** <br> **TB1:** El aprendizaje permanente fortalece las habilidades técnicas necesarias para el desarrollo de software. <br><br> **Luque Minaya, Renzo Andrés** <br> **TB1:** El aprendizaje continuo permite mejorar la experiencia de usuario y la seguridad del sistema. |
 
 
-﻿# Capítulo I: Introducción
+# Capítulo I: Introducción
 
 ## 1.1. Startup Profile
 
