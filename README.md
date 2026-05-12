@@ -2312,7 +2312,77 @@ El diseño final (Mock-up) utiliza una paleta de colores profesional que transmi
 ### 5.4.3. Applications Mock-ups
 ### 5.4.4. Applications User Flow Diagrams
 ### 5.5 Applications Prototyping
-### 5.6 IoT Device Design
+
+### 5.6. IoT Device Design
+
+#### Descripción general del dispositivo
+
+El nodo IoT de FuelTrack es un **ESP32 DevKit V1** instalado en el camión cisterna. Su función es capturar en tiempo real tres variables críticas de la operación de despacho —nivel de combustible, condiciones ambientales del tanque y ubicación GPS del vehículo— y transmitirlas al Edge API (Raspberry Pi / Flask) mediante un payload JSON compacto sobre MQTT/WiFi cada 2 500 ms.
+
+#### Criterios de diseño y selección de sensores
+
+| # | Sensor | Variable medida | Justificación |
+|---|--------|-----------------|---------------|
+| 1 | **HC-SR04** (ultrasónico) | Nivel de combustible (%) | Sensor sin contacto que mide la distancia al espejo del líquido dentro del tanque. La distancia se convierte en porcentaje de llenado con la fórmula `nivel = ((altura_tanque − distancia) / altura_tanque) × 100`. Responde al requisito de monitoreo de stock en tiempo real (US05). |
+| 2 | **DHT22** (digital) | Temperatura (°C) y Humedad (%) | Monitorea las condiciones ambientales del entorno del tanque. Una variación brusca de temperatura puede indicar exposición extrema o una condición anormal que afecte la calidad del combustible. |
+| 3 | **NEO-6M** (UART / GPS) | Latitud, Longitud, Velocidad | Proporciona la trazabilidad geoespacial del camión en tiempo real. El ESP32 lo lee por UART2 (RX2 = GPIO 16) a 9 600 bps en formato NMEA. Alimenta el módulo `fleet-tracking` de la Web App para visualización en mapa y evaluación de geocercas (TS34, US01). |
+
+#### Diagrama del circuito — Wokwi (ESP32 DevKit V1)
+
+![Logo de la UPC](./assets/wokwi.png)
+
+**Mapa de pines:**
+
+| Sensor | Pin del sensor | GPIO ESP32 | Protocolo |
+|--------|---------------|------------|-----------|
+| HC-SR04 | VCC | VIN (5 V) | — |
+| HC-SR04 | GND | GND | — |
+| HC-SR04 | TRIG | GPIO 5 | Digital OUT |
+| HC-SR04 | ECHO | GPIO 18 | Digital IN |
+| DHT22 | VCC | 3.3 V | — |
+| DHT22 | GND | GND | — |
+| DHT22 | DATA | GPIO 4 | 1-Wire |
+| NEO-6M | VCC | 3.3 V | — |
+| NEO-6M | GND | GND | — |
+| NEO-6M | TX | GPIO 16 (RX2) | UART2 |
+| NEO-6M | RX | GPIO 17 (TX2) | UART2 |
+
+#### Flujo de interacción del dispositivo
+
+```
+[HC-SR04]  ──(GPIO 5 / 18)──┐
+[DHT22]    ──(GPIO 4)────────┤ ESP32 DevKit V1 ──(WiFi · MQTT)──► Edge API (Raspberry Pi / Flask)
+[NEO-6M]   ──(UART2)────────┘                                              │
+                                                                            ▼
+                                                               Backend (Spring Boot / Railway)
+                                                                            │
+                                                                            ▼
+                                                    Web App (Vue 3) ◄──────┤
+                                                    Mobile App (Flutter) ◄──┘
+```
+
+El ESP32 publica cada 2 500 ms el siguiente payload JSON hacia el broker MQTT del Edge API:
+
+```json
+{
+  "fuel_level_pct": 68.3,
+  "temperature_c": 28.1,
+  "humidity_pct": 65.0,
+  "gps_nmea": "$GPRMC,120000.00,A,1216.272,S,07656.208,W,35.0,90.0,120125,,,A*2F"
+}
+```
+#### Relación con la guía de estilo C++ (Embedded Application)
+
+El firmware del ESP32 sigue las convenciones definidas en la sección **6.1.3 — C++ Embedded Application**:
+
+- Identificadores en **camelCase**: `readFuelLevelPct()`, `gpsSerial`, `lastPublish`.
+- Constantes en **SCREAMING_SNAKE_CASE**: `TANK_HEIGHT_CM`, `PUBLISH_INTERVAL_MS`, `GPS_RX_PIN`.
+- Indentación de **2 espacios** conforme a las C++ Core Guidelines.
+- Sin uso de `malloc` / `free`; todas las variables residen en stack o como globales de duración estática.
+- Comunicación modular: cada sensor tiene su propia función de lectura, facilitando el intercambio de hardware.
+
+
+
 
 ## 6.1 Product Implementation, Validation & Deployment
 
