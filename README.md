@@ -2311,10 +2311,187 @@ El diseño final (Mock-up) utiliza una paleta de colores profesional que transmi
 ### 5.4.2. Applications Wireflow Diagrams
 ### 5.4.3. Applications Mock-ups
 ### 5.4.4. Applications User Flow Diagrams
+### 5.5 Applications Prototyping
+### 5.6 IoT Device Design
 
-## 5.5 Applications Prototyping
+## 6.1 Product Implementation, Validation & Deployment
 
-## 5.6 IoT Device Design
+### 6.1.1. Software Development Environment Configuration
+
+A continuación se detallan los productos de software utilizados por el equipo FuelTrack para cada tipo de actividad del ciclo de vida del proyecto, indicando su propósito y la ruta de referencia o descarga correspondiente.
+
+### Project Management
+ 
+| Producto | Propósito en el proyecto | Referencia |
+|---|---|---|
+| **Discord** | Canal principal de comunicación interna del equipo para reuniones de planificación y retrospectiva | https://discord.com |
+| **Google Meet** | Reuniones síncronas de Sprint Planning, revisión y retrospectiva | https://meet.google.com |
+
+### Product UX/UI Design
+
+| Producto | Propósito en el proyecto | Referencia |
+|---|---|---|
+| **UXPressia** | Elaboración de User Personas, Empathy Maps, Journey Maps e Impact Maps para los segmentos objetivo de FuelTrack | https://uxpressia.com |
+| **Miro** | Sesiones colaborativas de Big Picture EventStorming y Design-Level EventStorming | https://miro.com |
+| **Figma** | Diseño de Wireframes, Mock-ups y Prototipos interactivos de la Web Application y Mobile Application | https://www.figma.com |
+| **LucidChart** | Elaboración de Wireflow Diagrams, User Flow Diagrams, y de base de datos | https://www.lucidchart.com |
+
+### Software Development
+ 
+| Producto | Propósito en el proyecto | Referencia |
+|---|---|---|
+| **Visual Studio Code** | IDE principal para el desarrollo del Landing Page (HTML5, CSS3, JavaScript) y del Edge API (Python/Flask) | https://code.visualstudio.com |
+| **Wokwi** | Simulador online de circuitos ESP32 para prototipado y pruebas del dispositivo IoT antes de implementación en hardware físico | https://wokwi.com |
+| **Git** | Sistema de control de versiones distribuido para todos los repositorios del proyecto | https://git-scm.com |
+| **GitHub** | Plataforma de alojamiento de repositorios y gestión de colaboración del equipo | https://github.com |
+
+### Software Documentation
+ 
+| Producto | Propósito en el proyecto | Referencia |
+|---|---|---|
+| **Markdown (GitHub)** | Elaboración colaborativa del Project Report en formato `.md` con control de versiones | https://www.markdownguide.org |
+| **Structurizr** | Elaboración de diagramas de arquitectura de software C4 Model (Context, Container, Component, Deployment) | https://structurizr.com |
+ 
+### 6.1.2. Source Code Management
+
+A continuación se describe la gestión del código fuente aplicada por el equipo FuelTrack. Se utiliza **GitHub** como plataforma de control de versiones distribuido, bajo la organización pública del equipo.
+
+### URLs de repositorios
+ 
+| Producto | URL del repositorio |
+|---|---|
+| **Organización GitHub** | https://github.com/UPC-pre-1ASI0572-2601-6785-Grupo5 |
+| **Project Report** | https://github.com/UPC-pre-1ASI0572-2601-6785-Grupo5/report |
+| **Landing Page** | https://github.com/UPC-pre-1ASI0572-2601-6785-Grupo5/fueltrack-landing-page |
+| **Web Application (Frontend)** | https://github.com/UPC-pre-1ASI0572-2601-6785-Grupo5/fueltrack-web-app |
+| **RESTful Web Service (Backend)** | https://github.com/UPC-pre-1ASI0572-2601-6785-Grupo5/fueltrack-backend |
+| **Mobile Application** | https://github.com/UPC-pre-1ASI0572-2601-6785-Grupo5/fueltrack-mobile |
+| **Edge API** | https://github.com/UPC-pre-1ASI0572-2601-6785-Grupo5/fueltrack-edge |
+| **Embedded Application (IoT)** | https://github.com/UPC-pre-1ASI0572-2601-6785-Grupo5/fueltrack-embedded |
+
+### 6.1.3. Source Code Style Guide & Conventions
+
+En esta sección se presentan las guías de estilo y convenciones adoptadas por el equipo FuelTrack para los lenguajes principales de la solución. Todos los identificadores se redactan en **inglés**.
+
+### HTML5 — Landing Page
+
+- Declarar `<!DOCTYPE html>` en la primera línea y `<meta charset="UTF-8">` en el `<head>`.
+- Indentar con **2 espacios**; atributos siempre entre **comillas dobles**.
+- Usar etiquetas semánticas de HTML5: `<header>`, `<nav>`, `<main>`, `<section>`, `<footer>`.
+- Incluir atributos ARIA para accesibilidad: `aria-label`, `role`.
+
+### CSS3 — Landing Page
+
+- **kebab-case** para clases e IDs: `.fuel-level-card`, `#dashboard-header`.
+- Indentar con **2 espacios**; llave de apertura `{` en la misma línea que el selector.
+- Preferir unidades relativas (`rem`, `%`) sobre absolutas (`px`).
+- Usar variables CSS para colores y tipografía del Design System: `--primary-color`, `--font-size-base`.
+
+### TypeScript — Landing Page y Web Application (Vue)
+
+- **camelCase** para variables y funciones: `fuelLevelData`, `getDispatchStatus()`.
+- **PascalCase** para clases y componentes: `HeroSection.vue`, `FuelLevelMonitor.vue`.
+- **SCREAMING_SNAKE_CASE** para constantes: `MAX_FUEL_LEVEL`, `MQTT_BROKER_URL`.
+- Archivos de componentes Vue siempre en **PascalCase**: `NavBar.vue`, `DispatchCard.vue`.
+- Usar **Composition API** con `<script setup lang="ts">` en todos los componentes.
+- Extraer lógica reutilizable en composables con prefijo `use`: `useFuelLevel.ts`, `useDispatch.ts`.
+- Preferir `const` sobre `let`; evitar `var`. Tipar explícitamente variables y retornos de funciones.
+
+### Java — RESTful Web Service (Spring Boot)
+
+- **PascalCase** para clases: `FuelLevelController`, `DispatchCommandHandler`.
+- **camelCase** para métodos y variables: `fuelLevelReading`, `processDispatchCommand()`.
+- **SCREAMING_SNAKE_CASE** para constantes: `MAX_PRESSURE_THRESHOLD`.
+- Indentar con **4 espacios**. Documentar endpoints con anotaciones OpenAPI: `@Operation`, `@ApiResponse`.
+- Aplicar patrón Command/Query para separar responsabilidades en la Application Layer.
+
+### Python — Edge API (Flask)
+
+- **snake_case** para variables y funciones: `fuel_level`, `get_sensor_reading()`.
+- **PascalCase** para clases: `FuelSensorHandler`, `EdgeApiConfig`.
+- **SCREAMING_SNAKE_CASE** para constantes: `MAX_RETRIES`, `SENSOR_POLL_INTERVAL`.
+- Indentar con **4 espacios**; seguir la guía oficial PEP 8.
+- Usar f-strings para interpolación de cadenas: `f"Sensor {sensor_id} reading: {value}"`.
+
+### C++ — Embedded Application (IoT / ESP32)
+
+- **camelCase** para variables y funciones: `fuelLevel`, `readSensor()`.
+- **PascalCase** para clases y structs: `FuelSensor`, `GpsModule`.
+- **SCREAMING_SNAKE_CASE** para constantes y macros: `MAX_BUFFER_SIZE`, `WIFI_SSID`.
+- Indentar con **2 espacios**; seguir las C++ Core Guidelines.
+- Evitar el uso de `malloc`/`free`; preferir variables en stack cuando el tamaño sea conocido.
+
+### 6.1.4. Software Deployment Configuration
+
+En esta sección se especifica la configuración de despliegue de la solución FuelTrack, describiendo los pasos necesarios para lograr la publicación satisfactoria de cada producto digital a partir de los repositorios de código fuente. Adicionalmente, se presenta el Deployment Diagram bajo el C4 Model.
+
+---
+
+#### Landing Page
+
+El Landing Page de FuelTrack está desarrollado en HTML5, CSS3 y JavaScript, y se despliega mediante **GitHub Pages** directamente desde el repositorio correspondiente.
+
+**Pasos para el despliegue:**
+
+1. Asegurarse de que los cambios estén mergeados en la rama `main` del repositorio [fueltrack-landing-page](https://github.com/UPC-pre-1ASI0572-2601-6785-Grupo5/fueltrack-landing-page).
+2. Ingresar al repositorio en GitHub y dirigirse a **Settings > Pages**.
+3. En la sección *Source*, seleccionar la rama `main` y la carpeta `/ (root)`.
+4. Hacer clic en **Save**. GitHub Pages generará automáticamente la URL pública del sitio.
+5. Verificar el despliegue accediendo a la URL publicada por GitHub Pages.
+
+**URL del repositorio:** https://github.com/UPC-pre-1ASI0572-2601-6785-Grupo5/fueltrack-landing-page
+
+---
+
+#### Web Application (Frontend)
+
+La Web Application está desarrollada con Vue 3 y Vite, y se despliega mediante **Netlify** con integración continua desde GitHub.
+
+**Pasos para el despliegue:**
+
+1. Acceder a [netlify.com](https://netlify.com) e iniciar sesión con la cuenta del equipo.
+2. Seleccionar **Add new site > Import an existing project** y conectar con GitHub.
+3. Seleccionar el repositorio [fueltrack-web-app](https://github.com/UPC-pre-1ASI0572-2601-6785-Grupo5/fueltrack-web-app).
+4. Configurar los parámetros de build:
+   - **Branch to deploy:** `main`
+   - **Build command:** `npm run build`
+   - **Publish directory:** `dist`
+5. Hacer clic en **Deploy site**. Netlify ejecutará el build y publicará la aplicación.
+6. Cada nuevo push a `main` disparará automáticamente un nuevo despliegue.
+
+**URL del repositorio:** https://github.com/UPC-pre-1ASI0572-2601-6785-Grupo5/fueltrack-web-app
+
+---
+
+#### RESTful Web Service (Backend)
+
+El backend está desarrollado con Spring Boot y se despliega en **Railway**, plataforma de cloud que soporta proyectos Java con Maven/Gradle.
+
+**Pasos para el despliegue:**
+
+1. Acceder a [railway.app](https://railway.app) e iniciar sesión con la cuenta del equipo.
+2. Crear un nuevo proyecto y seleccionar **Deploy from GitHub repo**.
+3. Seleccionar el repositorio [fueltrack-backend](https://github.com/UPC-pre-1ASI0572-2601-6785-Grupo5/fueltrack-backend).
+4. Railway detecta automáticamente el proyecto Spring Boot. Configurar las variables de entorno necesarias (credenciales de base de datos, puerto, etc.) en la sección **Variables**.
+5. Railway ejecuta `./mvnw package` y despliega el JAR resultante.
+6. Una vez activo, Railway proporciona una URL pública para acceder a los endpoints del API.
+
+**URL del repositorio:** https://github.com/UPC-pre-1ASI0572-2601-6785-Grupo5/fueltrack-backend
+
+---
+
+#### Edge API
+
+El Edge API está desarrollado con Flask y Python, y se despliega en un dispositivo de cómputo local (Raspberry Pi o equivalente) que actúa como nodo edge, recibiendo datos del dispositivo IoT embebido.
+
+**Pasos para el despliegue:**
+
+1. Clonar el repositorio [fueltrack-edge](https://github.com/UPC-pre-1ASI0572-2601-6785-Grupo5/fueltrack-edge) en el dispositivo edge:
+   ```bash
+   git clone https://github.com/UPC-pre-1ASI0572-2601-6785-Grupo5/fueltrack-edge
+   cd fueltrack-edge
+
+
 
 
 #### 6.2.1.1. Sprint Planning 1.
