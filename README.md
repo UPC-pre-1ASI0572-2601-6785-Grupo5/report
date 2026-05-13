@@ -3397,18 +3397,22 @@ El sistema actualiza la configuración y confirma que la información fue modifi
 <img width="1034" height="574" alt="image" src="https://github.com/user-attachments/assets/959bfde2-d37e-46f2-86c0-b8287d2064d0" />
 
 Prototipo de la Landing:
+
 https://upcedupe-my.sharepoint.com/:v:/g/personal/u202310425_upc_edu_pe/IQDYndgrD_s8ToqPeQrt0KOlAfwYAJuHoD8ZmEAPUSUcu7A?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D&e=IMEQzn
 
 
 <img width="1010" height="581" alt="image" src="https://github.com/user-attachments/assets/0c533395-a091-4882-9ddf-5547f0827e36" />
 
 Prototipo del Frontend:
+
 https://upcedupe-my.sharepoint.com/:v:/g/personal/u202310425_upc_edu_pe/IQBPhl4ZPUEjQ7p-ws4nPWnJATF9S3d1OD6ElKPcyWfPKSI?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D&e=hAmZoi
 
 
 <img width="1057" height="581" alt="image" src="https://github.com/user-attachments/assets/a903ad5b-98c8-483a-96f5-223009a9d6c8" />
 
 Prototipo de Mobil:
+
+https://upcedupe-my.sharepoint.com/:v:/g/personal/u202310425_upc_edu_pe/IQCSSLryvintQYozrGGbks8uATQVhd5JdXBJlBfSOyeSNmM?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D&e=YGVTor
 
 
 ### 5.6. IoT Device Design
