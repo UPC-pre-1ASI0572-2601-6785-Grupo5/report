@@ -235,6 +235,8 @@ Durante la elaboración de esta entrega, el equipo colaboró utilizando GitFlow.
     - [6.1.2. Source Code Management](#612-source-code-management)
     - [6.1.3. Source Code Style Guide \& Conventions](#613-source-code-style-guide--conventions)
     - [6.1.4. Software Deployment Configuration](#614-software-deployment-configuration)
+  - [6.2 Landing Page, Services & Applications Implementation](#62-landing-page-services-&-applications-implementation)
+    - [6.2.1. Sprint 1](#612-sprint-1)
       - [6.2.1.1. Sprint Planning 1.](#6211-sprint-planning-1)
       - [6.2.1.2. Aspect Leaders and Collaborators.](#6212-aspect-leaders-and-collaborators)
       - [6.2.1.3. Sprint Backlog 1.](#6213-sprint-backlog-1)
@@ -3596,7 +3598,6 @@ En esta sección se presentan las guías de estilo y convenciones adoptadas por 
 - Evitar el uso de `malloc`/`free`; preferir variables en stack cuando el tamaño sea conocido.
 
 ### 6.1.4. Software Deployment Configuration
-
 En esta sección se especifica la configuración de despliegue de la solución FuelTrack, describiendo los pasos necesarios para lograr la publicación satisfactoria de cada producto digital a partir de los repositorios de código fuente. Adicionalmente, se presenta el Deployment Diagram bajo el C4 Model.
 
 ---
@@ -3665,8 +3666,9 @@ El Edge API está desarrollado con Flask y Python, y se despliega en un disposit
    git clone https://github.com/UPC-pre-1ASI0572-2601-6785-Grupo5/fueltrack-edge
    cd fueltrack-edge
 
+## 6.2 Landing Page, Services & Applications Implementation
 
-
+### 6.2.1. Sprint 1
 
 #### 6.2.1.1. Sprint Planning 1.
 En el Sprint Planning 1, se llevó a cabo una sesión de planificación para la elaboración de la primera versión de las soluciones de FuelTrack. Se dividieron las secciones a programar entre los integrantes, además se determinó el plazo de entrega de estas tareas.
