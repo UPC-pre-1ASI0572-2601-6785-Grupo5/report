@@ -5,7 +5,6 @@
 
 ![Logo de la UPC](./assets/logo-upc.png)
 
-
 **Curso:** 1ASI0572 - Desarrollo de Soluciones IoT  
 **NRC:** 6785  
 
@@ -19,13 +18,13 @@
 
 ### Integrantes:
 
-| Código | Apellidos y Nombres |
-|---|---|
-| U202310425 | AGUIRRE CASTILLO, Sergio Cesar |
-| U20221G068 | ALMERCO ROJAS, Jocelyn Damaly |
-| U202213278 | ESPEJO GAMARRA, Bryan Ronald |
+| Código     | Apellidos y Nombres               |
+| ---------- | --------------------------------- |
+| U202310425 | AGUIRRE CASTILLO, Sergio Cesar    |
+| U20221G068 | ALMERCO ROJAS, Jocelyn Damaly     |
+| U202213278 | ESPEJO GAMARRA, Bryan Ronald      |
 | U202113111 | IPARRAGUIRRE RUEDA, Cristian Luis |
-| U20221C275 | LUQUE MINAYA, Renzo Andrés |
+| U20221C275 | LUQUE MINAYA, Renzo Andrés        |
 
 ### Lima – abril 2026
 
@@ -96,123 +95,168 @@ Durante la elaboración de esta entrega, el equipo colaboró utilizando GitFlow.
 
 ## Contenido
  
-- [Project Report Collaboration Insights](#project-report-collaboration-insights)
-- [Contenido](#contenido)
-- [Student Outcome](#student-outcome)
+- [Universidad Peruana de Ciencias Aplicadas (UPC)](#universidad-peruana-de-ciencias-aplicadas-upc)
+  - [Facultad de Ingeniería](#facultad-de-ingeniería)
+- [Informe de Trabajo Final](#informe-de-trabajo-final)
+    - [Integrantes:](#integrantes)
+    - [Lima – abril 2026](#lima--abril-2026)
+  - [Registro de Versiones del Informe](#registro-de-versiones-del-informe)
+  - [Project Report Collaboration Insights](#project-report-collaboration-insights)
+  - [Contenido](#contenido)
+  - [Student Outcome](#student-outcome)
 - [Capítulo I: Introducción](#capítulo-i-introducción)
   - [1.1. Startup Profile](#11-startup-profile)
     - [1.1.1. Descripción de la Startup](#111-descripción-de-la-startup)
     - [1.1.2. Perfiles de integrantes del equipo](#112-perfiles-de-integrantes-del-equipo)
   - [1.2. Solution Profile](#12-solution-profile)
     - [1.2.1 Antecedentes y problemática](#121-antecedentes-y-problemática)
-    - [1.2.2 Lean UX Process](#122-lean-ux-process)
+    - [1.2.2. Lean UX Process](#122-lean-ux-process)
       - [1.2.2.1. Lean UX Problem Statements](#1221-lean-ux-problem-statements)
       - [1.2.2.2. Lean UX Assumptions](#1222-lean-ux-assumptions)
       - [1.2.2.3. Lean UX Hypothesis Statements](#1223-lean-ux-hypothesis-statements)
       - [1.2.2.4. Lean UX Canvas](#1224-lean-ux-canvas)
-    - [1.3. Segmento objetivo](#13-segmento-objetivo)
-- [Capítulo II: Requirements Elicitation & Analysis](#capítulo-ii-requirements-elicitation-&-analysis)
+  - [1.3. Segmentos objetivo](#13-segmentos-objetivo)
+- [Capítulo II: Requirements Elicitation \& Analysis](#capítulo-ii-requirements-elicitation--analysis)
   - [2.1. Competidores](#21-competidores)
     - [2.1.1. Análisis competitivo](#211-análisis-competitivo)
-    - [2.1.2. Estrategias y tácticas frente a competidores](#212-estrategias-y-tácticas-frente-a-competidores)
+    - [2.1.2. Estrategias y tácticas frente a competidores.](#212-estrategias-y-tácticas-frente-a-competidores)
   - [2.2. Entrevistas](#22-entrevistas)
     - [2.2.1. Diseño de entrevistas](#221-diseño-de-entrevistas)
+      - [A. Segmento: Empresas Solicitantes (Clientes Corporativos / Operaciones en Campo)](#a-segmento-empresas-solicitantes-clientes-corporativos--operaciones-en-campo)
+      - [B. Segmento: Proveedores de Combustible (Distribuidores / Mayoristas)](#b-segmento-proveedores-de-combustible-distribuidores--mayoristas)
     - [2.2.2. Registro de entrevistas](#222-registro-de-entrevistas)
     - [2.2.3. Análisis de entrevistas](#223-análisis-de-entrevistas)
+      - [Análisis del Segmento 1: Cliente Corporativo (Demanda)](#análisis-del-segmento-1-cliente-corporativo-demanda)
+      - [Análisis del Segmento 2: Proveedor / Distribuidor (Oferta)](#análisis-del-segmento-2-proveedor--distribuidor-oferta)
   - [2.3. Needfinding](#23-needfinding)
     - [2.3.1. User Personas](#231-user-personas)
     - [2.3.2. User Task Matrix](#232-user-task-matrix)
     - [2.3.3. User Journey Mapping](#233-user-journey-mapping)
     - [2.3.4. Empathy Mapping](#234-empathy-mapping)
   - [2.4. Big Picture EventStorming](#24-big-picture-eventstorming)
-  - [2.5 Ubiquitous Language](#25-ubiquitous-language)
+  - [2.5. Ubiquitous Language](#25-ubiquitous-language)
 - [Capítulo III: Requirements Specification](#capítulo-iii-requirements-specification)
     - [3.1. User Stories](#31-user-stories)
     - [3.2. Impact Mapping](#32-impact-mapping)
     - [3.3. Product Backlog](#33-product-backlog)
 - [Capítulo IV: Solution Software Design](#capítulo-iv-solution-software-design)
-    - [4.1. Strategic-Level Domain-Driven Design](#41-strategic-level-domain-driven-design)
-        - [4.1.1. Design-Level EventStorming](#411-design-level-eventstorming)
-            - [4.1.1.1. Candidate Context Discovery](#4111-candidate-context-discovery)
-            - [4.1.1.2. Domain Message Flows Modeling](#4112-domain-message-flows-modeling)
-            - [4.1.1.3. Bounded Context Canvases](#4113-bounded-context-canvases)
-        - [4.1.2. Context Mapping](#412-context-mapping)
-        - [4.1.3. Software Architecture](#413-software-architecture)
-            - [4.1.3.1. Software Architecture System Landscape Diagram](#4131-software-architecture-system-landscape-diagram)
-            - [4.1.3.2. Software Architecture   Context Level Diagrams](#4132-software-architecture-context-level-diagrams)
-             - [4.1.3.3. Software Architecture Container Level Diagrams](#4133-software-architecture-container-level-diagrams)
-            - [4.1.3.4. Software Architecture Deployment Diagrams](#4134-software-architecture-deployment-diagrams)
-    - [4.2. Tactical-Level Domain-Driven Design](#42-tactical-level-domain-driven-design)
-        - [4.2.X. Bounded Context: <Bounded Context Name>](#42x-bounded-context-bounded-context-name)
-            - [4.2.X.1. Domain Layer](#42x1-domain-layer)
-            - [4.2.X.2. Interface Layer](#42x2-interface-layer)
-            - [4.2.X.3. Application Layer](#42x3-application-layer)
-            - [4.2.X.4. Infrastructure Layer](#42x4-infrastructure-layer)
-            - [4.2.X.5. Bounded Context Software Architecture Component Level Diagrams](#42x5-bounded-context-software-architecture-component-level-diagrams)
-            - [4.2.X.6. Bounded Context Software Architecture Code Level Diagrams](#42x6-bounded-context-software-architecture-code-level-diagrams)
-                - [4.2.X.6.1. Bounded Context Domain Layer Class Diagrams](#42x61-bounded-context-domain-layer-class-diagrams)
-                - [4.2.X.6.2. Bounded Context Database Design Diagram](#42x62-bounded-context-database-design-diagram)
+  - [4.1. Strategic-Level Domain-Driven Design](#41-strategic-level-domain-driven-design)
+    - [4.1.1. Design-Level EventStorming](#411-design-level-eventstorming)
+  - [Collect Domain Events](#collect-domain-events)
+  - [Timeline](#timeline)
+  - [Pain and Pivotal Points](#pain-and-pivotal-points)
+      - [4.1.1.1 Candidate Context Discovery](#4111-candidate-context-discovery)
+    - [4.1.1.2 Domain Message Flows Modeling](#4112-domain-message-flows-modeling)
+    - [4.1.1.3 Bounded Context Canvases](#4113-bounded-context-canvases)
+    - [4.1.2. Context Mapping](#412-context-mapping)
+    - [4.1.3. Software Architecture](#413-software-architecture)
+      - [4.1.3.1. Software Architecture System Landscape Diagram](#4131-software-architecture-system-landscape-diagram)
+      - [4.1.3.2. Software Architecture Context Level Diagrams](#4132-software-architecture-context-level-diagrams)
+      - [4.1.3.3. Software Architecture Container Level Diagrams](#4133-software-architecture-container-level-diagrams)
+      - [4.1.3.4. Software Architecture Deployment Diagrams](#4134-software-architecture-deployment-diagrams)
+  - [4.2. Tactical-Level Domain-Driven Design](#42-tactical-level-domain-driven-design)
+    - [4.2.1. Bounded Context: Order \& Payment Context](#421-bounded-context-order--payment-context)
+      - [4.2.1.1. Domain Layer](#4211-domain-layer)
+      - [4.2.1.2. Interface Layer](#4212-interface-layer)
+      - [4.2.1.3. Application Layer](#4213-application-layer)
+      - [4.2.1.4. Infrastructure Layer](#4214-infrastructure-layer)
+      - [4.2.1.5. Bounded Context Software Architecture Component Level Diagrams.](#4215-bounded-context-software-architecture-component-level-diagrams)
+      - [4.2.1.6. Bounded Context Software Architecture Code Level Diagrams.](#4216-bounded-context-software-architecture-code-level-diagrams)
+        - [4.2.1.6.1. Bounded Context Domain Layer Class Diagrams.](#42161-bounded-context-domain-layer-class-diagrams)
+        - [4.2.1.6.2. Bounded Context Database Design Diagram.](#42162-bounded-context-database-design-diagram)
+    - [4.2.2. Bounded Context: IoT \& Telemetry Context](#422-bounded-context-iot--telemetry-context)
+      - [4.2.2.1. Domain Layer](#4221-domain-layer)
+      - [4.2.2.2. Interface Layer](#4222-interface-layer)
+      - [4.2.2.3. Application Layer](#4223-application-layer)
+      - [4.2.2.4. Infrastructure Layer](#4224-infrastructure-layer)
+      - [4.2.2.5. Bounded Context Software Architecture Component Level Diagrams.](#4225-bounded-context-software-architecture-component-level-diagrams)
+      - [4.2.2.6. Bounded Context Software Architecture Code Level Diagrams.](#4226-bounded-context-software-architecture-code-level-diagrams)
+        - [4.2.2.6.1. Bounded Context Domain Layer Class Diagrams.](#42261-bounded-context-domain-layer-class-diagrams)
+        - [4.2.2.6.2. Bounded Context Database Design Diagram.](#42262-bounded-context-database-design-diagram)
+    - [4.2.3. Bounded Context: Financial \& Billing Context](#423-bounded-context-financial--billing-context)
+      - [4.2.3.1. Domain Layer](#4231-domain-layer)
+      - [4.2.3.2. Interface Layer](#4232-interface-layer)
+      - [4.2.3.3. Application Layer](#4233-application-layer)
+      - [4.2.3.4. Infrastructure Layer](#4234-infrastructure-layer)
+      - [4.2.3.5. Bounded Context Software Architecture Component Level Diagrams.](#4235-bounded-context-software-architecture-component-level-diagrams)
+      - [4.2.3.6. Bounded Context Software Architecture Code Level Diagrams.](#4236-bounded-context-software-architecture-code-level-diagrams)
+        - [4.2.3.6.1. Bounded Context Domain Layer Class Diagrams.](#42361-bounded-context-domain-layer-class-diagrams)
+        - [4.2.3.6.2. Bounded Context Database Design Diagram.](#42362-bounded-context-database-design-diagram)
+    - [4.2.4. Bounded Context: Identity \& Access Context](#424-bounded-context-identity--access-context)
+      - [4.2.4.1. Domain Layer](#4241-domain-layer)
+      - [4.2.4.2. Interface Layer](#4242-interface-layer)
+      - [4.2.4.3. Application Layer](#4243-application-layer)
+      - [4.2.4.4. Infrastructure Layer](#4244-infrastructure-layer)
+      - [4.2.4.5. Bounded Context Software Architecture Component Level Diagrams.](#4245-bounded-context-software-architecture-component-level-diagrams)
+      - [4.2.4.6. Bounded Context Software Architecture Code Level Diagrams.](#4246-bounded-context-software-architecture-code-level-diagrams)
+        - [4.2.4.6.1. Bounded Context Domain Layer Class Diagrams.](#42461-bounded-context-domain-layer-class-diagrams)
+        - [4.2.4.6.2. Bounded Context Database Design Diagram.](#42462-bounded-context-database-design-diagram)
 - [Capítulo V: Solution UI/UX Design](#capítulo-v-solution-uiux-design)
-    - [5.1. Style Guidelines](#51-style-guidelines)
-        - [5.1.1. General Style Guidelines](#511-general-style-guidelines)
-        - [5.1.2. Web, Mobile and IoT Style Guidelines](#512-web-mobile-and-iot-style-guidelines)
-    - [5.2. Information Architecture](#52-information-architecture)
-        - [5.2.1. Organization Systems](#521-organization-systems)
-        - [5.2.2. Labeling Systems](#522-labeling-systems)
-        - [5.2.3. SEO Tags and Meta Tags](#523-seo-tags-and-meta-tags)
-        - [5.2.4. Searching Systems](#524-searching-systems)
-        - [5.2.5. Navigation Systems](#525-navigation-systems)
-    - [5.3. Landing Page UI Design](#53-landing-page-ui-design)
-        - [5.3.1. Landing Page Wireframe](#531-landing-page-wireframe)
-        - [5.3.2. Landing Page Mock-up](#532-landing-page-mock-up)
-    - [5.4. Applications UX/UI Design](#54-applications-uxui-design)
-        - [5.4.1. Applications Wireframes](#541-applications-wireframes)
-        - [5.4.2. Applications Wireflow Diagrams](#542-applications-wireflow-diagrams)
-        - [5.4.3. Applications Mock-ups](#543-applications-mock-ups)
-        - [5.4.4. Applications User Flow Diagrams](#544-applications-user-flow-diagrams)
-    - [5.5. Applications Prototyping](#55-applications-prototyping)
+  - [5.1. Style Guidelines](#51-style-guidelines)
+    - [5.1.1. General Style Guidelines](#511-general-style-guidelines)
+    - [5.1.2. Web, Mobile and Iot Style Guidelines](#512-web-mobile-and-iot-style-guidelines)
+  - [5.2 Information Architecture](#52-information-architecture)
+    - [5.2.1. Organization Systems](#521-organization-systems)
+    - [5.2.2. Labeling Systems](#522-labeling-systems)
+    - [5.2.3. SEO Tags and Meta Tags](#523-seo-tags-and-meta-tags)
+    - [5.2.4. Searching Systems](#524-searching-systems)
+    - [5.2.5. Navigation Systems](#525-navigation-systems)
+  - [5.3 Landing Page UI Design](#53-landing-page-ui-design)
+    - [5.3.1. Landing Page Wireframe](#531-landing-page-wireframe)
+    - [5.3.2. Landing Page Mock-up](#532-landing-page-mock-up)
+  - [5.4 Applications UX/UI Design](#54-applications-uxui-design)
+    - [5.4.1. Applications Wireframes](#541-applications-wireframes)
+    - [5.4.2. Applications Wireflow Diagrams](#542-applications-wireflow-diagrams)
+    - [5.4.3. Applications Mock-ups](#543-applications-mock-ups)
+    - [5.4.4. Applications User Flow Diagrams](#544-applications-user-flow-diagrams)
+    - [5.5 Applications Prototyping](#55-applications-prototyping)
     - [5.6. IoT Device Design](#56-iot-device-design)
-- [Capítulo VI: Product Implementation, Validation & Deployment](#capítulo-vi-product-implementation-validation--deployment)
-    - [6.1. Software Configuration Management](#61-software-configuration-management)
-        - [6.1.1. Software Development Environment Configuration](#611-software-development-environment-configuration)
-        - [6.1.2. Source Code Management](#612-source-code-management)
-        - [6.1.3. Source Code Style Guide & Conventions](#613-source-code-style-guide--conventions)
-        - [6.1.4. Software Deployment Configuration](#614-software-deployment-configuration)
-    - [6.2. Landing Page, Services & Applications Implementation](#62-landing-page-services--applications-implementation)
-        - [6.2.X. Sprint n](#62x-sprint-n)
-            - [6.2.X.1. Sprint Planning n](#62x1-sprint-planning-n)
-            - [6.2.X.2. Aspect Leaders and Collaborators](#62x2-aspect-leaders-and-collaborators)
-            - [6.2.X.3. Sprint Backlog n](#62x3-sprint-backlog-n)
-            - [6.2.X.4. Development Evidence for Sprint Review](#62x4-development-evidence-for-sprint-review)
-            - [6.2.X.5. Testing Suite Evidence for Sprint Review](#62x5-testing-suite-evidence-for-sprint-review)
-            - [6.2.X.6. Execution Evidence for Sprint Review](#62x6-execution-evidence-for-sprint-review)
-            - [6.2.X.7. Services Documentation Evidence for Sprint Review](#62x7-services-documentation-evidence-for-sprint-review)
-            - [6.2.X.8. Software Deployment Evidence for Sprint Review](#62x8-software-deployment-evidence-for-sprint-review)
-            - [6.2.X.9. Team Collaboration Insights during Sprint](#62x9-team-collaboration-insights-during-sprint)
-    - [6.3. Validation Interviews](#63-validation-interviews)
-        - [6.3.1. Interview Design](#631-interview-design)
-        - [6.3.2. Interview Records](#632-interview-records)
-        - [6.3.3. Heuristic Evaluations](#633-heuristic-evaluations)
-    - [6.4. Video About-the-Product](#64-video-about-the-product)
-
-- [Conclusiones](#conclusiones)
-
-    - [Conclusiones y recomendaciones](#conclusiones-y-recomendaciones)
-    - [Video About-the-Team](#video-about-the-team)
-
-- [Bibliografía](#bibliografía)
-
-- [Anexos](#anexos)
+      - [Descripción general del dispositivo](#descripción-general-del-dispositivo)
+      - [Criterios de diseño y selección de sensores](#criterios-de-diseño-y-selección-de-sensores)
+      - [Diagrama del circuito — Wokwi (ESP32 DevKit V1)](#diagrama-del-circuito--wokwi-esp32-devkit-v1)
+      - [Flujo de interacción del dispositivo](#flujo-de-interacción-del-dispositivo)
+      - [Relación con la guía de estilo C++ (Embedded Application)](#relación-con-la-guía-de-estilo-c-embedded-application)
+  - [6.1 Product Implementation, Validation \& Deployment](#61-product-implementation-validation--deployment)
+    - [6.1.1. Software Development Environment Configuration](#611-software-development-environment-configuration)
+    - [Project Management](#project-management)
+    - [Product UX/UI Design](#product-uxui-design)
+    - [Software Development](#software-development)
+    - [Software Documentation](#software-documentation)
+    - [6.1.2. Source Code Management](#612-source-code-management)
+    - [URLs de repositorios](#urls-de-repositorios)
+    - [6.1.3. Source Code Style Guide \& Conventions](#613-source-code-style-guide--conventions)
+    - [HTML5 — Landing Page](#html5--landing-page)
+    - [CSS3 — Landing Page](#css3--landing-page)
+    - [TypeScript — Landing Page y Web Application (Vue)](#typescript--landing-page-y-web-application-vue)
+    - [Java — RESTful Web Service (Spring Boot)](#java--restful-web-service-spring-boot)
+    - [Python — Edge API (Flask)](#python--edge-api-flask)
+    - [C++ — Embedded Application (IoT / ESP32)](#c--embedded-application-iot--esp32)
+    - [6.1.4. Software Deployment Configuration](#614-software-deployment-configuration)
+      - [Landing Page](#landing-page)
+      - [Web Application (Frontend)](#web-application-frontend)
+      - [RESTful Web Service (Backend)](#restful-web-service-backend)
+      - [Edge API](#edge-api)
+      - [6.2.1.1. Sprint Planning 1.](#6211-sprint-planning-1)
+      - [6.2.1.2. Aspect Leaders and Collaborators.](#6212-aspect-leaders-and-collaborators)
+      - [6.2.1.3. Sprint Backlog 1.](#6213-sprint-backlog-1)
+      - [6.2.1.4. Development Evidence for Sprint Review.](#6214-development-evidence-for-sprint-review)
+      - [6.2.1.5. Testing Suite Evidence for Sprint Review.](#6215-testing-suite-evidence-for-sprint-review)
+        - [Acceptance Tests](#acceptance-tests)
+      - [6.2.1.6. Execution Evidence for Sprint Review.](#6216-execution-evidence-for-sprint-review)
+      - [6.2.1.7. Services Documentation Evidence for Sprint Review.](#6217-services-documentation-evidence-for-sprint-review)
+      - [6.2.1.8. Software Deployment Evidence for Sprint Review.](#6218-software-deployment-evidence-for-sprint-review)
+      - [6.2.1.9. Team Collaboration Insights during Sprint.](#6219-team-collaboration-insights-during-sprint)
+  - [Conclusiones](#conclusiones)
 
 <div style="page-break-after: always;"></div>
 
 ## Student Outcome
 Objetivo general, ABET – EAC - Student Outcome 7: Aprendizaje Continuo y Autónomo.
 
-| Criterio específico | Acciones realizadas | Conclusiones |
-|---|---|---|
+| Criterio específico                                                                                                                         | Acciones realizadas                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                       | Conclusiones                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                    |
+| ------------------------------------------------------------------------------------------------------------------------------------------- | --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
 | **Actualiza conceptos y conocimientos necesarios para su desarrollo profesional y en especial para su proyecto en soluciones de software.** | **Aguirre Castillo, Sergio Cesar** <br> **TB1:** Actualicé y apliqué conocimientos en desarrollo de software utilizando lenguajes como Python, C# y JavaScript durante el desarrollo de FuelTrack. Participé en la implementación de funcionalidades del sistema y reforcé buenas prácticas de programación para mejorar la calidad del código. <br><br> **Almerco Rojas, Jocelyn Damaly** <br> **TB1:** Actualicé y apliqué conocimientos en diseño y modelado de software, elaborando diagramas y apoyando en la documentación técnica del sistema FuelTrack, asegurando una estructura clara y organizada. <br><br> **Espejo Gamarra, Bryan Ronald** <br> **TB1:** Actualicé conocimientos en backend, bases de datos y DevOps, participando en la configuración y soporte técnico del sistema FuelTrack, asegurando su correcto funcionamiento. <br><br> **Iparraguirre Rueda, Cristian Luis** <br> **TB1:** Actualicé conocimientos en desarrollo de software utilizando lenguajes como Python, C++ y C#, apoyando en la implementación de funcionalidades del sistema y fortaleciendo mis habilidades técnicas. <br><br> **Luque Minaya, Renzo Andrés** <br> **TB1:** Actualicé conocimientos en desarrollo frontend, despliegue en la nube y seguridad, participando en la construcción de interfaces y en la configuración del sistema FuelTrack. | **Aguirre Castillo, Sergio Cesar** <br> **TB1:** La actualización de conocimientos permitió mejorar la calidad del desarrollo y optimizar la implementación de funcionalidades del sistema. <br><br> **Almerco Rojas, Jocelyn Damaly** <br> **TB1:** La actualización en diseño y documentación permitió estructurar de manera clara el sistema, facilitando su desarrollo. <br><br> **Espejo Gamarra, Bryan Ronald** <br> **TB1:** La actualización en backend y bases de datos permitió mejorar el rendimiento y la estabilidad del sistema. <br><br> **Iparraguirre Rueda, Cristian Luis** <br> **TB1:** La actualización de conocimientos técnicos permitió fortalecer las competencias en programación y contribuir al desarrollo del sistema. <br><br> **Luque Minaya, Renzo Andrés** <br> **TB1:** La actualización en frontend y despliegue permitió mejorar la experiencia de usuario y la disponibilidad del sistema. |
-| **Reconoce la necesidad del aprendizaje permanente para el desempeño profesional y el desarrollo de proyectos en soluciones de software.** | **Aguirre Castillo, Sergio Cesar** <br> **TB1:** Reconocí la importancia del aprendizaje continuo al investigar nuevas tecnologías y buenas prácticas de desarrollo para mejorar mi desempeño en FuelTrack. <br><br> **Almerco Rojas, Jocelyn Damaly** <br> **TB1:** Reconocí la necesidad del aprendizaje continuo al investigar nuevas herramientas de modelado y documentación para mejorar la calidad del sistema. <br><br> **Espejo Gamarra, Bryan Ronald** <br> **TB1:** Reconocí la importancia del aprendizaje continuo al investigar nuevas tecnologías de backend y DevOps para optimizar el sistema. <br><br> **Iparraguirre Rueda, Cristian Luis** <br> **TB1:** Reconocí la necesidad del aprendizaje continuo al reforzar conocimientos en programación y nuevas herramientas de desarrollo. <br><br> **Luque Minaya, Renzo Andrés** <br> **TB1:** Reconocí la importancia del aprendizaje continuo al investigar nuevas tecnologías de frontend, cloud y seguridad para mejorar el sistema FuelTrack. | **Aguirre Castillo, Sergio Cesar** <br> **TB1:** El aprendizaje continuo permite mantenerse actualizado y desarrollar soluciones más eficientes y escalables. <br><br> **Almerco Rojas, Jocelyn Damaly** <br> **TB1:** El aprendizaje permanente permite mejorar la calidad del diseño y la documentación del software. <br><br> **Espejo Gamarra, Bryan Ronald** <br> **TB1:** El aprendizaje continuo permite optimizar el rendimiento del sistema y adaptarse a nuevas tecnologías. <br><br> **Iparraguirre Rueda, Cristian Luis** <br> **TB1:** El aprendizaje permanente fortalece las habilidades técnicas necesarias para el desarrollo de software. <br><br> **Luque Minaya, Renzo Andrés** <br> **TB1:** El aprendizaje continuo permite mejorar la experiencia de usuario y la seguridad del sistema. |
+| **Reconoce la necesidad del aprendizaje permanente para el desempeño profesional y el desarrollo de proyectos en soluciones de software.**  | **Aguirre Castillo, Sergio Cesar** <br> **TB1:** Reconocí la importancia del aprendizaje continuo al investigar nuevas tecnologías y buenas prácticas de desarrollo para mejorar mi desempeño en FuelTrack. <br><br> **Almerco Rojas, Jocelyn Damaly** <br> **TB1:** Reconocí la necesidad del aprendizaje continuo al investigar nuevas herramientas de modelado y documentación para mejorar la calidad del sistema. <br><br> **Espejo Gamarra, Bryan Ronald** <br> **TB1:** Reconocí la importancia del aprendizaje continuo al investigar nuevas tecnologías de backend y DevOps para optimizar el sistema. <br><br> **Iparraguirre Rueda, Cristian Luis** <br> **TB1:** Reconocí la necesidad del aprendizaje continuo al reforzar conocimientos en programación y nuevas herramientas de desarrollo. <br><br> **Luque Minaya, Renzo Andrés** <br> **TB1:** Reconocí la importancia del aprendizaje continuo al investigar nuevas tecnologías de frontend, cloud y seguridad para mejorar el sistema FuelTrack.                                                                                                                                                                                                                                                                                                                                      | **Aguirre Castillo, Sergio Cesar** <br> **TB1:** El aprendizaje continuo permite mantenerse actualizado y desarrollar soluciones más eficientes y escalables. <br><br> **Almerco Rojas, Jocelyn Damaly** <br> **TB1:** El aprendizaje permanente permite mejorar la calidad del diseño y la documentación del software. <br><br> **Espejo Gamarra, Bryan Ronald** <br> **TB1:** El aprendizaje continuo permite optimizar el rendimiento del sistema y adaptarse a nuevas tecnologías. <br><br> **Iparraguirre Rueda, Cristian Luis** <br> **TB1:** El aprendizaje permanente fortalece las habilidades técnicas necesarias para el desarrollo de software. <br><br> **Luque Minaya, Renzo Andrés** <br> **TB1:** El aprendizaje continuo permite mejorar la experiencia de usuario y la seguridad del sistema.                                                                                                                 |
 
 
 # Capítulo I: Introducción
@@ -237,13 +281,13 @@ Convertirnos en el estándar de gestión inteligente de combustible B2B en Latin
 ### 1.1.2. Perfiles de integrantes del equipo
 
 
-| Foto                                          | Nombre completo               | Código     | Carrera                | Habilidades técnicas y rol                                   |
-|-----------------------------------------------|-------------------------------|------------|------------------------|--------------------------------------------------------------|
-| <img width="260" height="280" alt="image" src="https://github.com/user-attachments/assets/dafe372e-7f1f-428c-bab5-933c2f00b5ba" /> | Aguirre Castillo, Sergio Cesar | U202310425 | Ingenieria de Software | Soy estudiante de la carrera de Ingeniería de Software, actualmente cursando el séptimo ciclo. Tengo un gran interés en adquirir nuevos conocimientos relacionados con mi área que me permitan fortalecer mis habilidades y prepararme para los retos del futuro profesional. Cuento con experiencia en diversos lenguajes de programación como Python, C++, PHP, C#, Java y JavaScript, además de conocimientos en desarrollo web utilizando HTML, CSS y manejo básico de bases de datos como MySQL, lo que me permite adaptarme a distintos entornos de desarrollo y seguir aprendiendo nuevas tecnologías. |
-| <img width="260" height="280" alt="Cristian" src="../assets/foto_cristian.jpg" /> | Iparraguirre Rueda, Cristian Luis    | U202113111 | Ingeniería de Software | Soy estudiante de la carrera de Ingeniería de Software. Tengo interés en obtener nuevos conocimientos relacionados con mi carrera que me sean de utilidad para el futuro. Cuento con el conocimiento de diversos lenguajes Python, C++, PHP, C#. |
-| <img width="260" height="100" alt="Cristian" src="../assets/foto_bryan.png" />           | Bryan Ronald Espejo Gamarra     | U202213278 | Ingeniería de Software | Soy estudiante de la carrera de Ingeniería de Software, con interés en adquirir y fortalecer conocimientos que aporten a mi desarrollo profesional. Cuento con habilidades en Backend, gestión de Bases de Datos, prácticas de DevOps y coordinación técnica de proyectos, lo que me permite comprender y participar en el desarrollo integral de soluciones de software. Además, poseo conocimientos en diversos lenguajes de programación como Python, C++, PHP y C#, los cuales he aplicado en distintos proyectos, fortaleciendo mi capacidad de análisis, diseño e implementación de sistemas. |
-| ![Jocelyn Damaly Almerco Rojas](../assets/perfil_Jocelyn.jpg)          | Jocelyn Damaly Almerco Rojas     | u20221G068 | Ingeniería de Software | Soy estudiante de Ingeniería de Software. Tengo buen dominio en la elaboración de diagramas en C++ y manejo lenguajes como C++, SQL, CSS, HTML y JavaScript. Además, poseo conocimientos básicos en frameworks como Angular y Vue.js para el desarrollo frontend. Aporto al equipo con habilidades en análisis lógico, documentación técnica y diseño estructurado de software, contribuyendo a mantener la coherencia y calidad del proyecto.    |
-| <img width="260" height="200" alt="Cristian" src="../assets/foto_renzo.png" /> | Renzo Andres Luque Minaya | U20221C275 | Ingeniería de Software | Estudiante de ingenieria de Software de 8vo ciclo en la UPC. Conocimiento en desarrollo Frontend, Backend, Cloud Deployment, Seguridad y Autenticación. Interes en nuevos conocimientos relacionados a la carrera y el futuro tech. |
+| Foto                                                                                                                                                                                                | Nombre completo                   | Código     | Carrera                | Habilidades técnicas y rol                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                    |
+| --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | --------------------------------- | ---------- | ---------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| <img width="260" height="280" alt="image" src="https://github.com/user-attachments/assets/dafe372e-7f1f-428c-bab5-933c2f00b5ba" /><br><sub>*Foto de perfil de Sergio Cesar Aguirre Castillo.*</sub> | Aguirre Castillo, Sergio Cesar    | U202310425 | Ingenieria de Software | Soy estudiante de la carrera de Ingeniería de Software, actualmente cursando el séptimo ciclo. Tengo un gran interés en adquirir nuevos conocimientos relacionados con mi área que me permitan fortalecer mis habilidades y prepararme para los retos del futuro profesional. Cuento con experiencia en diversos lenguajes de programación como Python, C++, PHP, C#, Java y JavaScript, además de conocimientos en desarrollo web utilizando HTML, CSS y manejo básico de bases de datos como MySQL, lo que me permite adaptarme a distintos entornos de desarrollo y seguir aprendiendo nuevas tecnologías. |
+| <img width="260" height="280" alt="Cristian" src="assets/foto_cristian.jpg" /><br><sub>*Foto de perfil de Cristian Luis Iparraguirre Rueda.*</sub>                                                  | Iparraguirre Rueda, Cristian Luis | U202113111 | Ingeniería de Software | Soy estudiante de la carrera de Ingeniería de Software. Tengo interés en obtener nuevos conocimientos relacionados con mi carrera que me sean de utilidad para el futuro. Cuento con el conocimiento de diversos lenguajes Python, C++, PHP, C#.                                                                                                                                                                                                                                                                                                                                                              |
+| <img width="260" height="100" alt="Bryan" src="assets/foto_bryan.png" /><br><sub>*Foto de perfil de Bryan Ronald Espejo Gamarra.*</sub>                                                             | Bryan Ronald Espejo Gamarra       | U202213278 | Ingeniería de Software | Soy estudiante de la carrera de Ingeniería de Software, con interés en adquirir y fortalecer conocimientos que aporten a mi desarrollo profesional. Cuento con habilidades en Backend, gestión de Bases de Datos, prácticas de DevOps y coordinación técnica de proyectos, lo que me permite comprender y participar en el desarrollo integral de soluciones de software. Además, poseo conocimientos en diversos lenguajes de programación como Python, C++, PHP y C#, los cuales he aplicado en distintos proyectos, fortaleciendo mi capacidad de análisis, diseño e implementación de sistemas.           |
+| ![Jocelyn Damaly Almerco Rojas](assets/perfil_Jocelyn.jpg)<br><sub>*Foto de perfil de Jocelyn Damaly Almerco Rojas.*</sub>                                                                          | Jocelyn Damaly Almerco Rojas      | u20221G068 | Ingeniería de Software | Soy estudiante de Ingeniería de Software. Tengo buen dominio en la elaboración de diagramas en C++ y manejo lenguajes como C++, SQL, CSS, HTML y JavaScript. Además, poseo conocimientos básicos en frameworks como Angular y Vue.js para el desarrollo frontend. Aporto al equipo con habilidades en análisis lógico, documentación técnica y diseño estructurado de software, contribuyendo a mantener la coherencia y calidad del proyecto.                                                                                                                                                                |
+| <img width="260" height="200" alt="Renzo" src="assets/foto_renzo.png" /><br><sub>*Foto de perfil de Renzo Andres Luque Minaya.*</sub>                                                               | Renzo Andres Luque Minaya         | U20221C275 | Ingeniería de Software | Estudiante de ingenieria de Software de 8vo ciclo en la UPC. Conocimiento en desarrollo Frontend, Backend, Cloud Deployment, Seguridad y Autenticación. Interes en nuevos conocimientos relacionados a la carrera y el futuro tech.                                                                                                                                                                                                                                                                                                                                                                           |
 
 
 ## 1.2. Solution Profile
@@ -428,7 +472,8 @@ Los usuarios podrán monitorear telemétricamente sus cisternas, detectar anomal
 
 *(A continuación se presenta el Lean UX Canvas que resume la estrategia y validación del modelo de negocio de FuelTrack).*
 
-![Lean UX Canvas FuelTrack](../docs/lean-ux-canvas.png)
+![Lean UX Canvas FuelTrack](docs/lean-ux-canvas.png)
+*Figura del Lean UX Canvas de FuelTrack detallando las estrategias de negocio.*
 
 ---
 
@@ -490,25 +535,25 @@ A continuación, se presenta el Competitive Analysis Landscape, el cual nos perm
             <th>
                 <div style="text-align: center">
                     <strong>FuelTrack</strong><br>
-                    <img src="../assets/logo-fueltrack.jpg" height="120" alt="Logo FuelTrack"/>
+                    <img src="assets/logo-fueltrack.jpg" height="120" alt="Logo FuelTrack"/><br><sub>Logo oficial de FuelTrack.</sub>
                 </div>
             </th>
             <th>
                 <div style="text-align: center">
                     <strong>Zavgar</strong><br>
-                    <img src="../assets/logo-zavgar.jpg" height="120" alt="Logo Zavgar"/>
+                    <img src="assets/logo-zavgar.jpg" height="120" alt="Logo Zavgar"/><br><sub>Logo de la empresa de software Zavgar.</sub>
                 </div>
             </th>
             <th>
                 <div style="text-align: center">
                     <strong>FuelCloud</strong><br>
-                    <img src="../assets/logo-fuelcloud.jpg" height="120" alt="Logo FuelCloud"/>
+                    <img src="assets/logo-fuelcloud.jpg" height="120" alt="Logo FuelCloud"/><br><sub>Logo de la marca FuelCloud.</sub>
                 </div>
             </th>
             <th>
                 <div style="text-align: center">
                     <strong>Wialon</strong><br>
-                    <img src="../assets/logo-wialon.jpg" height="120" alt="Logo Wialon"/>
+                    <img src="assets/logo-wialon.jpg" height="120" alt="Logo Wialon"/><br><sub>Logo comercial de la plataforma Wialon.</sub>
                 </div>
             </th>
         </tr>
@@ -894,6 +939,7 @@ Para comprender a profundidad las necesidades operativas y logísticas de nuestr
     <th>Captura de la entrevista:</th>
     <td colspan="3">
       <img src="https://github.com/user-attachments/assets/524a2e4e-8539-49aa-8b13-b117c6db4d4f" alt="Captura de la entrevista" width="200">
+      <br><sub>Captura de pantalla de la entrevista realizada a Maria Elena Muñoz.</sub>
     </td>
   </tr>
   <tr>
@@ -936,7 +982,8 @@ Para comprender a profundidad las necesidades operativas y logísticas de nuestr
   <tr>
     <th>Captura de la entrevista:</th>
 <td colspan="3">
-        <img width="350" height="200" alt="Entrevista 2" src="../assets/interview2_screenshot.png" /> 
+        <img width="350" height="200" alt="Entrevista 2" src="assets/interview2_screenshot.png" /> 
+        <br><sub>Captura de pantalla de la entrevista realizada a Nicolas Pineda.</sub>
     </td>
   </tr>
   <tr>
@@ -979,7 +1026,8 @@ La empresa de transporte gestiona su suministro de combustible mediante procesos
   <tr>
     <th>Captura de la entrevista</th>
     <td colspan="3">
-      <img src="../assets/cap2/ENTREVISTA-ALE.png" alt="Captura de la entrevista" width="400">
+      <img src="assets/cap2/ENTREVISTA-ALE.png" alt="Captura de la entrevista" width="400">
+      <br><sub>Captura de pantalla de la entrevista realizada a Alexandra.</sub>
     </td>
   </tr>
   <tr>
@@ -1022,7 +1070,8 @@ La empresa de transporte gestiona su suministro de combustible mediante procesos
   <tr>
     <th>Captura de la entrevista:</th>
     <td colspan="3">
-      <img src="../assets/cap2/Segmento2_Persona1.png" alt="Captura de la entrevista" width="200">
+      <img src="assets/cap2/Segmento2_Persona1.png" alt="Captura de la entrevista" width="200">
+      <br><sub>Captura de pantalla de la entrevista realizada a Leonardo Gamboa.</sub>
     </td>
   </tr>
   <tr>
@@ -1065,7 +1114,8 @@ La empresa de transporte gestiona su suministro de combustible mediante procesos
   <tr>
     <th>Captura de la entrevista:</th>
     <td colspan="3">
-      <img src="../assets/cap2/Segmento2_Persona2.png" alt="Captura de la entrevista" width="200">
+      <img src="assets/cap2/Segmento2_Persona2.png" alt="Captura de la entrevista" width="200">
+      <br><sub>Captura de pantalla de la entrevista realizada a Marllely Arias.</sub>
     </td>
   </tr>
   <tr>
@@ -1107,7 +1157,8 @@ La empresa de transporte gestiona su suministro de combustible mediante procesos
   <tr>
     <th>Captura de la entrevista:</th>
     <td colspan="3">
-      <img src="../assets/cap2/Segmento2_Persona3.png" alt="Captura de la entrevista" width="200">
+      <img src="assets/cap2/Segmento2_Persona3.png" alt="Captura de la entrevista" width="200">
+      <br><sub>Captura de pantalla de la entrevista realizada a Kevin Díaz.</sub>
     </td>
   </tr>
   <tr>
@@ -1143,15 +1194,15 @@ Los entrevistados (Maria Elena, Nicolas y Alexandra) coinciden en que la gestió
 
 **Características Objetivas y Subjetivas:**
 
-| Característica | Frecuencia (n/3) | Porcentaje | Entrevistas relacionadas |
-| :--- | :--- | :--- | :--- |
-| **(Objetiva)** Gestión manual de pedidos y control (Excel, WhatsApp) | 3/3 | **100%** | 1(Maria), 2(Nicolas), 3(Alexandra) |
-| **(Objetiva)** Uso de documentación física para validar entregas y conciliar | 3/3 | **100%** | 1, 2, 3 |
-| **(Objetiva)** Reporte de desabastecimientos, paradas o penalidades operativas | 3/3 | **100%** | 1, 2, 3 |
-| **(Objetiva)** Necesidad de cruzar galones ingresados vs. facturados | 2/3 | **67%** | 2, 3 |
-| **(Subjetiva)** Frustración por la "caja negra" logística (nula visibilidad en ruta) | 3/3 | **100%** | 1, 2, 3 |
-| **(Subjetiva)** Preocupación constante por sobrecostos y control del presupuesto (*Burn Rate*) | 2/3 | **67%** | 2, 3 |
-| **(Subjetiva)** Deseo de contar con un dashboard centralizado y en tiempo real | 3/3 | **100%** | 1, 2, 3 |
+| Característica                                                                                 | Frecuencia (n/3) | Porcentaje | Entrevistas relacionadas           |
+| :--------------------------------------------------------------------------------------------- | :--------------- | :--------- | :--------------------------------- |
+| **(Objetiva)** Gestión manual de pedidos y control (Excel, WhatsApp)                           | 3/3              | **100%**   | 1(Maria), 2(Nicolas), 3(Alexandra) |
+| **(Objetiva)** Uso de documentación física para validar entregas y conciliar                   | 3/3              | **100%**   | 1, 2, 3                            |
+| **(Objetiva)** Reporte de desabastecimientos, paradas o penalidades operativas                 | 3/3              | **100%**   | 1, 2, 3                            |
+| **(Objetiva)** Necesidad de cruzar galones ingresados vs. facturados                           | 2/3              | **67%**    | 2, 3                               |
+| **(Subjetiva)** Frustración por la "caja negra" logística (nula visibilidad en ruta)           | 3/3              | **100%**   | 1, 2, 3                            |
+| **(Subjetiva)** Preocupación constante por sobrecostos y control del presupuesto (*Burn Rate*) | 2/3              | **67%**    | 2, 3                               |
+| **(Subjetiva)** Deseo de contar con un dashboard centralizado y en tiempo real                 | 3/3              | **100%**   | 1, 2, 3                            |
 
 ---
 
@@ -1161,14 +1212,14 @@ Los entrevistados de este segmento (Leonardo, Marllely y Kevin) revelan que el e
 
 **Características Objetivas y Subjetivas:**
 
-| Característica | Frecuencia (n/3) | Porcentaje | Entrevistas relacionadas |
-| :--- | :--- | :--- | :--- |
-| **(Objetiva)** Monitoreo actual limitado únicamente a ubicación GPS estándar | 3/3 | **100%** | 1(Leonardo), 2(Marllely), 3(Kevin) |
-| **(Objetiva)** Detección tardía de mermas, robos o anomalías en el volumen | 3/3 | **100%** | 1, 2, 3 |
-| **(Objetiva)** Dependencia de documentos en papel para el cierre y facturación | 3/3 | **100%** | 1, 2, 3 |
-| **(Subjetiva)** Frustración por los retrasos en la facturación y cobranza por papeleo | 3/3 | **100%** | 1, 2, 3 |
-| **(Subjetiva)** Inseguridad por penalizaciones injustas al no poder probar la integridad en ruta | 1/3 | **33%** | 1 |
-| **(Subjetiva)** Disposición favorable hacia la adopción de telemetría IoT y digitalización | 3/3 | **100%** | 1, 2, 3 |
+| Característica                                                                                   | Frecuencia (n/3) | Porcentaje | Entrevistas relacionadas           |
+| :----------------------------------------------------------------------------------------------- | :--------------- | :--------- | :--------------------------------- |
+| **(Objetiva)** Monitoreo actual limitado únicamente a ubicación GPS estándar                     | 3/3              | **100%**   | 1(Leonardo), 2(Marllely), 3(Kevin) |
+| **(Objetiva)** Detección tardía de mermas, robos o anomalías en el volumen                       | 3/3              | **100%**   | 1, 2, 3                            |
+| **(Objetiva)** Dependencia de documentos en papel para el cierre y facturación                   | 3/3              | **100%**   | 1, 2, 3                            |
+| **(Subjetiva)** Frustración por los retrasos en la facturación y cobranza por papeleo            | 3/3              | **100%**   | 1, 2, 3                            |
+| **(Subjetiva)** Inseguridad por penalizaciones injustas al no poder probar la integridad en ruta | 1/3              | **33%**    | 1                                  |
+| **(Subjetiva)** Disposición favorable hacia la adopción de telemetría IoT y digitalización       | 3/3              | **100%**   | 1, 2, 3                            |
 ## 2.3. Needfinding
 
 En el siguiente apartado, analizaremos a nuestros segmentos objetivos para identificar sus necesidades y en base a esto ofrecerles soluciones óptimas a sus problemas.
@@ -1177,15 +1228,15 @@ En el siguiente apartado, analizaremos a nuestros segmentos objetivos para ident
 
 **Segmento 1: El Cliente Corporativo (Demanda)**
 
-<img src="../assets/User_persona1.png" alt="User persona - segmento 1" width="600"/>
+<img src="assets/User_persona1.png" alt="User persona - segmento 1" width="600"/>
 
-_Imagen (N°2). Elaboración propia. Realizado en UXPressia_
+<sub>*Elaboración propia de perfil User Persona para Cliente Corporativo. Realizado en UXPressia.*</sub>
 
 **Segmento 2: El Proveedor / Distribuidor (Oferta)**
 
-<img src="../assets/User_persona2.png" alt="User persona - segmento 2" width="600"/>
+<img src="assets/User_persona2.png" alt="User persona - segmento 2" width="600"/>
 
-_Imagen (N°3). Elaboración propia. Realizado en UXPressia_
+<sub>*Elaboración propia de perfil User Persona para Proveedor/Distribuidor. Realizado en UXPressia.*</sub>
 <br> 
 
 ### 2.3.2. User Task Matrix
@@ -1194,14 +1245,14 @@ En esta sección se presenta el *User Task Matrix*, el cual identifica y organiz
 
 **Segmento 1: Cliente Corporativo (Gestión de Operaciones y Logística)**
 
-| Tareas del Usuario | Objetivo de la Tarea | Frecuencia | Importancia |
-| :--- | :--- | :---: | :---: |
-| **Monitorear niveles de stock (IoT)** | Evitar quiebres de stock mediante la lectura constante de sensores ultrasónicos. | Alta | Crítica |
-| **Auditar consumo real vs. facturado** | Garantizar que el volumen de combustible pagado ingresó realmente al tanque. | Media | Alta |
-| **Analizar "Burn Rate" diario** | Proyectar cuántos días de autonomía operativa quedan según el ritmo de gasto actual. | Alta | Alta |
-| **Programar pedidos de reabastecimiento** | Automatizar la generación de órdenes de compra basada en niveles críticos del sensor. | Media | Alta |
-| **Gestionar alertas de anomalías** | Reaccionar de forma inmediata ante caídas bruscas de nivel fuera del horario operativo. | Baja | Crítica |
-| **Validar comprobantes digitales (Voucher)** | Agilizar la conciliación contable eliminando la dependencia de guías de remisión físicas. | Media | Media |
+| Tareas del Usuario                           | Objetivo de la Tarea                                                                      | Frecuencia | Importancia |
+| :------------------------------------------- | :---------------------------------------------------------------------------------------- | :--------: | :---------: |
+| **Monitorear niveles de stock (IoT)**        | Evitar quiebres de stock mediante la lectura constante de sensores ultrasónicos.          |    Alta    |   Crítica   |
+| **Auditar consumo real vs. facturado**       | Garantizar que el volumen de combustible pagado ingresó realmente al tanque.              |   Media    |    Alta     |
+| **Analizar "Burn Rate" diario**              | Proyectar cuántos días de autonomía operativa quedan según el ritmo de gasto actual.      |    Alta    |    Alta     |
+| **Programar pedidos de reabastecimiento**    | Automatizar la generación de órdenes de compra basada en niveles críticos del sensor.     |   Media    |    Alta     |
+| **Gestionar alertas de anomalías**           | Reaccionar de forma inmediata ante caídas bruscas de nivel fuera del horario operativo.   |    Baja    |   Crítica   |
+| **Validar comprobantes digitales (Voucher)** | Agilizar la conciliación contable eliminando la dependencia de guías de remisión físicas. |   Media    |    Media    |
 
 <br>
 
@@ -1209,14 +1260,14 @@ En esta sección se presenta el *User Task Matrix*, el cual identifica y organiz
 
 **Segmento 2: Proveedor / Distribuidor (Control de Flota y Despacho)**
 
-| Tareas del Usuario | Objetivo de la Tarea | Frecuencia | Importancia |
-| :--- | :--- | :---: | :---: |
-| **Rastreo telemétrico de cisternas** | Supervisar en tiempo real la ubicación, velocidad y cumplimiento de rutas de las unidades. | Alta | Alta |
-| **Monitorear integridad de carga (IoT)** | Detectar aperturas de válvulas no autorizadas o caídas de presión del tanque en ruta. | Alta | Crítica |
-| **Asignar unidades y rutas de despacho** | Optimizar la logística de entrega basándose en la demanda real reportada por el sistema. | Alta | Alta |
-| **Validar entregas mediante Geocercas** | Confirmar de forma automática y digital que la unidad llegó al punto de entrega pactado. | Alta | Alta |
-| **Gestionar alertas de "Ordeño" (Robo)** | Activar protocolos de seguridad y bloqueo ante la detección de extracción ilícita en tránsito. | Ocasional | Crítica |
-| **Digitalizar evidencias de entrega** | Eliminar el uso de documentos físicos para acelerar el ciclo de facturación y cobranza. | Alta | Alta |
+| Tareas del Usuario                       | Objetivo de la Tarea                                                                           | Frecuencia | Importancia |
+| :--------------------------------------- | :--------------------------------------------------------------------------------------------- | :--------: | :---------: |
+| **Rastreo telemétrico de cisternas**     | Supervisar en tiempo real la ubicación, velocidad y cumplimiento de rutas de las unidades.     |    Alta    |    Alta     |
+| **Monitorear integridad de carga (IoT)** | Detectar aperturas de válvulas no autorizadas o caídas de presión del tanque en ruta.          |    Alta    |   Crítica   |
+| **Asignar unidades y rutas de despacho** | Optimizar la logística de entrega basándose en la demanda real reportada por el sistema.       |    Alta    |    Alta     |
+| **Validar entregas mediante Geocercas**  | Confirmar de forma automática y digital que la unidad llegó al punto de entrega pactado.       |    Alta    |    Alta     |
+| **Gestionar alertas de "Ordeño" (Robo)** | Activar protocolos de seguridad y bloqueo ante la detección de extracción ilícita en tránsito. | Ocasional  |   Crítica   |
+| **Digitalizar evidencias de entrega**    | Eliminar el uso de documentos físicos para acelerar el ciclo de facturación y cobranza.        |    Alta    |    Alta     |
 <br>
 
 ### 2.3.3. User Journey Mapping
@@ -1228,100 +1279,104 @@ Se considera un entorno mejorado mediante IoT, donde la información en tiempo r
 
 **Segmento 1: El Cliente Corporativo (Demanda)**
 
-<img src="../assets/Journey_Map1.png" alt="User persona - segmento 1" width="600"/>
+<img src="assets/Journey_Map1.png" alt="User persona - segmento 1" width="600"/>
 
-_Imagen (N°2). Elaboración propia. Realizado en UXPressia_
+<sub>*Journey Map propio para Cliente Corporativo. Realizado en UXPressia.*</sub>
 
 **Segmento 2: El Proveedor / Distribuidor (Oferta)**
 
-<img src="../assets/Journey_Map2.png" alt="User persona - segmento 2" width="600"/>
+<img src="assets/Journey_Map2.png" alt="User persona - segmento 2" width="600"/>
 
-_Imagen (N°3). Elaboración propia. Realizado en UXPressia_
+<sub>*Journey Map propio para Proveedor / Distribuidor. Realizado en UXPressia.*</sub>
 <br> 
 
 ### 2.3.4. Empathy Mapping
 
-![empathymap_segmento1](../assets/empathymap_segmento1.png)
-![empathymap_segmento2](../assets/empathymap_segmento2.png)
+![empathymap_segmento1](assets/empathymap_segmento1.png)
+*Figura del Empathy Map del Cliente Corporativo para analizar necesidades y percepciones.*
+
+![empathymap_segmento2](assets/empathymap_segmento2.png)
+*Figura del Empathy Map del Proveedor / Distribuidor.*
 
 ## 2.4. Big Picture EventStorming
 
 Nos reunimos para realizar una lluvia de ideas preliminar sobre los eventos que tendría nuestro proyecto.
 
-![BigPictureEventStorming](../assets/BigPictureEventStorming.png)
+![BigPictureEventStorming](assets/BigPictureEventStorming.png)
+*Esquema visual del Big Picture EventStorming para el sistema FuelTrack.*
 
 ## 2.5. Ubiquitous Language
 
-| Término | Definición | Segmentos relacionados |
-|---------|------------|------------------------|
-| **Requester (Solicitante)** | Usuario representante de una empresa requiere abastecimiento de combustible | Solicitante |
-| **Supplier (Proveedor)** | Empresa que ofrece combustibles al por mayor y compite mediante precios, descuentos y promociones. | Proveedor |
-| **Fuel (Combustible)** | Recurso energético que es ofertado por los proveedores. Ejemplos: gasohol, diésel, GNV. | Solicitante, Proveedor |
-| **Plant (Planta)** | Punto de distribución del combustible perteneciente a al proveedor. | Solicitante, Proveedor |
-| **Price per gallon (Precio por galón)** | Valor económico que el proveedor establece por cada galón de combustible. Puede variar según planta, tipo de combustible, etc. | Solicitante, Proveedor |
-| **Discount (Descuento)** | Reducción aplicada sobre el precio ofrecido, ya sea por volumen, fidelización u otras condicioens. | Solicitante, Proveedor |
-| **Quotation (Cotización)** | Propuesta formal que un proveedor genera detallando precios, productos, entre otras condiciones | Solicitante, Proveedor |
-| **Price Table (Tabla de precios)** | Grilla o tabla que muestra los precios ofrecidos por planta, proveedor y tipo de combustible. | Solicitante |
-| **Negotiation (Negociación)**   | Intercambio de condiciones entre solicitante y proveedor para alcanzar un acuerdo favorable para ambas partes. | Solicitante, Proveedor |
-| **Consumption Volume (Volumen de consumo)** | Cantidad de combustible estimada que una empresa solicita regularmente en un periodo determinado. | Solicitante |
-| **Purchase History (Historial de compras)** | Registro de cotizaciones y compras o pedidos previos hechos por el solicitante dentro del sistema. | Solicitante |
+| Término                                     | Definición                                                                                                                     | Segmentos relacionados |
+| ------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------ | ---------------------- |
+| **Requester (Solicitante)**                 | Usuario representante de una empresa requiere abastecimiento de combustible                                                    | Solicitante            |
+| **Supplier (Proveedor)**                    | Empresa que ofrece combustibles al por mayor y compite mediante precios, descuentos y promociones.                             | Proveedor              |
+| **Fuel (Combustible)**                      | Recurso energético que es ofertado por los proveedores. Ejemplos: gasohol, diésel, GNV.                                        | Solicitante, Proveedor |
+| **Plant (Planta)**                          | Punto de distribución del combustible perteneciente a al proveedor.                                                            | Solicitante, Proveedor |
+| **Price per gallon (Precio por galón)**     | Valor económico que el proveedor establece por cada galón de combustible. Puede variar según planta, tipo de combustible, etc. | Solicitante, Proveedor |
+| **Discount (Descuento)**                    | Reducción aplicada sobre el precio ofrecido, ya sea por volumen, fidelización u otras condicioens.                             | Solicitante, Proveedor |
+| **Quotation (Cotización)**                  | Propuesta formal que un proveedor genera detallando precios, productos, entre otras condiciones                                | Solicitante, Proveedor |
+| **Price Table (Tabla de precios)**          | Grilla o tabla que muestra los precios ofrecidos por planta, proveedor y tipo de combustible.                                  | Solicitante            |
+| **Negotiation (Negociación)**               | Intercambio de condiciones entre solicitante y proveedor para alcanzar un acuerdo favorable para ambas partes.                 | Solicitante, Proveedor |
+| **Consumption Volume (Volumen de consumo)** | Cantidad de combustible estimada que una empresa solicita regularmente en un periodo determinado.                              | Solicitante            |
+| **Purchase History (Historial de compras)** | Registro de cotizaciones y compras o pedidos previos hechos por el solicitante dentro del sistema.                             | Solicitante            |
 
-﻿# Capítulo III: Requirements Specification
+# Capítulo III: Requirements Specification
 
 ### 3.1. User Stories
 
 En esta sección se presentan los requisitos definidos mediante *User Stories* y *Epics*. Se ha diseñado un conjunto de 48 ítems que cubren desde la funcionalidad básica hasta la integración avanzada de hardware IoT, asegurando una solución innovadora y rentable.
 
-| Epic / Story ID | Título | Descripción | Criterios de Aceptación (Gherkin) | Rel. |
-|:---:|---|---|---|:---:|
-| **US01** | **Detección de anomalías en tanques** | Como controlador de flota, quiero recibir alertas automáticas ante caídas bruscas de presión para detectar robos en tiempo real. | **Given** sensor detecta caída > 5% en reposo, **When** está fuera de zona de descarga, **Then** emite alerta crítica. | EP02 |
-| **US02** | **Dashboard de consumo predictivo** | Como gerente de logística, quiero visualizar un gráfico de agotamiento basado en consumo histórico para evitar paradas. | **Given** datos de 30 días, **When** accede al dashboard, **Then** el sistema calcula la fecha estimada de desabastecimiento. | EP01 |
-| **US03** | **Control de válvulas por geocerca** | Como proveedor, quiero que las válvulas solo se habiliten cuando el GPS confirme que está dentro de la geocerca. | **Given** vehículo en destino, **When** valida posición GPS, **Then** envía comando de desbloqueo al hardware. | EP02 |
-| **US04** | **Emisión de Vouchers inmutables** | Como usuario, quiero un comprobante digital firmado al finalizar la descarga para eliminar el papel y el fraude. | **Given** descarga finalizada, **When** sensor confirma flujo detenido, **Then** genera PDF con volumen exacto recibido. | EP02 |
-| **US05** | **Asistente de reabastecimiento** | Como solicitante, quiere que el sistema sugiera el volumen óptimo de compra basado en su capacidad real. | **Given** nivel por sensor IoT, **When** inicia pedido, **Then** precarga cantidad para llenar al 95% de capacidad. | EP01 |
-| **US06** | **Registrar pedido** | Como solicitante, quiere registrar pedidos para agilizar la solicitud y evitar llamadas. | **Given** datos válidos, **When** envía solicitud, **Then** crea pedido con ID y estado “Pendiente”. | EP01 |
-| **US07** | **Consultar historial de pedidos** | Como solicitante, quiere consultar su historial con estados y detalles. | **Given** pedidos existentes, **When** consulta historial, **Then** retorna lista con estados actuales. | EP01 |
-| **US08** | **Iniciar sesión** | Como usuario, quiere iniciar sesión con credenciales válidas. | **Given** credenciales válidas, **When** inicia sesión, **Then** el sistema autentica y emite token JWT. | EP03 |
-| **US09** | **MFA en pedidos críticos** | Como solicitante, quiere doble factor de autenticación en pedidos de alto valor. | **Given** seguridad activa, **When** confirma pedido, **Then** solicita código de verificación adicional. | EP03 |
-| **US10** | **Actualizar estado de pedido** | Como proveedor, quiere actualizar la fase operativa del despacho. | **Given** pedido activo, **When** cambia estado, **Then** persiste transición (Confirmado/En ruta/Entregado). | EP02 |
-| **US11** | **Notificar cambios al cliente** | Como proveedor, quiere que el cliente reciba alertas automáticas. | **Given** cambio de estado, **When** se registra, **Then** envía alerta push/email al cliente inmediatamente. | EP02 |
-| **US12** | **Aprobación administrativa** | Como proveedor, quiere validar stock y línea de crédito antes de aceptar. | **Given** pedido entrante, **When** revisa disponibilidad, **Then** aprueba o rechaza con motivo. | EP02 |
-| **US13** | **Cierre de orden (Fulfillment)** | Como proveedor, quiere cerrar el ciclo tras la entrega confirmada. | **Given** entrega física realizada, **When** ejecuta cierre, **Then** pedido pasa a estado “Finalizado”. | EP02 |
-| **US14** | **KPIs de gestión (Solicitante)** | Como solicitante, quiere ver resumen de sus consumos por estado. | **Given** pedidos realizados, **When** consulta KPIs, **Then** visualiza métricas de gasto. | EP01 |
-| **US15** | **KPIs operativos (Proveedor)** | Como proveedor, quiere ver resumen de eficiencia de entregas. | **Given** pedidos gestionados, **When** consulta, **Then** visualiza KPIs de logística. | EP02 |
-| **US16** | **Gráfico de tendencia mensual** | Como solicitante, quiere ver tendencia de gasto energético. | **Given** histórico de pedidos, **When** consulta gráfico, **Then** expone barras de consumo mensual. | EP01 |
-| **US17** | **Gráfico de ventas proyectadas** | Como proveedor, quiere ver tendencia de ingresos. | **Given** despachos realizados, **When** consulta gráfico, **Then** expone métricas de ventas. | EP02 |
-| **US18** | **Exportación de reportes PDF** | Como usuario, quiere exportar datos para auditoría contable. | **Given** periodo seleccionado, **When** solicita exportar, **Then** genera documento PDF inmutable. | EP01 |
-| **US19** | **Asignar conductor y unidad** | Como proveedor, quiere registrar responsables del transporte. | **Given** personal disponible, **When** asigna a pedido, **Then** vincula conductor y placa de cisterna. | EP02 |
-| **US20** | **Filtrar pedidos operativos** | Como usuario, quiere organizar su vista por estados o fechas. | **Given** lista de pedidos, **When** aplica filtro, **Then** retorna lista segmentada. | EP01 |
-| **US21** | **Búsqueda por código único** | Como usuario, quiere localizar un pedido de forma inmediata. | **Given** ID de pedido, **When** busca en el sistema, **Then** visualiza el detalle de dicha orden. | EP01 |
-| **US22** | **Registro de nuevos perfiles** | Como visitante, quiere crear cuenta como cliente o proveedor. | **Given** datos de registro, **When** confirma alta, **Then** crea cuenta con el rol seleccionado. | EP03 |
-| **US23** | **Gestión de roles (RBAC)** | Como administrador, quiere que cada usuario acceda solo a sus funciones. | **Given** login exitoso, **When** navega, **Then** el sistema restringe vistas según el rol. | EP03 |
-| **US24** | **Restablecimiento de clave** | Como usuario, quiere recuperar acceso mediante su correo. | **Given** correo válido, **When** solicita reset, **Then** envía enlace temporal de recuperación. | EP03 |
-| **US25** | **Actualización de perfil** | Como usuario, quiere mantener sus datos de contacto al día. | **Given** cambios en perfil, **When** guarda, **Then** persiste la nueva información. | EP03 |
-| **US26** | **Explorar Landing Page** | Como visitante, quiere conocer los beneficios del ecosistema FuelTrack. | **Given** acceso público, **When** navega landing, **Then** visualiza propuesta de valor. | EP04 |
-| **US27** | **Consultar Home pública** | Como visitante, quiere ver el resumen ejecutivo del servicio. | **Given** entrada al sitio, **When** carga home, **Then** presenta visión y CTA de registro. | EP04 |
-| **US28** | **Visualizar "Sobre Nosotros"** | Como visitante, quiere conocer al equipo de desarrollo. | **Given** sección About Us, **When** consulta, **Then** presenta fotos e info institucional. | EP04 |
-| **US29** | **Guía de funcionamiento** | Como visitante, quiere entender el flujo del sistema IoT/Software. | **Given** sección tutorial, **When** revisa, **Then** comprende interacción cliente-proveedor. | EP04 |
-| **US30** | **Formulario de contacto** | Como visitante, quiere remitir consultas comerciales. | **Given** datos de contacto, **When** envía mensaje, **Then** el sistema confirma recepción. | EP04 |
-| **TS31** | **Endpoint de pedidos (POST)** | Como developer, quiere servicio REST para creación de órdenes. | **Given** payload JSON válido, **When** POST /orders, **Then** retorna 201 Created. | EP01 |
-| **TS32** | **Emitir token JWT** | Como developer, quiere servicio de autenticación segura. | **Given** credenciales válidas, **When** login, **Then** retorna JWT firmado. | EP03 |
-| **TS33** | **Servicio de notificaciones Push** | Como developer, quiere gatillar alertas automáticas. | **Given** evento de cambio de estado, **When** ocurre, **Then** envía notificación al dispositivo. | EP02 |
-| **TS34** | **Registro de coordenadas GPS** | Como developer, quiere persistir trazabilidad IoT en la DB. | **Given** trama de ubicación, **When** recibe de sensor, **Then** guarda con marca de tiempo. | EP02 |
-| **TS35** | **Endpoint de Login** | Como developer, quiere controlador para validación de acceso. | **Given** request de login, **When** procesa, **Then** valida contra DB y responde. | EP03 |
-| **TS36** | **Lógica de recuperación de clave** | Como developer, quiere manejo de tokens temporales. | **Given** solicitud de reset, **When** valida email, **Then** genera token de un solo uso. | EP03 |
-| **TS37** | **Invalidación de sesiones (Logout)** | Como developer, quiere cerrar sesiones de forma segura. | **Given** token activo, **When** logout, **Then** destruye sesión en el servidor. | EP03 |
-| **TS38** | **Sincronización de despacho IoT** | Como developer, quiere vincular salida de planta con sensor. | **Given** estado "En ruta", **When** marca despacho, **Then** activa monitoreo de volumen. | EP02 |
-| **TS39** | **Validación de disponibilidad IoT** | Como developer, quiere ver estado real de cisternas. | **Given** consulta de unidad, **When** revisa sensor, **Then** reporta si está libre o en ruta. | EP02 |
-| **TS40** | **Evento de proximidad por Geocerca** | Como developer, quiere alerta automática al llegar a destino. | **Given** unidad en movimiento, **When** entra a radio de geocerca, **Then** dispara evento de llegada. | EP02 |
-| **TS41** | **Integración de Smart Lock** | Como developer, quiere control de hardware desde software. | **Given** validación GPS positiva, **When** autoriza descarga, **Then** envía señal de apertura. | EP02 |
-| **TS42** | **Cálculo de Burn Rate (Back-end)** | Como developer, quiere lógica de predicción de consumo. | **Given** historial de niveles IoT, **When** procesa, **Then** retorna fecha estimada de stock cero. | EP01 |
-| **TS43** | **Filtrado de datos en servidor** | Como developer, quiere optimizar búsqueda de grandes volúmenes. | **Given** parámetros de filtro, **When** consulta DB, **Then** retorna set de datos paginado. | EP01 |
-| **TS44** | **Seguridad de Vouchers (Hashing)** | Como developer, quiere asegurar integridad de comprobantes. | **Given** voucher generado, **When** guarda en storage, **Then** asocia un hash único de seguridad. | EP02 |
-| **TS45** | **Controlador de Perfil de Usuario** | Como developer, quiere manejo de datos de cuenta. | **Given** request de perfil, **When** procesa, **Then** retorna DTO con info del usuario. | EP03 |
-| **TS46** | **Listado de Clientes (Back-end)** | Como developer, quiere servicio de gestión de cartera. | **Given** ID de proveedor, **When** consulta, **Then** retorna lista de empresas asociadas. | EP02 |
-| **SP47** | **Investigación de pasarelas de pago** | Como equipo, quiere evaluar APIs de conciliación bancaria. | **Given** meta de auto-pago, **When** analiza opciones, **Then** propone arquitectura de pagos. | EP03 |
-| **US48** | **Conformidad de entrega en campo** | Como operario, quiere firmar recepción digitalmente. | **Given** descarga terminada, **When** firma en tablet/celular, **Then** sube evidencia al sistema. | EP01 |
+| Epic / Story ID | Título                                 | Descripción                                                                                                                      | Criterios de Aceptación (Gherkin)                                                                                             | Rel.  |
+| :-------------: | -------------------------------------- | -------------------------------------------------------------------------------------------------------------------------------- | ----------------------------------------------------------------------------------------------------------------------------- | :---: |
+|    **US01**     | **Detección de anomalías en tanques**  | Como controlador de flota, quiero recibir alertas automáticas ante caídas bruscas de presión para detectar robos en tiempo real. | **Given** sensor detecta caída > 5% en reposo, **When** está fuera de zona de descarga, **Then** emite alerta crítica.        | EP02  |
+|    **US02**     | **Dashboard de consumo predictivo**    | Como gerente de logística, quiero visualizar un gráfico de agotamiento basado en consumo histórico para evitar paradas.          | **Given** datos de 30 días, **When** accede al dashboard, **Then** el sistema calcula la fecha estimada de desabastecimiento. | EP01  |
+|    **US03**     | **Control de válvulas por geocerca**   | Como proveedor, quiero que las válvulas solo se habiliten cuando el GPS confirme que está dentro de la geocerca.                 | **Given** vehículo en destino, **When** valida posición GPS, **Then** envía comando de desbloqueo al hardware.                | EP02  |
+|    **US04**     | **Emisión de Vouchers inmutables**     | Como usuario, quiero un comprobante digital firmado al finalizar la descarga para eliminar el papel y el fraude.                 | **Given** descarga finalizada, **When** sensor confirma flujo detenido, **Then** genera PDF con volumen exacto recibido.      | EP02  |
+|    **US05**     | **Asistente de reabastecimiento**      | Como solicitante, quiere que el sistema sugiera el volumen óptimo de compra basado en su capacidad real.                         | **Given** nivel por sensor IoT, **When** inicia pedido, **Then** precarga cantidad para llenar al 95% de capacidad.           | EP01  |
+|    **US06**     | **Registrar pedido**                   | Como solicitante, quiere registrar pedidos para agilizar la solicitud y evitar llamadas.                                         | **Given** datos válidos, **When** envía solicitud, **Then** crea pedido con ID y estado “Pendiente”.                          | EP01  |
+|    **US07**     | **Consultar historial de pedidos**     | Como solicitante, quiere consultar su historial con estados y detalles.                                                          | **Given** pedidos existentes, **When** consulta historial, **Then** retorna lista con estados actuales.                       | EP01  |
+|    **US08**     | **Iniciar sesión**                     | Como usuario, quiere iniciar sesión con credenciales válidas.                                                                    | **Given** credenciales válidas, **When** inicia sesión, **Then** el sistema autentica y emite token JWT.                      | EP03  |
+|    **US09**     | **MFA en pedidos críticos**            | Como solicitante, quiere doble factor de autenticación en pedidos de alto valor.                                                 | **Given** seguridad activa, **When** confirma pedido, **Then** solicita código de verificación adicional.                     | EP03  |
+|    **US10**     | **Actualizar estado de pedido**        | Como proveedor, quiere actualizar la fase operativa del despacho.                                                                | **Given** pedido activo, **When** cambia estado, **Then** persiste transición (Confirmado/En ruta/Entregado).                 | EP02  |
+|    **US11**     | **Notificar cambios al cliente**       | Como proveedor, quiere que el cliente reciba alertas automáticas.                                                                | **Given** cambio de estado, **When** se registra, **Then** envía alerta push/email al cliente inmediatamente.                 | EP02  |
+|    **US12**     | **Aprobación administrativa**          | Como proveedor, quiere validar stock y línea de crédito antes de aceptar.                                                        | **Given** pedido entrante, **When** revisa disponibilidad, **Then** aprueba o rechaza con motivo.                             | EP02  |
+|    **US13**     | **Cierre de orden (Fulfillment)**      | Como proveedor, quiere cerrar el ciclo tras la entrega confirmada.                                                               | **Given** entrega física realizada, **When** ejecuta cierre, **Then** pedido pasa a estado “Finalizado”.                      | EP02  |
+|    **US14**     | **KPIs de gestión (Solicitante)**      | Como solicitante, quiere ver resumen de sus consumos por estado.                                                                 | **Given** pedidos realizados, **When** consulta KPIs, **Then** visualiza métricas de gasto.                                   | EP01  |
+|    **US15**     | **KPIs operativos (Proveedor)**        | Como proveedor, quiere ver resumen de eficiencia de entregas.                                                                    | **Given** pedidos gestionados, **When** consulta, **Then** visualiza KPIs de logística.                                       | EP02  |
+|    **US16**     | **Gráfico de tendencia mensual**       | Como solicitante, quiere ver tendencia de gasto energético.                                                                      | **Given** histórico de pedidos, **When** consulta gráfico, **Then** expone barras de consumo mensual.                         | EP01  |
+|    **US17**     | **Gráfico de ventas proyectadas**      | Como proveedor, quiere ver tendencia de ingresos.                                                                                | **Given** despachos realizados, **When** consulta gráfico, **Then** expone métricas de ventas.                                | EP02  |
+|    **US18**     | **Exportación de reportes PDF**        | Como usuario, quiere exportar datos para auditoría contable.                                                                     | **Given** periodo seleccionado, **When** solicita exportar, **Then** genera documento PDF inmutable.                          | EP01  |
+|    **US19**     | **Asignar conductor y unidad**         | Como proveedor, quiere registrar responsables del transporte.                                                                    | **Given** personal disponible, **When** asigna a pedido, **Then** vincula conductor y placa de cisterna.                      | EP02  |
+|    **US20**     | **Filtrar pedidos operativos**         | Como usuario, quiere organizar su vista por estados o fechas.                                                                    | **Given** lista de pedidos, **When** aplica filtro, **Then** retorna lista segmentada.                                        | EP01  |
+|    **US21**     | **Búsqueda por código único**          | Como usuario, quiere localizar un pedido de forma inmediata.                                                                     | **Given** ID de pedido, **When** busca en el sistema, **Then** visualiza el detalle de dicha orden.                           | EP01  |
+|    **US22**     | **Registro de nuevos perfiles**        | Como visitante, quiere crear cuenta como cliente o proveedor.                                                                    | **Given** datos de registro, **When** confirma alta, **Then** crea cuenta con el rol seleccionado.                            | EP03  |
+|    **US23**     | **Gestión de roles (RBAC)**            | Como administrador, quiere que cada usuario acceda solo a sus funciones.                                                         | **Given** login exitoso, **When** navega, **Then** el sistema restringe vistas según el rol.                                  | EP03  |
+|    **US24**     | **Restablecimiento de clave**          | Como usuario, quiere recuperar acceso mediante su correo.                                                                        | **Given** correo válido, **When** solicita reset, **Then** envía enlace temporal de recuperación.                             | EP03  |
+|    **US25**     | **Actualización de perfil**            | Como usuario, quiere mantener sus datos de contacto al día.                                                                      | **Given** cambios en perfil, **When** guarda, **Then** persiste la nueva información.                                         | EP03  |
+|    **US26**     | **Explorar Landing Page**              | Como visitante, quiere conocer los beneficios del ecosistema FuelTrack.                                                          | **Given** acceso público, **When** navega landing, **Then** visualiza propuesta de valor.                                     | EP04  |
+|    **US27**     | **Consultar Home pública**             | Como visitante, quiere ver el resumen ejecutivo del servicio.                                                                    | **Given** entrada al sitio, **When** carga home, **Then** presenta visión y CTA de registro.                                  | EP04  |
+|    **US28**     | **Visualizar "Sobre Nosotros"**        | Como visitante, quiere conocer al equipo de desarrollo.                                                                          | **Given** sección About Us, **When** consulta, **Then** presenta fotos e info institucional.                                  | EP04  |
+|    **US29**     | **Guía de funcionamiento**             | Como visitante, quiere entender el flujo del sistema IoT/Software.                                                               | **Given** sección tutorial, **When** revisa, **Then** comprende interacción cliente-proveedor.                                | EP04  |
+|    **US30**     | **Formulario de contacto**             | Como visitante, quiere remitir consultas comerciales.                                                                            | **Given** datos de contacto, **When** envía mensaje, **Then** el sistema confirma recepción.                                  | EP04  |
+|    **TS31**     | **Endpoint de pedidos (POST)**         | Como developer, quiere servicio REST para creación de órdenes.                                                                   | **Given** payload JSON válido, **When** POST /orders, **Then** retorna 201 Created.                                           | EP01  |
+|    **TS32**     | **Emitir token JWT**                   | Como developer, quiere servicio de autenticación segura.                                                                         | **Given** credenciales válidas, **When** login, **Then** retorna JWT firmado.                                                 | EP03  |
+|    **TS33**     | **Servicio de notificaciones Push**    | Como developer, quiere gatillar alertas automáticas.                                                                             | **Given** evento de cambio de estado, **When** ocurre, **Then** envía notificación al dispositivo.                            | EP02  |
+|    **TS34**     | **Registro de coordenadas GPS**        | Como developer, quiere persistir trazabilidad IoT en la DB.                                                                      | **Given** trama de ubicación, **When** recibe de sensor, **Then** guarda con marca de tiempo.                                 | EP02  |
+|    **TS35**     | **Endpoint de Login**                  | Como developer, quiere controlador para validación de acceso.                                                                    | **Given** request de login, **When** procesa, **Then** valida contra DB y responde.                                           | EP03  |
+|    **TS36**     | **Lógica de recuperación de clave**    | Como developer, quiere manejo de tokens temporales.                                                                              | **Given** solicitud de reset, **When** valida email, **Then** genera token de un solo uso.                                    | EP03  |
+|    **TS37**     | **Invalidación de sesiones (Logout)**  | Como developer, quiere cerrar sesiones de forma segura.                                                                          | **Given** token activo, **When** logout, **Then** destruye sesión en el servidor.                                             | EP03  |
+|    **TS38**     | **Sincronización de despacho IoT**     | Como developer, quiere vincular salida de planta con sensor.                                                                     | **Given** estado "En ruta", **When** marca despacho, **Then** activa monitoreo de volumen.                                    | EP02  |
+|    **TS39**     | **Validación de disponibilidad IoT**   | Como developer, quiere ver estado real de cisternas.                                                                             | **Given** consulta de unidad, **When** revisa sensor, **Then** reporta si está libre o en ruta.                               | EP02  |
+|    **TS40**     | **Evento de proximidad por Geocerca**  | Como developer, quiere alerta automática al llegar a destino.                                                                    | **Given** unidad en movimiento, **When** entra a radio de geocerca, **Then** dispara evento de llegada.                       | EP02  |
+|    **TS41**     | **Integración de Smart Lock**          | Como developer, quiere control de hardware desde software.                                                                       | **Given** validación GPS positiva, **When** autoriza descarga, **Then** envía señal de apertura.                              | EP02  |
+|    **TS42**     | **Cálculo de Burn Rate (Back-end)**    | Como developer, quiere lógica de predicción de consumo.                                                                          | **Given** historial de niveles IoT, **When** procesa, **Then** retorna fecha estimada de stock cero.                          | EP01  |
+|    **TS43**     | **Filtrado de datos en servidor**      | Como developer, quiere optimizar búsqueda de grandes volúmenes.                                                                  | **Given** parámetros de filtro, **When** consulta DB, **Then** retorna set de datos paginado.                                 | EP01  |
+|    **TS44**     | **Seguridad de Vouchers (Hashing)**    | Como developer, quiere asegurar integridad de comprobantes.                                                                      | **Given** voucher generado, **When** guarda en storage, **Then** asocia un hash único de seguridad.                           | EP02  |
+|    **TS45**     | **Controlador de Perfil de Usuario**   | Como developer, quiere manejo de datos de cuenta.                                                                                | **Given** request de perfil, **When** procesa, **Then** retorna DTO con info del usuario.                                     | EP03  |
+|    **TS46**     | **Listado de Clientes (Back-end)**     | Como developer, quiere servicio de gestión de cartera.                                                                           | **Given** ID de proveedor, **When** consulta, **Then** retorna lista de empresas asociadas.                                   | EP02  |
+|    **SP47**     | **Investigación de pasarelas de pago** | Como equipo, quiere evaluar APIs de conciliación bancaria.                                                                       | **Given** meta de auto-pago, **When** analiza opciones, **Then** propone arquitectura de pagos.                               | EP03  |
+|    **US48**     | **Conformidad de entrega en campo**    | Como operario, quiere firmar recepción digitalmente.                                                                             | **Given** descarga terminada, **When** firma en tablet/celular, **Then** sube evidencia al sistema.                           | EP01  |
 
 
 ### 3.2. Impact Mapping
@@ -1331,7 +1386,11 @@ En esta sección, se presenta el Impact Mapping para cada segmento objetivo. Est
 
 <img width="1240" height="1402" alt="image" src="https://github.com/user-attachments/assets/bb99c7fe-a9b6-44c6-b95f-0905c0dded52" />
 
+*Elaboración del Impact Map para Proveedor/Distribuidor. Realizado en UXPressia.*
+
 <img width="1240" height="1562" alt="image" src="https://github.com/user-attachments/assets/809da5ce-9426-4f49-973a-08d6658bbf29" />
+
+*Elaboración del Impact Map para Cliente Corporativo. Realizado en UXPressia.*
 
 ### 3.3. Product Backlog
 
@@ -1339,57 +1398,57 @@ Utilizamos la escala de Fibonacci para la estimación de los Story Points.
 
 
 
-| # Orden | User Story Id | Título | Descripción | Story Points (1/2/3/5/8) |
-| :---: | :--- | :--- | :--- | :---: |
-|:---:|:---:|---|---|:---:|:---:|
-| 1 | **US01** | **Detección de anomalías en tanques** | Alertas automáticas ante caídas bruscas de presión (Antirrobo IoT). | 8 | Muy Alta |
-| 2 | **US02** | **Dashboard de consumo predictivo** | Analítica de Burn Rate para evitar paradas de planta por stock cero. | 5 | Alta |
-| 3 | **US03** | **Control de válvulas por geocerca** | Bloqueo/Desbloqueo de seguridad basado en la posición GPS real. | 8 | Alta |
-| 4 | **US04** | **Emisión de Vouchers inmutables** | Evidencia digital firmada para acelerar la facturación y auditoría. | 3 | Alta |
-| 5 | **US05** | **Asistente de reabastecimiento** | Sugerencia inteligente de compra basada en el nivel real del sensor. | 5 | Alta |
-| 6 | US06 | Registrar pedido | Registro de solicitudes de combustible en la plataforma web/móvil. | 5 | Alta |
-| 7 | US07 | Consultar historial de pedidos | Acceso a la lista de pedidos realizados con sus estados actuales. | 3 | Alta |
-| 8 | US08 | Iniciar sesión | Autenticación de usuarios para acceso al panel de control. | 3 | Alta |
-| 9 | US09 | Verificación MFA en pedidos | Doble factor de autenticación para órdenes de alto valor monetario. | 5 | Alta |
-| 10 | US10 | Actualizar estado de pedido | Gestión de fases operativas (Confirmado, En ruta, Entregado). | 5 | Alta |
-| 11 | US11 | Notificar cambios al cliente | Alertas automáticas (Push/Email) sobre el estado del suministro. | 5 | Media |
-| 12 | US12 | Aprobación administrativa | Validación de stock y línea de crédito por parte del proveedor. | 3 | Media |
-| 13 | US13 | Cierre de orden (Fulfillment) | Finalización del ciclo tras confirmación de descarga física en campo. | 3 | Media |
-| 14 | US14 | KPIs de gestión (Solicitante) | Dashboard de control de gasto y volumen de consumo acumulado. | 5 | Media |
-| 15 | US15 | KPIs operativos (Proveedor) | Dashboard de eficiencia logística, tiempos y cumplimiento de rutas. | 5 | Media |
-| 16 | US16 | Gráfico de tendencia mensual | Visualización analítica del histórico de consumo energético. | 5 | Media |
-| 17 | US17 | Gráfico de ventas proyectadas | Análisis de crecimiento comercial basado en pedidos completados. | 5 | Media |
-| 18 | US18 | Exportación de reportes PDF | Generación de documentos oficiales para auditorías internas. | 5 | Media |
-| 19 | US19 | Asignar conductor y unidad | Vinculación del personal y la cisterna específica a un pedido. | 3 | Media |
-| 20 | US20 | Filtrar pedidos operativos | Organización de tablas por fecha, cliente o estado operativo. | 2 | Media |
-| 21 | US21 | Búsqueda por código único | Localización inmediata de una orden mediante su ID de rastreo. | 2 | Media |
-| 22 | US22 | Registro de nuevos perfiles | Flujo de alta para usuarios con rol de Solicitante o Proveedor. | 3 | Media |
-| 23 | US23 | Gestión de roles (RBAC) | Restricción de acceso a módulos según el perfil del usuario. | 2 | Media |
-| 24 | US24 | Restablecimiento de clave | Gestión de recuperación de acceso mediante validación por correo. | 3 | Media |
-| 25 | US25 | Actualización de perfil | Edición de información de contacto y preferencias corporativas. | 3 | Media |
-| 26 | US26 | Explorar Landing Page | Visualización de beneficios y propuesta de valor para visitantes. | 2 | Baja |
-| 27 | US27 | Consultar Home pública | Sección principal informativa con resumen de los servicios. | 2 | Baja |
-| 28 | US28 | Visualizar "Sobre Nosotros" | Información sobre el equipo de desarrollo y la visión del proyecto. | 2 | Baja |
-| 29 | US29 | Guía de funcionamiento | Tutorial interactivo sobre el flujo del ecosistema IoT/Software. | 2 | Baja |
-| 30 | US30 | Formulario de contacto | Canal de comunicación para soporte técnico y ventas. | 3 | Baja |
-| 31 | TS31 | Endpoint de pedidos (POST) | Implementación del servicio REST para la persistencia de órdenes. | 5 | Alta |
-| 32 | TS32 | Emitir token JWT | Generación de tokens seguros para el manejo de sesiones activas. | 5 | Alta |
-| 33 | TS33 | Servicio de notificaciones Push | Gatillador de alertas automáticas para dispositivos móviles. | 5 | Media |
-| 34 | TS34 | Registro de coordenadas GPS | Persistencia de la telemetría de ubicación enviada por el sensor. | 5 | Media |
-| 35 | TS35 | Endpoint de Login | Lógica de validación de credenciales en el servidor de aplicaciones. | 5 | Media |
-| 36 | TS36 | Lógica de recuperación de clave | Generación técnica de tokens temporales de reset vía email. | 3 | Baja |
-| 37 | TS37 | Invalidación de sesiones | Destrucción segura de tokens JWT en el servidor (Logout). | 2 | Baja |
-| 38 | TS38 | Sincronización de despacho IoT | Activación del monitoreo volumétrico al marcar salida de planta. | 5 | Media |
-| 39 | TS39 | Validación de disponibilidad IoT | Consulta en tiempo real del estado de actividad de la flota. | 8 | Media |
-| 40 | TS40 | Evento de proximidad (Geocerca) | Disparo de alerta automática al ingresar al radio del destino. | 5 | Media |
-| 41 | TS41 | Integración de Smart Lock | Desarrollo del control de apertura de válvulas vía software. | 8 | Alta |
-| 42 | TS42 | Cálculo de Burn Rate (Back-end) | Algoritmo predictivo basado en series de tiempo de sensores. | 8 | Alta |
-| 43 | TS43 | Filtrado de datos en servidor | Optimización de consultas SQL/NoSQL para grandes volúmenes. | 5 | Baja |
-| 44 | TS44 | Seguridad de Vouchers (Hashing) | Protección de la integridad de documentos mediante firmas hash. | 3 | Media |
-| 45 | TS45 | Controlador de Perfil de Usuario | Gestión de objetos DTO y persistencia de datos de cuenta. | 3 | Baja |
-| 46 | TS46 | Listado de Clientes (Back-end) | Servicio de gestión de cartera comercial para proveedores. | 3 | Baja |
-| 47 | SP47 | Investigación de pagos B2B | Spike para evaluar APIs de conciliación bancaria automática. | 8 | Baja |
-| 48 | US48 | Conformidad de entrega en campo | Captura de firma digital de recepción en el punto de descarga. | 3 | Baja |
+| # Orden | User Story Id | Título                                | Descripción                                                           | Story Points (1/2/3/5/8) |
+| :-----: | :------------ | :------------------------------------ | :-------------------------------------------------------------------- | :----------------------: |
+|  :---:  | :---:         | ---                                   | ---                                                                   |          :---:           | :---:    |
+|    1    | **US01**      | **Detección de anomalías en tanques** | Alertas automáticas ante caídas bruscas de presión (Antirrobo IoT).   |            8             | Muy Alta |
+|    2    | **US02**      | **Dashboard de consumo predictivo**   | Analítica de Burn Rate para evitar paradas de planta por stock cero.  |            5             | Alta     |
+|    3    | **US03**      | **Control de válvulas por geocerca**  | Bloqueo/Desbloqueo de seguridad basado en la posición GPS real.       |            8             | Alta     |
+|    4    | **US04**      | **Emisión de Vouchers inmutables**    | Evidencia digital firmada para acelerar la facturación y auditoría.   |            3             | Alta     |
+|    5    | **US05**      | **Asistente de reabastecimiento**     | Sugerencia inteligente de compra basada en el nivel real del sensor.  |            5             | Alta     |
+|    6    | US06          | Registrar pedido                      | Registro de solicitudes de combustible en la plataforma web/móvil.    |            5             | Alta     |
+|    7    | US07          | Consultar historial de pedidos        | Acceso a la lista de pedidos realizados con sus estados actuales.     |            3             | Alta     |
+|    8    | US08          | Iniciar sesión                        | Autenticación de usuarios para acceso al panel de control.            |            3             | Alta     |
+|    9    | US09          | Verificación MFA en pedidos           | Doble factor de autenticación para órdenes de alto valor monetario.   |            5             | Alta     |
+|   10    | US10          | Actualizar estado de pedido           | Gestión de fases operativas (Confirmado, En ruta, Entregado).         |            5             | Alta     |
+|   11    | US11          | Notificar cambios al cliente          | Alertas automáticas (Push/Email) sobre el estado del suministro.      |            5             | Media    |
+|   12    | US12          | Aprobación administrativa             | Validación de stock y línea de crédito por parte del proveedor.       |            3             | Media    |
+|   13    | US13          | Cierre de orden (Fulfillment)         | Finalización del ciclo tras confirmación de descarga física en campo. |            3             | Media    |
+|   14    | US14          | KPIs de gestión (Solicitante)         | Dashboard de control de gasto y volumen de consumo acumulado.         |            5             | Media    |
+|   15    | US15          | KPIs operativos (Proveedor)           | Dashboard de eficiencia logística, tiempos y cumplimiento de rutas.   |            5             | Media    |
+|   16    | US16          | Gráfico de tendencia mensual          | Visualización analítica del histórico de consumo energético.          |            5             | Media    |
+|   17    | US17          | Gráfico de ventas proyectadas         | Análisis de crecimiento comercial basado en pedidos completados.      |            5             | Media    |
+|   18    | US18          | Exportación de reportes PDF           | Generación de documentos oficiales para auditorías internas.          |            5             | Media    |
+|   19    | US19          | Asignar conductor y unidad            | Vinculación del personal y la cisterna específica a un pedido.        |            3             | Media    |
+|   20    | US20          | Filtrar pedidos operativos            | Organización de tablas por fecha, cliente o estado operativo.         |            2             | Media    |
+|   21    | US21          | Búsqueda por código único             | Localización inmediata de una orden mediante su ID de rastreo.        |            2             | Media    |
+|   22    | US22          | Registro de nuevos perfiles           | Flujo de alta para usuarios con rol de Solicitante o Proveedor.       |            3             | Media    |
+|   23    | US23          | Gestión de roles (RBAC)               | Restricción de acceso a módulos según el perfil del usuario.          |            2             | Media    |
+|   24    | US24          | Restablecimiento de clave             | Gestión de recuperación de acceso mediante validación por correo.     |            3             | Media    |
+|   25    | US25          | Actualización de perfil               | Edición de información de contacto y preferencias corporativas.       |            3             | Media    |
+|   26    | US26          | Explorar Landing Page                 | Visualización de beneficios y propuesta de valor para visitantes.     |            2             | Baja     |
+|   27    | US27          | Consultar Home pública                | Sección principal informativa con resumen de los servicios.           |            2             | Baja     |
+|   28    | US28          | Visualizar "Sobre Nosotros"           | Información sobre el equipo de desarrollo y la visión del proyecto.   |            2             | Baja     |
+|   29    | US29          | Guía de funcionamiento                | Tutorial interactivo sobre el flujo del ecosistema IoT/Software.      |            2             | Baja     |
+|   30    | US30          | Formulario de contacto                | Canal de comunicación para soporte técnico y ventas.                  |            3             | Baja     |
+|   31    | TS31          | Endpoint de pedidos (POST)            | Implementación del servicio REST para la persistencia de órdenes.     |            5             | Alta     |
+|   32    | TS32          | Emitir token JWT                      | Generación de tokens seguros para el manejo de sesiones activas.      |            5             | Alta     |
+|   33    | TS33          | Servicio de notificaciones Push       | Gatillador de alertas automáticas para dispositivos móviles.          |            5             | Media    |
+|   34    | TS34          | Registro de coordenadas GPS           | Persistencia de la telemetría de ubicación enviada por el sensor.     |            5             | Media    |
+|   35    | TS35          | Endpoint de Login                     | Lógica de validación de credenciales en el servidor de aplicaciones.  |            5             | Media    |
+|   36    | TS36          | Lógica de recuperación de clave       | Generación técnica de tokens temporales de reset vía email.           |            3             | Baja     |
+|   37    | TS37          | Invalidación de sesiones              | Destrucción segura de tokens JWT en el servidor (Logout).             |            2             | Baja     |
+|   38    | TS38          | Sincronización de despacho IoT        | Activación del monitoreo volumétrico al marcar salida de planta.      |            5             | Media    |
+|   39    | TS39          | Validación de disponibilidad IoT      | Consulta en tiempo real del estado de actividad de la flota.          |            8             | Media    |
+|   40    | TS40          | Evento de proximidad (Geocerca)       | Disparo de alerta automática al ingresar al radio del destino.        |            5             | Media    |
+|   41    | TS41          | Integración de Smart Lock             | Desarrollo del control de apertura de válvulas vía software.          |            8             | Alta     |
+|   42    | TS42          | Cálculo de Burn Rate (Back-end)       | Algoritmo predictivo basado en series de tiempo de sensores.          |            8             | Alta     |
+|   43    | TS43          | Filtrado de datos en servidor         | Optimización de consultas SQL/NoSQL para grandes volúmenes.           |            5             | Baja     |
+|   44    | TS44          | Seguridad de Vouchers (Hashing)       | Protección de la integridad de documentos mediante firmas hash.       |            3             | Media    |
+|   45    | TS45          | Controlador de Perfil de Usuario      | Gestión de objetos DTO y persistencia de datos de cuenta.             |            3             | Baja     |
+|   46    | TS46          | Listado de Clientes (Back-end)        | Servicio de gestión de cartera comercial para proveedores.            |            3             | Baja     |
+|   47    | SP47          | Investigación de pagos B2B            | Spike para evaluar APIs de conciliación bancaria automática.          |            8             | Baja     |
+|   48    | US48          | Conformidad de entrega en campo       | Captura de firma digital de recepción en el punto de descarga.        |            3             | Baja     |
 
 # Capítulo IV: Solution Software Design
 
@@ -1404,23 +1463,36 @@ Se plantean eventos importantes de todos los grupos funcionales en tiempo pasado
 
 <img width="585" height="622" alt="image" src="https://github.com/user-attachments/assets/d63f6d4c-b6b0-4428-b2c9-c9249941d636" />
 
+<sub>*Detalle de los Domain Events principales clasificados por actor y grupo funcional.*</sub>
+
 ## Timeline
 <img width="899" height="302" alt="image" src="https://github.com/user-attachments/assets/b106fc48-1643-4278-9595-4173b6fd6bb4" />
 
+<sub>*Línea de tiempo (Timeline) agrupando los eventos clave del proceso de solicitudes de abastecimiento.*</sub>
+
 <img width="856" height="285" alt="image" src="https://github.com/user-attachments/assets/76c6dcde-c783-4cf1-a26c-0a017d0130d6" />
+
+<sub>*Continuación de la línea de tiempo (Timeline) con las etapas de facturación y auditoría.*</sub>
 
 ## Pain and Pivotal Points
 En este paso se resaltan con un diamante los eventos por aclarar o que requieren de más conocimientos de especialistas. Por otro lado, los pivotal points son puntos de cambios que se marcan con una barra vertical. Por otro lado, los pivotal points son puntos de cambios que se marcan con una barra vertical.
 
 <img width="881" height="358" alt="image" src="https://github.com/user-attachments/assets/bb6336e9-1fe4-406d-ba5d-171455ae246b" />
 
+<sub>*Identificación de los Puntos de Dolor y Problemas Pivotales en el flujo de negocio del solicitante.*</sub>
+
 <img width="577" height="357" alt="image" src="https://github.com/user-attachments/assets/36dfe51b-8b70-47ab-b7ce-1c40e95320f1" />
+
+<sub>*Análisis de Puntos de Dolor en la recepción y cierre operativo (Fulfillment).*</sub>
 
 #### 4.1.1.1 Candidate Context Discovery
 
 <img width="768" height="769" alt="image" src="https://github.com/user-attachments/assets/471b6c99-3999-4d43-8442-dfc5301b5a15" />
+<br><sub>*Descubrimiento de Contextos Candidatos a partir del EventStorming.*</sub>
 
 <img width="811" height="464" alt="image" src="https://github.com/user-attachments/assets/3bbde438-aed5-40e4-bb24-b453903588cf" />
+
+<sub>*Agrupación final de los Contextos Candidatos conformando la base arquitectónica principal.*</sub>
 
 ### 4.1.1.2 Domain Message Flows Modeling
 
@@ -1430,13 +1502,15 @@ A continuación, se presentan los escenarios clave que garantizan la trazabilida
 
 **Escenario 1: Creación y Validación del Pedido.** En este escenario, el actor (Cliente Corporativo) interactúa con la plataforma mediante el comando `Create order`. Este flujo es capturado por el contexto de *Order & Payment*, el cual, a través de sus políticas internas, verifica la disponibilidad de stock y se comunica con el sistema externo bancario (*Bank System*). Solo cuando se emite el evento `Payment validated`, la política de negocio autoriza que el pedido pase a la fase de despacho logístico.
 
-![Container Level Diagram](../assets/Scenario1.png)
+![Container Level Diagram](assets/Scenario1.png)
+*Figura que detalla el flujo de creación y validación de pedidos entre el Cliente Corporativo y el Bank System.*
 
 
 
 **Escenario 2: Despacho y Telemetría IoT.** Una vez que el pedido está validado, el contexto de *Logistics & IoT Telemetry* inicia el proceso con el comando `Start dispatch`. Al emitirse el evento de despacho, se activa la política de rastreo en vivo (`Activate live tracking`), la cual interactúa directamente con el hardware (*GPS IoT Device*). A medida que el dispositivo transmite su ubicación, la política de distancia evalúa las coordenadas. Al cumplirse la condición, se dispara el evento `Geofence entered`, el cual es consumido por el contexto de *Fulfillment* para ejecutar finalmente el comando físico de `Unlock valve` en el hardware de la cisterna, asegurando una descarga controlada y sin mermas.
 
-![Container Level Diagram](../assets/Scenario2.png)
+![Container Level Diagram](assets/Scenario2.png)
+*Figura que ilustra el Domain Message Flow para el despacho logístico y la integración de telemetría IoT.*
 
 ### 4.1.1.3 Bounded Context Canvases
 
@@ -1700,22 +1774,29 @@ El equipo evaluó distintas configuraciones planteando las siguientes preguntas 
 #### 4.1.3.1. Software Architecture System Landscape Diagram
 
 ![System Landscape Diagram](/assets/SystemLandscapeDiagram.png)
+*Diagrama System Landscape Diagram que muestra las interacciones de alto nivel del sistema FuelTrack.*
 
 #### 4.1.3.2. Software Architecture Context Level Diagrams
 En esta sección se presenta el diagrama de contexto de la arquitectura de software, el cual ilustra a FuelTrack en el centro de las operaciones, interactuando de manera directa con sus usuarios objetivo y los sistemas físicos (hardware) de los que depende para su funcionamiento. Este primer nivel del modelo C4 nos permite tener una visión de alto nivel del alcance del ecosistema.
 
 ![Context Level Diagram](/assets/ContextLevelDiagram.png)
+*Context Level Diagram (Modelo C4) de FuelTrack, detallando actores y sistemas externos interactuantes.*
 
 #### 4.1.3.3. Software Architecture Container Level Diagrams
 En esta sección se presenta el diagrama de contenedores de la solución propuesta. Este diagrama detalla los contenedores de software y sus interrelaciones, proporcionando una visión general de la estructura interna del sistema.
 
 ![Container Level Diagram](/assets/ContainerLevelDiagram.png)
+*Container Level Diagram para FuelTrack, exponiendo la comunicación interna entre las aplicaciones y bases de datos.*
 
 #### 4.1.3.4. Software Architecture Deployment Diagrams
 
 El diagrama de despliegue muestra cómo se distribuyen los distintos componentes de software en su entorno de ejecución. El sistema está compuesto por una aplicación web (Vue.js) y una aplicación móvil (Flutter), las cuales se ejecutan en los navegadores y dispositivos de los usuarios. Estas aplicaciones se comunican mediante JSON/HTTPS con un API Gateway en la nube, el cual enruta las peticiones hacia un clúster de microservicios (IAM, Órdenes, Vouchers e IoT Monitoring) desarrollados en Python/FastAPI. Paralelamente, en el entorno físico de las cisternas, opera una Edge Application (C++) embebida que captura los datos de los sensores y los transmite vía MQTT hacia el backend. Todos los servicios internos realizan operaciones de lectura y escritura sobre un servidor de base de datos PostgreSQL centralizado. Además, la arquitectura se integra con sistemas en la nube externos como Google Maps para validación de rutas y geocercas, y Mercado Pago para procesar las transacciones B2B.
 
 ![Deployment Diagram](/assets/DeploymentDiagram.png)
+*Deployment Diagram del sistema FuelTrack, mostrando la distribución de contenedores en la estructura de red y nube.*
+
+![Deployment Diagram2](/assets/DeploymentDiagram2.png)
+*Segunda parte del Deployment Diagram donde se detallan las integraciones con servicios Edge y componentes externos.*
 
 ## 4.2. Tactical-Level Domain-Driven Design
 El Tactical-Level Domain-Driven Design permite profundizar en el diseño detallado de cada bounded context identificado durante el Strategic-Level Design, definiendo la estructura interna de cada contexto delimitado mediante sus respectivas capas arquitectónicas, entidades de dominio, servicios y patrones de implementación específicos para FuelTrack.
@@ -1808,7 +1889,8 @@ En esta sección, se aplica el Nivel 3 del Modelo C4 para visualizar la estructu
 
 El diseño de los componentes sigue los principios de la **Arquitectura Limpia (Clean Architecture)**. Como se observa en el diagrama, el flujo de dependencias es estrictamente unidireccional. Las solicitudes HTTP ingresan a través de la capa de interfaz (`Order Controller`), son orquestadas por el servicio de aplicación (`Order Application Service`), y este finalmente delega la ejecución de las reglas corporativas al núcleo del sistema (`FuelOrder Aggregate`) y la persistencia de datos al repositorio (`Order Repository`). Esta separación garantiza que la lógica del negocio B2B sea completamente independiente del framework web y de la base de datos PostgreSQL.
 
-![Component Diagram - Order Context](../assets/cap4/c4-component-order.png)
+![Component Diagram - Order Context](assets/cap4/c4-component-order.png)
+*Component Level Diagram detallando la estructura interna del contenedor Order API Application.*
 
 #### 4.2.1.6. Bounded Context Software Architecture Code Level Diagrams.
 
@@ -1818,13 +1900,16 @@ En este nivel de abstracción (Nivel 4 del Modelo C4), nos adentramos en el dise
 
 A continuación, se presenta el modelo de dominio interno. El *Aggregate Root* principal es `FuelOrder`, el cual actúa como límite transaccional para la creación y aprobación de pedidos B2B. Para asegurar la integridad de los datos financieros y de medición, se implementan *Value Objects* inmutables como `FuelVolume` y `Money`. Finalmente, la entidad `DispatchRoute` gestiona la asignación logística del camión.
 
-![Class Diagram - Order Context](../assets/cap4/c4-class-order.png)
+![Class Diagram - Order Context](assets/cap4/c4-class-order.png)
+*Diagrama de Clases del modelo de dominio perteneciente al contexto Order & Payment.*
 
 ##### 4.2.1.6.2. Bounded Context Database Design Diagram.
 
 Bajo el principio arquitectónico de *Database-per-Service*, este contexto administra su propia persistencia. El modelo físico en PostgreSQL refleja las entidades del dominio, optimizado para consultas transaccionales de pedidos de hidrocarburos.
 
-![Database Diagram - Order Context](../assets/cap4/c4-db-order.png)
+![Database Diagram - Order Context](assets/cap4/c4-db-order.png)
+
+*Diagrama relacional del esquema de base de datos para el contexto Order & Payment.*
 
 
 ### 4.2.2. Bounded Context: IoT & Telemetry Context
@@ -1908,7 +1993,8 @@ En esta sección, se aplica el Nivel 3 del Modelo C4 para visualizar la estructu
 
 Al igual que en el resto del sistema, los componentes se organizan bajo los principios de la **Arquitectura Limpia (Clean Architecture)**. En este contexto altamente transaccional, el flujo de entrada principal es manejado por un consumidor de eventos (`IoT Event Consumer`) que escucha las tramas enviadas por los sensores de hardware. Estas tramas son procesadas por el servicio de aplicación (`Telemetry App Service`), el cual delega la detección de anomalías (como mermas de combustible o salidas de ruta) al modelo de dominio puro (`TruckTelemetry Aggregate`). Finalmente, el estado se persiste a través del repositorio (`Telemetry Repository`) en una base de datos optimizada. Este diseño aísla la compleja lógica matemática del dominio de la infraestructura externa de mensajería.
 
-![Component Diagram - Telemetry Context](../assets/cap4/c4-component-telemetry.png)
+![Component Diagram - Telemetry Context](assets/cap4/c4-component-telemetry.png)
+*Component Level Diagram del contenedor Telemetry Service Application.*
 
 #### 4.2.2.6. Bounded Context Software Architecture Code Level Diagrams.
 
@@ -1918,13 +2004,16 @@ En este nivel (C4 Model - Nivel 4), detallamos el diseño táctico del **IoT & T
 
 El núcleo de este contexto es el *Aggregate Root* `TruckTelemetry`, responsable de consolidar y analizar el flujo de datos. Para garantizar la inmutabilidad de las mediciones físicas, se emplean *Value Objects* como `GeoLocation` (coordenadas GPS), `FuelVolume` (galones y presión) y `EngineStatus`. Una característica avanzada de este diseño es la emisión de *Domain Events* (ej. `FuelDropDetectedEvent`) cuando la lógica matemática detecta una anomalía severa, como una caída abrupta de presión que sugiere un robo de hidrocarburos.
 
-![Class Diagram - Telemetry Context](../assets/cap4/c4-class-telemetry.png)
+![Class Diagram - Telemetry Context](assets/cap4/c4-class-telemetry.png)
+*Diagrama de Clases que representa el Agregado de Telemetría.*
 
 ##### 4.2.2.6.2. Bounded Context Database Design Diagram.
 
 El diseño de la base de datos exclusiva para este microservicio está optimizado para series de tiempo (Time-Series Data). La tabla `SENSOR_READINGS` es de solo inserción (Write-Heavy) para registrar el histórico inmutable, mientras que `TELEMETRY_ALERTS` almacena la auditoría de las incidencias detectadas.
 
-![Database Diagram - Telemetry Context](../assets/cap4/c4-db-telemetry.png)
+![Database Diagram - Telemetry Context](assets/cap4/c4-db-telemetry.png)
+
+*Esquema Time-Series Data de la base de datos de Telemetría.*
 
 
 ### 4.2.3. Bounded Context: Financial & Billing Context
@@ -2009,18 +2098,8 @@ Este módulo crítico está diseñado bajo los principios de la **Arquitectura L
 
 Una característica clave de este contenedor es la inclusión de un adaptador (`ERP Gateway`) en la capa de infraestructura, el cual funciona como una Capa Anticorrupción (ACL) para comunicarse con los sistemas contables externos de los clientes (ej. SAP). Finalmente, los comprobantes inmutables se almacenan a través del repositorio (`Billing Repository`). Este diseño asegura que el núcleo financiero de FuelTrack no se acople a integraciones de terceros.
 
-![Component Diagram - Billing Context](../assets/cap4/c4-component-billing.png)
-
-
-#### 4.2.3.5. Bounded Context Software Architecture Component Level Diagrams.
-
-En esta sección, se aplica el Nivel 3 del Modelo C4 para visualizar la estructura interna del contenedor **Billing API Application** perteneciente al *Financial & Billing Context*.
-
-Este módulo crítico está diseñado bajo los principios de la **Arquitectura Limpia (Clean Architecture)**. Las peticiones relacionadas con la facturación y el monitoreo de presupuesto ingresan por la capa de interfaz (`Billing Controller`). La orquestación es manejada por el servicio de aplicación (`Billing App Service`), el cual delega el cálculo del *Burn Rate* y la validación de saldos al modelo de dominio (`Financial Aggregate`). 
-
-Una característica clave de este contenedor es la inclusión de un adaptador (`ERP Gateway`) en la capa de infraestructura, el cual funciona como una Capa Anticorrupción (ACL) para comunicarse con los sistemas contables externos de los clientes (ej. SAP). Finalmente, los comprobantes inmutables se almacenan a través del repositorio (`Billing Repository`). Este diseño asegura que el núcleo financiero de FuelTrack no se acople a integraciones de terceros.
-
-![Component Diagram - Billing Context](../assets/cap4/c4-component-billing.png)
+![Component Diagram - Billing Context](assets/cap4/c4-component-billing.png)
+*Component Diagram para Billing API Application reflejando patrón Clean Architecture.*
 
 
 
@@ -2034,13 +2113,16 @@ En este nivel de diseño técnico (Nivel 4 del Modelo C4), se detalla la lógica
 
 El diseño del dominio está centrado en el Aggregate Root `FinancialAccount`, el cual gestiona el saldo y la exposición crediticia del cliente. Se utilizan *Value Objects* para encapsular la lógica de cálculo del `BurnRate` (tasa de consumo) y el `CreditLimit`. La entidad `BillingVoucher` representa el documento legal de facturación generado tras un despacho exitoso. Este modelo asegura que no existan inconsistencias entre el combustible despachado y el monto facturado.
 
-![Class Diagram - Billing Context](../assets/cap4/c4-class-billing.png)
+![Class Diagram - Billing Context](assets/cap4/c4-class-billing.png)
+*Diagrama de Clases modelando el núcleo de finanzas y facturación.*
 
 ##### 4.2.3.6.2. Bounded Context Database Design Diagram.
 
 El esquema de base de datos para este contexto está diseñado para mantener un historial de transacciones inmutable. La tabla `BILLING_ACCOUNTS` almacena los saldos actuales, mientras que `INVOICES` y `TRANSACTION_LOGS` registran cada movimiento financiero con marcas de tiempo precisas para fines de auditoría.
 
-![Database Diagram - Billing Context](../assets/cap4/c4-db-billing.png)
+![Database Diagram - Billing Context](assets/cap4/c4-db-billing.png)
+
+*Modelo relacional de la base de datos financiera.*
 
 ### 4.2.4. Bounded Context: Identity & Access Context
 
@@ -2118,7 +2200,8 @@ En esta sección, se aplica el Nivel 3 del Modelo C4 para visualizar la estructu
 
 Este módulo fundamental sigue los lineamientos de la **Arquitectura Limpia (Clean Architecture)** para centralizar la seguridad de FuelTrack. Las solicitudes de autenticación y validación de tokens ingresan mediante la capa de interfaz (`Auth Controller`). El servicio de aplicación (`Identity App Service`) orquesta la emisión de tokens JWT y delega la validación de contraseñas y permisos granulares (RBAC) al modelo de dominio (`User & Role Aggregate`). Finalmente, las credenciales encriptadas se gestionan a través del repositorio (`Auth Repository`). Esta separación garantiza que la lógica de seguridad y el control de accesos sean invulnerables y agnósticos al resto de los microservicios.
 
-![Component Diagram - Identity Context](../assets/cap4/c4-component-identity.png)
+![Component Diagram - Identity Context](assets/cap4/c4-component-identity.png)
+*Component Level Diagram de Identity & Access con integración delegada para control de accesos.*
 
 #### 4.2.4.6. Bounded Context Software Architecture Code Level Diagrams.
 
@@ -2128,13 +2211,16 @@ En este último apartado de diseño táctico (Nivel 4 del Modelo C4), nos enfoca
 
 El modelo de dominio pivota sobre el *Aggregate Root* `UserAccount`. Para aplicar una seguridad robusta desde el diseño, la contraseña jamás se maneja como un texto plano, sino que se encapsula en un *Value Object* inmutable llamado `PasswordHash` que contiene la lógica de verificación criptográfica. Asimismo, se implementa la entidad `Role` para gestionar el Control de Acceso Basado en Roles (RBAC), permitiendo diferenciar los permisos de gerentes corporativos, despachadores y choferes de cisternas.
 
-![Class Diagram - Identity Context](../assets/cap4/c4-class-identity.png)
+![Class Diagram - Identity Context](assets/cap4/c4-class-identity.png)
+*Diagrama de clases para el módulo de Identidad, incluyendo control basado en roles.*
 
 ##### 4.2.4.6.2. Bounded Context Database Design Diagram.
 
 El esquema físico en PostgreSQL para el contexto de identidad está altamente normalizado para soportar la asignación dinámica de roles y permisos. Se emplean tablas intermedias (`USER_ROLES` y `ROLE_PERMISSIONS`) para resolver las relaciones de muchos a muchos inherentes a una arquitectura RBAC completa.
 
-![Database Diagram - Identity Context](../assets/cap4/c4-db-identity.png)
+![Database Diagram - Identity Context](assets/cap4/c4-db-identity.png)
+
+*Diagrama relacional del esquema enfocado en gestión de identidades y accesos.*
 
 # Capítulo V: Solution UI/UX Design
 
@@ -2313,17 +2399,31 @@ El wireframe de la Landing Page establece la arquitectura de información priori
 
 <img width="858" height="604" alt="image" src="https://github.com/user-attachments/assets/e6efcf57-44d9-4e9d-9edd-aecbe99ca99c" />
 
+<sub>*Wireframe referencial de la estructura inicial de la Landing Page.*</sub>
+
 <img width="857" height="489" alt="image" src="https://github.com/user-attachments/assets/d1e2cd24-43c2-44fb-8281-c34b2d79b29d" />
+
+<sub>*Wireframe para la sección de propuesta de valor en la Landing Page.*</sub>
 
 <img width="851" height="430" alt="image" src="https://github.com/user-attachments/assets/c091c044-dbc0-4df7-ace0-76960d087c41" />
 
+<sub>*Wireframe de la sección informativa sobre beneficios de la plataforma.*</sub>
+
 <img width="850" height="385" alt="image" src="https://github.com/user-attachments/assets/982ce575-151c-4be2-88ed-c990b9578f0e" />
+
+<sub>*Wireframe ilustrando funcionalidades del sistema de monitoreo IoT.*</sub>
 
 <img width="857" height="385" alt="image" src="https://github.com/user-attachments/assets/fc5af77a-ef40-41f6-85b5-b8a3a95cb708" />
 
+<sub>*Wireframe sección contacto y planes de suscripción para usuarios.*</sub>
+
 <img width="864" height="544" alt="image" src="https://github.com/user-attachments/assets/402902bf-13dc-4210-992c-57f3d9a7af31" />
 
+<sub>*Wireframe detallando las especificaciones de seguridad y trazabilidad operativa.*</sub>
+
 <img width="855" height="372" alt="image" src="https://github.com/user-attachments/assets/2a3ab869-e4d4-4b19-bb53-ea0c263485a1" />
+
+<sub>*Boceto del footer de la Landing Page con links de interés.*</sub>
 
 **Elementos clave:**
 1.  **Header:** Menú de navegación directo hacia secciones de Valor, Funcionamiento y Contacto.
@@ -2336,17 +2436,31 @@ El diseño final (Mock-up) utiliza una paleta de colores profesional que transmi
 
 <img width="1160" height="797" alt="image" src="https://github.com/user-attachments/assets/4d3a6a8c-080c-4e08-9aca-e6aec0b60cf0" />
 
+<sub>*Mock-up del Home (Hero Section) con el Call-to-Action inicial.*</sub>
+
 <img width="1167" height="656" alt="image" src="https://github.com/user-attachments/assets/77f901b3-a794-4f8d-9c60-d7ab9c421894" />
+
+<sub>*Mock-up ilustrando las principales ventajas competitivas de FuelTrack.*</sub>
 
 <img width="1149" height="579" alt="image" src="https://github.com/user-attachments/assets/5fa0fae3-feb4-4a51-ad2c-de6e77eb3633" />
 
+<sub>*Representación de las funcionalidades operativas sobre el control de inventario.*</sub>
+
 <img width="1150" height="502" alt="image" src="https://github.com/user-attachments/assets/87cd08e9-9153-4ff7-9906-bcf12d9f9e5f" />
+
+<sub>*Mock-up detallando la gestión y seguimiento en tiempo real vía dashboard.*</sub>
 
 <img width="1148" height="528" alt="image" src="https://github.com/user-attachments/assets/91326746-616f-4813-a9eb-f49545a38e9d" />
 
+<sub>*Mock-up sobre la propuesta tecnológica de monitoreo IoT embebido.*</sub>
+
 <img width="1150" height="676" alt="image" src="https://github.com/user-attachments/assets/e75fd695-8265-4b75-aeab-ec8775b6226a" />
 
+<sub>*Vista de Mock-up mostrando los planes B2B y las opciones de soporte de la plataforma.*</sub>
+
 <img width="1152" height="431" alt="image" src="https://github.com/user-attachments/assets/d2b4f289-c5ae-4b5d-8f20-e9719a520430" />
+
+<sub>*Detalle de la sección inferior y diseño final del layout general (Footer).*</sub>
 
 **Diferenciadores de diseño:**
 * **Visualización de datos:** Uso de gráficos limpios para representar el ahorro operativo proyectado.
@@ -2368,31 +2482,32 @@ El nodo IoT de FuelTrack es un **ESP32 DevKit V1** instalado en el camión ciste
 
 #### Criterios de diseño y selección de sensores
 
-| # | Sensor | Variable medida | Justificación |
-|---|--------|-----------------|---------------|
-| 1 | **HC-SR04** (ultrasónico) | Nivel de combustible (%) | Sensor sin contacto que mide la distancia al espejo del líquido dentro del tanque. La distancia se convierte en porcentaje de llenado con la fórmula `nivel = ((altura_tanque − distancia) / altura_tanque) × 100`. Responde al requisito de monitoreo de stock en tiempo real (US05). |
-| 2 | **DHT22** (digital) | Temperatura (°C) y Humedad (%) | Monitorea las condiciones ambientales del entorno del tanque. Una variación brusca de temperatura puede indicar exposición extrema o una condición anormal que afecte la calidad del combustible. |
-| 3 | **NEO-6M** (UART / GPS) | Latitud, Longitud, Velocidad | Proporciona la trazabilidad geoespacial del camión en tiempo real. El ESP32 lo lee por UART2 (RX2 = GPIO 16) a 9 600 bps en formato NMEA. Alimenta el módulo `fleet-tracking` de la Web App para visualización en mapa y evaluación de geocercas (TS34, US01). |
+| #   | Sensor                    | Variable medida                | Justificación                                                                                                                                                                                                                                                                          |
+| --- | ------------------------- | ------------------------------ | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| 1   | **HC-SR04** (ultrasónico) | Nivel de combustible (%)       | Sensor sin contacto que mide la distancia al espejo del líquido dentro del tanque. La distancia se convierte en porcentaje de llenado con la fórmula `nivel = ((altura_tanque − distancia) / altura_tanque) × 100`. Responde al requisito de monitoreo de stock en tiempo real (US05). |
+| 2   | **DHT22** (digital)       | Temperatura (°C) y Humedad (%) | Monitorea las condiciones ambientales del entorno del tanque. Una variación brusca de temperatura puede indicar exposición extrema o una condición anormal que afecte la calidad del combustible.                                                                                      |
+| 3   | **NEO-6M** (UART / GPS)   | Latitud, Longitud, Velocidad   | Proporciona la trazabilidad geoespacial del camión en tiempo real. El ESP32 lo lee por UART2 (RX2 = GPIO 16) a 9 600 bps en formato NMEA. Alimenta el módulo `fleet-tracking` de la Web App para visualización en mapa y evaluación de geocercas (TS34, US01).                         |
 
 #### Diagrama del circuito — Wokwi (ESP32 DevKit V1)
 
 ![Logo de la UPC](./assets/wokwi.png)
+*Diagrama esquemático en Wokwi mostrando la conexión de sensores y el ESP32 DevKit V1.*
 
 **Mapa de pines:**
 
-| Sensor | Pin del sensor | GPIO ESP32 | Protocolo |
-|--------|---------------|------------|-----------|
-| HC-SR04 | VCC | VIN (5 V) | — |
-| HC-SR04 | GND | GND | — |
-| HC-SR04 | TRIG | GPIO 5 | Digital OUT |
-| HC-SR04 | ECHO | GPIO 18 | Digital IN |
-| DHT22 | VCC | 3.3 V | — |
-| DHT22 | GND | GND | — |
-| DHT22 | DATA | GPIO 4 | 1-Wire |
-| NEO-6M | VCC | 3.3 V | — |
-| NEO-6M | GND | GND | — |
-| NEO-6M | TX | GPIO 16 (RX2) | UART2 |
-| NEO-6M | RX | GPIO 17 (TX2) | UART2 |
+| Sensor  | Pin del sensor | GPIO ESP32    | Protocolo   |
+| ------- | -------------- | ------------- | ----------- |
+| HC-SR04 | VCC            | VIN (5 V)     | —           |
+| HC-SR04 | GND            | GND           | —           |
+| HC-SR04 | TRIG           | GPIO 5        | Digital OUT |
+| HC-SR04 | ECHO           | GPIO 18       | Digital IN  |
+| DHT22   | VCC            | 3.3 V         | —           |
+| DHT22   | GND            | GND           | —           |
+| DHT22   | DATA           | GPIO 4        | 1-Wire      |
+| NEO-6M  | VCC            | 3.3 V         | —           |
+| NEO-6M  | GND            | GND           | —           |
+| NEO-6M  | TX             | GPIO 16 (RX2) | UART2       |
+| NEO-6M  | RX             | GPIO 17 (TX2) | UART2       |
 
 #### Flujo de interacción del dispositivo
 
@@ -2439,35 +2554,35 @@ A continuación se detallan los productos de software utilizados por el equipo F
 
 ### Project Management
  
-| Producto | Propósito en el proyecto | Referencia |
-|---|---|---|
-| **Discord** | Canal principal de comunicación interna del equipo para reuniones de planificación y retrospectiva | https://discord.com |
-| **Google Meet** | Reuniones síncronas de Sprint Planning, revisión y retrospectiva | https://meet.google.com |
+| Producto        | Propósito en el proyecto                                                                           | Referencia              |
+| --------------- | -------------------------------------------------------------------------------------------------- | ----------------------- |
+| **Discord**     | Canal principal de comunicación interna del equipo para reuniones de planificación y retrospectiva | https://discord.com     |
+| **Google Meet** | Reuniones síncronas de Sprint Planning, revisión y retrospectiva                                   | https://meet.google.com |
 
 ### Product UX/UI Design
 
-| Producto | Propósito en el proyecto | Referencia |
-|---|---|---|
-| **UXPressia** | Elaboración de User Personas, Empathy Maps, Journey Maps e Impact Maps para los segmentos objetivo de FuelTrack | https://uxpressia.com |
-| **Miro** | Sesiones colaborativas de Big Picture EventStorming y Design-Level EventStorming | https://miro.com |
-| **Figma** | Diseño de Wireframes, Mock-ups y Prototipos interactivos de la Web Application y Mobile Application | https://www.figma.com |
-| **LucidChart** | Elaboración de Wireflow Diagrams, User Flow Diagrams, y de base de datos | https://www.lucidchart.com |
+| Producto       | Propósito en el proyecto                                                                                        | Referencia                 |
+| -------------- | --------------------------------------------------------------------------------------------------------------- | -------------------------- |
+| **UXPressia**  | Elaboración de User Personas, Empathy Maps, Journey Maps e Impact Maps para los segmentos objetivo de FuelTrack | https://uxpressia.com      |
+| **Miro**       | Sesiones colaborativas de Big Picture EventStorming y Design-Level EventStorming                                | https://miro.com           |
+| **Figma**      | Diseño de Wireframes, Mock-ups y Prototipos interactivos de la Web Application y Mobile Application             | https://www.figma.com      |
+| **LucidChart** | Elaboración de Wireflow Diagrams, User Flow Diagrams, y de base de datos                                        | https://www.lucidchart.com |
 
 ### Software Development
  
-| Producto | Propósito en el proyecto | Referencia |
-|---|---|---|
-| **Visual Studio Code** | IDE principal para el desarrollo del Landing Page (HTML5, CSS3, JavaScript) y del Edge API (Python/Flask) | https://code.visualstudio.com |
-| **Wokwi** | Simulador online de circuitos ESP32 para prototipado y pruebas del dispositivo IoT antes de implementación en hardware físico | https://wokwi.com |
-| **Git** | Sistema de control de versiones distribuido para todos los repositorios del proyecto | https://git-scm.com |
-| **GitHub** | Plataforma de alojamiento de repositorios y gestión de colaboración del equipo | https://github.com |
+| Producto               | Propósito en el proyecto                                                                                                      | Referencia                    |
+| ---------------------- | ----------------------------------------------------------------------------------------------------------------------------- | ----------------------------- |
+| **Visual Studio Code** | IDE principal para el desarrollo del Landing Page (HTML5, CSS3, JavaScript) y del Edge API (Python/Flask)                     | https://code.visualstudio.com |
+| **Wokwi**              | Simulador online de circuitos ESP32 para prototipado y pruebas del dispositivo IoT antes de implementación en hardware físico | https://wokwi.com             |
+| **Git**                | Sistema de control de versiones distribuido para todos los repositorios del proyecto                                          | https://git-scm.com           |
+| **GitHub**             | Plataforma de alojamiento de repositorios y gestión de colaboración del equipo                                                | https://github.com            |
 
 ### Software Documentation
  
-| Producto | Propósito en el proyecto | Referencia |
-|---|---|---|
-| **Markdown (GitHub)** | Elaboración colaborativa del Project Report en formato `.md` con control de versiones | https://www.markdownguide.org |
-| **Structurizr** | Elaboración de diagramas de arquitectura de software C4 Model (Context, Container, Component, Deployment) | https://structurizr.com |
+| Producto              | Propósito en el proyecto                                                                                  | Referencia                    |
+| --------------------- | --------------------------------------------------------------------------------------------------------- | ----------------------------- |
+| **Markdown (GitHub)** | Elaboración colaborativa del Project Report en formato `.md` con control de versiones                     | https://www.markdownguide.org |
+| **Structurizr**       | Elaboración de diagramas de arquitectura de software C4 Model (Context, Container, Component, Deployment) | https://structurizr.com       |
  
 ### 6.1.2. Source Code Management
 
@@ -2475,16 +2590,16 @@ A continuación se describe la gestión del código fuente aplicada por el equip
 
 ### URLs de repositorios
  
-| Producto | URL del repositorio |
-|---|---|
-| **Organización GitHub** | https://github.com/UPC-pre-1ASI0572-2601-6785-Grupo5 |
-| **Project Report** | https://github.com/UPC-pre-1ASI0572-2601-6785-Grupo5/report |
-| **Landing Page** | https://github.com/UPC-pre-1ASI0572-2601-6785-Grupo5/fueltrack-landing-page |
-| **Web Application (Frontend)** | https://github.com/UPC-pre-1ASI0572-2601-6785-Grupo5/fueltrack-web-app |
-| **RESTful Web Service (Backend)** | https://github.com/UPC-pre-1ASI0572-2601-6785-Grupo5/fueltrack-backend |
-| **Mobile Application** | https://github.com/UPC-pre-1ASI0572-2601-6785-Grupo5/fueltrack-mobile |
-| **Edge API** | https://github.com/UPC-pre-1ASI0572-2601-6785-Grupo5/fueltrack-edge |
-| **Embedded Application (IoT)** | https://github.com/UPC-pre-1ASI0572-2601-6785-Grupo5/fueltrack-embedded |
+| Producto                          | URL del repositorio                                                         |
+| --------------------------------- | --------------------------------------------------------------------------- |
+| **Organización GitHub**           | https://github.com/UPC-pre-1ASI0572-2601-6785-Grupo5                        |
+| **Project Report**                | https://github.com/UPC-pre-1ASI0572-2601-6785-Grupo5/report                 |
+| **Landing Page**                  | https://github.com/UPC-pre-1ASI0572-2601-6785-Grupo5/fueltrack-landing-page |
+| **Web Application (Frontend)**    | https://github.com/UPC-pre-1ASI0572-2601-6785-Grupo5/fueltrack-web-app      |
+| **RESTful Web Service (Backend)** | https://github.com/UPC-pre-1ASI0572-2601-6785-Grupo5/fueltrack-backend      |
+| **Mobile Application**            | https://github.com/UPC-pre-1ASI0572-2601-6785-Grupo5/fueltrack-mobile       |
+| **Edge API**                      | https://github.com/UPC-pre-1ASI0572-2601-6785-Grupo5/fueltrack-edge         |
+| **Embedded Application (IoT)**    | https://github.com/UPC-pre-1ASI0572-2601-6785-Grupo5/fueltrack-embedded     |
 
 ### 6.1.3. Source Code Style Guide & Conventions
 
@@ -2550,13 +2665,13 @@ El Landing Page de FuelTrack está desarrollado en HTML5, CSS3 y JavaScript, y s
 
 **Pasos para el despliegue:**
 
-1. Asegurarse de que los cambios estén mergeados en la rama `main` del repositorio [fueltrack-landing-page](https://github.com/UPC-pre-1ASI0572-2601-6785-Grupo5/fueltrack-landing-page).
+1. Asegurarse de que los cambios estén mergeados en la rama `main` del repositorio [fueltrack-landing-page](https://github.com/UPC-pre-1ASI0572-2601-6785-Grupo5/LandingPage).
 2. Ingresar al repositorio en GitHub y dirigirse a **Settings > Pages**.
 3. En la sección *Source*, seleccionar la rama `main` y la carpeta `/ (root)`.
 4. Hacer clic en **Save**. GitHub Pages generará automáticamente la URL pública del sitio.
 5. Verificar el despliegue accediendo a la URL publicada por GitHub Pages.
 
-**URL del repositorio:** https://github.com/UPC-pre-1ASI0572-2601-6785-Grupo5/fueltrack-landing-page
+**URL del repositorio:** https://github.com/UPC-pre-1ASI0572-2601-6785-Grupo5/LandingPage
 
 ---
 
@@ -2566,34 +2681,34 @@ La Web Application está desarrollada con Vue 3 y Vite, y se despliega mediante 
 
 **Pasos para el despliegue:**
 
-1. Acceder a [netlify.com](https://netlify.com) e iniciar sesión con la cuenta del equipo.
+1. Acceder a [firebase.com](https://firebase.google.com/?hl=es-419) e iniciar sesión con la cuenta del equipo.
 2. Seleccionar **Add new site > Import an existing project** y conectar con GitHub.
-3. Seleccionar el repositorio [fueltrack-web-app](https://github.com/UPC-pre-1ASI0572-2601-6785-Grupo5/fueltrack-web-app).
+3. Seleccionar el repositorio [fueltrack-web-app](https://github.com/UPC-pre-1ASI0572-2601-6785-Grupo5/Frontend).
 4. Configurar los parámetros de build:
    - **Branch to deploy:** `main`
    - **Build command:** `npm run build`
    - **Publish directory:** `dist`
-5. Hacer clic en **Deploy site**. Netlify ejecutará el build y publicará la aplicación.
+5. Hacer clic en **Deploy site**. Firebase ejecutará el build y publicará la publicación.
 6. Cada nuevo push a `main` disparará automáticamente un nuevo despliegue.
 
-**URL del repositorio:** https://github.com/UPC-pre-1ASI0572-2601-6785-Grupo5/fueltrack-web-app
+**URL del repositorio:** https://github.com/UPC-pre-1ASI0572-2601-6785-Grupo5/Frontend
 
 ---
 
 #### RESTful Web Service (Backend)
 
-El backend está desarrollado con Spring Boot y se despliega en **Railway**, plataforma de cloud que soporta proyectos Java con Maven/Gradle.
+El backend será desarrollado con Spring Boot y se despliega en **Railway**, plataforma de cloud que soporta proyectos Java con Maven/Gradle.
 
 **Pasos para el despliegue:**
 
 1. Acceder a [railway.app](https://railway.app) e iniciar sesión con la cuenta del equipo.
 2. Crear un nuevo proyecto y seleccionar **Deploy from GitHub repo**.
-3. Seleccionar el repositorio [fueltrack-backend](https://github.com/UPC-pre-1ASI0572-2601-6785-Grupo5/fueltrack-backend).
+3. Seleccionar el repositorio [fueltrack-backend](https://github.com/UPC-pre-1ASI0572-2601-6785-Grupo5/Backend).
 4. Railway detecta automáticamente el proyecto Spring Boot. Configurar las variables de entorno necesarias (credenciales de base de datos, puerto, etc.) en la sección **Variables**.
 5. Railway ejecuta `./mvnw package` y despliega el JAR resultante.
 6. Una vez activo, Railway proporciona una URL pública para acceder a los endpoints del API.
 
-**URL del repositorio:** https://github.com/UPC-pre-1ASI0572-2601-6785-Grupo5/fueltrack-backend
+**URL del repositorio:** https://github.com/UPC-pre-1ASI0572-2601-6785-Grupo5/Backend
 
 ---
 
@@ -2931,19 +3046,202 @@ En el Sprint Planning 1, se llevó a cabo una sesión de planificación para la 
 </table>
 
 #### 6.2.1.4. Development Evidence for Sprint Review.
+Landing Page
+
+| Repository                                                       | Branch | Commit Id                                | Commit Message                                                                                                | Committed on (Date) |
+| ---------------------------------------------------------------- | ------ | ---------------------------------------- | ------------------------------------------------------------------------------------------------------------- | ------------------- |
+| https://github.com/UPC-pre-1ASI0572-2601-6785-Grupo5/LandingPage | main   | f48276d80218eb24522ef72d97dd13e2a9d27dc9 | feat: estructura landing FuelTrack (Vue+Vite+Tailwind) lista para Pages                                       | 09/10/2025          |
+| https://github.com/UPC-pre-1ASI0572-2601-6785-Grupo5/LandingPage | main   | 324bcc494fc8f01bfab3c43ce3e0b60fb56667a3 | Landing verde + OG/Twitter + footer + secciones pro                                                           | 10/10/2025          |
+| https://github.com/UPC-pre-1ASI0572-2601-6785-Grupo5/LandingPage | main   | 8639bf0f49b0c58cf43c22c0044d3a2a52ba9c51 | fix: rutas de logos usando BASE_URL y normalización a minúsculas (GitHub Pages compatible)                    | 10/10/2025          |
+| https://github.com/UPC-pre-1ASI0572-2601-6785-Grupo5/LandingPage | main   | 2107985e7c3d2d1d4464927b727389784e9e3a3e | (Feeedback TP1): Logo mas grande del landing page, CALL TO ACTION mejorado y arreglado imagen que no cargaban | 26/10/2025          |
+| https://github.com/UPC-pre-1ASI0572-2601-6785-Grupo5/LandingPage | main   | 8b7d70d1a12c4c6789509bcf5223c4a562f9a223 | add corrections for landing page                                                                              | 14/11/2025          |
+| https://github.com/UPC-pre-1ASI0572-2601-6785-Grupo5/LandingPage | main   | f3e4e1b01d38a75cfdd004e5179dad8b278b2bf8 | Add configuration for deployment                                                                              | 12/05/2026          |
+
+Frontend
+
+| Repository                                                    | Branch | Commit Id                                | Commit Message                        | Committed on (Date) |
+| ------------------------------------------------------------- | ------ | ---------------------------------------- | ------------------------------------- | ------------------- |
+| https://github.com/UPC-pre-1ASI0572-2601-6785-Grupo5/Frontend | main   | 1f876f815c709275f7e17372155327a3588b6466 | Initial commit: Proyecto Frontend     | 12/05/2026          |
+| https://github.com/UPC-pre-1ASI0572-2601-6785-Grupo5/Frontend | main   | e55607aac7c603464907818ad2c6c319d1335996 | Add deploy configuration for firebase | 12/05/2026          |
 
 #### 6.2.1.5. Testing Suite Evidence for Sprint Review.
 
+##### Acceptance Tests
+
+**Feature: Autenticación y Acceso basado en Roles (IAM)**
+**Como** usuario de FuelTrack (Manager, Dispatcher o Driver)
+**Quiero** iniciar sesión de forma segura en la plataforma
+**Para** acceder a las funcionalidades correspondientes a mi rol
+
+**Scenario: Inicio de sesión exitoso de Logistics Manager**
+- **ID:** US-01
+- **Given** que soy un Logistics Manager registrado
+- **And** me encuentro en la pantalla de login de la Web App
+- **When** ingreso mi correo corporativo y contraseña correctos
+- **And** presiono el botón de "Iniciar Sesión"
+- **Then** el sistema valida mis credenciales en el IAM Service
+- **And** genera un token de autenticación
+- **And** me redirige al dashboard principal de presupuestos y órdenes
+
+**Scenario: Error al iniciar sesión con credenciales incorrectas**
+- **ID:** US-02
+- **Given** que soy un usuario del sistema
+- **And** ingreso un correo válido pero una contraseña incorrecta
+- **When** intento iniciar sesión en la plataforma
+- **Then** el sistema rechaza el acceso
+- **And** muestra un mensaje de error indicando "Credenciales inválidas"
+- **And** no me permite acceder a los módulos protegidos
+
+---
+
+**Feature: Gestión de Órdenes de Combustible (Ordering Wizard)**
+**Como** Logistics / Operations Manager
+**Quiero** crear y aprobar pedidos de hidrocarburos
+**Para** asegurar el abastecimiento de mi operación sin exceder el presupuesto
+
+**Scenario: Creación exitosa de una orden de combustible**
+- **ID:** US-03
+- **Given** que soy un Logistics Manager autenticado
+- **And** tengo saldo disponible en mi presupuesto mensual
+- **When** completo el Ordering Wizard especificando el volumen, tipo de combustible y destino
+- **And** confirmo la solicitud
+- **Then** el Order & Payment Service registra el pedido en estado "Pendiente de Despacho"
+- **And** descuenta temporalmente el monto del presupuesto (reserva de fondos)
+
+**Scenario: Rechazo de orden por presupuesto insuficiente**
+- **ID:** US-04
+- **Given** que soy un Logistics Manager autenticado
+- **And** el saldo de mi presupuesto mensual es inferior al costo del pedido
+- **When** intento generar una nueva orden a través del Ordering Wizard
+- **Then** el sistema rechaza la creación de la orden
+- **And** muestra una alerta indicando "Fondos insuficientes para esta transacción"
+
+---
+
+**Feature: Monitoreo de Telemetría IoT y Alertas en Ruta**
+**Como** Fleet Controller / Dispatcher
+**Quiero** monitorear los sensores de la cisterna en tiempo real
+**Para** asegurar la integridad de la carga y detectar posibles robos o anomalías
+
+**Scenario: Visualización de volumen en tiempo real**
+- **ID:** US-05
+- **Given** que soy un Dispatcher autenticado
+- **And** tengo una cisterna en ruta asignada a mi vista
+- **When** ingreso al panel de monitoreo en vivo
+- **Then** el Logistics & IoT Telemetry Service procesa los datos MQTT recibidos
+- **And** la interfaz muestra el nivel de combustible actual leído por el sensor ultrasónico
+- **And** muestra la ubicación GPS actual en el mapa
+
+**Scenario: Detección y alerta de caída de presión (Posible robo)**
+- **ID:** US-06
+- **Given** que una cisterna se encuentra en tránsito
+- **And** el sensor de presión detecta una caída brusca y no autorizada de volumen
+- **When** la Edge App transmite esta anomalía vía MQTT al backend
+- **Then** el sistema genera una alerta crítica de Nivel 1
+- **And** envía una notificación push inmediata a la vista del Dispatcher
+- **And** cambia el estado de la cisterna a "Incidente de Seguridad" en el mapa
+
+---
+
+**Feature: Ejecución de Entrega Física (Fulfillment & Geofencing)**
+**Como** Tanker Driver
+**Quiero** registrar mi llegada y habilitar la descarga de combustible
+**Para** cumplir con la entrega solo en lugares autorizados
+
+**Scenario: Habilitación de válvula dentro de la geocerca**
+- **ID:** US-07
+- **Given** que soy un Tanker Driver en ruta hacia un destino
+- **And** llego físicamente a las coordenadas del cliente
+- **When** reporto mi llegada desde la Mobile App
+- **Then** el Fulfillment Service consulta a Google Maps (Mapping Service)
+- **And** valida que las coordenadas del GPS coincidan con la geocerca autorizada
+- **And** envía un comando MQTT para desbloquear la válvula de descarga del camión
+
+**Scenario: Bloqueo de descarga fuera de la geocerca**
+- **ID:** US-08
+- **Given** que soy un Tanker Driver con una carga asignada
+- **And** mi ubicación GPS actual está fuera de la geocerca del destino autorizado
+- **When** intento iniciar el proceso de descarga desde la Mobile App
+- **Then** el sistema rechaza la solicitud por seguridad
+- **And** mantiene la válvula de la cisterna bloqueada
+- **And** envía un reporte de intento de descarga no autorizada al Dispatcher
+
+---
+
+**Feature: Generación de Comprobantes (Voucher & Billing)**
+**Como** Tanker Driver y Logistics Manager
+**Quiero** generar y consultar un comprobante digital tras cada entrega
+**Para** mantener un registro transparente y automatizado de la facturación
+
+**Scenario: Generación exitosa del Voucher PDF**
+- **ID:** US-09
+- **Given** que soy un Tanker Driver autenticado
+- **And** he terminado de descargar el combustible físicamente
+- **When** el cliente ingresa su firma digital en mi Mobile App
+- **And** presiono el botón "Finalizar Entrega"
+- **Then** el Voucher & Billing Service genera un recibo digital en PDF
+- **And** sincroniza los datos contables con el Corporate ERP System del cliente
+- **And** el estado del pedido cambia a "Completado"
+
+**Scenario: Visualización del historial de entregas**
+- **ID:** US-10
+- **Given** que soy un Logistics Manager
+- **And** necesito revisar los despachos de la semana
+- **When** ingreso a la sección de "Historial de Vouchers"
+- **Then** el sistema muestra una lista de todos los PDF Vouchers generados
+- **And** puedo descargar cada comprobante para auditoría
+
+---
+
+**Feature: Reportes de Presupuesto (Burn Rate)**
+**Como** Logistics / Operations Manager
+**Quiero** monitorear el "Burn Rate" (tasa de consumo de combustible)
+**Para** tomar decisiones logísticas y prevenir sobrecostos
+
+**Scenario: Consulta del gráfico de Burn Rate mensual**
+- **ID:** US-11
+- **Given** que soy un Logistics Manager
+- **And** mi flota ha realizado múltiples pedidos durante el mes
+- **When** ingreso al módulo de "Reportes y Analíticas"
+- **Then** el Reporting Service agrupa los datos de consumo
+- **And** muestra un gráfico interactivo comparando el presupuesto asignado vs el Burn Rate actual
+- **And** proyecta un estimado de gasto para el fin de mes basado en el consumo histórico
+
 #### 6.2.1.6. Execution Evidence for Sprint Review.
 
+**LANDING PAGE**
+
+![landing-picture](assets/landing-picture.png)
+*Imagen de la landing page funcional desplegada*
+
+**Web Application**
+![web-app](assets/web-app1.png)
+*Página de login del frontend desplegado*
+
+![web-app](assets/web-app2.png)
+*Página del panel operativo de FuelTrack*
+
+![web-app](assets/web-app3.png)
+*Página de inteligencia operativa*
+
+![web-app](assets/web-app4.png)
+*Página de los pedidos de combustible del usuario*
+
 #### 6.2.1.7. Services Documentation Evidence for Sprint Review.
+![Endpoints](assets/endpoint1.png)
+*Endpoints de la primera versión del backend*
 
 #### 6.2.1.8. Software Deployment Evidence for Sprint Review.
+A continuación, se evidenciará el enlace de acuerdo a los software desplegados para este Sprint:
+
+- Landing Page: https://fueltrack-landingpage.web.app/
+- Web Application: https://fueltrack-28dba.web.app/login
 
 #### 6.2.1.9. Team Collaboration Insights during Sprint.
+Durante el sprint 1, el equipo trabajo activamente en la implementación de la landing page y el web application.
 
-
-
+![Commits](assets/Commits.png)
+*Commits realizados por cada integrante durante el sprint*
 
 ## Conclusiones
 
