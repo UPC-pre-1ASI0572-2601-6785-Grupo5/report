@@ -2929,6 +2929,20 @@ En el Sprint Planning 1, se llevó a cabo una sesión de planificación para la 
 </table>
 
 #### 6.2.1.4. Development Evidence for Sprint Review.
+Landing Page
+
+| Repository                                        | Branch            | Commit Id                                | Commit Message                               | Committed on (Date) |
+|---------------------------------------------------|-------------------|------------------------------------------|----------------------------------------------|---------------------|
+| https://github.com/UPC-pre-1ASI0572-2601-6785-Grupo5/LandingPage | main           | 327b0ea1c7d3003c24b7863bf3cc32732280e514 | inital commit                                | 12/05/2026          |
+| https://github.com/UPC-pre-1ASI0572-2601-6785-Grupo5/LandingPage                                                  | main              | 8fb68015802cf9d22e0c00e728f359c79992dda9 | feat: Added HTML, CSS and JS files.          | 12/05/2026          |
+| https://github.com/UPC-pre-1ASI0572-2601-6785-Grupo5/LandingPage                                                  | main | cbc1995a5128ba35321722b8872fba1d39358afc | fix: Fix Call-To-Action. | 24/04/2025           |
+
+Frontend
+
+| Repository                                        | Branch            | Commit Id                                | Commit Message                               | Committed on (Date) |
+|---------------------------------------------------|-------------------|------------------------------------------|----------------------------------------------|---------------------|
+| https://github.com/UPC-pre-1ASI0572-2601-6785-Grupo5/Frontend | main              | 1f876f815c709275f7e17372155327a3588b6466 | Initial commit: Proyecto Frontend                             | 12/05/2026       |
+| https://github.com/UPC-pre-1ASI0572-2601-6785-Grupo5/Frontend                                                  | main              | e55607aac7c603464907818ad2c6c319d1335996 | Add deploy configuration for firebase                  | 12/05/2026          |
 
 #### 6.2.1.5. Testing Suite Evidence for Sprint Review.
 
