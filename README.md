@@ -1461,12 +1461,11 @@ Se llevó a cabo un proceso de Event Storming para identificar los Bounded Conte
 
 Se plantean eventos importantes de todos los grupos funcionales en tiempo pasado y nomenclatura en inglés.
 
-<img width="585" height="622" alt="image" src="https://github.com/user-attachments/assets/d63f6d4c-b6b0-4428-b2c9-c9249941d636" />
+<img width="846" height="772" alt="image" src="https://github.com/user-attachments/assets/f35db1d7-1028-4965-8087-b6c355234bae" />
 
 <sub>*Detalle de los Domain Events principales clasificados por actor y grupo funcional.*</sub>
 
 ## Timeline
-<img width="899" height="302" alt="image" src="https://github.com/user-attachments/assets/b106fc48-1643-4278-9595-4173b6fd6bb4" />
 
 <sub>*Línea de tiempo (Timeline) agrupando los eventos clave del proceso de solicitudes de abastecimiento.*</sub>
 
