@@ -2934,9 +2934,12 @@ Landing Page
 
 | Repository                                        | Branch            | Commit Id                                | Commit Message                               | Committed on (Date) |
 |---------------------------------------------------|-------------------|------------------------------------------|----------------------------------------------|---------------------|
-| https://github.com/UPC-pre-1ASI0572-2601-6785-Grupo5/LandingPage | main           | 327b0ea1c7d3003c24b7863bf3cc32732280e514 | inital commit                                | 12/05/2026          |
-| https://github.com/UPC-pre-1ASI0572-2601-6785-Grupo5/LandingPage                                                  | main              | 8fb68015802cf9d22e0c00e728f359c79992dda9 | feat: Added HTML, CSS and JS files.          | 12/05/2026          |
-| https://github.com/UPC-pre-1ASI0572-2601-6785-Grupo5/LandingPage                                                  | main | cbc1995a5128ba35321722b8872fba1d39358afc | fix: Fix Call-To-Action. | 24/04/2025           |
+| https://github.com/UPC-pre-1ASI0572-2601-6785-Grupo5/LandingPage | main           | f48276d80218eb24522ef72d97dd13e2a9d27dc9 | feat: estructura landing FuelTrack (Vue+Vite+Tailwind) lista para Pages                                | 09/10/2025          |
+| https://github.com/UPC-pre-1ASI0572-2601-6785-Grupo5/LandingPage                                                  | main              | 324bcc494fc8f01bfab3c43ce3e0b60fb56667a3 | Landing verde + OG/Twitter + footer + secciones pro          | 10/10/2025          |
+| https://github.com/UPC-pre-1ASI0572-2601-6785-Grupo5/LandingPage                                                  | main | 8639bf0f49b0c58cf43c22c0044d3a2a52ba9c51 | fix: rutas de logos usando BASE_URL y normalización a minúsculas (GitHub Pages compatible) | 10/10/2025           |
+| https://github.com/UPC-pre-1ASI0572-2601-6785-Grupo5/LandingPage                                                  | main | 2107985e7c3d2d1d4464927b727389784e9e3a3e | (Feeedback TP1): Logo mas grande del landing page, CALL TO ACTION mejorado y arreglado imagen que no cargaban | 26/10/2025           |
+| https://github.com/UPC-pre-1ASI0572-2601-6785-Grupo5/LandingPage                                                  | main | 8b7d70d1a12c4c6789509bcf5223c4a562f9a223 | add corrections for landing page | 14/11/2025           |
+| https://github.com/UPC-pre-1ASI0572-2601-6785-Grupo5/LandingPage                                                  | main | f3e4e1b01d38a75cfdd004e5179dad8b278b2bf8 | Add configuration for deployment | 12/05/2026           |
 
 Frontend
 
@@ -3101,6 +3104,7 @@ Frontend
 ![web-app](assets/web-app4.png)
 
 #### 6.2.1.7. Services Documentation Evidence for Sprint Review.
+
 
 #### 6.2.1.8. Software Deployment Evidence for Sprint Review.
 A continuación, se evidenciará el enlace de acuerdo a los software desplegados para este Sprint:
