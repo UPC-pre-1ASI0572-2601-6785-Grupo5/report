@@ -47,45 +47,47 @@ El objetivo de esta sección es resumir las modificaciones relevantes que se rea
     </tr>
   </thead>
   <tbody>
+    <!-- Inserte aquí los <tr> correspondientes a la TB1 que ya tienes -->
+
+    <!-- INICIO DE LOS REGISTROS PARA TP -->
     <tr>
-      <td rowspan="7" style="text-align: center; vertical-align: middle;"><b>TB1</b></td>
-      <td>11/04/2026</td>
+      <td rowspan="7" style="text-align: center; vertical-align: middle;"><b>TP</b></td>
+      <td>25/04/2026</td>
+      <td>Almerco Rojas, Jocelyn Damaly</td>
+      <td>Corrección de observaciones de la TB1 e inicio del Capítulo 4 (Arquitectura del Sistema - Modelo C4).</td>
+    </tr>
+    <tr>
+      <td>28/04/2026</td>
       <td>Aguirre Castillo, Sergio Cesar</td>
-      <td>Desarrollo del capítulo 3</td>
+      <td>Desarrollo del Capítulo 4: Documentación de patrones de arquitectura y principios de diseño (SOLID).</td>
     </tr>
     <tr>
-      <td>14/04/2026</td>
-      <td>Jocelyn Damaly Almerco almeroc Rojas</td>
-      <td>Desarrollo puntos 2.1, 2.3, 2.3.1</td>
+      <td>02/05/2026</td>
+      <td>Espejo Gamarra, Bryan Ronald</td>
+      <td>Desarrollo del Capítulo 5: Diseño de Base de Datos, elaboración del modelo lógico y físico.</td>
     </tr>
     <tr>
-      <td>16/04/2026</td>
+      <td>05/05/2026</td>
+      <td>Luque Minaya, Renzo Andrés</td>
+      <td>Desarrollo del Capítulo 6: Diseño de Interfaz de Usuario (UX/UI), prototipado y estándares de seguridad.</td>
+    </tr>
+    <tr>
+      <td>08/05/2026</td>
       <td>Iparraguirre Rueda, Cristian Luis</td>
-      <td>Desarrollo el capítulo 1 y punto 3.2</td>
+      <td>Desarrollo del Capítulo 7: Especificaciones y diseño de API (Endpoints) y Modelos de Dominio.</td>
     </tr>
     <tr>
-      <td>18/04/2026</td>
+      <td>10/05/2026</td>
       <td>Aguirre Castillo, Sergio Cesar</td>
-      <td>Desarrollo de los puntos 2.3.2 a 2.3.5</td>
+      <td>Integración de anexos, justificación técnica y revisión de la trazabilidad de los diagramas.</td>
     </tr>
     <tr>
-      <td>20/04/2026</td>
-      <td>Jocelyn Damaly Almerco almeroc Rojas</td>
-      <td>Revisión general del documento</td>
+      <td>12/05/2026</td>
+      <td>Almerco Rojas, Jocelyn Damaly</td>
+      <td>Revisión final de formato APA 7, validación general de coherencia del documento y consolidación para la entrega TP.</td>
     </tr>
-    <tr>
-      <td>20/04/2026</td>
-      <td>Iparraguirre Rueda, Cristian Luis</td>
-      <td>Desarrollo de conclusiones y recomendaciones del proyecto</td>
-    </tr>
-    <tr>
-      <td>20/04/2026</td>
-      <td>Bryan Ronald Espejo Gamarra</td>
-      <td>Elaborar presentación tras revisión del documento</td>
-    </tr>
-    <tr>
-     <table>
-  <thead>
+  </tbody>
+</table>
 
 ## Project Report Collaboration Insights
 El repositorio para el Project Report en la organización de GitHub del equipo se encuentra en el siguiente enlace:
