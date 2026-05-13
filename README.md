@@ -247,7 +247,7 @@ Durante la elaboración de esta entrega, el equipo colaboró utilizando GitFlow.
   - [Conclusiones](#conclusiones)
   - [Recomendaciones](#Recomendaciones)
   - [Bibliografia](#Bibliografia)
-  - [Anexo](#Anexo)
+  - [Anexos](#Anexos)
 
 <div style="page-break-after: always;"></div>
 
