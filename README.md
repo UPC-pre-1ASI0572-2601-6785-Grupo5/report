@@ -2256,6 +2256,35 @@ La marca utiliza colores característicos y amigables visualmente para transmiti
 
 
 ### 5.1.2. Web, Mobile and Iot Style Guidelines
+
+Para garantizar una experiencia de usuario coherente y adaptada al contexto de uso de cada actor dentro del ecosistema FuelTrack, se han definido directrices de estilo específicas para las plataformas Web, Móvil y el hardware IoT. Estas reglas aseguran que la interfaz responda a las necesidades ergonómicas y operativas de cada entorno.
+
+#### Web Style Guidelines (Plataforma Corporativa y Dashboards)
+La aplicación web (desarrollada en Vue 3) está dirigida principalmente a gerentes de logística, controladores de flota y perfiles administrativos que operan desde oficinas. El diseño prioriza la visualización de datos complejos y la toma de decisiones.
+
+* **Densidad de la información:** Uso de layouts de ancho completo (*Full-width*) para maximizar el espacio en pantallas de escritorio, permitiendo la visualización de tablas de datos extensas y gráficos de *Burn Rate* sin necesidad de scroll horizontal excesivo.
+* **Jerarquía de Dashboards:** Los indicadores clave de rendimiento (KPIs) como nivel de combustible crítico o estado de flota deben ubicarse en la parte superior (*Above the fold*) utilizando tarjetas (*Cards*) con alto contraste.
+* **Componentes de interacción:** Uso de botones de acción primaria con el color principal de la marca para operaciones críticas (ej. "Aprobar Orden"). Las acciones secundarias o destructivas (ej. "Rechazar") deben utilizar estilos delineados (*Outlined*) o colores de alerta (Rojo/Naranja).
+* **Navegación:** Implementación de un menú lateral colapsable (*Sidebar*) persistente que permita cambiar rápidamente entre los módulos de Pedidos, Telemetría, Facturación y Reportes.
+
+#### Mobile Style Guidelines (Aplicación para Operadores en Campo)
+La aplicación móvil (desarrollada en Flutter) está orientada a choferes de cisternas, supervisores de campo y personal logístico en ruta. El diseño debe mitigar las distracciones y facilitar el uso en entornos industriales y al aire libre.
+
+* **Zonas táctiles (Touch Targets):** Todos los botones, campos de formulario y controles interactivos deben tener un tamaño mínimo de 48x48 dp para facilitar su uso, incluso si el operario utiliza guantes.
+* **Legibilidad en exteriores:** Uso de un modo claro (*Light Mode*) con fondos blancos o gris muy claro (`#F8F9FA`) y tipografía oscura de alto contraste para garantizar la lectura bajo luz solar directa.
+* **Flujos simplificados (One-task-per-screen):** Los procesos críticos, como la confirmación de llegada a la geocerca o la firma digital del Voucher, deben presentarse de manera secuencial (*Wizards*) para reducir la carga cognitiva del usuario en movimiento.
+* **Retroalimentación háptica y visual:** Uso de vibración del dispositivo y animaciones claras (ej. *checkmarks* verdes gigantes) para confirmar transacciones exitosas (como la lectura de entrega o sincronización de datos).
+
+#### IoT Style Guidelines (Interacción en el Hardware / Nodos Edge)
+Aunque el dispositivo IoT (ESP32 DevKit V1 + Sensores) no posee una interfaz gráfica tradicional, requiere lineamientos de diseño para la interacción humano-máquina (HMI) en el punto físico de descarga de la cisterna.
+
+* **Indicadores Lumínicos (LEDs de Estado):** 
+  * **Verde fijo:** Conexión MQTT establecida y lectura de sensores estable.
+  * **Amarillo parpadeante:** Transmitiendo datos o procesando validación de geocerca.
+  * **Rojo fijo / parpadeante:** Error de conexión, anomalía detectada (caída de presión) o bloqueo de válvula activo.
+* **Carcasas y diseño industrial:** El hardware debe estar contenido en gabinetes con certificación IP67 (resistentes a polvo y agua), utilizando colores industriales (amarillo o naranja de alta visibilidad) para identificar rápidamente el nodo telemétrico en la cisterna.
+* **Feedback Inmediato:** El tiempo de respuesta entre la validación en la aplicación móvil y la apertura de la válvula electromecánica (*Smart Lock*) debe ser evidenciado por un cambio visual y auditivo (clic del relé) en el hardware, asegurando al operador que la descarga ha sido autorizada.
+
 ## 5.2 Information Architecture
 
 La arquitectura de información de FuelTrack fue estructurada para permitir una navegación clara e intuitiva entre las funcionalidades principales de la plataforma, facilitando la adaptación de los usuarios y optimizando el monitoreo operativo y financiero en tiempo real.
