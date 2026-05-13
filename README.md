@@ -4108,42 +4108,47 @@ Durante el sprint 1, el equipo trabajo activamente en la implementación de la l
 ## Bibliografía
 
 <br>
-Alaminkarno. (2024, enero 8). DDD (Domain-Driven Design) in Flutter – Too much or just right? DEV Community. https://dev.to/alaminkarno/ddd-domain-driven-design-in-flutter-too-much-or-just-right-d1g
+Alaminkarno. (2024, 8 de enero). DDD (Domain-Driven Design) in Flutter – Too much or just right? DEV Community. https://dev.to/alaminkarno/ddd-domain-driven-design-in-flutter-too-much-or-just-right-d1g
 
-Allen, C. (2024). The impact of book clubs on millennials: Best way to instill a love of reading. Recuperado de <https://catherineallenblog.com/the-impact-of-book-clubs-on-millennials-best-way-to-instill-a-love-of-reading>
+Allen, C. (2024). The impact of book clubs on millennials: Best way to instill a love of reading. Recuperado de https://catherineallenblog.com/the-impact-of-book-clubs-on-millennials-best-way-to-instill-a-love-of-reading
 
-Alvarez, A. (2020, 5 de agosto). 5W2H: Qué significa, para qué sirve, cómo aplicarla y algunos ejemplos. LeanConstructionMexico. <https://www.leanconstructionmexico.com.mx/post/5w2h-qué-significa-para-qué-sirve-cómo-aplicarla-y-algunos-ejemplos>
+Alvarez, A. (2020, 5 de agosto). 5W2H: Qué significa, para qué sirve, cómo aplicarla y algunos ejemplos. LeanConstructionMexico. https://www.leanconstructionmexico.com.mx/post/5w2h-qué-significa-para-qué-sirve-cómo-aplicarla-y-algunos-ejemplos
 
-Consejo Superior de Investigaciones Científicas. (2026, abril 8). *Transformar los residuos forestales: de un problema para los incendios a combustible sostenible para el transporte*. EFE Verde. https://efeverde.com/transformar-residuos-forestales-combustible-sostenible-transporte/
+Consejo Superior de Investigaciones Científicas. (2026, 8 de abril). Transformar los residuos forestales: de un problema para los incendios a combustible sostenible para el transporte. EFE Verde. https://efeverde.com/transformar-residuos-forestales-combustible-sostenible-transporte/
 
-Cubas, I. (2025, diciembre 9). *Seguridad alimentaria 2026: trazabilidad, IA, transparencia y resiliencia*. The Food Tech. https://thefoodtech.com/metodos-de-control-y-regulaciones/seguridad-alimentaria-2026-trazabilidad-ia-transparencia-y-resiliencia/
+Cubas, I. (2025, 9 de diciembre). Seguridad alimentaria 2026: trazabilidad, IA, transparencia y resiliencia. The Food Tech. https://thefoodtech.com/metodos-de-control-y-regulaciones/seguridad-alimentaria-2026-trazabilidad-ia-transparencia-y-resiliencia/
 
-Dart Packages. (s. f.). pub.dev. <https://pub.dev>
+Dart Packages. (s.f.). Pub.dev. https://pub.dev
 
-Fabiana, E., & Vega, J. (2022). La motivación en el aprendizaje de la lectura en los estudiantes. Revista EDUCARE - UPEL-IPB - Segunda Nueva Etapa 2.0, 26(Extraordinario), 476–493. <https://doi.org/10.46498/reduipb.v26iExtraordinario.1641>
+Fabiana, E., & Vega, J. (2022). La motivación en el aprendizaje de la lectura en los estudiantes. Revista EDUCARE - UPEL-IPB - Segunda Nueva Etapa 2.0, 26(Extraordinario), 476–493. https://doi.org/10.46498/reduipb.v26iExtraordinario.1641
 
-Flutter Dev. (s. f.). Flutter documentation. <https://docs.flutter.dev>
+Flutter Dev. (s.f.). Flutter documentation. https://docs.flutter.dev
 
-Google Fonts. (s. f.). Alexandria. <https://fonts.google.com/specimen/Alexandria>
+FuelCloud. (s.f.). Sistemas y software de gestión de combustible. Recuperado el 13 de mayo de 2026, de https://fuelcloud.com/
 
-Google Fonts. (s. f.). Asap Condensed. <https://fonts.google.com/specimen/Asap+Condensed>
+Google Fonts. (s.f.). Alexandria. https://fonts.google.com/specimen/Alexandria
 
-La Red de Medios. (2026, marzo 8). *Gasoducto del sur evitaría crisis a causa de desperfectos en el ducto de TGP*. https://lareddemedios.pe/gasoducto-del-sur-evitaria-crisis-a-causa-de-desperfectos-en-el-ducto-de-tgp/
+Google Fonts. (s.f.). Asap Condensed. https://fonts.google.com/specimen/Asap+Condensed
 
-Mamani, B., Chata, L., & Choque, D. (2024). Efecto del uso de Tik Tok en el rendimiento académico de estudiantes de 5to grado . Revista Tribunal, 4(9), 161-175. <https://doi.org/10.59659/revistatribunal.v4i9.71>
+La Red de Medios. (2026, 8 de marzo). Gasoducto del sur evitaría crisis a causa de desperfectos en el ducto de TGP. https://lareddemedios.pe/gasoducto-del-sur-evitaria-crisis-a-causa-de-desperfectos-en-el-ducto-de-tgp/
 
-Ministerio de Cultura del Perú & Instituto Nacional de Estadística e Informática. (2023). Encuesta Nacional de Lectura 2022: Informe de lectores y no lectores. Recuperado de <https://perulee.pe/sites/default/files/ENL%202022%20-%20Informe%20de%20lectores%20y%20no%20lectores.pdf>
+Mamani, B., Chata, L., & Choque, D. (2024). Efecto del uso de Tik Tok en el rendimiento académico de estudiantes de 5to grado. Revista Tribunal, 4(9), 161-175. https://doi.org/10.59659/revistatribunal.v4i9.71
 
-Pastor, A. (2026, marzo 16). *La crisis energética que el Perú no quiso ver*. El Montonero. https://elmontonero.pe/columnas/la-crisis-energetica-que-el-peru-no-quiso-ver
+Ministerio de Cultura del Perú & Instituto Nacional de Estadística e Informática. (2023). Encuesta Nacional de Lectura 2022: Informe de lectores y no lectores. Recuperado de https://perulee.pe/sites/default/files/ENL%202022%20-%20Informe%20de%20lectores%20y%20no%20lectores.pdf
 
-Statista. (2024). Hablemos de los clubes de lectura y por qué esta tendencia va en aumento. Recuperado de <https://globaltag.mx/uncategorized/leer-esta-de-moda-hablemos-de-los-clubes-de-lectura-y-por-que-esta-tendencia-va-en-aumento/>
+Pastor, A. (2026, 16 de marzo). La crisis energética que el Perú no quiso ver. El Montonero. https://elmontonero.pe/columnas/la-crisis-energetica-que-el-peru-no-quiso-ver
 
-Torres-Vega, E. (2025). Comprensión lectora en estudiantes de secundaria en Perú. Horizontes. Revista De Investigación En Ciencias De La Educación, 9(36), 177–187. <https://doi.org/10.33996/revistahorizontes.v9i36.909>
+Statista. (2024). Hablemos de los clubes de lectura y por qué esta tendencia va en aumento. Recuperado de https://globaltag.mx/uncategorized/leer-esta-de-moda-hablemos-de-los-clubes-de-lectura-y-por-que-esta-tendencia-va-en-aumento/
 
-Transporte.mx. (2026, abril 8). *La transformación digital en la logística: cómo mantenerse al día con las tendencias cambiantes*. https://transporte.mx/la-transformacion-digital-en-la-logistica-como-mantenerse-al-dia-con-las-tendencias-cambiantes/
+Torres-Vega, E. (2025). Comprensión lectora en estudiantes de secundaria en Perú. Horizontes. Revista de Investigación en Ciencias de la Educación, 9(36), 177–187. https://doi.org/10.33996/revistahorizontes.v9i36.909
 
+Transporte.mx. (2026, 8 de abril). La transformación digital en la logística: cómo mantenerse al día con las tendencias cambiantes. https://transporte.mx/la-transformacion-digital-en-la-logistica-como-mantenerse-al-dia-con-las-tendencias-cambiantes/
 
-TV Perú. (2026). *Los Olivos: Policía Nacional frustra robo de cisterna con más de 10 000 galones de combustible*. https://www.tvperu.gob.pe/noticias/locales/los-olivos-policia-nacional-frusta-robo-de-cisterna-con-mas-de-10-000-galones-de-combustible
+TV Perú. (2026). Los Olivos: Policía Nacional frustra robo de cisterna con más de 10 000 galones de combustible. https://www.tvperu.gob.pe/noticias/locales/los-olivos-policia-nacional-frusta-robo-de-cisterna-con-mas-de-10-000-galones-de-combustible
+
+Wialon. (s.f.). Plataforma de rastreo GPS y gestión de flotas. Recuperado el 13 de mayo de 2026, de https://wialon.com/
+
+Zavgar Online. (s.f.). Software de gestión de mantenimiento de flotas. Recuperado el 13 de mayo de 2026, de https://zavgar.com/
 
 
 ## Anexos
