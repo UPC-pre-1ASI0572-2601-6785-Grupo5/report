@@ -1649,6 +1649,53 @@ Estos lienzos ayudan a definir los límites de cada contexto, sus responsabilida
 </table>
 
 ### 4.1.2. Context Mapping
+
+En esta sección se explica el proceso de elaboración del Context Map de FuelTrack, visualizando las relaciones estructurales entre los Bounded Contexts identificados en el EventStorming. Se aplicaron los patrones de integración definidos en Domain-Driven Design: **Anti-Corruption Layer (ACL)**, **Customer/Supplier (C/S)** y **Open Host Service (OHS)**.
+
+---
+
+#### Proceso de elaboración
+
+El equipo evaluó distintas configuraciones planteando las siguientes preguntas de diseño antes de llegar a la estructura final:
+
+> **¿Qué pasaría si movemos la validación de presupuesto (Burn Rate) de Financial & Billing hacia Order & Payment?**
+> Order & Payment ya gestiona pedidos, pagos y rutas. Agregarle lógica financiera lo convertiría en un *God Context*. Se descartó y se mantuvo Financial & Billing como contexto de soporte independiente.
+
+> **¿Qué pasaría si descomponemos IoT & Telemetry en dos contextos: GPS y sensores?**
+> El evento `Geofence entered` requiere correlacionar posición GPS con estado del tanque simultáneamente. Separarlos obligaría a un orquestador adicional sin beneficio real. Se mantuvieron en un único contexto cohesionado.
+
+> **¿Qué pasaría si duplicamos la autenticación dentro de cada contexto?**
+> Duplicar la lógica de autenticación generaría inconsistencias en las reglas de acceso. Se optó por exponer un **Open Host Service (OHS)** desde Identity & Access, al que cada contexto se conecta mediante una **ACL**.
+
+> **¿Qué pasaría si creamos un Shared Kernel entre Order & Payment e IoT & Telemetry?**
+> Compartir el modelo de *Dispatch* introduciría acoplamiento estructural entre dos contextos core. Se prefirió una relación **Customer/Supplier** con eventos bien definidos (`Payment validated`, `Geofence entered`).
+
+> **¿Qué pasaría si aislamos la integración bancaria en un contexto separado?**
+> Sería sobreingeniería para el volumen actual. La integración con el banco se encapsula mediante **ACL** dentro de Order & Payment, único contexto que valida pagos.
+
+---
+
+#### Análisis de relaciones y patrones aplicados
+
+| Relación | Dirección | Patrón | Descripción |
+|----------|-----------|--------|-------------|
+| **Identity & Access → Order & Payment** | U → D | `OHS / ACL` | IAM expone autenticación JWT como Open Host Service. Order & Payment lo consume a través de una ACL para no acoplar su dominio al esquema de identidad. |
+| **Identity & Access → IoT & Telemetry** | U → D | `OHS / ACL` | Mismo patrón: tokens validados en cada llamada a la API de telemetría. |
+| **Identity & Access → Financial & Billing** | U → D | `OHS / ACL` | El contexto financiero valida permisos de acceso a reportes y dashboards vía IAM. |
+| **Order & Payment → IoT & Telemetry** | U [S] → [C] D | `Customer / Supplier` | Al aprobarse un pedido, se publica `Payment validated`. IoT & Telemetry lo consume para activar el rastreo en vivo del camión asignado. |
+| **Order & Payment → Financial & Billing** | U [S] → [C] D | `Customer / Supplier` | Al completarse una entrega, Order & Payment publica los datos que Financial & Billing consume para generar vouchers y calcular el Burn Rate. |
+| **IoT & Telemetry → Financial & Billing** | U [S] → [C] D | `Customer / Supplier` | Las lecturas de sensores (GPS, nivel de combustible, temperatura) alimentan los reportes analíticos y métricas operativas en tiempo real. |
+| **Bank System → Order & Payment** | U → D | `ACL` | FuelTrack traduce el modelo bancario externo a su lenguaje de dominio, desacoplándose del proveedor financiero. |
+| **Google Maps → IoT & Telemetry** | U → D | `ACL` | La evaluación de geocercas se encapsula detrás de una ACL, permitiendo cambiar de proveedor de mapas sin impactar el dominio. |
+
+---
+
+#### Context Map
+
+![Context Map FuelTrack](../report/assets/ContextMap.png)
+
+---
+
 ### 4.1.3. Software Architecture
 #### 4.1.3.1. Software Architecture System Landscape Diagram
 
