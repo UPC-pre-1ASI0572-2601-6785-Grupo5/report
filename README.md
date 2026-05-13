@@ -3104,7 +3104,7 @@ Frontend
 ![web-app](assets/web-app4.png)
 
 #### 6.2.1.7. Services Documentation Evidence for Sprint Review.
-
+![Endpoints](assets/endpoint1.png)
 
 #### 6.2.1.8. Software Deployment Evidence for Sprint Review.
 A continuación, se evidenciará el enlace de acuerdo a los software desplegados para este Sprint:
@@ -3113,8 +3113,9 @@ A continuación, se evidenciará el enlace de acuerdo a los software desplegados
 - Web Application: https://fueltrack-28dba.web.app/login
 
 #### 6.2.1.9. Team Collaboration Insights during Sprint.
+Durante el sprint 1, el equipo trabajo activamente en la implementación de la landing page y el web application.
 
-
+![Commits](assets/Commits.png)
 
 
 ## Conclusiones
