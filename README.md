@@ -1467,9 +1467,11 @@ Se plantean eventos importantes de todos los grupos funcionales en tiempo pasado
 
 ## Timeline
 
+<img width="911" height="336" alt="image" src="https://github.com/user-attachments/assets/f3bf2895-d53b-4ed4-9529-02903984606c" />
+
 <sub>*Línea de tiempo (Timeline) agrupando los eventos clave del proceso de solicitudes de abastecimiento.*</sub>
 
-<img width="856" height="285" alt="image" src="https://github.com/user-attachments/assets/76c6dcde-c783-4cf1-a26c-0a017d0130d6" />
+<img width="792" height="316" alt="image" src="https://github.com/user-attachments/assets/8adad1bd-1321-4e7e-9585-412f63ec9756" />
 
 <sub>*Continuación de la línea de tiempo (Timeline) con las etapas de facturación y auditoría.*</sub>
 
