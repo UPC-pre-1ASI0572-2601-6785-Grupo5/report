@@ -2236,15 +2236,22 @@ Las decisiones relacionadas al diseño visual de FuelTrack tienen como objetivo 
 
 La paleta de colores fue seleccionada para armonizar con el diseño del logo y reforzar la identidad visual de FuelTrack. Los colores elegidos representan tecnología, confianza y monitoreo industrial, manteniendo una apariencia moderna y profesional orientada al entorno corporativo B2B.
 
+![Branding FuelTrack](assets/color.png)
+
 **Tipografía**
 
 La tipografía fue seleccionada priorizando la legibilidad en distintos dispositivos y entornos operativos, permitiendo una lectura clara de dashboards, reportes y datos logísticos. Además, contribuye a fortalecer la identidad visual de la plataforma y diferenciarla frente a soluciones tradicionales del mercado.
+
+![Branding FuelTrack](assets/tipografia.png)
+
 
 **Branding**
 
 El nombre del producto es **FuelTrack**. La identidad visual incorpora un logotipo moderno y minimalista relacionado con el monitoreo y transporte de combustible, representando la integración entre tecnología IoT, logística y trazabilidad operativa.
 
 La marca utiliza colores característicos y amigables visualmente para transmitir profesionalismo, seguridad y eficiencia dentro del sector energético e industrial.
+
+![Branding FuelTrack](assets/cap5/branding.png)
 
 
 ### 5.1.2. Web, Mobile and Iot Style Guidelines
@@ -2395,84 +2402,968 @@ La navegación se rige por principios de usabilidad (UX) para entornos industria
 ## 5.3 Landing Page UI Design
 ### 5.3.1. Landing Page Wireframe
 
-El wireframe de la Landing Page establece la arquitectura de información priorizando la conversión de leads corporativos. Se enfoca en una estructura limpia que destaca los puntos de dolor del sector (robo de combustible y desabastecimiento) y cómo la tecnología IoT los resuelve.
+El wireframe Desktop y Mobile  de la Landing Page establece la arquitectura de información priorizando la conversión de leads corporativos. La estructura propuesta presenta una distribución limpia y jerarquizada, enfocada en destacar los principales problemas del sector, como el robo de combustible y el desabastecimiento, así como la manera en que la tecnología IoT de FuelTrack permite optimizar el monitoreo, trazabilidad y control logístico de las operaciones.
 
-<img width="858" height="604" alt="image" src="https://github.com/user-attachments/assets/e6efcf57-44d9-4e9d-9edd-aecbe99ca99c" />
+Además, el prototipado de la landing page de FuelTrack cuenta con diversas secciones orientadas a presentar la propuesta de valor de la plataforma de monitoreo y gestión inteligente de combustible:
 
-<sub>*Wireframe referencial de la estructura inicial de la Landing Page.*</sub>
+- **Header:** Incluye el logo de FuelTrack y botones de navegación para acceder rápidamente a las diferentes secciones de la página, facilitando la experiencia del usuario.
 
-<img width="857" height="489" alt="image" src="https://github.com/user-attachments/assets/d1e2cd24-43c2-44fb-8281-c34b2d79b29d" />
+- **Hero Section:** Presenta un título principal acompañado de un subtítulo descriptivo sobre la plataforma, una ilustración relacionada con logística y monitoreo de combustible, así como un botón CTA principal para iniciar o solicitar una demostración de la aplicación.
 
-<sub>*Wireframe para la sección de propuesta de valor en la Landing Page.*</sub>
+- **Sección de Beneficios / Características:** Muestra las principales funcionalidades de FuelTrack, tales como monitoreo IoT en tiempo real, seguimiento GPS de cisternas, alertas inteligentes y analítica predictiva de consumo.
 
-<img width="851" height="430" alt="image" src="https://github.com/user-attachments/assets/c091c044-dbc0-4df7-ace0-76960d087c41" />
+- **Sección de Monitoreo y Analítica:** Expone gráficamente algunas capacidades del sistema, incluyendo dashboards operativos, métricas de consumo, telemetría y control logístico de despachos.
 
-<sub>*Wireframe de la sección informativa sobre beneficios de la plataforma.*</sub>
+- **Planes / Suscripciones:** Presenta diferentes planes disponibles para los usuarios empresariales, cada uno con su respectivo listado de funcionalidades y botones CTA secundarios para contratación o prueba del servicio.
 
-<img width="850" height="385" alt="image" src="https://github.com/user-attachments/assets/982ce575-151c-4be2-88ed-c990b9578f0e" />
+- **Sección de Testimonios:** Incluye opiniones y experiencias de usuarios corporativos y proveedores logísticos, generando confianza y validación de la plataforma.
 
-<sub>*Wireframe ilustrando funcionalidades del sistema de monitoreo IoT.*</sub>
+- **Llamado a la acción final (CTA):** Contiene un mensaje orientado a incentivar el uso de la plataforma, acompañado de un botón CTA destacado para registrarse o comenzar a utilizar FuelTrack.
 
-<img width="857" height="385" alt="image" src="https://github.com/user-attachments/assets/fc5af77a-ef40-41f6-85b5-b8a3a95cb708" />
+- **Footer:** Sección final de la landing page que incluye enlaces rápidos, redes sociales, información de contacto y datos generales de la plataforma.
 
-<sub>*Wireframe sección contacto y planes de suscripción para usuarios.*</sub>
+**Wireframe Desktop**
 
-<img width="864" height="544" alt="image" src="https://github.com/user-attachments/assets/402902bf-13dc-4210-992c-57f3d9a7af31" />
+<sub>*Wireframe referencial de la estructura principal de la Landing Page de FuelTrack.*</sub>
 
-<sub>*Wireframe detallando las especificaciones de seguridad y trazabilidad operativa.*</sub>
+<img width="858" height="604" alt="Landing Page FuelTrack" src="assets/cap5/wrLanding1.png" />
 
-<img width="855" height="372" alt="image" src="https://github.com/user-attachments/assets/2a3ab869-e4d4-4b19-bb53-ea0c263485a1" />
+<sub>*Wireframe para la sección de características y flujo operativo de la Landing Page.*</sub>
 
-<sub>*Boceto del footer de la Landing Page con links de interés.*</sub>
+<img width="858" height="604" alt="Landing Page FuelTrack" src="assets/cap5/wrLanding2.png" />
 
-**Elementos clave:**
-1.  **Header:** Menú de navegación directo hacia secciones de Valor, Funcionamiento y Contacto.
-2.  **Hero Section:** Propuesta de valor clara con un Call-To-Action (CTA) de registro.
-3.  **Bento Grid / Features:** Exposición visual de los módulos de IoT, Analítica y Seguridad.
+<sub>*Wireframe de la sección de testimonios y planes de suscripción de FuelTrack.*</sub>
+
+<img width="858" height="604" alt="Landing Page FuelTrack" src="assets/cap5/wrLanding3.png" />
+
+<sub>*Wireframe de la sección de preguntas frecuentes y contacto comercial de la Landing Page.*</sub>
+
+<img width="858" height="604" alt="Landing Page FuelTrack" src="assets/cap5/wrLanding4.png" />
+
+**Wireframe Mobile**
+
+<sub>*Wireframe mobile de la sección principal y Hero Section de la Landing Page de FuelTrack.*</sub>
+
+<img width="200" height="604" alt="Landing Page FuelTrack" src="assets/cap5/wrMobileLading1.png" />
+
+<sub>*Wireframe mobile de la sección de propuesta de valor y beneficios principales de FuelTrack.*</sub>
+
+<img width="200" height="604" alt="Landing Page FuelTrack" src="assets/cap5/wrMobileLading2.png" />
+
+<sub>*Wireframe mobile de la sección de características clave de la plataforma FuelTrack.*</sub>
+
+<img width="200" height="604" alt="Landing Page FuelTrack" src="assets/cap5/wrMobileLading3.png" />
+
+<sub>*Wireframe mobile del flujo operativo “Cómo funciona” de la plataforma FuelTrack.*</sub>
+
+<img width="200" height="604" alt="Landing Page FuelTrack" src="assets/cap5/wrMobileLading4.png" />
+
+<sub>*Wireframe mobile de métricas operativas y testimonios de usuarios de FuelTrack.*</sub>
+
+<img width="200" height="604" alt="Landing Page FuelTrack" src="assets/cap5/wrMobileLading5.png" />
+
+<sub>*Wireframe mobile de la sección de planes y suscripciones de FuelTrack.*</sub>
+
+<img width="200" height="604" alt="Landing Page FuelTrack" src="assets/cap5/wrMobileLading6.png" />
+
+<sub>*Wireframe mobile de la sección de preguntas frecuentes y formulario de contacto de FuelTrack.*</sub>
+
+<img width="200" height="604" alt="Landing Page FuelTrack" src="assets/cap5/wrMobileLading7.png" />
+
+<sub>*Wireframe mobile del footer y sección de información de contacto de FuelTrack.*</sub>
+
+<img width="200" height="604" alt="Landing Page FuelTrack" src="assets/cap5/wrMobileLading8.png" />
 
 ### 5.3.2. Landing Page Mock-up
 
-El diseño final (Mock-up) utiliza una paleta de colores profesional que transmite confianza, seguridad y modernidad tecnológica. Se ha aplicado un diseño **Responsive Web Design**, asegurando que la interfaz sea funcional tanto en dispositivos móviles de operarios en campo como en estaciones de trabajo administrativas.
+El diseño final del mock-up emplea una paleta de colores orientada a transmitir confianza, seguridad operativa y modernidad tecnológica, alineándose con el enfoque industrial y logístico de la plataforma FuelTrack.
 
-<img width="1160" height="797" alt="image" src="https://github.com/user-attachments/assets/4d3a6a8c-080c-4e08-9aca-e6aec0b60cf0" />
+**Wireframe Landing Desktop**
 
-<sub>*Mock-up del Home (Hero Section) con el Call-to-Action inicial.*</sub>
+<sub>*Mock-up referencial de la estructura principal de la Landing Page de FuelTrack.*</sub>
 
-<img width="1167" height="656" alt="image" src="https://github.com/user-attachments/assets/77f901b3-a794-4f8d-9c60-d7ab9c421894" />
+<img width="858" height="604" alt="Landing Page FuelTrack" src="assets/cap5/Landing1.png" />
 
-<sub>*Mock-up ilustrando las principales ventajas competitivas de FuelTrack.*</sub>
+<sub>*Mock-up para la sección de características y flujo operativo de la Landing Page.*</sub>
 
-<img width="1149" height="579" alt="image" src="https://github.com/user-attachments/assets/5fa0fae3-feb4-4a51-ad2c-de6e77eb3633" />
+<img width="858" height="604" alt="Landing Page FuelTrack" src="assets/cap5/Landing2.png" />
 
-<sub>*Representación de las funcionalidades operativas sobre el control de inventario.*</sub>
+<sub>*Mock-up de la sección de testimonios y planes de suscripción de FuelTrack.*</sub>
 
-<img width="1150" height="502" alt="image" src="https://github.com/user-attachments/assets/87cd08e9-9153-4ff7-9906-bcf12d9f9e5f" />
+<img width="858" height="604" alt="Landing Page FuelTrack" src="assets/cap5/Landing3.png" />
 
-<sub>*Mock-up detallando la gestión y seguimiento en tiempo real vía dashboard.*</sub>
+<sub>*Mock-up de la sección de preguntas frecuentes y contacto comercial de la Landing Page.*</sub>
 
-<img width="1148" height="528" alt="image" src="https://github.com/user-attachments/assets/91326746-616f-4813-a9eb-f49545a38e9d" />
+<img width="858" height="604" alt="Landing Page FuelTrack" src="assets/cap5/Landing4.png" />
 
-<sub>*Mock-up sobre la propuesta tecnológica de monitoreo IoT embebido.*</sub>
 
-<img width="1150" height="676" alt="image" src="https://github.com/user-attachments/assets/e75fd695-8265-4b75-aeab-ec8775b6226a" />
+**Wireframe Landing Mobile**
 
-<sub>*Vista de Mock-up mostrando los planes B2B y las opciones de soporte de la plataforma.*</sub>
+<sub>*Mock-up mobile de la sección principal y Hero Section de la Landing Page de FuelTrack.*</sub>
 
-<img width="1152" height="431" alt="image" src="https://github.com/user-attachments/assets/d2b4f289-c5ae-4b5d-8f20-e9719a520430" />
+<img width="200" height="604" alt="Landing Page FuelTrack" src="assets/cap5/MobileLading1.png" />
 
-<sub>*Detalle de la sección inferior y diseño final del layout general (Footer).*</sub>
+<sub>*Wireframe mobile de la sección de propuesta de valor y beneficios principales de FuelTrack.*</sub>
 
-**Diferenciadores de diseño:**
-* **Visualización de datos:** Uso de gráficos limpios para representar el ahorro operativo proyectado.
-* **Consistencia de marca:** Tipografías legibles y espaciado optimizado para facilitar la lectura de la propuesta técnica en cualquier dispositivo.
+<img width="200" height="604" alt="Landing Page FuelTrack" src="assets/cap5/MobileLading2.png" />
 
+<sub>*Mock-up mobile de la sección de características clave de la plataforma FuelTrack.*</sub>
+
+<img width="200" height="604" alt="Landing Page FuelTrack" src="assets/cap5/MobileLading3.png" />
+
+<sub>*Mock-up mobile del flujo operativo “Cómo funciona” de la plataforma FuelTrack.*</sub>
+
+<img width="200" height="604" alt="Landing Page FuelTrack" src="assets/cap5/MobileLading4.png" />
+
+<sub>*Mock-up mobile de métricas operativas y testimonios de usuarios de FuelTrack.*</sub>
+
+<img width="200" height="604" alt="Landing Page FuelTrack" src="assets/cap5/MobileLading5.png" />
+
+<sub>*Mock-up mobile de la sección de planes y suscripciones de FuelTrack.*</sub>
+
+<img width="200" height="604" alt="Landing Page FuelTrack" src="assets/cap5/MobileLading6.png" />
+
+<sub>*Mock-up mobile de la sección de preguntas frecuentes y formulario de contacto de FuelTrack.*</sub>
+
+<img width="200" height="604" alt="Landing Page FuelTrack" src="assets/cap5/MobileLading7.png" />
+
+<sub>*Mock-up mobile del footer y sección de información de contacto de FuelTrack.*</sub>
+
+<img width="200" height="604" alt="Landing Page FuelTrack" src="assets/cap5/MobileLading8.png" />
 
 ## 5.4 Applications UX/UI Design
 ### 5.4.1. Applications Wireframes
+
+**Wireframe Mobile**
+
+Los wireframes permiten definir de manera preliminar la estructura, distribución y flujo de navegación de la aplicación, facilitando la visualización de las interacciones que tendrán los usuarios con el sistema. Su uso en etapas tempranas del desarrollo resulta fundamental, ya que contribuye a validar ideas, detectar posibles problemas de usabilidad y mantener alineados a los integrantes del proyecto antes de iniciar el diseño visual definitivo y la implementación técnica.
+
+**Pantallas Generales**
+
+- **Pantalla de Registro**
+
+<img width="200" height="604" alt="wrRegistro FuelTrack" src="assets/cap5/wrRegistro.png" />
+
+- **Pantalla de Términos y Condiciones**
+
+<img width="200" height="604" alt="wrTérminos y Políticas FuelTrack" src="assets/cap5/wrTerminosPoliticas.png" />
+
+- **Pantalla de Planes**
+
+<img width="200" height="604" alt="wrPlan Suscripción FuelTrack" src="assets/cap5/wrPlanSuscripcion.png" />
+
+- **Pantalla de Pago**
+
+<img width="200" height="604" alt="wrConfirmación Pago FuelTrack" src="assets/cap5/wrConfirmacionPago.png" />
+
+- **Pantalla de Suscripción Exitosa**
+
+<img width="200" height="604" alt="wrPlan Suscripción Exitosa FuelTrack" src="assets/cap5/wrPlanSuscripcionExitosa.png" />
+
+- **Pantalla de Suscripción Fallida**
+
+<img width="200" height="604" alt="wrPlan Suscripción Fallida FuelTrack" src="assets/cap5/wrPlanSuscripcionFallida.png" />
+
+- **Pantalla de Registro Fallido**
+
+<img width="200" height="604" alt="wrError Registro FuelTrack" src="assets/cap5/wrErrorRegistro.png" />
+
+- **Pantalla de Inicio de Sesión**
+
+<img width="200" height="604" alt="wrInicio Sesión FuelTrack" src="assets/cap5/wrInicioSesion.png" />
+
+- **Pantalla de Recuperar Contraseña**
+
+<img width="200" height="604" alt="wrRecuperar Contraseña FuelTrack" src="assets/cap5/wrRecuperarContrasenia.png" />
+
+- **Pantalla de Código de Verificación**
+
+<img width="200" height="604" alt="wrCódigo Verificación FuelTrack" src="assets/cap5/wrCodigoVerificacion.png" />
+
+- **Pantalla de Código de Verificación Fallida**
+
+<img width="200" height="604" alt="wrCódigo Verificación Fallida FuelTrack" src="assets/cap5/wrCodigoVerificacionFallida.png" />
+
+- **Pantalla de Rol**
+
+<img width="200" height="604" alt="wrCódigo Verificación Fallida FuelTrack" src="assets/cap5/wrEscogerRol.png" />
+
+
+**El Cliente Corporativo (Demanda)**
+
+- **Pantalla de Inicio del Cliente**
+
+<img width="200" height="604" alt="wrDashboard Cliente FuelTrack" src="assets/cap5/wrDashboardCliente.png" />
+
+- **Pantalla Inicial de Pedidos**
+
+<img width="200" height="604" alt="wrPedido FuelTrack" src="assets/cap5/wrPedido.png" />
+
+- **Pantalla de Pedidos**
+
+<img width="200" height="604" alt="wrPedido1 FuelTrack" src="assets/cap5/wrPedido1.png" />
+
+- **Pantalla de Historial de Pedidos**
+
+<img width="200" height="604" alt="wrPedido5 FuelTrack" src="assets/cap5/wrPedido5.png" />
+
+- **Pantalla de Historial de Pedidos Exitosa**
+
+<img width="200" height="604" alt="wrPedido6 FuelTrack" src="assets/cap5/wrPedido6.png" />
+
+- **Pantalla de Historial de Pedidos Fallida**
+
+<img width="200" height="604" alt="wrPedido7 FuelTrack" src="assets/cap5/wrPedido7.png" />
+
+- **Pantalla de Nuevo Pedido**
+
+<img width="200" height="604" alt="wrPedido2 FuelTrack" src="assets/cap5/wrPedido2.png" />
+
+- **Pantalla de Nuevo Pedido (Capacidad no disponible)**
+
+<img width="200" height="604" alt="wrPedido4 FuelTrack" src="assets/cap5/wrPedido4.png" />
+
+- **Pantalla de Pedido Realizado con Éxito**
+
+<img width="200" height="604" alt="wrPedido3 FuelTrack" src="assets/cap5/wrPedido3.png" />
+
+- **Pantalla de Pedido Perdido**
+
+<img width="200" height="604" alt="wrPedido4 FuelTrack" src="assets/cap5/wrPedido4.png" />
+
+- **Pantalla de Seguimiento**
+
+<img width="200" height="604" alt="wrSeguimiento FuelTrack" src="assets/cap5/wrSeguimiento.png" />
+
+- **Pantalla de Detalles de Seguimiento**
+
+<img width="200" height="604" alt="wrSeguimiento2 FuelTrack" src="assets/cap5/wrSeguimiento2.png" />
+
+- **Pantalla de Entrega Exitosa**
+
+<img width="200" height="604" alt="wrSeguimiento3 FuelTrack" src="assets/cap5/wrSeguimiento3.png" />
+
+- **Pantalla de Entrega Confirmada**
+
+<img width="200" height="604" alt="wrSeguimiento4 FuelTrack" src="assets/cap5/wrSeguimiento4.png" />
+
+- **Pantalla de Entrega Fallida**
+
+<img width="200" height="604" alt="wrSeguimiento5 FuelTrack" src="assets/cap5/wrSeguimiento5.png" />
+
+- **Pantalla de Analítica**
+
+<img width="200" height="604" alt="wrAnalitica1 FuelTrack" src="assets/cap5/wrAnalitica1.png" />
+
+- **Pantalla de Reporte de Datos**
+
+<img width="200" height="604" alt="wrAnalitica2 FuelTrack" src="assets/cap5/wrAnalitica2.png" />
+
+- **Pantalla de Notificaciones de Alertas**
+
+<img width="200" height="604" alt="wrAlertaCampana FuelTrack" src="assets/cap5/wrAlertaCampana.png" />
+
+- **Pantalla de Perfil Cliente**
+
+<img width="200" height="604" alt="wrPerfilCliente FuelTrack" src="assets/cap5/wrPerfilCliente.png" />
+
+
+**El Proveedor / Distribuidor (Oferta)**
+
+- **Pantalla de Inicio del Proveedor**
+
+<img width="200" height="604" alt="wrDashboardProvedor FuelTrack" src="assets/cap5/wrDashboardProvedor.png" />
+
+- **Pantalla de Despacho**
+
+<img width="200" height="604" alt="wrDeposito FuelTrack" src="assets/cap5/wrDeposito.png" />
+
+- **Pantalla de Seguimiento de Operación**
+
+<img width="200" height="604" alt="wrDeposito1 FuelTrack" src="assets/cap5/wrDeposito1.png" />
+
+- **Pantalla de Asignación de Recursos**
+
+<img width="200" height="604" alt="wrDeposito2 FuelTrack" src="assets/cap5/wrDeposito2.png" />
+
+- **Pantalla de Monitoreo IoT**
+
+<img width="200" height="604" alt="wrDeposito3 FuelTrack" src="assets/cap5/wrDeposito3.png" />
+
+- **Pantalla de Detalle de Cisterna IoT**
+
+<img width="200" height="604" alt="wrDeposito4 FuelTrack" src="assets/cap5/wrDeposito4.png" />
+
+- **Pantalla de Alertas**
+
+<img width="200" height="604" alt="wrAlertaProvedor FuelTrack" src="assets/cap5/wrAlertaProvedor.png" />
+
+- **Pantalla de Configuración de Alertas**
+
+<img width="200" height="604" alt="wrAlertaProvedor1 FuelTrack" src="assets/cap5/wrAlertaProvedor1.png" />
+
+- **Pantalla de Detalles de Alerta**
+
+<img width="200" height="604" alt="wrAlertaProvedor2 FuelTrack" src="assets/cap5/wrAlertaProvedor2.png" />
+
+- **Pantalla de Perfil**
+
+<img width="200" height="604" alt="wrPerfilProvedor FuelTrack" src="assets/cap5/wrPerfilProvedor.png" />
+
+- **Pantalla de Configuración**
+
+<img width="200" height="604" alt="wrPerfilProvedor1 FuelTrack" src="assets/cap5/wrPerfilProvedor1.png" />
+
 ### 5.4.2. Applications Wireflow Diagrams
+
+**Wireflow Mobile**
+
+**Wireflows Generales**
+
+Los siguientes wireflows representan el flujo funcional e interacción principal de los usuarios dentro de la plataforma FuelTrack. Cada flujo permite visualizar la secuencia de acciones, validaciones y respuestas del sistema durante la navegación en la aplicación móvil.
+
+---
+
+**User Goal: Registrar**
+
+El usuario desea crear una cuenta corporativa en la plataforma para acceder a los servicios de monitoreo y gestión inteligente de combustible.
+
+**Flujo funcional:**
+
+El usuario completa el formulario de registro empresarial.
+
+El sistema valida los datos ingresados.
+
+Si los datos son válidos, el usuario acepta los términos y condiciones.
+
+El usuario selecciona un plan de suscripción.
+
+El usuario completa el proceso de pago.
+
+El sistema valida el pago realizado.
+
+Si el pago es exitoso, el sistema activa la suscripción y muestra el mensaje de confirmación.
+
+Si ocurre un error durante el registro o pago, el sistema muestra una pantalla de error y permite reintentar el proceso.
+
+<img width="680" height="600" alt="wrFlow Registrar FuelTrack" src="assets/cap5/wrFlowRegistrar.png" />
+
+---
+
+**User Goal: Iniciar sesión**
+
+El usuario desea iniciar sesión en la plataforma utilizando sus credenciales y acceder a las funciones principales del sistema.
+
+**Flujo funcional:**
+
+El usuario ingresa su correo electrónico y contraseña.
+
+El usuario selecciona la opción “Iniciar sesión”.
+
+El sistema valida las credenciales ingresadas.
+
+Si las credenciales son correctas, el sistema autoriza el acceso y muestra el panel principal (Dashboard).
+
+El usuario selecciona el rol correspondiente dentro de la plataforma.
+
+Dependiendo del rol seleccionado, el sistema redirige al Dashboard del Cliente o Dashboard del Proveedor.
+
+Si el usuario olvidó su contraseña, puede acceder al módulo de recuperación mediante código de verificación.
+
+Si las credenciales o el código ingresado son incorrectos, el sistema muestra un mensaje de error y permite reintentar el acceso.
+
+<img width="680" height="600" alt="wrFlow Iniciar Sesión FuelTrack" src="assets/cap5/wrFlowIniciarSesion.png" />
+
+---
+
+**Wireflows — Cliente Corporativo (Demanda)**
+
+Los siguientes wireflows representan las principales funcionalidades disponibles para el segmento Cliente Corporativo, enfocadas en la gestión de pedidos, seguimiento operativo, analítica y administración de la cuenta empresarial.
+
+---
+
+**User Goal: Pedidos Clientes**
+
+El usuario desea registrar y gestionar pedidos de combustible para realizar el abastecimiento de sus operaciones.
+
+**Flujo funcional:**
+
+El usuario accede al módulo de pedidos desde el panel principal.
+
+El sistema verifica si existen pedidos registrados previamente.
+
+El usuario selecciona la opción “Nuevo Pedido”.
+
+El usuario ingresa la cantidad y datos requeridos para el abastecimiento.
+
+El sistema valida la disponibilidad y capacidad solicitada.
+
+Si la información es válida, el usuario confirma el pedido.
+
+El sistema registra la solicitud y muestra la confirmación del pedido realizado.
+
+El usuario también puede acceder al historial de pedidos y exportar reportes en formato CSV.
+
+Si ocurre un error en la validación o registro del pedido, el sistema muestra un mensaje de error y permite corregir la información.
+
+<img width="680" height="600" alt="wrFlow Pedidos Clientes FuelTrack" src="assets/cap5/wrFlowPedidosClientes.png" />
+
+---
+
+**User Goal: Seguimiento Clientes**
+
+El usuario desea monitorear el estado y avance de sus pedidos de combustible en tiempo real.
+
+**Flujo funcional:**
+
+El usuario accede al módulo de seguimiento desde el panel principal.
+
+El sistema muestra el estado operativo y ubicación del pedido.
+
+El usuario selecciona la opción “Ver detalles”.
+
+El sistema muestra información detallada de la entrega, unidad asignada y métricas operativas.
+
+El sistema verifica si la entrega fue completada correctamente.
+
+Si la entrega fue exitosa, el sistema muestra la confirmación y permite descargar el comprobante digital.
+
+Si ocurre un problema durante la entrega, el sistema muestra una alerta de entrega fallida y permite reportar incidencias.
+
+<img width="680" height="600" alt="wrFlow Seguimiento Clientes FuelTrack" src="assets/cap5/wrFlowSeguimientoClientes.png" />
+
+---
+
+**User Goal: Analítica Cliente**
+
+El usuario desea visualizar métricas operativas y reportes analíticos relacionados con el consumo de combustible.
+
+**Flujo funcional:**
+
+El usuario accede al módulo de analítica desde el panel principal.
+
+El sistema muestra indicadores de consumo, costos y eficiencia operativa.
+
+El usuario selecciona la opción “Reporte Ejecutivo”.
+
+El sistema procesa la información registrada y genera reportes analíticos.
+
+El sistema muestra métricas históricas, proyecciones y recomendaciones operativas.
+
+Si no existen datos suficientes, el sistema muestra un mensaje indicando que es necesario sincronizar sensores o registrar información adicional.
+
+<img width="680" height="600" alt="wrFlow Analítica FuelTrack" src="assets/cap5/wrFlowAnalitica.png" />
+
+---
+
+**User Goal: Perfil Cliente**
+
+El usuario desea visualizar y administrar la información de su cuenta corporativa.
+
+**Flujo funcional:**
+
+El usuario accede al módulo de perfil desde el panel principal.
+
+El sistema muestra la información personal y configuración de la cuenta.
+
+El usuario puede editar datos básicos y preferencias del perfil.
+
+El usuario también puede acceder al centro de notificaciones y alertas operativas.
+
+El sistema actualiza la información modificada y confirma los cambios realizados correctamente.
+
+<img width="680" height="600" alt="wrFlow Perfil Cliente FuelTrack" src="assets/cap5/wrFlowPerfilCliente.png" />
+
+---
+
+**Wireflows — Proveedor / Distribuidor (Oferta)**
+
+Los siguientes wireflows representan las funcionalidades operativas orientadas al proveedor o distribuidor de combustible, enfocadas en la supervisión logística, monitoreo IoT, alertas operativas y administración de la plataforma.
+
+---
+
+**User Goal: Despachos Proveedor**
+
+El proveedor desea gestionar despachos y monitorear operaciones logísticas relacionadas con las entregas de combustible.
+
+**Flujo funcional:**
+
+El usuario accede al módulo de despachos desde el panel principal del proveedor.
+
+El sistema muestra la lista de operaciones y despachos activos.
+
+El usuario selecciona una operación para visualizar sus detalles.
+
+El sistema permite acceder al seguimiento operativo, asignación de recursos y monitoreo IoT.
+
+El usuario puede visualizar información de cisternas, conductores y estado de las rutas.
+
+El sistema actualiza los datos operativos en tiempo real para facilitar la supervisión logística.
+
+<img width="680" height="600" alt="wrFlow Despachos Proveedor FuelTrack" src="assets/cap5/wrFlowDespachosProvedor.png" />
+
+---
+
+**User Goal: Alertas Proveedor**
+
+El proveedor desea visualizar y administrar alertas operativas generadas por sensores IoT y eventos logísticos.
+
+**Flujo funcional:**
+
+El usuario accede al módulo de alertas desde el panel principal.
+
+El sistema muestra alertas críticas, advertencias y eventos operativos.
+
+El usuario selecciona una alerta para visualizar sus detalles.
+
+El sistema muestra información relacionada con temperatura, presión, rutas o incidencias detectadas.
+
+El usuario puede acceder a la configuración de alertas y modificar parámetros de monitoreo.
+
+El sistema guarda la configuración actualizada y continúa monitoreando eventos en tiempo real.
+
+<img width="680" height="600" alt="wrFlow Alertas Proveedor FuelTrack" src="assets/cap5/wrFlowAlertasProvedor.png" />
+
+---
+
+**User Goal: Perfil Proveedor**
+
+El proveedor desea administrar la información corporativa, seguridad y configuración de acceso de la plataforma.
+
+**Flujo funcional:**
+
+El usuario accede al módulo de perfil desde el panel principal del proveedor.
+
+El sistema muestra información empresarial, métricas operativas y configuraciones de seguridad.
+
+El usuario selecciona la opción de configuración de seguridad.
+
+El sistema permite modificar contraseñas, activar autenticación multifactor y gestionar roles de usuarios.
+
+El usuario guarda los cambios realizados.
+
+El sistema actualiza la configuración y confirma que la información fue modificada correctamente.
+
+<img width="680" height="600" alt="wrFlow Perfil Proveedor FuelTrack" src="assets/cap5/wrFlowPerfilProvedor.png" />
+
 ### 5.4.3. Applications Mock-ups
+
+**Mock-up Mobile**
+
+**Pantallas Generales**
+
+- **Pantalla de Registro**
+
+<img width="200" height="604" alt="Registro FuelTrack" src="assets/cap5/Registro.png" />
+
+- **Pantalla de Registro Fallido**
+
+<img width="200" height="604" alt="Error Registro FuelTrack" src="assets/cap5/ErrorRegistro.png" />
+
+- **Pantalla de Términos y Condiciones**
+
+<img width="200" height="604" alt="Términos y Políticas FuelTrack" src="assets/cap5/TerminosPoliticas.png" />
+
+- **Pantalla de Planes**
+
+<img width="200" height="604" alt="Plan Suscripción FuelTrack" src="assets/cap5/PlanSuscripcion.png" />
+
+- **Pantalla de Pago**
+
+<img width="200" height="604" alt="Confirmación Pago FuelTrack" src="assets/cap5/ConfirmacionPago.png" />
+
+- **Pantalla de Suscripción Exitosa**
+
+<img width="200" height="604" alt="Plan Suscripción Exitosa FuelTrack" src="assets/cap5/PlanSuscripcionExitosa.png" />
+
+- **Pantalla de Suscripción Fallida**
+
+<img width="200" height="604" alt="Plan Suscripción Fallida FuelTrack" src="assets/cap5/PlanSuscripcionFallida.png" />
+
+- **Pantalla de Inicio de Sesión**
+
+<img width="200" height="604" alt="Inicio Sesión FuelTrack" src="assets/cap5/InicioSesion.png" />
+
+- **Pantalla de Recuperar Contraseña**
+
+<img width="200" height="604" alt="Recuperar Contraseña FuelTrack" src="assets/cap5/RecuperarContrasenia.png" />
+
+- **Pantalla de Código de Verificación**
+
+<img width="200" height="604" alt="Código Verificación FuelTrack" src="assets/cap5/CodigoVerificacion.png" />
+
+- **Pantalla de Código de Verificación Fallida**
+
+<img width="200" height="604" alt="Código Verificación Fallida FuelTrack" src="assets/cap5/CodigoVerificacionFallida.png" />
+
+- **Pantalla de Rol**
+
+<img width="200" height="604" alt="Escoger Rol FuelTrack" src="assets/cap5/EscogerRol.png" />
+
+---
+
+**El Cliente Corporativo (Demanda)**
+
+- **Pantalla de Inicio del Cliente**
+
+<img width="200" height="604" alt="Dashboard Cliente FuelTrack" src="assets/cap5/DashboardCliente.png" />
+
+- **Pantalla Inicial de Pedidos**
+
+<img width="200" height="604" alt="Pedido FuelTrack" src="assets/cap5/Pedido.png" />
+
+- **Pantalla de Pedidos**
+
+<img width="200" height="604" alt="Pedido 1 FuelTrack" src="assets/cap5/Pedido1.png" />
+
+- **Pantalla de Historial de Pedidos**
+
+<img width="200" height="604" alt="Pedido 5 FuelTrack" src="assets/cap5/Pedido5.png" />
+
+- **Pantalla de Historial de Pedidos Exitosa**
+
+<img width="200" height="604" alt="Pedido 6 FuelTrack" src="assets/cap5/Pedido6.png" />
+
+- **Pantalla de Historial de Pedidos Fallida**
+
+<img width="200" height="604" alt="Pedido 7 FuelTrack" src="assets/cap5/Pedido7.png" />
+
+- **Pantalla de Nuevo Pedido**
+
+<img width="200" height="604" alt="Pedido 2 FuelTrack" src="assets/cap5/Pedido2.png" />
+
+- **Pantalla de Nuevo Pedido (Capacidad no disponible)**
+
+<img width="200" height="604" alt="Pedido 4 FuelTrack" src="assets/cap5/Pedido4.png" />
+
+- **Pantalla de Pedido Realizado con Éxito**
+
+<img width="200" height="604" alt="Pedido 3 FuelTrack" src="assets/cap5/Pedido3.png" />
+
+- **Pantalla de Pedido Perdido**
+
+<img width="200" height="604" alt="Pedido 4 FuelTrack" src="assets/cap5/Pedido4.png" />
+
+- **Pantalla de Seguimiento**
+
+<img width="200" height="604" alt="Seguimiento FuelTrack" src="assets/cap5/Seguimiento.png" />
+
+- **Pantalla de Detalles de Seguimiento**
+
+<img width="200" height="604" alt="Seguimiento 2 FuelTrack" src="assets/cap5/Seguimiento2.png" />
+
+- **Pantalla de Entrega Exitosa**
+
+<img width="200" height="604" alt="Seguimiento 3 FuelTrack" src="assets/cap5/Seguimiento3.png" />
+
+- **Pantalla de Entrega Confirmada**
+
+<img width="200" height="604" alt="Seguimiento 4 FuelTrack" src="assets/cap5/Seguimiento4.png" />
+
+- **Pantalla de Entrega Fallida**
+
+<img width="200" height="604" alt="Seguimiento 5 FuelTrack" src="assets/cap5/Seguimiento5.png" />
+
+- **Pantalla de Analítica**
+
+<img width="200" height="604" alt="Analítica 1 FuelTrack" src="assets/cap5/Analitica1.png" />
+
+- **Pantalla de Reporte de Datos**
+
+<img width="200" height="604" alt="Analítica 2 FuelTrack" src="assets/cap5/Analitica2.png" />
+
+- **Pantalla de Notificaciones de Alertas**
+
+<img width="200" height="604" alt="Alerta Campana FuelTrack" src="assets/cap5/AlertaCampana.png" />
+
+- **Pantalla de Perfil Cliente**
+
+<img width="200" height="604" alt="Perfil Cliente FuelTrack" src="assets/cap5/PerfilCliente.png" />
+
+---
+
+**El Proveedor / Distribuidor (Oferta)**
+
+- **Pantalla de Inicio del Proveedor**
+
+<img width="200" height="604" alt="Dashboard Proveedor FuelTrack" src="assets/cap5/DashboardProvedor.png" />
+
+- **Pantalla de Flota**
+
+<img width="200" height="604" alt="Flota FuelTrack" src="assets/cap5/Flota.png" />
+
+- **Pantalla de Alertas**
+
+<img width="200" height="604" alt="Alerta Proveedor FuelTrack" src="assets/cap5/AlertaProvedor.png" />
+
+- **Pantalla de Configuración de Alertas**
+
+<img width="200" height="604" alt="Alerta Proveedor 1 FuelTrack" src="assets/cap5/AlertaProvedor1.png" />
+
+- **Pantalla de Detalles de Alerta**
+
+<img width="200" height="604" alt="Alerta Proveedor 2 FuelTrack" src="assets/cap5/AlertaProvedor2.png" />
+
+- **Pantalla de Despacho**
+
+<img width="200" height="604" alt="Depósito FuelTrack" src="assets/cap5/Deposito.png" />
+
+- **Pantalla de Seguimiento de Operación**
+
+<img width="200" height="604" alt="Depósito 1 FuelTrack" src="assets/cap5/Deposito1.png" />
+
+- **Pantalla de Asignación de Recursos**
+
+<img width="200" height="604" alt="Depósito 2 FuelTrack" src="assets/cap5/Deposito2.png" />
+
+- **Pantalla de Monitoreo IoT**
+
+<img width="200" height="604" alt="Depósito 3 FuelTrack" src="assets/cap5/Deposito3.png" />
+
+- **Pantalla de Detalle de Cisterna IoT**
+
+<img width="200" height="604" alt="Depósito 4 FuelTrack" src="assets/cap5/Deposito4.png" />
+
+- **Pantalla de Perfil**
+
+<img width="200" height="604" alt="Perfil Proveedor FuelTrack" src="assets/cap5/PerfilProvedor.png" />
+
+- **Pantalla de Configuración**
+
+<img width="200" height="604" alt="Perfil Proveedor 1 FuelTrack" src="assets/cap5/PerfilProvedor1.png" />
+
 ### 5.4.4. Applications User Flow Diagrams
+
+**Wireflows Generales**
+
+Los siguientes wireflows representan el flujo funcional e interacción principal de los usuarios dentro de la plataforma FuelTrack. Cada flujo permite visualizar la secuencia de acciones, validaciones y respuestas del sistema durante la navegación en la aplicación móvil. :contentReference[oaicite:0]{index=0}
+
+---
+
+**User Goal: Registrar**
+
+El usuario desea crear una cuenta corporativa en la plataforma para acceder a los servicios de monitoreo y gestión inteligente de combustible.
+
+**Flujo funcional:**
+
+El usuario completa el formulario de registro empresarial.
+
+El sistema valida los datos ingresados.
+
+Si los datos son válidos, el usuario acepta los términos y condiciones.
+
+El usuario selecciona un plan de suscripción.
+
+El usuario completa el proceso de pago.
+
+El sistema valida el pago realizado.
+
+Si el pago es exitoso, el sistema activa la suscripción y muestra el mensaje de confirmación.
+
+Si ocurre un error durante el registro o pago, el sistema muestra una pantalla de error y permite reintentar el proceso.
+
+<img width="680" height="600" alt="Flow Registrar FuelTrack" src="assets/cap5/FlowRegistrar.png" />
+
+---
+
+**User Goal: Iniciar sesión**
+
+El usuario desea iniciar sesión en la plataforma utilizando sus credenciales y acceder a las funciones principales del sistema.
+
+**Flujo funcional:**
+
+El usuario ingresa su correo electrónico y contraseña.
+
+El usuario selecciona la opción “Iniciar sesión”.
+
+El sistema valida las credenciales ingresadas.
+
+Si las credenciales son correctas, el sistema autoriza el acceso y muestra el panel principal (Dashboard).
+
+El usuario selecciona el rol correspondiente dentro de la plataforma.
+
+Dependiendo del rol seleccionado, el sistema redirige al Dashboard del Cliente o Dashboard del Proveedor.
+
+Si el usuario olvidó su contraseña, puede acceder al módulo de recuperación mediante código de verificación.
+
+Si las credenciales o el código ingresado son incorrectos, el sistema muestra un mensaje de error y permite reintentar el acceso.
+
+<img width="680" height="600" alt="Flow Iniciar Sesión FuelTrack" src="assets/cap5/FlowIniciarSesion.png" />
+
+---
+
+**Wireflows — Cliente Corporativo (Demanda)**
+
+Los siguientes wireflows representan las principales funcionalidades disponibles para el segmento Cliente Corporativo, enfocadas en la gestión de pedidos, seguimiento operativo, analítica y administración de la cuenta empresarial. :contentReference[oaicite:1]{index=1}
+
+---
+
+**User Goal: Pedidos Clientes**
+
+El usuario desea registrar y gestionar pedidos de combustible para realizar el abastecimiento de sus operaciones.
+
+**Flujo funcional:**
+
+El usuario accede al módulo de pedidos desde el panel principal.
+
+El sistema verifica si existen pedidos registrados previamente.
+
+El usuario selecciona la opción “Nuevo Pedido”.
+
+El usuario ingresa la cantidad y datos requeridos para el abastecimiento.
+
+El sistema valida la disponibilidad y capacidad solicitada.
+
+Si la información es válida, el usuario confirma el pedido.
+
+El sistema registra la solicitud y muestra la confirmación del pedido realizado.
+
+El usuario también puede acceder al historial de pedidos y exportar reportes en formato CSV.
+
+Si ocurre un error en la validación o registro del pedido, el sistema muestra un mensaje de error y permite corregir la información.
+
+<img width="680" height="604" alt="Flow Pedidos Clientes FuelTrack" src="assets/cap5/FlowPedidosClientes.png" />
+
+---
+
+**User Goal: Seguimiento Clientes**
+
+El usuario desea monitorear el estado y avance de sus pedidos de combustible en tiempo real.
+
+**Flujo funcional:**
+
+El usuario accede al módulo de seguimiento desde el panel principal.
+
+El sistema muestra el estado operativo y ubicación del pedido.
+
+El usuario selecciona la opción “Ver detalles”.
+
+El sistema muestra información detallada de la entrega, unidad asignada y métricas operativas.
+
+El sistema verifica si la entrega fue completada correctamente.
+
+Si la entrega fue exitosa, el sistema muestra la confirmación y permite descargar el comprobante digital.
+
+Si ocurre un problema durante la entrega, el sistema muestra una alerta de entrega fallida y permite reportar incidencias.
+
+<img width="680" height="600" alt="Flow Seguimiento Clientes FuelTrack" src="assets/cap5/FlowSeguimientoClientes.png" />
+
+---
+
+**User Goal: Analítica Cliente**
+
+El usuario desea visualizar métricas operativas y reportes analíticos relacionados con el consumo de combustible.
+
+**Flujo funcional:**
+
+El usuario accede al módulo de analítica desde el panel principal.
+
+El sistema muestra indicadores de consumo, costos y eficiencia operativa.
+
+El usuario selecciona la opción “Reporte Ejecutivo”.
+
+El sistema procesa la información registrada y genera reportes analíticos.
+
+El sistema muestra métricas históricas, proyecciones y recomendaciones operativas.
+
+Si no existen datos suficientes, el sistema muestra un mensaje indicando que es necesario sincronizar sensores o registrar información adicional.
+
+<img width="680" height="600" alt="Flow Analítica FuelTrack" src="assets/cap5/FlowAnalitica.png" />
+
+---
+
+**User Goal: Perfil Cliente**
+
+El usuario desea visualizar y administrar la información de su cuenta corporativa.
+
+**Flujo funcional:**
+
+El usuario accede al módulo de perfil desde el panel principal.
+
+El sistema muestra la información personal y configuración de la cuenta.
+
+El usuario puede editar datos básicos y preferencias del perfil.
+
+El usuario también puede acceder al centro de notificaciones y alertas operativas.
+
+El sistema actualiza la información modificada y confirma los cambios realizados correctamente.
+
+<img width="680" height="600" alt="Flow Perfil Cliente FuelTrack" src="assets/cap5/FlowPerfilCliente.png" />
+
+---
+
+**Wireflows — Proveedor / Distribuidor (Oferta)**
+
+Los siguientes wireflows representan las funcionalidades operativas orientadas al proveedor o distribuidor de combustible, enfocadas en la supervisión logística, monitoreo IoT, alertas operativas y administración de la plataforma. :contentReference[oaicite:2]{index=2}
+
+---
+
+**User Goal: Despachos Proveedor**
+
+El proveedor desea gestionar despachos y monitorear operaciones logísticas relacionadas con las entregas de combustible.
+
+**Flujo funcional:**
+
+El usuario accede al módulo de despachos desde el panel principal del proveedor.
+
+El sistema muestra la lista de operaciones y despachos activos.
+
+El usuario selecciona una operación para visualizar sus detalles.
+
+El sistema permite acceder al seguimiento operativo, asignación de recursos y monitoreo IoT.
+
+El usuario puede visualizar información de cisternas, conductores y estado de las rutas.
+
+El sistema actualiza los datos operativos en tiempo real para facilitar la supervisión logística.
+
+<img width="680" height="600" alt="Flow Despachos Proveedor FuelTrack" src="assets/cap5/FlowDespachosProvedor.png" />
+
+---
+
+**User Goal: Alertas Proveedor**
+
+El proveedor desea visualizar y administrar alertas operativas generadas por sensores IoT y eventos logísticos.
+
+**Flujo funcional:**
+
+El usuario accede al módulo de alertas desde el panel principal.
+
+El sistema muestra alertas críticas, advertencias y eventos operativos.
+
+El usuario selecciona una alerta para visualizar sus detalles.
+
+El sistema muestra información relacionada con temperatura, presión, rutas o incidencias detectadas.
+
+El usuario puede acceder a la configuración de alertas y modificar parámetros de monitoreo.
+
+El sistema guarda la configuración actualizada y continúa monitoreando eventos en tiempo real.
+
+<img width="680" height="600" alt="Flow Alertas Proveedor FuelTrack" src="assets/cap5/FlowAlertasProvedor.png" />
+
+---
+
+**User Goal: Perfil Proveedor**
+
+El proveedor desea administrar la información corporativa, seguridad y configuración de acceso de la plataforma.
+
+**Flujo funcional:**
+
+El usuario accede al módulo de perfil desde el panel principal del proveedor.
+
+El sistema muestra información empresarial, métricas operativas y configuraciones de seguridad.
+
+El usuario selecciona la opción de configuración de seguridad.
+
+El sistema permite modificar contraseñas, activar autenticación multifactor y gestionar roles de usuarios.
+
+El usuario guarda los cambios realizados.
+
+El sistema actualiza la configuración y confirma que la información fue modificada correctamente.
+
+<img width="680" height="600" alt="Flow Perfil Proveedor FuelTrack" src="assets/cap5/FlowPerfilProvedor.png" />
+
 ### 5.5 Applications Prototyping
+
 
 ### 5.6. IoT Device Design
 
@@ -3243,7 +4134,12 @@ Durante el sprint 1, el equipo trabajo activamente en la implementación de la l
 ![Commits](assets/Commits.png)
 *Commits realizados por cada integrante durante el sprint*
 
+
 ## Conclusiones
+
+
+
+## Bibliografía
 
 <br>
 Alaminkarno. (2024, enero 8). DDD (Domain-Driven Design) in Flutter – Too much or just right? DEV Community. https://dev.to/alaminkarno/ddd-domain-driven-design-in-flutter-too-much-or-just-right-d1g
@@ -3284,8 +4180,29 @@ Transporte.mx. (2026, abril 8). *La transformación digital en la logística: c�
 TV Perú. (2026). *Los Olivos: Policía Nacional frustra robo de cisterna con más de 10 000 galones de combustible*. https://www.tvperu.gob.pe/noticias/locales/los-olivos-policia-nacional-frusta-robo-de-cisterna-con-mas-de-10-000-galones-de-combustible
 
 
+## Anexos
 
+**ANEXOS**
 
+---
+
+**Anexo A — Prototipo interactivo, Wireframes, Mockups y Landing Page**
+
+En el siguiente enlace se encuentra el prototipo interactivo desarrollado en Figma, el cual incluye los wireframes, mockups de la aplicación móvil FuelTrack y el diseño de la Landing Page corporativa:
+
+https://www.figma.com/design/M6kVgYt9KuwCkJb25feZPP/Version-iot?node-id=24-19130&t=K8CXx2N22OPWzDWT-1
+
+---
+
+**Anexo B — Wireflows de Wireframes y Mockups**
+
+En el siguiente enlace se encuentran los diagramas de flujo funcional (Wireflows) correspondientes a los wireframes y mockups desarrollados para FuelTrack:
+
+Opción 1:
+https://drive.google.com/file/d/1Q21yj6e89JT0l8bAUMyFZiPyDkyEuz_1/view?usp=sharing
+
+Opción 2:
+https://drive.google.com/file/d/1Y4ys3PC_zt5LeDLogyo-lFhQJRm0-HLp/view?usp=sharing
 
 
 
