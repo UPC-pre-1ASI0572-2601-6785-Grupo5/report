@@ -242,6 +242,8 @@ Durante la elaboración de esta entrega, el equipo colaboró utilizando GitFlow.
       - [6.2.1.3. Sprint Backlog 1.](#6213-sprint-backlog-1)
       - [6.2.1.4. Development Evidence for Sprint Review.](#6214-development-evidence-for-sprint-review)
       - [6.2.1.5. Testing Suite Evidence for Sprint Review.](#6215-testing-suite-evidence-for-sprint-review)
+    - [5.3.1.3 Testing Suite Evidence for Sprint Review](#5313-testing-suite-evidence-for-sprint-review)
+      - [Acceptance Tests](#acceptance-tests)
       - [6.2.1.6. Execution Evidence for Sprint Review.](#6216-execution-evidence-for-sprint-review)
       - [6.2.1.7. Services Documentation Evidence for Sprint Review.](#6217-services-documentation-evidence-for-sprint-review)
       - [6.2.1.8. Software Deployment Evidence for Sprint Review.](#6218-software-deployment-evidence-for-sprint-review)
@@ -2945,8 +2947,160 @@ Frontend
 | https://github.com/UPC-pre-1ASI0572-2601-6785-Grupo5/Frontend                                                  | main              | e55607aac7c603464907818ad2c6c319d1335996 | Add deploy configuration for firebase                  | 12/05/2026          |
 
 #### 6.2.1.5. Testing Suite Evidence for Sprint Review.
+### 5.3.1.3 Testing Suite Evidence for Sprint Review
+
+#### Acceptance Tests
+
+**Feature: Autenticación y Acceso basado en Roles (IAM)**
+**Como** usuario de FuelTrack (Manager, Dispatcher o Driver)
+**Quiero** iniciar sesión de forma segura en la plataforma
+**Para** acceder a las funcionalidades correspondientes a mi rol
+
+**Scenario: Inicio de sesión exitoso de Logistics Manager**
+- **ID:** US-01
+- **Given** que soy un Logistics Manager registrado
+- **And** me encuentro en la pantalla de login de la Web App
+- **When** ingreso mi correo corporativo y contraseña correctos
+- **And** presiono el botón de "Iniciar Sesión"
+- **Then** el sistema valida mis credenciales en el IAM Service
+- **And** genera un token de autenticación
+- **And** me redirige al dashboard principal de presupuestos y órdenes
+
+**Scenario: Error al iniciar sesión con credenciales incorrectas**
+- **ID:** US-02
+- **Given** que soy un usuario del sistema
+- **And** ingreso un correo válido pero una contraseña incorrecta
+- **When** intento iniciar sesión en la plataforma
+- **Then** el sistema rechaza el acceso
+- **And** muestra un mensaje de error indicando "Credenciales inválidas"
+- **And** no me permite acceder a los módulos protegidos
+
+---
+
+**Feature: Gestión de Órdenes de Combustible (Ordering Wizard)**
+**Como** Logistics / Operations Manager
+**Quiero** crear y aprobar pedidos de hidrocarburos
+**Para** asegurar el abastecimiento de mi operación sin exceder el presupuesto
+
+**Scenario: Creación exitosa de una orden de combustible**
+- **ID:** US-03
+- **Given** que soy un Logistics Manager autenticado
+- **And** tengo saldo disponible en mi presupuesto mensual
+- **When** completo el Ordering Wizard especificando el volumen, tipo de combustible y destino
+- **And** confirmo la solicitud
+- **Then** el Order & Payment Service registra el pedido en estado "Pendiente de Despacho"
+- **And** descuenta temporalmente el monto del presupuesto (reserva de fondos)
+
+**Scenario: Rechazo de orden por presupuesto insuficiente**
+- **ID:** US-04
+- **Given** que soy un Logistics Manager autenticado
+- **And** el saldo de mi presupuesto mensual es inferior al costo del pedido
+- **When** intento generar una nueva orden a través del Ordering Wizard
+- **Then** el sistema rechaza la creación de la orden
+- **And** muestra una alerta indicando "Fondos insuficientes para esta transacción"
+
+---
+
+**Feature: Monitoreo de Telemetría IoT y Alertas en Ruta**
+**Como** Fleet Controller / Dispatcher
+**Quiero** monitorear los sensores de la cisterna en tiempo real
+**Para** asegurar la integridad de la carga y detectar posibles robos o anomalías
+
+**Scenario: Visualización de volumen en tiempo real**
+- **ID:** US-05
+- **Given** que soy un Dispatcher autenticado
+- **And** tengo una cisterna en ruta asignada a mi vista
+- **When** ingreso al panel de monitoreo en vivo
+- **Then** el Logistics & IoT Telemetry Service procesa los datos MQTT recibidos
+- **And** la interfaz muestra el nivel de combustible actual leído por el sensor ultrasónico
+- **And** muestra la ubicación GPS actual en el mapa
+
+**Scenario: Detección y alerta de caída de presión (Posible robo)**
+- **ID:** US-06
+- **Given** que una cisterna se encuentra en tránsito
+- **And** el sensor de presión detecta una caída brusca y no autorizada de volumen
+- **When** la Edge App transmite esta anomalía vía MQTT al backend
+- **Then** el sistema genera una alerta crítica de Nivel 1
+- **And** envía una notificación push inmediata a la vista del Dispatcher
+- **And** cambia el estado de la cisterna a "Incidente de Seguridad" en el mapa
+
+---
+
+**Feature: Ejecución de Entrega Física (Fulfillment & Geofencing)**
+**Como** Tanker Driver
+**Quiero** registrar mi llegada y habilitar la descarga de combustible
+**Para** cumplir con la entrega solo en lugares autorizados
+
+**Scenario: Habilitación de válvula dentro de la geocerca**
+- **ID:** US-07
+- **Given** que soy un Tanker Driver en ruta hacia un destino
+- **And** llego físicamente a las coordenadas del cliente
+- **When** reporto mi llegada desde la Mobile App
+- **Then** el Fulfillment Service consulta a Google Maps (Mapping Service)
+- **And** valida que las coordenadas del GPS coincidan con la geocerca autorizada
+- **And** envía un comando MQTT para desbloquear la válvula de descarga del camión
+
+**Scenario: Bloqueo de descarga fuera de la geocerca**
+- **ID:** US-08
+- **Given** que soy un Tanker Driver con una carga asignada
+- **And** mi ubicación GPS actual está fuera de la geocerca del destino autorizado
+- **When** intento iniciar el proceso de descarga desde la Mobile App
+- **Then** el sistema rechaza la solicitud por seguridad
+- **And** mantiene la válvula de la cisterna bloqueada
+- **And** envía un reporte de intento de descarga no autorizada al Dispatcher
+
+---
+
+**Feature: Generación de Comprobantes (Voucher & Billing)**
+**Como** Tanker Driver y Logistics Manager
+**Quiero** generar y consultar un comprobante digital tras cada entrega
+**Para** mantener un registro transparente y automatizado de la facturación
+
+**Scenario: Generación exitosa del Voucher PDF**
+- **ID:** US-09
+- **Given** que soy un Tanker Driver autenticado
+- **And** he terminado de descargar el combustible físicamente
+- **When** el cliente ingresa su firma digital en mi Mobile App
+- **And** presiono el botón "Finalizar Entrega"
+- **Then** el Voucher & Billing Service genera un recibo digital en PDF
+- **And** sincroniza los datos contables con el Corporate ERP System del cliente
+- **And** el estado del pedido cambia a "Completado"
+
+**Scenario: Visualización del historial de entregas**
+- **ID:** US-10
+- **Given** que soy un Logistics Manager
+- **And** necesito revisar los despachos de la semana
+- **When** ingreso a la sección de "Historial de Vouchers"
+- **Then** el sistema muestra una lista de todos los PDF Vouchers generados
+- **And** puedo descargar cada comprobante para auditoría
+
+---
+
+**Feature: Reportes de Presupuesto (Burn Rate)**
+**Como** Logistics / Operations Manager
+**Quiero** monitorear el "Burn Rate" (tasa de consumo de combustible)
+**Para** tomar decisiones logísticas y prevenir sobrecostos
+
+**Scenario: Consulta del gráfico de Burn Rate mensual**
+- **ID:** US-11
+- **Given** que soy un Logistics Manager
+- **And** mi flota ha realizado múltiples pedidos durante el mes
+- **When** ingreso al módulo de "Reportes y Analíticas"
+- **Then** el Reporting Service agrupa los datos de consumo
+- **And** muestra un gráfico interactivo comparando el presupuesto asignado vs el Burn Rate actual
+- **And** proyecta un estimado de gasto para el fin de mes basado en el consumo histórico
 
 #### 6.2.1.6. Execution Evidence for Sprint Review.
+
+**LANDING PAGE**
+
+![landing-picture](assets/landing-picture.png)
+
+**Web Application**
+![web-app](assets/web-app1.png)
+![web-app](assets/web-app2.png)
+![web-app](assets/web-app3.png)
+![web-app](assets/web-app4.png)
 
 #### 6.2.1.7. Services Documentation Evidence for Sprint Review.
 
