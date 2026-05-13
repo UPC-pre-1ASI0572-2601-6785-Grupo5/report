@@ -242,8 +242,7 @@ Durante la elaboración de esta entrega, el equipo colaboró utilizando GitFlow.
       - [6.2.1.3. Sprint Backlog 1.](#6213-sprint-backlog-1)
       - [6.2.1.4. Development Evidence for Sprint Review.](#6214-development-evidence-for-sprint-review)
       - [6.2.1.5. Testing Suite Evidence for Sprint Review.](#6215-testing-suite-evidence-for-sprint-review)
-    - [5.3.1.3 Testing Suite Evidence for Sprint Review](#5313-testing-suite-evidence-for-sprint-review)
-      - [Acceptance Tests](#acceptance-tests)
+        - [Acceptance Tests](#acceptance-tests)
       - [6.2.1.6. Execution Evidence for Sprint Review.](#6216-execution-evidence-for-sprint-review)
       - [6.2.1.7. Services Documentation Evidence for Sprint Review.](#6217-services-documentation-evidence-for-sprint-review)
       - [6.2.1.8. Software Deployment Evidence for Sprint Review.](#6218-software-deployment-evidence-for-sprint-review)
@@ -2947,9 +2946,8 @@ Frontend
 | https://github.com/UPC-pre-1ASI0572-2601-6785-Grupo5/Frontend                                                  | main              | e55607aac7c603464907818ad2c6c319d1335996 | Add deploy configuration for firebase                  | 12/05/2026          |
 
 #### 6.2.1.5. Testing Suite Evidence for Sprint Review.
-### 5.3.1.3 Testing Suite Evidence for Sprint Review
 
-#### Acceptance Tests
+##### Acceptance Tests
 
 **Feature: Autenticación y Acceso basado en Roles (IAM)**
 **Como** usuario de FuelTrack (Manager, Dispatcher o Driver)
@@ -3105,6 +3103,10 @@ Frontend
 #### 6.2.1.7. Services Documentation Evidence for Sprint Review.
 
 #### 6.2.1.8. Software Deployment Evidence for Sprint Review.
+A continuación, se evidenciará el enlace de acuerdo a los software desplegados para este Sprint:
+
+- Landing Page: https://fueltrack-landingpage.web.app/
+- Web Application: https://fueltrack-28dba.web.app/login
 
 #### 6.2.1.9. Team Collaboration Insights during Sprint.
 
