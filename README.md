@@ -210,6 +210,8 @@ Durante la elaboración de esta entrega, el equipo colaboró utilizando GitFlow.
       - [6.2.1.8. Software Deployment Evidence for Sprint Review.](#6218-software-deployment-evidence-for-sprint-review)
       - [6.2.1.9. Team Collaboration Insights during Sprint.](#6219-team-collaboration-insights-during-sprint)
   - [Conclusiones](#conclusiones)
+  - [Recomendaciones](#Recomendaciones)
+  - [Bibliografia](#Bibliografia)
 
 <div style="page-break-after: always;"></div>
 
@@ -4100,6 +4102,7 @@ Durante el sprint 1, el equipo trabajo activamente en la implementación de la l
 
 ## Conclusiones
 
+## Recomendaciones
 
 
 ## Bibliografía
