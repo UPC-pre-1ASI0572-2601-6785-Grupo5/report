@@ -2565,7 +2565,47 @@ El diseño final del mock-up emplea una paleta de colores orientada a transmitir
 <img width="200" height="604" alt="Landing Page FuelTrack" src="assets/cap5/MobileLading8.png" />
 
 ## 5.4 Applications UX/UI Design
+
 ### 5.4.1. Applications Wireframes
+
+**Wireframe Web**
+
+Los wireframes web permiten definir de manera preliminar la estructura visual y funcional del portal web de FuelTrack, estableciendo la distribución de módulos, navegación lateral, paneles administrativos y componentes operativos antes del desarrollo visual definitivo. Estas representaciones facilitan validar la experiencia de usuario, organización de información y flujo de navegación dentro del entorno corporativo B2B.
+
+- **Pantalla de Registro Web**  
+Permite al cliente corporativo registrar una nueva cuenta empresarial dentro de la plataforma mediante el ingreso de datos institucionales y credenciales de acceso.
+
+<img width="800" height="600" alt="Wireframe Registro Web FuelTrack" src="assets/cap5/wrRegistroWeb.png" />
+
+- **Pantalla de Inicio de Sesión Web**  
+Permite a los usuarios autenticarse dentro del sistema utilizando sus credenciales institucionales para acceder al panel operativo.
+
+<img width="800" height="600" alt="Wireframe Inicio Sesión Web FuelTrack" src="assets/cap5/wrIniciaSesionWeb.png" />
+
+- **Pantalla de Dashboard Web**  
+Muestra un resumen operativo general con métricas de consumo, pedidos activos, alertas y estado logístico de la operación.
+
+<img width="800" height="600" alt="Wireframe Dashboard Web FuelTrack" src="assets/cap5/wrDashboardWeb.png" />
+
+- **Pantalla de Notificaciones Web**  
+Presenta el centro de notificaciones donde el usuario puede visualizar alertas, eventos operativos y mensajes relevantes del sistema.
+
+<img width="800" height="600" alt="Wireframe Notificaciones Web FuelTrack" src="assets/cap5/wrNotificacionesWeb.png" />
+
+- **Pantalla de Análisis de Datos Web**  
+Permite visualizar indicadores operativos mediante gráficos y métricas relacionadas al consumo, volumen solicitado y estado del flujo logístico.
+
+<img width="800" height="600" alt="Wireframe Análisis de Datos Web FuelTrack" src="assets/cap5/wrAnalisisDatosWeb.png" />
+
+- **Pantalla de Pedidos Web**  
+Permite consultar el historial de pedidos de combustible realizados por la empresa, incluyendo estados, volúmenes y referencias operativas.
+
+<img width="800" height="600" alt="Wireframe Pedidos Web FuelTrack" src="assets/cap5/wrPedidoWeb.png" />
+
+- **Pantalla de Nuevo Pedido Web**  
+Permite configurar una nueva solicitud de despacho de combustible mediante un flujo guiado de selección de producto, logística y confirmación.
+
+<img width="800" height="600" alt="Wireframe Nuevo Pedido Web FuelTrack" src="assets/cap5/wrNuevoPedidoWeb.png" />
 
 **Wireframe Mobile**
 
@@ -2980,6 +3020,47 @@ El sistema actualiza la configuración y confirma que la información fue modifi
 <img width="680" height="600" alt="wrFlow Perfil Proveedor FuelTrack" src="assets/cap5/wrFlowPerfilProvedor.png" />
 
 ### 5.4.3. Applications Mock-ups
+
+**Mockup Web**
+
+Los mockups web representan el diseño visual final del portal web de FuelTrack, incorporando componentes gráficos, paleta de colores, tipografía, jerarquía visual y estilos definitivos de interfaz. Estas pantallas permiten visualizar la experiencia de usuario completa dentro del entorno administrativo y operativo de la plataforma.
+
+- **Pantalla de Registro Web**  
+
+Permite al cliente corporativo crear una cuenta empresarial mediante el ingreso de información institucional y credenciales seguras de acceso.
+
+<img width="800" height="600" alt="Mockup Registro Web FuelTrack" src="assets/cap5/registroWeb.png" />
+
+- **Pantalla de Inicio de Sesión Web**  
+Permite a los usuarios autenticarse dentro del sistema utilizando sus credenciales empresariales para acceder al panel operativo.
+
+<img width="800" height="600" alt="Mockup Inicio Sesión Web FuelTrack" src="assets/cap5/IniciaSesionWeb.png" />
+
+- **Pantalla de Dashboard Web**  
+Presenta un resumen general de la operación logística mediante métricas de consumo, pedidos activos, alertas y estado operativo de la flota.
+
+<img width="800" height="600" alt="Mockup Dashboard Web FuelTrack" src="assets/cap5/DashboardWeb.png" />
+
+- **Pantalla de Notificaciones Web**  
+Permite visualizar alertas, mensajes y eventos relevantes relacionados al estado operativo y actividades del sistema.
+
+<img width="800" height="600" alt="Mockup Notificaciones Web FuelTrack" src="assets/cap5/NotificacionesWeb.png" />
+
+- **Pantalla de Análisis de Datos Web**  
+Permite analizar indicadores operativos mediante gráficos y estadísticas relacionadas al flujo logístico y consumo de combustible.
+
+<img width="800" height="600" alt="Mockup Análisis de Datos Web FuelTrack" src="assets/cap5/AnalisisDatosWeb.png" />
+
+- **Pantalla de Pedidos Web**  
+Permite gestionar y consultar solicitudes de combustible, mostrando estados de pedidos, volúmenes y referencias operativas.
+
+<img width="800" height="600" alt="Mockup Pedidos Web FuelTrack" src="assets/cap5/PedidoWeb.png" />
+
+- **Pantalla de Nuevo Pedido Web**  
+Permite generar una nueva solicitud de despacho mediante un flujo estructurado de selección de combustible, logística y confirmación de pedido.
+
+<img width="800" height="600" alt="Mockup Nuevo Pedido Web FuelTrack" src="assets/cap5/NuevoPedidoWeb.png" />
+
 
 **Mock-up Mobile**
 
