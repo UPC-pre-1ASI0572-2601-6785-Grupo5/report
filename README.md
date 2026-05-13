@@ -4239,8 +4239,6 @@ Zavgar Online. (s.f.). Software de gestión de mantenimiento de flotas. Recupera
 
 ## Anexos
 
-**ANEXOS**
-
 ---
 
 **Anexo A — Prototipo interactivo, Wireframes, Mockups y Landing Page**
