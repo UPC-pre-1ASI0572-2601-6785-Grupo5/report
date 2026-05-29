@@ -3798,7 +3798,7 @@ En el Sprint Planning 1, se llevó a cabo una sesión de planificación para la 
     </tr>
     <tr>
       <td style="text-align:center">Sprint 1 Goal</td>
-      <td style="text-align:center">Implementar la primera versión de la Landing Page, autenticación de usuarios y registro básico de pedidos.</td>
+      <td style="text-align:center">Desarrollar y desplegar la Landing Page para la captación de usuarios corporativos, implementar el módulo Identity & Access (IAM) garantizando la autenticación segura, y construir la base funcional del Order Context para la gestión inicial de pedidos B2B.</td>
     </tr>
     <tr>
       <td style="text-align:center">Sprint 1 Velocity</td>
@@ -3867,204 +3867,169 @@ En el Sprint Planning 1, se llevó a cabo una sesión de planificación para la 
     <td  > <strong>Assigned To</strong></td>
     <td  > <strong> Status (To-do/In-Process/To-Review/Done) </strong></td>
   </tr>
-  <!-- US13: Explorar landing -->
   <tr>
     <td rowspan="2">US13</td>
     <td rowspan="2">Explorar landing (pública)</td>
     <td>TA01</td>
     <td>Estructura de Landing Page</td>
-    <td>Crear la estructura HTML/CSS de la Landing Page.</td>
-    <td>3</td>
+    <td>Crear la estructura HTML/CSS y componentes interactivos de la Landing Page.</td>
+    <td>4</td>
     <td>Jocelyn Almerco</td>
     <td>Done</td>
   </tr>
   <tr>
     <td>TA02</td>
-    <td>Despliegue y pruebas</td>
-    <td>Desplegar el Frontend y verificar accesibilidad.</td>
-    <td>2</td>
+    <td>Despliegue y pruebas de accesibilidad</td>
+    <td>Configurar el despliegue del Frontend y verificar accesibilidad en múltiples dispositivos.</td>
+    <td>4</td>
     <td>Cristian Iparraguirre</td>
     <td>Done</td>
   </tr>
-  <!-- US14: Consultar Home pública -->
   <tr>
     <td rowspan="1">US14</td>
     <td rowspan="1">Consultar Home pública</td>
     <td>TA01</td>
     <td>Diseño de la vista Home</td>
-    <td>Implementar la vista Home con el resumen de la solución.</td>
-    <td>3</td>
+    <td>Implementar la vista Home interactiva con el resumen de la solución B2B y adaptabilidad responsive.</td>
+    <td>4</td>
     <td>Renzo Luque</td>
     <td>Done</td>
   </tr>
-  <!-- US15: Conocer About Us -->
   <tr>
-    <td rowspan="2">US15</td>
-    <td rowspan="2">Conocer About Us</td>
+    <td rowspan="1">US15</td>
+    <td rowspan="1">Conocer About Us</td>
     <td>TA01</td>
-    <td>Diseño de sección About Us</td>
-    <td>Maquetar sección About Us con la información del equipo.</td>
-    <td>2</td>
+    <td>Diseño y contenido de sección About Us</td>
+    <td>Maquetar sección About Us, integrando fotos, perfiles técnicos de los miembros y la visión del equipo.</td>
+    <td>4</td>
     <td>Bryan Espejo</td>
     <td>Done</td>
   </tr>
   <tr>
-    <td>TA02</td>
-    <td>Recopilación de información</td>
-    <td>Agregar fotos y perfiles de los miembros.</td>
-    <td>1</td>
-    <td>Sergio Aguirre</td>
-    <td>Done</td>
-  </tr>
-  <!-- US16: Entender cómo funciona -->
-  <tr>
-    <td rowspan="2">US16</td>
-    <td rowspan="2">Entender cómo funciona</td>
+    <td rowspan="1">US16</td>
+    <td rowspan="1">Entender cómo funciona</td>
     <td>TA01</td>
-    <td>Diseño de sección Cómo funciona</td>
-    <td>Crear los pasos del flujo de operación en la UI.</td>
-    <td>3</td>
+    <td>Diseño e integración gráfica del flujo</td>
+    <td>Crear los pasos del flujo de operación en la UI integrando recursos gráficos explicativos.</td>
+    <td>5</td>
     <td>Renzo Luque</td>
     <td>Done</td>
   </tr>
   <tr>
-    <td>TA02</td>
-    <td>Recursos gráficos</td>
-    <td>Agregar iconos e imágenes explicativas.</td>
-    <td>2</td>
-    <td>Jocelyn Almerco</td>
-    <td>Done</td>
-  </tr>
-  <!-- US17: Enviar contacto -->
-  <tr>
-    <td rowspan="2">US17</td>
-    <td rowspan="2">Enviar contacto</td>
+    <td rowspan="1">US17</td>
+    <td rowspan="1">Enviar contacto</td>
     <td>TA01</td>
-    <td>Crear formulario HTML</td>
-    <td>Maquetar el formulario de contacto en Frontend.</td>
-    <td>2</td>
+    <td>Desarrollo y validación del formulario</td>
+    <td>Maquetar el formulario de contacto en Frontend y programar las validaciones de negocio en los campos.</td>
+    <td>4</td>
     <td>Cristian Iparraguirre</td>
     <td>Done</td>
   </tr>
   <tr>
-    <td>TA02</td>
-    <td>Conectar validaciones</td>
-    <td>Agregar validaciones de campos en el formulario.</td>
-    <td>2</td>
-    <td>Bryan Espejo</td>
-    <td>Done</td>
-  </tr>
-  <!-- US08: Iniciar sesión -->
-  <tr>
     <td rowspan="3">US08</td>
     <td rowspan="3">Iniciar sesión</td>
     <td>TA01</td>
-    <td>Vista de Login</td>
-    <td>Crear la vista de inicio de sesión en Frontend.</td>
-    <td>2</td>
+    <td>Vista completa de Login</td>
+    <td>Desarrollar la interfaz de inicio de sesión con manejo de estados y errores en el Frontend.</td>
+    <td>4</td>
     <td>Renzo Luque</td>
     <td>Done</td>
   </tr>
   <tr>
     <td>TA02</td>
     <td>Integración con Backend</td>
-    <td>Conectar formulario de Login con el API.</td>
-    <td>3</td>
+    <td>Conectar formulario de Login con el API REST y manejar las respuestas HTTP.</td>
+    <td>5</td>
     <td>Sergio Aguirre</td>
     <td>Done</td>
   </tr>
   <tr>
     <td>TA03</td>
-    <td>Almacenamiento de Token</td>
-    <td>Guardar el token JWT de forma segura en el cliente.</td>
-    <td>2</td>
+    <td>Almacenamiento seguro de Token</td>
+    <td>Implementar la lógica de sesión guardando el token JWT de forma segura e interceptores.</td>
+    <td>4</td>
     <td>Jocelyn Almerco</td>
     <td>Done</td>
   </tr>
-  <!-- TS05: Autenticar (endpoint login) -->
   <tr>
     <td rowspan="2">TS05</td>
     <td rowspan="2">Autenticar (endpoint login)</td>
     <td>TA01</td>
     <td>Crear controlador Auth</td>
-    <td>Implementar el controlador y rutas de autenticación.</td>
-    <td>3</td>
+    <td>Implementar el controlador, DTOs y mapeo de rutas de autenticación en el servidor.</td>
+    <td>4</td>
     <td>Sergio Aguirre</td>
     <td>Done</td>
   </tr>
   <tr>
     <td>TA02</td>
-    <td>Lógica de verificación</td>
-    <td>Validar credenciales contra la base de datos.</td>
-    <td>4</td>
+    <td>Lógica de verificación y hashing</td>
+    <td>Validar credenciales contra la base de datos implementando desencriptado seguro de contraseñas.</td>
+    <td>5</td>
     <td>Cristian Iparraguirre</td>
     <td>Done</td>
   </tr>
-  <!-- TS02: Emitir token de autenticación (JWT) -->
   <tr>
     <td rowspan="1">TS02</td>
     <td rowspan="1">Emitir token de autenticación (JWT)</td>
     <td>TA01</td>
-    <td>Servicio JWT</td>
-    <td>Configurar e implementar la emisión de tokens JWT.</td>
+    <td>Configuración de Servicio JWT</td>
+    <td>Configurar entorno, claims e implementar la emisión y firmado asimétrico de tokens JWT.</td>
     <td>4</td>
     <td>Bryan Espejo</td>
     <td>Done</td>
   </tr>
-  <!-- US09: Registrar cuenta nueva -->
   <tr>
     <td rowspan="2">US09</td>
     <td rowspan="2">Registrar cuenta nueva</td>
     <td>TA01</td>
-    <td>Vista de Registro</td>
-    <td>Crear la interfaz de registro de usuarios.</td>
-    <td>3</td>
+    <td>Vista y validaciones de Registro</td>
+    <td>Crear la interfaz de registro de usuarios corporativos con validaciones dinámicas y complejas.</td>
+    <td>5</td>
     <td>Jocelyn Almerco</td>
     <td>Done</td>
   </tr>
   <tr>
     <td>TA02</td>
-    <td>Integración de Registro</td>
-    <td>Conectar formulario de registro con el API correspondiente.</td>
-    <td>3</td>
+    <td>Integración de Registro API</td>
+    <td>Conectar formulario de registro con el endpoint, gestionando la creación de perfiles exitosa.</td>
+    <td>4</td>
     <td>Renzo Luque</td>
     <td>Done</td>
   </tr>
-  <!-- TS01: Exponer endpoint de pedidos (POST) -->
   <tr>
     <td rowspan="2">TS01</td>
     <td rowspan="2">Exponer endpoint de pedidos (POST)</td>
     <td>TA01</td>
-    <td>Modelo y Esquema</td>
-    <td>Crear el modelo de la BD y esquema de validación para pedidos.</td>
+    <td>Modelo, Esquema y BD</td>
+    <td>Crear el modelo de la entidad en la base de datos, migraciones y esquema de validación DTO.</td>
     <td>4</td>
     <td>Cristian Iparraguirre</td>
     <td>Done</td>
   </tr>
   <tr>
     <td>TA02</td>
-    <td>Servicio y Controlador</td>
-    <td>Implementar lógica para registrar un nuevo pedido.</td>
-    <td>4</td>
+    <td>Servicio y Controlador de Pedidos</td>
+    <td>Implementar capa de servicio y controlador REST para procesar y persistir un nuevo pedido.</td>
+    <td>5</td>
     <td>Bryan Espejo</td>
     <td>Done</td>
   </tr>
-  <!-- US01: Crear nuevo pedido -->
   <tr>
     <td rowspan="2">US01</td>
     <td rowspan="2">Crear nuevo pedido</td>
     <td>TA01</td>
-    <td>Formulario de pedido</td>
-    <td>Crear la vista para la solicitud de pedidos.</td>
-    <td>4</td>
+    <td>Formulario interactivo de pedido</td>
+    <td>Construir la vista multi-paso para la configuración logística de la solicitud de pedidos.</td>
+    <td>5</td>
     <td>Sergio Aguirre</td>
     <td>Done</td>
   </tr>
   <tr>
     <td>TA02</td>
-    <td>Envío de datos</td>
-    <td>Integrar vista con el endpoint POST de pedidos.</td>
-    <td>3</td>
+    <td>Envío de datos y manejo de estado</td>
+    <td>Integrar la vista con el endpoint POST de pedidos y reflejar los estados de éxito/error en la UI.</td>
+    <td>4</td>
     <td>Renzo Luque</td>
     <td>Done</td>
   </tr>
