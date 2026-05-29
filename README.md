@@ -4233,6 +4233,216 @@ Durante el sprint 1, el equipo trabajo activamente en la implementación de la l
 ![Commits](assets/Commits.png)
 *Commits realizados por cada integrante durante el sprint*
 
+### 6.2.2. Sprint 2
+
+#### 6.2.2.1. Sprint Planning 2
+En el Sprint Planning 2, el equipo se reunió para planificar la iteración sobre los entregables iniciales y expandir el alcance tecnológico de FuelTrack. Se definieron las tareas necesarias para aplicar las correcciones a los artefactos previos y coordinar el despliegue de las nuevas versiones de las plataformas.
+
+<table>
+  <thead>
+    <tr>
+      <th style="text-align:center">Sprint #</th>
+      <th style="text-align:center">Sprint 2</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td colspan="2"><strong>Sprint Planning Background</strong></td>
+    </tr>
+    <tr>
+      <td style="text-align:center">Date</td>
+      <td style="text-align:center">20-05-2026</td>
+    </tr>
+    <tr>
+      <td style="text-align:center">Time</td>
+      <td style="text-align:center">08:00 pm</td>
+    </tr>
+    <tr>
+      <td style="text-align:center">Location</td>
+      <td style="text-align:center">Discord</td>
+    </tr>
+    <tr>
+      <td style="text-align:center">Prepared By</td>
+      <td style="text-align:center">Sergio Aguirre</td>
+    </tr>
+    <tr>
+      <td style="text-align:center">Attendees</td>
+      <td style="text-align:center">Sergio Aguirre, Jocelyn Almerco, Bryan Espejo, Cristian Iparraguirre y Renzo Luque</td>
+    </tr>
+    <tr>
+      <td style="text-align:center">Sprint n – 1 Review Summary </td>
+      <td style="text-align:center">Se completó exitosamente la primera versión de la Landing Page y la Web Application. Sin embargo, se identificaron observaciones del docente en los artefactos de diseño y documentación que requieren refactorización.</td>
+    </tr>
+    <tr>
+      <td style="text-align:center">Sprint n – 1 Retrospective Summary </td>
+      <td style="text-align:center">El equipo determinó que es necesario mejorar la estimación de horas de las tareas (asegurando el rango de 4 a 8 horas) y mantener una integración continua más ágil para los próximos despliegues.</td>
+    </tr>
+    <tr>
+      <td colspan="2"><strong>Sprint Goal & User Stories</strong></td>
+    </tr>
+    <tr>
+      <td style="text-align:center">Sprint 2 Goal</td>
+      <td style="text-align:center">Implementar la versión corregida y mejorada de los artefactos de software previamente presentados, desplegar exitosamente las nuevas versiones de la Landing Page y Web Application, y realizar el despliegue inicial de las demás aplicaciones que conforman el alcance del proyecto.</td>
+    </tr>
+    <tr>
+      <td style="text-align:center">Sprint 2 Velocity</td>
+      <td style="text-align:center">48</td>
+    </tr>
+    <tr>
+      <td style="text-align:center">Sum of Story Points</td>
+      <td style="text-align:center">48</td>
+    </tr>
+  </tbody>
+</table>
+
+#### 6.2.2.2. Aspect Leaders and Collaborators.
+
+<table>
+  <thead>
+    <tr>
+      <th><strong>Team Member</strong></th>
+      <th><strong>Sprint 2 Leader (L) / Collaborator (C)</strong></th> 
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>AGUIRRE CASTILLO, Sergio Cesar</td>
+      <td>Leader (L)</td>
+    </tr>
+    <tr>
+      <td>ALMERCO ROJAS, Jocelyn Damaly</td>
+      <td>Collaborator (C)</td>
+    </tr>
+    <tr>
+      <td>ESPEJO GAMARRA, Bryan Ronald</td>
+      <td>Collaborator (C)</td>
+    </tr>
+    <tr>
+      <td>IPARRAGUIRRE RUEDA, Cristian Luis</td>
+      <td>Collaborator (C)</td>
+    </tr>
+    <tr>
+      <td>LUQUE MINAYA, Renzo Andrés</td>
+      <td>Collaborator (C)</td>
+    </tr>
+  </tbody>
+</table>
+
+#### 6.2.2.3. Sprint Backlog 2.
+Para este segundo sprint se prioriza la refactorización de artefactos, el despliegue web y la implementación completa de la capa IoT (Simulación en Wokwi y Edge API).
+
+<table>
+  <tr>
+    <td> <strong>Sprint #</strong></td>
+    <td colspan="7"> <strong>Sprint 2</strong> </td>
+  </tr>
+   <tr>
+    <td colspan="2"> <strong>User Story / Technical Story</strong></td>
+    <td colspan="6"> <strong>Work-item/Task</strong></td>
+  </tr>
+  <tr>
+    <td> <strong>ID</strong> </td>
+    <td> <strong>Title</strong></td>
+    <td> <strong>ID</strong> </td>
+    <td> <strong>Title</strong></td>
+    <td> <strong>Description</strong></td>
+    <td> <strong>Estimation (Hours)</strong></td>
+    <td> <strong>Assigned To</strong></td>
+    <td> <strong> Status (To-do/In-Process/To-Review/Done) </strong></td>
+  </tr>
+  
+  <tr>
+    <td rowspan="2">TS08</td>
+    <td rowspan="2">Refactorización de Artefactos de Diseño y Arquitectura</td>
+    <td>TA01</td>
+    <td>Actualización del Modelo C4</td>
+    <td>Corregir y mejorar los diagramas Context, Container y Component según el feedback del docente.</td>
+    <td>4</td>
+    <td>Jocelyn Almerco</td>
+    <td>Done</td>
+  </tr>
+  <tr>
+    <td>TA02</td>
+    <td>Refactorización UX/UI y Wireflows</td>
+    <td>Ajustar Mockups y Wireflows para reflejar correctamente los flujos operativos actualizados.</td>
+    <td>4</td>
+    <td>Renzo Luque</td>
+    <td>Done</td>
+  </tr>
+
+  <tr>
+    <td rowspan="2">TS09</td>
+    <td rowspan="2">Despliegue de Landing Page y Web App</td>
+    <td>TA01</td>
+    <td>Correcciones y Deploy: Landing Page</td>
+    <td>Implementar ajustes visuales en el código y desplegar la nueva versión</td>
+    <td>5</td>
+    <td>Cristian Iparraguirre</td>
+    <td>Done</td>
+  </tr>
+  <tr>
+    <td>TA02</td>
+    <td>Correcciones y Deploy: Web App</td>
+    <td>Resolver bugs menores del Sprint 1, optimizar vistas y desplegar la versión actualizada en Firebase/Netlify.</td>
+    <td>5</td>
+    <td>Sergio Aguirre</td>
+    <td>Done</td>
+  </tr>
+
+  <tr>
+    <td rowspan="3">TS10</td>
+    <td rowspan="3">Desarrollo y Simulación IoT (Wokwi)</td>
+    <td>TA01</td>
+    <td>Diseño de Circuito ESP32</td>
+    <td>Integrar y cablear el ESP32 con el sensor ultrasónico HC-SR04 y el sensor ambiental DHT22 en Wokwi.</td>
+    <td>5</td>
+    <td>Bryan Espejo</td>
+    <td>Done</td>
+  </tr>
+  <tr>
+    <td>TA02</td>
+    <td>Integración GPS Neo-6M y Firmware C++</td>
+    <td>Añadir módulo Neo-6M, configurar UART y programar el firmware C++ para lectura y publicación MQTT.</td>
+    <td>6</td>
+    <td>Sergio Aguirre</td>
+    <td>Done</td>
+  </tr>
+  <tr>
+    <td>TA03</td>
+    <td>Validación de telemetría simulada</td>
+    <td>Realizar pruebas de estrés en el simulador Wokwi alterando variables para asegurar envíos JSON correctos.</td>
+    <td>4</td>
+    <td>Jocelyn Almerco</td>
+    <td>Done</td>
+  </tr>
+
+  <tr>
+    <td rowspan="3">TS11</td>
+    <td rowspan="3">Implementación y Despliegue de Edge API</td>
+    <td>TA01</td>
+    <td>Configuración de Flask y MQTT Broker</td>
+    <td>Crear la estructura del proyecto en Python y configurar la suscripción a los tópicos MQTT del ESP32.</td>
+    <td>5</td>
+    <td>Cristian Iparraguirre</td>
+    <td>Done</td>
+  </tr>
+  <tr>
+    <td>TA02</td>
+    <td>Procesamiento de Payload IoT</td>
+    <td>Desarrollar la lógica para recibir, parsear y estructurar la data (Nivel, Temp, Humedad, GPS) desde el simulador.</td>
+    <td>5</td>
+    <td>Bryan Espejo</td>
+    <td>Done</td>
+  </tr>
+  <tr>
+    <td>TA03</td>
+    <td>Despliegue y Documentación de Edge API</td>
+    <td>Desplegar el servicio inicial en un entorno de pruebas y documentar los flujos de entrada/salida de datos.</td>
+    <td>5</td>
+    <td>Renzo Luque</td>
+    <td>Done</td>
+  </tr>
+</table>
 
 ## Conclusiones
 
