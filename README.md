@@ -246,7 +246,7 @@ Durante la elaboración de esta entrega, el equipo colaboró utilizando GitFlow.
       - [6.2.1.7. Services Documentation Evidence for Sprint Review.](#6217-services-documentation-evidence-for-sprint-review)
       - [6.2.1.8. Software Deployment Evidence for Sprint Review.](#6218-software-deployment-evidence-for-sprint-review)
       - [6.2.1.9. Team Collaboration Insights during Sprint.](#6219-team-collaboration-insights-during-sprint)
-   - [6.2.2. Sprint 2](#622-Sprint-2)
+    - [6.2.2. Sprint 2](#622-Sprint-2)
       - [6.2.2.1. Sprint Planning 2.](#6221-sprint-planning-2)
       - [6.2.2.2. Aspect Leaders and Collaborators.](#6222-aspect-leaders-and-collaborators)
       - [6.2.2.3. Sprint Backlog 2.](#6223-sprint-backlog-2)
