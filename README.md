@@ -4448,6 +4448,509 @@ Para este segundo sprint se prioriza la refactorización de artefactos, el despl
   </tr>
 </table>
 
+## 6.3. Validation Interviews
+
+### 6.3.1. Diseño de Entrevistas
+
+Para validar la usabilidad y utilidad de FuelTrack, se realizaron entrevistas con usuarios pertenecientes a los segmentos Cliente Corporativo (Demanda) y Proveedor/Distribuidor (Oferta). Los participantes interactuaron con el prototipo y posteriormente respondieron preguntas relacionadas con las principales funcionalidades de la plataforma.
+
+# Segmento #1: Cliente Corporativo (Demanda)
+
+## Presentación del entrevistado
+
+- ¿Cuál es tu nombre?
+- ¿Qué edad tienes?
+- ¿A qué sector pertenece tu empresa?
+- ¿Actualmente gestionas pedidos de combustible para tus operaciones?
+- ¿Cómo realizas actualmente el seguimiento del abastecimiento de combustible?
+
+## Interacción con la aplicación móvil FuelTrack
+
+### User Goal: Iniciar sesión
+
+El usuario ingresa su correo institucional y contraseña.
+
+Selecciona la opción "Ingresar a la Plataforma".
+
+Accede al Panel Operativo FuelTrack.
+
+### User Goal: Navegar por el Panel de Control
+
+El usuario accede al Panel Operativo FuelTrack.
+
+Visualiza indicadores de galones consumidos.
+
+Visualiza pedidos activos.
+
+Visualiza gasto acumulado.
+
+Visualiza tasa de éxito de entregas.
+
+Consulta el consumo por producto.
+
+Consulta alertas y actividad.
+
+Visualiza las cisternas en operación.
+
+Puede exportar un reporte.
+
+### User Goal: Analizar información operativa
+
+El usuario accede al módulo "Análisis de Datos".
+
+Visualiza el volumen total solicitado.
+
+Visualiza las operaciones activas.
+
+Visualiza la tasa de entrega (SLA).
+
+Consulta la distribución de volumen por producto.
+
+Consulta el estado del flujo operativo.
+
+Puede exportar la información en formato CSV.
+
+### User Goal: Gestionar pedidos
+
+El usuario accede al módulo "Mis Pedidos".
+
+Consulta el listado de pedidos registrados.
+
+Visualiza el producto solicitado.
+
+Visualiza el volumen solicitado.
+
+Consulta la referencia u orden de compra.
+
+Visualiza el estado del pedido.
+
+Consulta la fecha de registro.
+
+Puede filtrar pedidos según su estado.
+
+Puede registrar un nuevo pedido.
+
+## Preguntas principales
+
+### Inicio de sesión
+
+- ¿Te resultó sencillo iniciar sesión en la plataforma?
+- ¿La pantalla de acceso te pareció clara y fácil de entender?
+- ¿Hubo algún elemento que te generara confusión durante el acceso?
+
+### Panel de Control
+
+- ¿La información mostrada en el panel principal fue fácil de comprender?
+- ¿Los indicadores principales te parecen relevantes para tu operación?
+- ¿Te resultó útil visualizar alertas y actividad desde el panel principal?
+- ¿Consideras útil la opción de exportar reportes?
+
+### Análisis de Datos
+
+- ¿Los gráficos e indicadores fueron fáciles de interpretar?
+- ¿La información mostrada te ayudaría a tomar decisiones operativas?
+- ¿La distribución de volumen por producto fue clara?
+- ¿Te resultó útil visualizar el estado del flujo operativo?
+- ¿La opción de exportar datos te sería útil en tu trabajo?
+
+### Mis Pedidos
+
+- ¿Te resultó sencillo encontrar la información de tus pedidos?
+- ¿Los estados de los pedidos fueron fáciles de identificar?
+- ¿La información mostrada en cada pedido fue suficiente?
+- ¿Te resultó intuitiva la opción de crear un nuevo pedido?
+
+### Experiencia general
+
+- ¿Hubo algo que no entendiste o que te confundió durante el uso de la plataforma?
+- ¿Tuviste alguna dificultad visual o técnica durante la navegación?
+- Del 1 al 10, ¿qué tan útil te pareció FuelTrack para gestionar el abastecimiento de combustible?
+- ¿Qué funcionalidad te pareció más valiosa?
+- ¿Qué funcionalidad mejorarías?
+- ¿Utilizarías una plataforma como FuelTrack en tu empresa? ¿Por qué?
+
+# Segmento #2: Proveedor / Distribuidor (Oferta)
+
+## Presentación del entrevistado
+
+- ¿Cuál es tu nombre?
+- ¿Qué edad tienes?
+- ¿Trabajas en una empresa distribuidora de combustible?
+- ¿Cuál es tu función dentro de la operación logística?
+- ¿Cómo realizan actualmente el monitoreo de despachos y entregas?
+
+## Interacción con la aplicación móvil FuelTrack
+
+### User Goal: Iniciar sesión
+
+El usuario ingresa su correo institucional y contraseña.
+
+Selecciona la opción "Ingresar a la Plataforma".
+
+Accede al Dashboard del Proveedor.
+
+### User Goal: Gestionar despachos
+
+El usuario accede al módulo de Despachos.
+
+Visualiza las operaciones activas.
+
+Selecciona una operación específica.
+
+Consulta información relacionada con cisternas, conductores y rutas asignadas.
+
+Monitorea el estado operativo de los despachos.
+
+Visualiza información actualizada en tiempo real.
+
+### User Goal: Gestionar alertas
+
+El usuario accede al módulo de Alertas.
+
+Visualiza alertas críticas, advertencias y eventos operativos.
+
+Selecciona una alerta específica.
+
+Consulta el detalle de la incidencia detectada.
+
+Accede a la configuración de monitoreo.
+
+Modifica parámetros relacionados con alertas operativas.
+
+Guarda los cambios realizados.
+
+### User Goal: Administrar perfil y seguridad
+
+El usuario accede al módulo de Perfil.
+
+Visualiza la información corporativa.
+
+Consulta métricas operativas.
+
+Accede a la configuración de seguridad.
+
+Modifica contraseña, autenticación multifactor o gestión de roles.
+
+Guarda los cambios realizados.
+
+## Preguntas principales
+
+### Inicio de sesión
+
+- ¿Te resultó sencillo acceder a la plataforma?
+- ¿La pantalla de inicio de sesión fue clara y fácil de entender?
+- ¿Hubo algún elemento que te generara confusión durante el acceso?
+
+### Despachos
+
+- ¿Te resultó fácil encontrar la información de los despachos activos?
+- ¿La información mostrada sobre cisternas, conductores y rutas fue clara?
+- ¿Los estados de las operaciones fueron fáciles de identificar?
+- ¿El monitoreo en tiempo real te ayudaría a supervisar tus operaciones logísticas?
+- ¿Consideras suficiente la información mostrada para tomar decisiones operativas?
+
+### Alertas
+
+- ¿Las alertas fueron fáciles de identificar?
+- ¿La información presentada en cada alerta fue clara?
+- ¿Las alertas te permitirían reaccionar oportunamente ante incidencias?
+- ¿Te resultó sencillo modificar la configuración de monitoreo?
+- ¿Qué tipo de alerta adicional te gustaría visualizar?
+
+### Perfil y seguridad
+
+- ¿Te resultó sencillo acceder a la configuración de seguridad?
+- ¿La gestión de contraseñas y autenticación fue clara?
+- ¿Consideras útil la gestión de roles dentro de la plataforma?
+
+### Experiencia general
+
+- ¿Hubo algo que no entendiste o que te confundió durante el uso de la plataforma?
+- ¿Tuviste alguna dificultad visual o técnica durante la navegación?
+- Del 1 al 10, ¿qué tan útil te pareció FuelTrack para la gestión logística de combustible?
+- ¿Qué funcionalidad te pareció más valiosa?
+- ¿Qué funcionalidad mejorarías?
+- ¿Recomendarías una plataforma como FuelTrack a otras empresas distribuidoras? ¿Por qué?
+
+
+### 6.3.2. Registro de Entrevistas
+
+En esta sección se presentan los participantes entrevistados, sus perfiles, respuestas obtenidas y las observaciones recopiladas durante la validación del prototipo de FuelTrack.
+
+**Segmento 1: El Cliente Corporativo (Demanda)**
+
+<table border="1">
+  <tr>
+    <th>Entrevista</th>
+    <td>1</td>
+    <th>Nombre</th>
+    <td>Maria Elena Muñoz</td>
+  </tr>
+  <tr>
+    <th>Edad</th>
+    <td>23</td>
+    <th>Distrito</th>
+    <td>Los Olivos</td>
+  </tr>
+  <tr>
+    <th>Captura de la entrevista:</th>
+    <td colspan="3">
+      <img src="https://github.com/user-attachments/assets/524a2e4e-8539-49aa-8b13-b117c6db4d4" alt="Captura de la entrevista" width="200">
+      <br><sub>Captura de pantalla de la entrevista realizada a Maria Elena Muñoz.</sub>
+    </td>
+  </tr>
+  <tr>
+    <th>Resumen</th>
+    <td colspan="3">
+      La empresa ...
+    </td>
+  </tr>
+  <tr>
+    <th>URL de la grabación</th>
+    <td colspan="3">
+      <a href="https://upcedupe-my.sharepoint.com/:v:/g/personal/u202310425_upc_edu_pe/IQCfkcUktPEWRauuu2W1srTQAboKi2wAirJeCJC7AZahiyY?e=MSTjfd">
+        Ver grabación
+      </a>
+    </td>
+  </tr>
+  <tr>
+    <th>Timing</th>
+    <td colspan="3">
+      00:00 - 05:48
+    </td>
+  </tr>
+</table>
+<br>
+
+
+<table border="1">
+  <tr>
+    <th>Entrevista</th>
+    <td>2</td>
+    <th>Nombre</th>
+    <td>Nicolas Pineda</td>
+  </tr>
+  <tr>
+    <th>Edad</th>
+    <td>22</td>
+    <th>Distrito</th>
+    <td>San Juan de Lurigancho</td>
+  </tr>
+  <tr>
+    <th>Captura de la entrevista:</th>
+<td colspan="3">
+        <img width="350" height="200" alt="Entrevista 2" src="assets/interview2_screensht.png" /> 
+        <br><sub>Captura de pantalla de la entrevista realizada a Nicolas Pineda.</sub>
+    </td>
+  </tr>
+  <tr>
+    <th>URL de la grabación</th>
+    <td colspan="3">
+      <a href="https://upcedupe-my.sharepoint.com/:v:/g/personal/u20221c275_upc_edu_pe/IQBqzoHpq9JwQr67PhjmhAadAer3MCKj-SyvnfFnDt4Dvi4?e=ly8uH3&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D">
+        Ver grabación
+      </a>
+    </td>
+  </tr>
+
+<tr>
+    <th>Resumen</th>
+    <td colspan="3">
+La empresa ...
+   </td>
+  </tr>
+
+  <tr>
+   <th>Timing</th>
+    <td colspan="3">
+         00:00 - 10:23
+    </td>
+  </tr>
+</table>
+<br>
+
+<table border="1">
+  <tr>
+    <th>Entrevista</th>
+    <td>1</td>
+    <th>Nombre</th>
+    <td>Alexandra</td>
+  </tr>
+  <tr>
+    <th>Edad</th>
+    <td>42</td>
+    <th>Distrito</th>
+    <td>Lima</td>
+  </tr>
+  <tr>
+    <th>Captura de la entrevista</th>
+    <td colspan="3">
+      <img src="assets/cap2/ENTREVISTA-AL.png" alt="Captura de la entrevista" width="400">
+      <br><sub>Captura de pantalla de la entrevista realizada a Alexandra.</sub>
+    </td>
+  </tr>
+  <tr>
+    <th>Resumen</th>
+    <td colspan="3">
+      <strong>Resumen:</strong> Alexandra ...
+    </td>
+  </tr>
+  <tr>
+    <th>URL de la grabación</th>
+    <td colspan="3">
+      <a href="https://upcedupe-my.sharepoint.com/:v:/g/personal/u202213278_upc_edu_pe/IQBBKGS1EeQyQJQiZVX4I9YbAUxrSRpnv4n9nhrrNoL_bHo?e=vCBVeM&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D">
+        Ver grabación
+      </a>
+    </td>
+  </tr>
+  <tr>
+   <th>Timing</th>
+    <td colspan="3">
+         00:00 - 04:30
+    </td>
+  </tr>
+</table>
+<br>
+
+**Segmento 2: El Proveedor / Distribuidor (Oferta)**
+<table border="1">
+  <tr>
+    <th>Entrevista</th>
+    <td>1</td>
+    <th>Nombre</th>
+    <td>Leonardo Gamboa</td>
+  </tr>
+  <tr>
+    <th>Edad</th>
+    <td>27</td>
+    <th>Distrito</th>
+    <td>Ate</td>
+  </tr>
+  <tr>
+    <th>Captura de la entrevista:</th>
+    <td colspan="3">
+      <img src="assets/cap2/Segmento2_Persona.png" alt="Captura de la entrevista" width="200">
+      <br><sub>Captura de pantalla de la entrevista realizada a Leonardo Gamboa.</sub>
+    </td>
+  </tr>
+  <tr>
+    <th>Resumen</th>
+    <td colspan="3">
+      Leonardo Gamboa,...
+    </td>
+  </tr>
+  <tr>
+    <th>URL de la grabación</th>
+    <td colspan="3">
+      <a href="https://drive.google.com/file/d/11L819TbztDc0YqwB2WM7qR0-Egn5gLBC/view?usp=sharing">
+        Ver grabación
+      </a>
+    </td>
+  </tr>
+  <tr>
+    <th>Timing</th>
+    <td colspan="3">
+      00:00 - 06:18
+    </td>
+  </tr>
+</table>
+<br>
+
+
+<table border="1">
+  <tr>
+    <th>Entrevista</th>
+    <td>2</td>
+    <th>Nombre</th>
+    <td>Marllely Arias</td>
+  </tr>
+  <tr>
+    <th>Edad</th>
+    <td>23</td>
+    <th>Distrito</th>
+    <td>Lince</td>
+  </tr>
+  <tr>
+    <th>Captura de la entrevista:</th>
+    <td colspan="3">
+      <img src="assets/cap2/Segmento2_Persona.png" alt="Captura de la entrevista" width="200">
+      <br><sub>Captura de pantalla de la entrevista realizada a Marllely Arias.</sub>
+    </td>
+  </tr>
+  <tr>
+    <th>Resumen</th>
+    <td colspan="3">
+      Marllely Arias,...
+    </td>
+  </tr>
+  <tr>
+    <th>URL de la grabación</th>
+    <td colspan="3">
+      <a href="https://drive.google.com/file/d/1UBl6ci4B9Mjg_y2_GnBcxZ2FXDWzrbx9/view?usp=sharing">
+        Ver grabación
+      </a>
+    </td>
+  </tr>
+  <tr>
+    <th>Timing</th>
+    <td colspan="3">
+      00:00 - 05:44
+    </td>
+  </tr>
+</table>
+<br>
+
+<table border="1">
+  <tr>
+    <th>Entrevista</th>
+    <td>3</td>
+    <th>Nombre</th>
+    <td>Kevin Díaz</td>
+  </tr>
+  <tr>
+    <th>Edad</th>
+    <td>32</td>
+    <th>Distrito</th>
+    <td>Callao</td>
+  </tr>
+  <tr>
+    <th>Captura de la entrevista:</th>
+    <td colspan="3">
+      <img src="assets/cap2/Segmento2_Persona.png" alt="Captura de la entrevista" width="200">
+      <br><sub>Captura de pantalla de la entrevista realizada a Kevin Díaz.</sub>
+    </td>
+  </tr>
+  <tr>
+    <th>Resumen</th>
+    <td colspan="3">
+      Kevin Díaz,....
+    </td>
+  </tr>
+  <tr>
+    <th>URL de la grabación</th>
+    <td colspan="3">
+      <a href="https://drive.google.com/drive/folders/1F7boyBz8lgLgsvLIgOnqx1KyeuxvCFUi">
+        Ver grabación
+      </a>
+    </td>
+  </tr>
+  <tr>
+    <th>Timing</th>
+    <td colspan="3">
+      00:00 - 06:00
+    </td>
+  </tr>
+</table>
+<br>
+
+
+### 6.3.3. Evaluaciones según Heurísticas
+
+En esta sección se presentan los resultados de la evaluación heurística aplicada al prototipo de FuelTrack, considerando principios de usabilidad relacionados con visibilidad del estado del sistema, consistencia, prevención de errores, eficiencia de uso y satisfacción del usuario.
+
+## 6.4. Video About-the-Product
+
+ 
+
 ## Conclusiones
 
 1. **Resolución integral de la problemática logística B2B:** La integración de hardware IoT con una plataforma transaccional de software demuestra ser una solución altamente efectiva para erradicar los puntos ciegos operativos en la cadena de suministro de hidrocarburos. El ecosistema logra conectar el flujo físico del combustible con el flujo financiero, reduciendo la opacidad administrativa y mitigando el riesgo de mermas y robos en tránsito ("ordeño").
