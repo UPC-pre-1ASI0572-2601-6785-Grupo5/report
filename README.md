@@ -4634,44 +4634,19 @@ Modifica contraseña, autenticación multifactor o gestión de roles.
 Guarda los cambios realizados.
 
 ## Preguntas principales
-
-### Inicio de sesión
-
-- ¿Te resultó sencillo acceder a la plataforma?
-- ¿La pantalla de inicio de sesión fue clara y fácil de entender?
-- ¿Hubo algún elemento que te generara confusión durante el acceso?
-
-### Despachos
-
-- ¿Te resultó fácil encontrar la información de los despachos activos?
-- ¿La información mostrada sobre cisternas, conductores y rutas fue clara?
-- ¿Los estados de las operaciones fueron fáciles de identificar?
-- ¿El monitoreo en tiempo real te ayudaría a supervisar tus operaciones logísticas?
-- ¿Consideras suficiente la información mostrada para tomar decisiones operativas?
-
-### Alertas
-
-- ¿Las alertas fueron fáciles de identificar?
-- ¿La información presentada en cada alerta fue clara?
-- ¿Las alertas te permitirían reaccionar oportunamente ante incidencias?
-- ¿Te resultó sencillo modificar la configuración de monitoreo?
-- ¿Qué tipo de alerta adicional te gustaría visualizar?
-
-### Perfil y seguridad
-
-- ¿Te resultó sencillo acceder a la configuración de seguridad?
-- ¿La gestión de contraseñas y autenticación fue clara?
-- ¿Consideras útil la gestión de roles dentro de la plataforma?
-
-### Experiencia general
-
-- ¿Hubo algo que no entendiste o que te confundió durante el uso de la plataforma?
+- ¿Qué opinas de la información mostrada sobre los despachos, conductores y cisternas? ¿Es suficiente para supervisar una operación?
+- ¿Las alertas e incidencias mostradas te ayudarían a reaccionar oportunamente ante problemas logísticos?
+- ¿La visualización de rutas y monitoreo en tiempo real te pareció útil para el seguimiento de los despachos?
+- ¿La configuración de seguridad y gestión de usuarios te pareció adecuada para una empresa distribuidora de combustible?
+- ¿Hubo algo que no entendiste o que te confundió mientras usabas la plataforma?
+- ¿Qué te pareció el diseño general de la plataforma?
 - ¿Tuviste alguna dificultad visual o técnica durante la navegación?
+
+## Valoración de experiencia:
 - Del 1 al 10, ¿qué tan útil te pareció FuelTrack para la gestión logística de combustible?
 - ¿Qué funcionalidad te pareció más valiosa?
-- ¿Qué funcionalidad mejorarías?
-- ¿Recomendarías una plataforma como FuelTrack a otras empresas distribuidoras? ¿Por qué?
-
+- ¿Qué función le agregarías sí o sí?
+- ¿Recomendarías FuelTrack a otras empresas distribuidoras de combustible? ¿Por qué?
 
 ### 6.3.2. Registro de Entrevistas
 
