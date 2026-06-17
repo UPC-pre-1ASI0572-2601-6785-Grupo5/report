@@ -4454,7 +4454,7 @@ Para este segundo sprint se prioriza la refactorización de artefactos, el despl
 
 Para validar la usabilidad y utilidad de FuelTrack, se realizaron entrevistas con usuarios pertenecientes a los segmentos Cliente Corporativo (Demanda) y Proveedor/Distribuidor (Oferta). Los participantes interactuaron con el prototipo y posteriormente respondieron preguntas relacionadas con las principales funcionalidades de la plataforma.
 
-# Segmento #1: Cliente Corporativo (Demanda)
+# Segmento 1: Cliente Corporativo (Demanda)
 
 ## Presentación del entrevistado
 
@@ -4532,44 +4532,23 @@ Puede registrar un nuevo pedido.
 
 ## Preguntas principales
 
-### Inicio de sesión
+- ¿Cómo fue tu experiencia al acceder a la plataforma por primera vez?
+- ¿Qué opinas de la información mostrada en el panel principal? ¿Qué información consideras más útil para tu operación?
+- ¿Hay algún indicador o dato adicional que te gustaría visualizar en el panel de control?
+- ¿Cómo utilizarías la información y los gráficos presentados para tomar decisiones en tu empresa?
+- ¿Qué mejoras propondrías en la visualización de los análisis o reportes?
+- ¿Qué te pareció la forma en que se presenta la información de los pedidos?
+- ¿Qué información adicional te gustaría consultar al realizar el seguimiento de un pedido?
+- ¿Hubo algo que no entendiste o que te generó confusión durante el uso de la plataforma?
 
-- ¿Te resultó sencillo iniciar sesión en la plataforma?
-- ¿La pantalla de acceso te pareció clara y fácil de entender?
-- ¿Hubo algún elemento que te generara confusión durante el acceso?
+## Valoración de experiencia
 
-### Panel de Control
-
-- ¿La información mostrada en el panel principal fue fácil de comprender?
-- ¿Los indicadores principales te parecen relevantes para tu operación?
-- ¿Te resultó útil visualizar alertas y actividad desde el panel principal?
-- ¿Consideras útil la opción de exportar reportes?
-
-### Análisis de Datos
-
-- ¿Los gráficos e indicadores fueron fáciles de interpretar?
-- ¿La información mostrada te ayudaría a tomar decisiones operativas?
-- ¿La distribución de volumen por producto fue clara?
-- ¿Te resultó útil visualizar el estado del flujo operativo?
-- ¿La opción de exportar datos te sería útil en tu trabajo?
-
-### Mis Pedidos
-
-- ¿Te resultó sencillo encontrar la información de tus pedidos?
-- ¿Los estados de los pedidos fueron fáciles de identificar?
-- ¿La información mostrada en cada pedido fue suficiente?
-- ¿Te resultó intuitiva la opción de crear un nuevo pedido?
-
-### Experiencia general
-
-- ¿Hubo algo que no entendiste o que te confundió durante el uso de la plataforma?
-- ¿Tuviste alguna dificultad visual o técnica durante la navegación?
+- ¿Qué funcionalidad te pareció más valiosa y por qué?
+- ¿Qué funcionalidad mejorarías o agregarías para que FuelTrack sea más útil para tu empresa?
 - Del 1 al 10, ¿qué tan útil te pareció FuelTrack para gestionar el abastecimiento de combustible?
-- ¿Qué funcionalidad te pareció más valiosa?
-- ¿Qué funcionalidad mejorarías?
 - ¿Utilizarías una plataforma como FuelTrack en tu empresa? ¿Por qué?
 
-# Segmento #2: Proveedor / Distribuidor (Oferta)
+# Segmento 2: Proveedor / Distribuidor (Oferta)
 
 ## Presentación del entrevistado
 
@@ -4634,6 +4613,7 @@ Modifica contraseña, autenticación multifactor o gestión de roles.
 Guarda los cambios realizados.
 
 ## Preguntas principales
+
 - ¿Qué opinas de la información mostrada sobre los despachos, conductores y cisternas? ¿Es suficiente para supervisar una operación?
 - ¿Las alertas e incidencias mostradas te ayudarían a reaccionar oportunamente ante problemas logísticos?
 - ¿La visualización de rutas y monitoreo en tiempo real te pareció útil para el seguimiento de los despachos?
@@ -4643,6 +4623,7 @@ Guarda los cambios realizados.
 - ¿Tuviste alguna dificultad visual o técnica durante la navegación?
 
 ## Valoración de experiencia:
+
 - Del 1 al 10, ¿qué tan útil te pareció FuelTrack para la gestión logística de combustible?
 - ¿Qué funcionalidad te pareció más valiosa?
 - ¿Qué función le agregarías sí o sí?
