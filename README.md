@@ -4684,7 +4684,7 @@ En esta sección se presentan los participantes entrevistados, sus perfiles, res
     <th>Entrevista</th>
     <td>2</td>
     <th>Nombre</th>
-    <td>Augusto Montes<td>
+    <td>Augusto Montes</td>
   </tr>
   <tr>
     <th>Edad</th>
@@ -4694,37 +4694,32 @@ En esta sección se presentan los participantes entrevistados, sus perfiles, res
   </tr>
   <tr>
     <th>Captura de la entrevista:</th>
-<td colspan="3">
- <img width="350" height="150" alt="image" src="https://github.com/user-attachments/assets/4f17dc19-cc64-4c91-b976-8374edae7bc1" />
-
-  
-    Captura de pantalla de la entrevista realizada a Augusto Montes
+    <td colspan="3">
+      <img width="350" height="150" alt="image" src="https://github.com/user-attachments/assets/4f17dc19-cc64-4c91-b976-8374edae7bc1" /><br>
+      Captura de pantalla de la entrevista realizada a Augusto Montes
     </td>
   </tr>
   <tr>
     <th>URL de la grabación</th>
     <td colspan="3">
-      <a href=https://drive.google.com/file/d/14D69XM1W0FAMPhdeiJOSHPO3bmDOciBe/view?usp=sharing>
+      <a href="https://drive.google.com/file/d/14D69XM1W0FAMPhdeiJOSHPO3bmDOciBe/view?usp=sharing">
         Ver grabación
       </a>
     </td>
   </tr>
-
-<tr>
+  <tr>
     <th>Resumen</th>
     <td colspan="3">
-Construccion y Movimiento
-   </td>
+      Construcción y Movimiento
+    </td>
   </tr>
-
   <tr>
-   <th>Timing</th>
+    <th>Timing</th>
     <td colspan="3">
-         00:00 - 8:07
+      00:00 - 8:07
     </td>
   </tr>
 </table>
-<br>
 
 <table border="1">
   <tr>
