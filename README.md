@@ -4802,7 +4802,7 @@ En esta sección se presentan los participantes entrevistados, sus perfiles, res
   <tr>
     <th>Timing</th>
     <td colspan="3">
-      00:00 - 06:18
+      00:00 - 04:18
     </td>
   </tr>
 </table>
@@ -4846,7 +4846,7 @@ En esta sección se presentan los participantes entrevistados, sus perfiles, res
   <tr>
     <th>Timing</th>
     <td colspan="3">
-      00:00 - 05:44
+      00:00 - 04:44
     </td>
   </tr>
 </table>
@@ -4889,7 +4889,7 @@ En esta sección se presentan los participantes entrevistados, sus perfiles, res
   <tr>
     <th>Timing</th>
     <td colspan="3">
-      00:00 - 06:00
+      00:00 - 04:00
     </td>
   </tr>
 </table>
