@@ -4696,13 +4696,15 @@ En esta sección se presentan los participantes entrevistados, sus perfiles, res
     <th>Captura de la entrevista:</th>
 <td colspan="3">
  <img width="350" height="150" alt="image" src="https://github.com/user-attachments/assets/4f17dc19-cc64-4c91-b976-8374edae7bc1" />
+
+  
     Captura de pantalla de la entrevista realizada a Augusto Montes
     </td>
   </tr>
   <tr>
     <th>URL de la grabación</th>
     <td colspan="3">
-      <a href="https://upcedupe-my.sharepoint.com/:v:/g/personal/u20221c275_upc_edu_pe/IQBqzoHpq9JwQr67PhjmhAadAer3MCKj-SyvnfFnDt4Dvi4?e=ly8uH3&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D">
+      <a href=https://drive.google.com/file/d/14D69XM1W0FAMPhdeiJOSHPO3bmDOciBe/view?usp=sharing>
         Ver grabación
       </a>
     </td>
@@ -4718,7 +4720,7 @@ Construccion y Movimiento
   <tr>
    <th>Timing</th>
     <td colspan="3">
-         00:00 - 10:23
+         00:00 - 8:07
     </td>
   </tr>
 </table>
