@@ -4684,7 +4684,7 @@ En esta sección se presentan los participantes entrevistados, sus perfiles, res
     <th>Entrevista</th>
     <td>2</td>
     <th>Nombre</th>
-    <td>Augusto Montes/td>
+    <td>Augusto Montes<td>
   </tr>
   <tr>
     <th>Edad</th>
@@ -4696,8 +4696,7 @@ En esta sección se presentan los participantes entrevistados, sus perfiles, res
     <th>Captura de la entrevista:</th>
 <td colspan="3">
  <img width="350" height="150" alt="image" src="https://github.com/user-attachments/assets/4f17dc19-cc64-4c91-b976-8374edae7bc1" />
-  
-    <sub>Captura de pantalla de la entrevista realizada a Augusto Montes.</sub>
+    Captura de pantalla de la entrevista realizada a Augusto Montes
     </td>
   </tr>
   <tr>
