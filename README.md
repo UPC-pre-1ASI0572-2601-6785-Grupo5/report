@@ -4710,7 +4710,7 @@ En esta sección se presentan los participantes entrevistados, sus perfiles, res
   <tr>
     <th>Resumen</th>
     <td colspan="3">
-      Construcción y Movimiento
+      Augusto Montes, de 22 años, evalúa la plataforma desde la perspectiva del sector de construcción y movimiento de tierras. Considera que la plataforma es fluida e intuitiva, destacando la gran utilidad de visualizar las cisternas y los pedidos en tiempo real. Entre sus sugerencias principales, pide agregar alertas de tiempos estimados de llegada (ETA), incluir los datos del conductor y la placa por protocolos de seguridad en obra, y habilitar la exportación de reportes en PDF y opciones de integración API con sistemas ERP.
     </td>
   </tr>
   <tr>
@@ -4726,25 +4726,27 @@ En esta sección se presentan los participantes entrevistados, sus perfiles, res
     <th>Entrevista</th>
     <td>1</td>
     <th>Nombre</th>
-    <td>Alexandra</td>
+    <td>Maria Fernanda</td>
   </tr>
   <tr>
     <th>Edad</th>
-    <td>42</td>
-    <th>Distrito</th>
+    <td>25</td>
+    <th>Miraflores</th>
     <td>Lima</td>
   </tr>
   <tr>
     <th>Captura de la entrevista</th>
     <td colspan="3">
       <img src="assets/cap2/ENTREVISTA-AL.png" alt="Captura de la entrevista" width="400">
-      <br><sub>Captura de pantalla de la entrevista realizada a Alexandra.</sub>
+      <img width="598" height="168" alt="image" src="https://github.com/user-attachments/assets/b2becf19-9281-4253-aa2a-a6fbba18cabf" />
+      
+      <br><sub>Captura de pantalla de la entrevista realizada a Maria Fernanda.</sub>
     </td>
   </tr>
   <tr>
     <th>Resumen</th>
     <td colspan="3">
-      <strong>Resumen:</strong> Alexandra ...
+      <strong>Resumen:</strong> María Fernanda Castillo, de 23 años, trabaja en el sector de transporte y logística realizando el seguimiento del abastecimiento de combustible. En su evaluación, indicó que la plataforma es intuitiva y sencilla, resaltando la utilidad del panel principal para controlar los galones consumidos, los pedidos activos y el gasto acumulado. Como sugerencias principales, solicitó incluir la ubicación en tiempo real de las cisternas con una hora estimada de llegada, agregar proyecciones de consumo mensual, implementar alertas automáticas de retrasos o consumos inusuales, y añadir gráficos comparativos y una guía rápida para nuevos usuarios.
     </td>
   </tr>
   <tr>
