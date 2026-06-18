@@ -4781,20 +4781,20 @@ En esta sección se presentan los participantes entrevistados, sus perfiles, res
   <tr>
     <th>Captura de la entrevista:</th>
     <td colspan="3">
-      <img src="assets/cap2/Segmento2_Persona.png" alt="Captura de la entrevista" width="200">
+      <img src="assets/Entrevista1Leo.png" alt="Captura de la entrevista" width="200">
       <br><sub>Captura de pantalla de la entrevista realizada a Leonardo Gamboa.</sub>
     </td>
   </tr>
   <tr>
     <th>Resumen</th>
     <td colspan="3">
-      Leonardo Gamboa,...
+      Leonardo Gamboa es un conductor de cisterna con 8 años de experiencia. Opina que la plataforma está bien organizada y cuenta con información suficiente para supervisar la operación. Destaca el valor del monitoreo por GPS, pero sugiere que la interfaz muestre los elementos más separados, ya que percibió la información muy junta.
     </td>
   </tr>
   <tr>
     <th>URL de la grabación</th>
     <td colspan="3">
-      <a href="https://drive.google.com/file/d/11L819TbztDc0YqwB2WM7qR0-Egn5gLBC/view?usp=sharing">
+      <a href="https://drive.google.com/drive/folders/1Op0da7ydYkladh6nASQVWQkLS6_2nUxB?usp=sharing">
         Ver grabación
       </a>
     </td>
@@ -4825,20 +4825,20 @@ En esta sección se presentan los participantes entrevistados, sus perfiles, res
   <tr>
     <th>Captura de la entrevista:</th>
     <td colspan="3">
-      <img src="assets/cap2/Segmento2_Persona.png" alt="Captura de la entrevista" width="200">
+      <img src="assets/Entrevista2Marlli.png" alt="Captura de la entrevista" width="200">
       <br><sub>Captura de pantalla de la entrevista realizada a Marllely Arias.</sub>
     </td>
   </tr>
   <tr>
     <th>Resumen</th>
     <td colspan="3">
-      Marllely Arias,...
+      Marllely Arias trabaja en el monitoreo de cisternas. Considera que FullTrack tiene un diseño muy moderno, intuitivo y claro. Resalta la utilidad de la gestión por estados de la flota y afirma que las alertas en tiempo real ayudarán a reducir significativamente la pérdida de combustible y la dependencia de los procesos manuales.
     </td>
   </tr>
   <tr>
     <th>URL de la grabación</th>
     <td colspan="3">
-      <a href="https://drive.google.com/file/d/1UBl6ci4B9Mjg_y2_GnBcxZ2FXDWzrbx9/view?usp=sharing">
+      <a href="https://drive.google.com/drive/folders/1Op0da7ydYkladh6nASQVWQkLS6_2nUxB?usp=sharing">
         Ver grabación
       </a>
     </td>
@@ -4857,31 +4857,31 @@ En esta sección se presentan los participantes entrevistados, sus perfiles, res
     <th>Entrevista</th>
     <td>3</td>
     <th>Nombre</th>
-    <td>Kevin Díaz</td>
+    <td>Gonzalo Quintanilla</td>
   </tr>
   <tr>
     <th>Edad</th>
-    <td>32</td>
+    <td>21</td>
     <th>Distrito</th>
     <td>Callao</td>
   </tr>
   <tr>
     <th>Captura de la entrevista:</th>
     <td colspan="3">
-      <img src="assets/cap2/Segmento2_Persona.png" alt="Captura de la entrevista" width="200">
-      <br><sub>Captura de pantalla de la entrevista realizada a Kevin Díaz.</sub>
+      <img src="assets/Entrevista3Samueli.png" alt="Captura de la entrevista" width="200">
+      <br><sub>Captura de pantalla de la entrevista realizada a Gonzalo Quintanilla.</sub>
     </td>
   </tr>
   <tr>
     <th>Resumen</th>
     <td colspan="3">
-      Kevin Díaz,....
+      Gonzalo Quintanilla califica el diseño de la plataforma como moderno, llamativo y bien organizado. Considera valioso el monitoreo en tiempo real para el control de entregas y el respaldo de la seguridad. Propone como mejora agregar una funcionalidad que envíe las alertas de manera automática directamente a WhatsApp.
     </td>
   </tr>
   <tr>
     <th>URL de la grabación</th>
     <td colspan="3">
-      <a href="https://drive.google.com/drive/folders/1F7boyBz8lgLgsvLIgOnqx1KyeuxvCFUi">
+      <a href="https://drive.google.com/drive/folders/1Op0da7ydYkladh6nASQVWQkLS6_2nUxB?usp=sharing">
         Ver grabación
       </a>
     </td>
@@ -4894,7 +4894,6 @@ En esta sección se presentan los participantes entrevistados, sus perfiles, res
   </tr>
 </table>
 <br>
-
 
 ### 6.3.3. Evaluaciones según Heurísticas
 
