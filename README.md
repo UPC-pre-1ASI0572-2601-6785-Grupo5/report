@@ -4640,7 +4640,7 @@ En esta sección se presentan los participantes entrevistados, sus perfiles, res
     <th>Entrevista</th>
     <td>1</td>
     <th>Nombre</th>
-    <td>Maria Elena Muñoz</td>
+    <td>María Elena Muñoz</td>
   </tr>
   <tr>
     <th>Edad</th>
@@ -4651,8 +4651,8 @@ En esta sección se presentan los participantes entrevistados, sus perfiles, res
   <tr>
     <th>Captura de la entrevista:</th>
     <td colspan="3">
-      <img src="https://github.com/user-attachments/assets/524a2e4e-8539-49aa-8b13-b117c6db4d4" alt="Captura de la entrevista" width="200">
-      <br><sub>Captura de pantalla de la entrevista realizada a Maria Elena Muñoz.</sub>
+      <img width="600" alt="Captura de la entrevista" src="https://github.com/user-attachments/assets/a14bf3cd-9383-451d-92b1-fd454fc24a02" /><br>
+      <sub>Captura de pantalla de la entrevista realizada a María Elena Muñoz.</sub>
     </td>
   </tr>
   <tr>
@@ -4676,8 +4676,6 @@ En esta sección se presentan los participantes entrevistados, sus perfiles, res
     </td>
   </tr>
 </table>
-<br>
-
 
 <table border="1">
   <tr>
