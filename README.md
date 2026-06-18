@@ -4711,7 +4711,7 @@ En esta sección se presentan los participantes entrevistados, sus perfiles, res
 <tr>
     <th>Resumen</th>
     <td colspan="3">
-La empresa ...
+Construccion y Movimiento
    </td>
   </tr>
 
