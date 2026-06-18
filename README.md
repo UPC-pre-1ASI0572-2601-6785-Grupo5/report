@@ -4726,27 +4726,26 @@ En esta sección se presentan los participantes entrevistados, sus perfiles, res
     <th>Entrevista</th>
     <td>1</td>
     <th>Nombre</th>
-    <td>Maria Fernanda</td>
+    <td>María Fernanda Castillo</td>
   </tr>
   <tr>
     <th>Edad</th>
-    <td>25</td>
-    <th>Miraflores</th>
-    <td>Lima</td>
+    <td>23</td>
+    <th>Distrito</th>
+    <td>Miraflores</td>
   </tr>
   <tr>
-    <th>Captura de la entrevista</th>
+    <th>Captura de la entrevista:</th>
     <td colspan="3">
-      <img src="assets/cap2/ENTREVISTA-AL.png" alt="Captura de la entrevista" width="400">
-      <img width="598" height="168" alt="image" src="https://github.com/user-attachments/assets/b2becf19-9281-4253-aa2a-a6fbba18cabf" />
-      
-      <br><sub>Captura de pantalla de la entrevista realizada a Maria Fernanda.</sub>
+      <img src="assets/cap2/ENTREVISTA-AL.png" alt="Captura de la entrevista" width="400" />
+      <img width="598" height="168" alt="image" src="https://github.com/user-attachments/assets/b2becf19-9281-4253-aa2a-a6fbba18cabf" /><br>
+      <sub>Captura de pantalla de la entrevista realizada a María Fernanda.</sub>
     </td>
   </tr>
   <tr>
     <th>Resumen</th>
     <td colspan="3">
-      <strong>Resumen:</strong> María Fernanda Castillo, de 23 años, trabaja en el sector de transporte y logística realizando el seguimiento del abastecimiento de combustible. En su evaluación, indicó que la plataforma es intuitiva y sencilla, resaltando la utilidad del panel principal para controlar los galones consumidos, los pedidos activos y el gasto acumulado. Como sugerencias principales, solicitó incluir la ubicación en tiempo real de las cisternas con una hora estimada de llegada, agregar proyecciones de consumo mensual, implementar alertas automáticas de retrasos o consumos inusuales, y añadir gráficos comparativos y una guía rápida para nuevos usuarios.
+      María Fernanda Castillo, de 23 años, trabaja en el sector de transporte y logística realizando el seguimiento del abastecimiento de combustible. En su evaluación, indicó que la plataforma es intuitiva y sencilla, resaltando la utilidad del panel principal para controlar los galones consumidos, los pedidos activos y el gasto acumulado. Como sugerencias principales, solicitó incluir la ubicación en tiempo real de las cisternas con una hora estimada de llegada, agregar proyecciones de consumo mensual, implementar alertas automáticas de retrasos o consumos inusuales, y añadir gráficos comparativos y una guía rápida para nuevos usuarios.
     </td>
   </tr>
   <tr>
@@ -4758,13 +4757,12 @@ En esta sección se presentan los participantes entrevistados, sus perfiles, res
     </td>
   </tr>
   <tr>
-   <th>Timing</th>
+    <th>Timing</th>
     <td colspan="3">
-         00:00 - 04:30
+      00:00 - 06:24
     </td>
   </tr>
 </table>
-<br>
 
 **Segmento 2: El Proveedor / Distribuidor (Oferta)**
 <table border="1">
