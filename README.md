@@ -4737,8 +4737,7 @@ En esta sección se presentan los participantes entrevistados, sus perfiles, res
   <tr>
     <th>Captura de la entrevista:</th>
     <td colspan="3">
-      <img src="assets/cap2/ENTREVISTA-AL.png" alt="Captura de la entrevista" width="400" />
-      <img width="598" height="168" alt="image" src="https://github.com/user-attachments/assets/b2becf19-9281-4253-aa2a-a6fbba18cabf" /><br>
+    <img width="598" height="168" alt="Captura de la entrevista" src="https://github.com/user-attachments/assets/b2becf19-9281-4253-aa2a-a6fbba18cabf" /><br>
       <sub>Captura de pantalla de la entrevista realizada a María Fernanda.</sub>
     </td>
   </tr>
