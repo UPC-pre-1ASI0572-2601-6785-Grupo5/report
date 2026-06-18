@@ -4695,10 +4695,9 @@ En esta sección se presentan los participantes entrevistados, sus perfiles, res
   <tr>
     <th>Captura de la entrevista:</th>
 <td colspan="3">
-        <img width="350" height="200" alt="Entrevista 2" src="assets/interview2_screensht.png" /> 
-  ![Uploading image.png…]()
-
-        <br><sub>Captura de pantalla de la entrevista realizada a Nicolas Pineda.</sub>
+<img width="350" height="200" alt="image" src="https://github.com/user-attachments/assets/4f17dc19-cc64-4c91-b976-8374edae7bc1" />
+  
+        <br><sub>Captura de pantalla de la entrevista realizada a Augusto Montes.</sub>
     </td>
   </tr>
   <tr>
