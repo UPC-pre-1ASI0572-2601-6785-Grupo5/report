@@ -4651,7 +4651,7 @@ En esta sección se presentan los participantes entrevistados, sus perfiles, res
   <tr>
     <th>Captura de la entrevista:</th>
     <td colspan="3">
-      <img width="600" alt="Captura de la entrevista" src="https://github.com/user-attachments/assets/a14bf3cd-9383-451d-92b1-fd454fc24a02" /><br>
+      <img width="350" alt="Captura de la entrevista" src="https://github.com/user-attachments/assets/a14bf3cd-9383-451d-92b1-fd454fc24a02" /><br>
       <sub>Captura de pantalla de la entrevista realizada a María Elena Muñoz.</sub>
     </td>
   </tr>
@@ -4735,7 +4735,7 @@ En esta sección se presentan los participantes entrevistados, sus perfiles, res
   <tr>
     <th>Captura de la entrevista:</th>
     <td colspan="3">
-    <img width="598" height="168" alt="Captura de la entrevista" src="https://github.com/user-attachments/assets/b2becf19-9281-4253-aa2a-a6fbba18cabf" /><br>
+    <img width="350" height="150" alt="Captura de la entrevista" src="https://github.com/user-attachments/assets/b2becf19-9281-4253-aa2a-a6fbba18cabf" /><br>
       <sub>Captura de pantalla de la entrevista realizada a María Fernanda.</sub>
     </td>
   </tr>
