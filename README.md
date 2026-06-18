@@ -4684,18 +4684,20 @@ En esta sección se presentan los participantes entrevistados, sus perfiles, res
     <th>Entrevista</th>
     <td>2</td>
     <th>Nombre</th>
-    <td>Nicolas Pineda</td>
+    <td>Augusto Montes/td>
   </tr>
   <tr>
     <th>Edad</th>
     <td>22</td>
     <th>Distrito</th>
-    <td>San Juan de Lurigancho</td>
+    <td>Pueblo Libre</td>
   </tr>
   <tr>
     <th>Captura de la entrevista:</th>
 <td colspan="3">
         <img width="350" height="200" alt="Entrevista 2" src="assets/interview2_screensht.png" /> 
+  ![Uploading image.png…]()
+
         <br><sub>Captura de pantalla de la entrevista realizada a Nicolas Pineda.</sub>
     </td>
   </tr>
