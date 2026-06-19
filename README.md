@@ -1881,7 +1881,7 @@ El equipo evaluó distintas configuraciones planteando las siguientes preguntas 
 
 #### Context Map
 
-![Context Map FuelTrack](/assets/ContextMap.png)
+![Context Map FuelTrack](assets/ContextMap.png)
 
 ---
 
