@@ -55,7 +55,7 @@ El objetivo de esta sección es resumir las modificaciones relevantes que se rea
     </tr>
     <tr>
       <td>14/04/2026</td>
-      <td>Jocelyn Damaly Almerco almeroc Rojas</td>
+      <td>Almerco Rojas, Jocelyn Damaly</td>
       <td>Desarrollo puntos 2.1, 2.3, 2.3.1</td>
     </tr>
     <tr>
@@ -70,7 +70,7 @@ El objetivo de esta sección es resumir las modificaciones relevantes que se rea
     </tr>
     <tr>
       <td>20/04/2026</td>
-      <td>Jocelyn Damaly Almerco almeroc Rojas</td>
+      <td>Almerco Rojas, Jocelyn Damaly</td>
       <td>Revisión general del documento</td>
     </tr>
     <tr>
@@ -80,7 +80,7 @@ El objetivo de esta sección es resumir las modificaciones relevantes que se rea
     </tr>
     <tr>
       <td>20/04/2026</td>
-      <td>Bryan Ronald Espejo Gamarra</td>
+      <td>Espejo Gamarra, Bryan Ronald</td>
       <td>Elaborar presentación tras revisión del documento</td>
     </tr>
     <tr>
@@ -118,6 +118,37 @@ El objetivo de esta sección es resumir las modificaciones relevantes que se rea
       <td>12/05/2026</td>
       <td>Almerco Rojas, Jocelyn Damaly</td>
       <td>Revisión final de formato APA 7, validación general de coherencia del documento y consolidación para la entrega TP1.</td>
+    </tr>
+    <tr>
+      <td rowspan="6" style="text-align: center; vertical-align: middle;"><b>AV2</b></td>
+      <td>20/05/2026</td>
+      <td>Iparraguirre Rueda, Cristian Luis</td>
+      <td>Desarrollo de Sprint Planning 2, Aspect Leader y Sprint Backlog 2.</td>
+    </tr>
+    <tr>
+      <td>25/05/2026</td>
+      <td>Aguirre Castillo, Sergio Cesar</td>
+      <td>Elaboración de evidencias de Desarrollo y Ejecución para el Sprint Review 2.</td>
+    </tr>
+    <tr>
+      <td>30/05/2026</td>
+      <td>Espejo Gamarra, Bryan Ronald</td>
+      <td>Estructuración de Testing Suite y evidencias de Software Deployment.</td>
+    </tr>
+    <tr>
+      <td>04/06/2026</td>
+      <td>Almerco Rojas, Jocelyn Damaly</td>
+      <td>Diseño y Registro de Entrevistas de Validación y Documentación de Servicios.</td>
+    </tr>
+    <tr>
+      <td>08/06/2026</td>
+      <td>Luque Minaya, Renzo Andrés</td>
+      <td>Producción del Video About-the-Product, Evaluaciones Heurísticas y avance de Conclusiones.</td>
+    </tr>
+    <tr>
+      <td>12/06/2026</td>
+      <td>Aguirre Castillo, Sergio Cesar</td>
+      <td>Revisión general, integración de Team Collaboration Insights y consolidación final del informe AV2.</td>
     </tr>
   </tbody>
 </table>
