@@ -4236,7 +4236,7 @@ Frontend
 
 **LANDING PAGE**
 
-![landing-picture](assets/landing-picture.png)
+[![landing-picture](assets/landing-picture.png)](https://saebryxn.github.io/LandingPageIOT/)
 *Imagen de la landing page funcional desplegada*
 
 **Web Application**
@@ -4260,7 +4260,7 @@ Frontend
 #### 6.2.1.8. Software Deployment Evidence for Sprint Review.
 A continuación, se evidenciará el enlace de acuerdo a los software desplegados para este Sprint:
 
-- Landing Page: https://fueltrack-landingpage.web.app/
+- Landing Page: https://saebryxn.github.io/LandingPageIOT/
 - Web Application: https://fueltrack-28dba.web.app/login
 
 #### 6.2.1.9. Team Collaboration Insights during Sprint.
