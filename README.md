@@ -18,13 +18,13 @@
 
 ### Integrantes:
 
-| Código     | Apellidos y Nombres               |
-| ---------- | --------------------------------- |
-| U202310425 | AGUIRRE CASTILLO, Sergio Cesar    |
-| U20221G068 | ALMERCO ROJAS, Jocelyn Damaly     |
-| U202213278 | ESPEJO GAMARRA, Bryan Ronald      |
+| Código | Apellidos y Nombres |
+| :---: | :---: |
+| U202310425 | AGUIRRE CASTILLO, Sergio Cesar |
+| U20221G068 | ALMERCO ROJAS, Jocelyn Damaly |
+| U202213278 | ESPEJO GAMARRA, Bryan Ronald |
 | U202113111 | IPARRAGUIRRE RUEDA, Cristian Luis |
-| U20221C275 | LUQUE MINAYA, Renzo Andrés        |
+| U20221C275 | LUQUE MINAYA, Renzo Andrés |
 
 ### Lima – abril 2026
 
