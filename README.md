@@ -5251,6 +5251,7 @@ Video del prototipo de Móvil:
 [Ver video de Prototipo de Móvil](https://upcedupe-my.sharepoint.com/:v:/g/personal/u202310425_upc_edu_pe/IQCSSLryvintQYozrGGbks8uATQVhd5JdXBJlBfSOyeSNmM?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D&e=YGVTor)
 
 Video del About the Product:
+
 [Video del About the Product](https://drive.google.com/drive/folders/1AuV3KksbR5Sp-w3XliohkKfkipNsDekE?usp=sharing)
 
 
