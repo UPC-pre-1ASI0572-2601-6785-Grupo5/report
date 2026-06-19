@@ -2645,31 +2645,31 @@ El diseño final del mock-up emplea una paleta de colores orientada a transmitir
 
 <sub>*Mock-up mobile de la sección principal y Hero Section de la Landing Page de FuelTrack.*</sub>
 
-<img width="200" height="604" alt="Landing Page FuelTrack" src="assets/cap5/MobileLading1.png" />
+<img width="200" height="604" alt="Landing  Page FuelTrack" src="assets/cap5/MobileLading1.png" />
 
 <sub>*Mock-up  mobile de la sección de propuesta de valor y beneficios principales de FuelTrack.*</sub>
 
-<img width="200" height="604" alt="Landing Page FuelTrack" src="assets/cap5/MobileLading2.png" />
+<img width="200" height="604" alt="Landing  Page FuelTrack" src="assets/cap5/MobileLading2.png" />
 
 <sub>*Mock-up mobile de la sección de características clave de la plataforma FuelTrack.*</sub>
 
-<img width="200" height="604" alt="Landing Page FuelTrack" src="assets/cap5/MobileLading3.png" />
+<img width="200" height="604" alt="Landing  Page FuelTrack" src="assets/cap5/MobileLading3.png" />
 
 <sub>*Mock-up mobile del flujo operativo “Cómo funciona” de la plataforma FuelTrack.*</sub>
 
-<img width="200" height="604" alt="Landing Page FuelTrack" src="assets/cap5/MobileLading4.png" />
+<img width="200" height="604" alt="Landing  Page FuelTrack" src="assets/cap5/MobileLading4.png" />
 
 <sub>*Mock-up mobile de métricas operativas y testimonios de usuarios de FuelTrack.*</sub>
 
-<img width="200" height="604" alt="Landing Page FuelTrack" src="assets/cap5/MobileLading5.png" />
+<img width="200" height="604" alt="Landing  Page FuelTrack" src="assets/cap5/MobileLading5.png" />
 
 <sub>*Mock-up mobile de la sección de preguntas frecuentes y formulario de contacto de FuelTrack.*</sub>
 
-<img width="200" height="604" alt="Landing Page FuelTrack" src="assets/cap5/MobileLading6.png" />
+<img width="200" height="604" alt="Landing  Page FuelTrack" src="assets/cap5/MobileLading6.png" />
 
 <sub>*Mock-up mobile del footer y sección de información de contacto de FuelTrack.*</sub>
 
-<img width="200" height="604" alt="Landing Page FuelTrack" src="assets/cap5/MobileLading7.png" />
+<img width="200" height="604" alt="Landing  Page FuelTrack" src="assets/cap5/MobileLading7.png" />
 
 ## 5.4 Applications UX/UI Design
 
