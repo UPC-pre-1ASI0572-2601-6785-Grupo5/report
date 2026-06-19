@@ -3519,7 +3519,8 @@ El nodo IoT de FuelTrack es un **ESP32 DevKit V1** instalado en el camión ciste
 
 #### Diagrama del circuito — Wokwi (ESP32 DevKit V1)
 
-![Logo de la UPC](./assets/wokwi.png)
+<img width="884" height="546" alt="image" src="https://github.com/user-attachments/assets/7f5f8834-6b9b-443c-a088-c5410b6b2ae5" />
+
 *Diagrama esquemático en Wokwi mostrando la conexión de sensores y el ESP32 DevKit V1.*
 
 **Mapa de pines:**
