@@ -161,6 +161,15 @@ Durante la elaboración de esta entrega, el equipo colaboró utilizando GitFlow.
 
 ## Contenido
  
+- [Universidad Peruana de Ciencias Aplicadas (UPC)](#universidad-peruana-de-ciencias-aplicadas-upc)
+  - [Facultad de Ingeniería](#facultad-de-ingeniería)
+- [Informe de Trabajo Final](#informe-de-trabajo-final)
+    - [Integrantes:](#integrantes)
+    - [Lima – abril 2026](#lima--abril-2026)
+  - [Registro de Versiones del Informe](#registro-de-versiones-del-informe)
+  - [Project Report Collaboration Insights](#project-report-collaboration-insights)
+  - [Contenido](#contenido)
+  - [Student Outcome](#student-outcome)
 - [Capítulo I: Introducción](#capítulo-i-introducción)
   - [1.1. Startup Profile](#11-startup-profile)
     - [1.1.1. Descripción de la Startup](#111-descripción-de-la-startup)
@@ -179,8 +188,12 @@ Durante la elaboración de esta entrega, el equipo colaboró utilizando GitFlow.
     - [2.1.2. Estrategias y tácticas frente a competidores.](#212-estrategias-y-tácticas-frente-a-competidores)
   - [2.2. Entrevistas](#22-entrevistas)
     - [2.2.1. Diseño de entrevistas](#221-diseño-de-entrevistas)
+      - [A. Segmento: Empresas Solicitantes (Clientes Corporativos / Operaciones en Campo)](#a-segmento-empresas-solicitantes-clientes-corporativos--operaciones-en-campo)
+      - [B. Segmento: Proveedores de Combustible (Distribuidores / Mayoristas)](#b-segmento-proveedores-de-combustible-distribuidores--mayoristas)
     - [2.2.2. Registro de entrevistas](#222-registro-de-entrevistas)
     - [2.2.3. Análisis de entrevistas](#223-análisis-de-entrevistas)
+      - [Análisis del Segmento 1: Cliente Corporativo (Demanda)](#análisis-del-segmento-1-cliente-corporativo-demanda)
+      - [Análisis del Segmento 2: Proveedor / Distribuidor (Oferta)](#análisis-del-segmento-2-proveedor--distribuidor-oferta)
   - [2.3. Needfinding](#23-needfinding)
     - [2.3.1. User Personas](#231-user-personas)
     - [2.3.2. User Task Matrix](#232-user-task-matrix)
@@ -195,10 +208,16 @@ Durante la elaboración de esta entrega, el equipo colaboró utilizando GitFlow.
 - [Capítulo IV: Solution Software Design](#capítulo-iv-solution-software-design)
   - [4.1. Strategic-Level Domain-Driven Design](#41-strategic-level-domain-driven-design)
     - [4.1.1. Design-Level EventStorming](#411-design-level-eventstorming)
+  - [Collect Domain Events](#collect-domain-events)
+  - [Timeline](#timeline)
+  - [Pain and Pivotal Points](#pain-and-pivotal-points)
       - [4.1.1.1 Candidate Context Discovery](#4111-candidate-context-discovery)
     - [4.1.1.2 Domain Message Flows Modeling](#4112-domain-message-flows-modeling)
     - [4.1.1.3 Bounded Context Canvases](#4113-bounded-context-canvases)
     - [4.1.2. Context Mapping](#412-context-mapping)
+      - [Proceso de elaboración](#proceso-de-elaboración)
+      - [Análisis de relaciones y patrones aplicados](#análisis-de-relaciones-y-patrones-aplicados)
+      - [Context Map](#context-map)
     - [4.1.3. Software Architecture](#413-software-architecture)
       - [4.1.3.1. Software Architecture System Landscape Diagram](#4131-software-architecture-system-landscape-diagram)
       - [4.1.3.2. Software Architecture Context Level Diagrams](#4132-software-architecture-context-level-diagrams)
@@ -245,6 +264,9 @@ Durante la elaboración de esta entrega, el equipo colaboró utilizando GitFlow.
   - [5.1. Style Guidelines](#51-style-guidelines)
     - [5.1.1. General Style Guidelines](#511-general-style-guidelines)
     - [5.1.2. Web, Mobile and Iot Style Guidelines](#512-web-mobile-and-iot-style-guidelines)
+      - [Web Style Guidelines (Plataforma Corporativa y Dashboards)](#web-style-guidelines-plataforma-corporativa-y-dashboards)
+      - [Mobile Style Guidelines (Aplicación para Operadores en Campo)](#mobile-style-guidelines-aplicación-para-operadores-en-campo)
+      - [IoT Style Guidelines (Interacción en el Hardware / Nodos Edge)](#iot-style-guidelines-interacción-en-el-hardware--nodos-edge)
   - [5.2 Information Architecture](#52-information-architecture)
     - [5.2.1. Organization Systems](#521-organization-systems)
     - [5.2.2. Labeling Systems](#522-labeling-systems)
@@ -261,30 +283,84 @@ Durante la elaboración de esta entrega, el equipo colaboró utilizando GitFlow.
     - [5.4.4. Applications User Flow Diagrams](#544-applications-user-flow-diagrams)
     - [5.5 Applications Prototyping](#55-applications-prototyping)
     - [5.6. IoT Device Design](#56-iot-device-design)
+      - [Descripción general del dispositivo](#descripción-general-del-dispositivo)
+      - [Criterios de diseño y selección de sensores](#criterios-de-diseño-y-selección-de-sensores)
+      - [Diagrama del circuito — Wokwi (ESP32 DevKit V1)](#diagrama-del-circuito--wokwi-esp32-devkit-v1)
+      - [Flujo de interacción del dispositivo](#flujo-de-interacción-del-dispositivo)
+      - [Relación con la guía de estilo C++ (Embedded Application)](#relación-con-la-guía-de-estilo-c-embedded-application)
   - [6.1 Product Implementation, Validation \& Deployment](#61-product-implementation-validation--deployment)
     - [6.1.1. Software Development Environment Configuration](#611-software-development-environment-configuration)
+    - [Project Management](#project-management)
+    - [Product UX/UI Design](#product-uxui-design)
+    - [Software Development](#software-development)
+    - [Software Documentation](#software-documentation)
     - [6.1.2. Source Code Management](#612-source-code-management)
+    - [URLs de repositorios](#urls-de-repositorios)
     - [6.1.3. Source Code Style Guide \& Conventions](#613-source-code-style-guide--conventions)
+    - [HTML5 — Landing Page](#html5--landing-page)
+    - [CSS3 — Landing Page](#css3--landing-page)
+    - [TypeScript — Landing Page y Web Application (Vue)](#typescript--landing-page-y-web-application-vue)
+    - [Java — RESTful Web Service (Spring Boot)](#java--restful-web-service-spring-boot)
+    - [Python — Edge API (Flask)](#python--edge-api-flask)
+    - [C++ — Embedded Application (IoT / ESP32)](#c--embedded-application-iot--esp32)
     - [6.1.4. Software Deployment Configuration](#614-software-deployment-configuration)
-  - [6.2 Landing Page, Services & Applications Implementation](#62-Landing-Page,-Services-&-Applications-Implementation)
-    - [6.2.1. Sprint 1](#612-Sprint-1)
+      - [Landing Page](#landing-page)
+      - [Web Application (Frontend)](#web-application-frontend)
+      - [RESTful Web Service (Backend)](#restful-web-service-backend)
+      - [Edge API](#edge-api)
+  - [6.2. Landing Page, Services \& Applications Implementation](#62-landing-page-services--applications-implementation)
+    - [6.2.1. Sprint 1](#621-sprint-1)
       - [6.2.1.1. Sprint Planning 1.](#6211-sprint-planning-1)
       - [6.2.1.2. Aspect Leaders and Collaborators.](#6212-aspect-leaders-and-collaborators)
       - [6.2.1.3. Sprint Backlog 1.](#6213-sprint-backlog-1)
       - [6.2.1.4. Development Evidence for Sprint Review.](#6214-development-evidence-for-sprint-review)
       - [6.2.1.5. Testing Suite Evidence for Sprint Review.](#6215-testing-suite-evidence-for-sprint-review)
+        - [Acceptance Tests](#acceptance-tests)
       - [6.2.1.6. Execution Evidence for Sprint Review.](#6216-execution-evidence-for-sprint-review)
       - [6.2.1.7. Services Documentation Evidence for Sprint Review.](#6217-services-documentation-evidence-for-sprint-review)
       - [6.2.1.8. Software Deployment Evidence for Sprint Review.](#6218-software-deployment-evidence-for-sprint-review)
       - [6.2.1.9. Team Collaboration Insights during Sprint.](#6219-team-collaboration-insights-during-sprint)
-    - [6.2.2. Sprint 2](#622-Sprint-2)
-      - [6.2.2.1. Sprint Planning 2.](#6221-sprint-planning-2)
+    - [6.2.2. Sprint 2](#622-sprint-2)
+      - [6.2.2.1. Sprint Planning 2](#6221-sprint-planning-2)
       - [6.2.2.2. Aspect Leaders and Collaborators.](#6222-aspect-leaders-and-collaborators)
       - [6.2.2.3. Sprint Backlog 2.](#6223-sprint-backlog-2)
+  - [6.3. Validation Interviews](#63-validation-interviews)
+    - [6.3.1. Diseño de Entrevistas](#631-diseño-de-entrevistas)
+- [Segmento 1: Cliente Corporativo (Demanda)](#segmento-1-cliente-corporativo-demanda)
+  - [Presentación del entrevistado](#presentación-del-entrevistado)
+  - [Interacción con la aplicación móvil FuelTrack](#interacción-con-la-aplicación-móvil-fueltrack)
+    - [User Goal: Iniciar sesión](#user-goal-iniciar-sesión)
+    - [User Goal: Navegar por el Panel de Control](#user-goal-navegar-por-el-panel-de-control)
+    - [User Goal: Analizar información operativa](#user-goal-analizar-información-operativa)
+    - [User Goal: Gestionar pedidos](#user-goal-gestionar-pedidos)
+  - [Preguntas principales](#preguntas-principales)
+  - [Valoración de experiencia](#valoración-de-experiencia)
+- [Segmento 2: Proveedor / Distribuidor (Oferta)](#segmento-2-proveedor--distribuidor-oferta)
+  - [Presentación del entrevistado](#presentación-del-entrevistado-1)
+  - [Interacción con la aplicación móvil FuelTrack](#interacción-con-la-aplicación-móvil-fueltrack-1)
+    - [User Goal: Iniciar sesión](#user-goal-iniciar-sesión-1)
+    - [User Goal: Gestionar despachos](#user-goal-gestionar-despachos)
+    - [User Goal: Gestionar alertas](#user-goal-gestionar-alertas)
+    - [User Goal: Administrar perfil y seguridad](#user-goal-administrar-perfil-y-seguridad)
+  - [Preguntas principales](#preguntas-principales-1)
+  - [Valoración de experiencia:](#valoración-de-experiencia-1)
+    - [6.3.2. Registro de Entrevistas](#632-registro-de-entrevistas)
+    - [6.3.3. Evaluaciones según Heurísticas](#633-evaluaciones-según-heurísticas)
+  - [Evaluación de Heurísticas y Principios de UX](#evaluación-de-heurísticas-y-principios-de-ux)
+  - [Tareas a evaluar:](#tareas-a-evaluar)
+  - [Escala de severidad:](#escala-de-severidad)
+  - [Tabla de problemas:](#tabla-de-problemas)
+    - [Problema #1: Interfaz sobrecargada en el Dashboard Telemétrico](#problema-1-interfaz-sobrecargada-en-el-dashboard-telemétrico)
+    - [Problema #2: Falta de indicaciones en zonas sin conectividad (Modo Offline)](#problema-2-falta-de-indicaciones-en-zonas-sin-conectividad-modo-offline)
+    - [Problema #3: Área de firma digital muy reducida en dispositivos móviles](#problema-3-área-de-firma-digital-muy-reducida-en-dispositivos-móviles)
+    - [Problema #4: Alertas de emergencia (Mermas) poco diferenciadas](#problema-4-alertas-de-emergencia-mermas-poco-diferenciadas)
+    - [Problema #5: Terminología técnica en reportes de "Burn Rate"](#problema-5-terminología-técnica-en-reportes-de-burn-rate)
+    - [Problema #6: Dificultad para corregir galones en el Wizard de pedidos](#problema-6-dificultad-para-corregir-galones-en-el-wizard-de-pedidos)
+  - [6.4. Video About-the-Product](#64-video-about-the-product)
   - [Conclusiones](#conclusiones)
-  - [Recomendaciones](#Recomendaciones)
-  - [Bibliografia](#Bibliografia)
-  - [Anexos](#Anexos)
+  - [Recomendaciones](#recomendaciones)
+  - [Bibliografía](#bibliografía)
+  - [Anexos](#anexos)
 
 <div style="page-break-after: always;"></div>
 
@@ -4936,7 +5012,104 @@ En esta sección se presentan los participantes entrevistados, sus perfiles, res
 
 ### 6.3.3. Evaluaciones según Heurísticas
 
-En esta sección se presentan los resultados de la evaluación heurística aplicada al prototipo de FuelTrack, considerando principios de usabilidad relacionados con visibilidad del estado del sistema, consistencia, prevención de errores, eficiencia de uso y satisfacción del usuario.
+## Evaluación de Heurísticas y Principios de UX
+
+**Usabilidad – Diseño Inclusivo – Arquitectura de la Información**
+
+
+
+## Tareas a evaluar:
+El alcance de esta evaluación incluye la revisión de la usabilidad y experiencia de las siguientes tareas críticas relacionadas con el monitoreo logístico y telemetría IoT de **FuelTrack**:
+- Generación de pedidos de combustible mediante el Wizard automatizado.
+- Monitoreo en el dashboard telemétrico en tiempo real (estado de tanque, presión y GPS de cisternas).
+- Visualización de indicadores financieros y el "Burn Rate" de la empresa.
+- Proceso de firma y validación para la emisión del Voucher Digital (PDF) en campo.
+- Recepción e interpretación de alertas por anomalías (mermas o sobregiros).
+
+**No están incluidas en esta versión de la evaluación las siguientes tareas:**
+- Gestión administrativa de roles y configuraciones de empresa en el backend.
+- Instalación física, calibración técnica y emparejamiento del hardware IoT en los camiones cisterna.
+- Tareas de migración de bases de datos o cruce de información con sistemas contables de terceros (ERP).
+
+---
+
+## Escala de severidad:
+Los problemas identificados se califican con la siguiente escala de severidad:
+
+| Nivel | Descripción                                                                                       |
+|-------|---------------------------------------------------------------------------------------------------|
+| **1** | Problema superficial: fácilmente superable por el usuario o de baja frecuencia.                  |
+| **2** | Problema menor: ocurre ocasionalmente, algo más difícil de superar, baja prioridad de solución.   |
+| **3** | Problema mayor: frecuente o de difícil resolución por el usuario, alta prioridad de corrección.  |
+| **4** | Problema muy grave: impide continuar con la tarea, requiere solución inmediata antes del despliegue. |
+
+---
+
+## Tabla de problemas:
+
+---
+
+### Problema #1: Interfaz sobrecargada en el Dashboard Telemétrico
+- **Severidad:** 3  
+- **Heurística/Principio Violado:** Arquitectura de la Información - Estética y diseño minimalista  
+- **Problema:**  
+  El panel de control en tiempo real muestra demasiados datos en pantalla simultáneamente (presión, nivel, historial, y mapa GPS superpuestos), lo que puede abrumar a los controladores de flota que necesitan tomar decisiones rápidas.  
+- **Recomendación:**  
+  Rediseñar el dashboard implementando jerarquías visuales claras. Mostrar primero indicadores clave (capacidad actual, estado en ruta) y permitir al usuario hacer "drill-down" o clic para ampliar detalles técnicos o gráficas de la telemetría IoT.
+
+---
+
+### Problema #2: Falta de indicaciones en zonas sin conectividad (Modo Offline)
+- **Severidad:** 4  
+- **Heurística/Principio Violado:** Usabilidad - Visibilidad del estado del sistema  
+- **Problema:**  
+  Considerando que los choferes y despachadores operan en zonas remotas (campamentos mineros), la aplicación no indica claramente si los datos del Voucher o la firma se guardaron localmente al perder la conexión a internet.  
+- **Recomendación:**  
+  Implementar un indicador de red visible (ej. icono de "Sin conexión") y una notificación que confirme al chofer que los datos de recepción y la firma digital han sido guardados y se sincronizarán al recuperar la señal.
+
+---
+
+### Problema #3: Área de firma digital muy reducida en dispositivos móviles
+- **Severidad:** 3  
+- **Heurística/Principio Violado:** Diseño Inclusivo - Prevención de errores  
+- **Problema:**  
+  El espacio destinado para que el operario de campo dibuje su firma para validar la entrega es demasiado pequeño, lo que resulta problemático para usuarios que usan guantes o tienen pantallas táctiles poco sensibles bajo el sol.  
+- **Recomendación:**  
+  Cambiar la orientación de la pantalla a horizontal automáticamente o habilitar un modal en pantalla completa (*full-screen view*) exclusivamente para capturar la traza de la firma antes de generar el Voucher PDF.
+
+---
+
+### Problema #4: Alertas de emergencia (Mermas) poco diferenciadas
+- **Severidad:** 4  
+- **Heurística/Principio Violado:** Usabilidad - Reconocimiento de reconocimiento en lugar de recordar  
+- **Problema:**  
+  Las alertas por caídas bruscas de presión generadas por el sistema (posibles robos u "ordeño") tienen el mismo diseño visual (color amarillo/naranja estándar) que las notificaciones regulares informativas, lo que retrasa el tiempo de reacción.  
+- **Recomendación:**  
+  Asignar diferenciadores visuales y sonoros fuertes (ej. barra de color rojo vibrante y tarjeta resaltada en la parte superior) exclusivamente para alertas críticas derivadas de la telemetría en la logística.
+
+---
+
+### Problema #5: Terminología técnica en reportes de "Burn Rate"
+- **Severidad:** 2  
+- **Heurística/Principio Violado:** Usabilidad - Relación entre el sistema y el mundo real  
+- **Problema:**  
+  La sección financiera de la aplicación presenta el ritmo de consumo de activos corporativos en términos estadísticos o métricas muy técnicas, siendo difícil de interpretar para usuarios administrativos sin perfil ingenieril.  
+- **Recomendación:**  
+  Reemplazar los encabezados técnicos por frases de resumen de negocios entendibles (ej., "Consumo total de combustible del mes", "Presupuesto disponible", "Proyección de gasto restante") añadiendo *tooltips* informativos que expliquen brevemente cómo el sistema calcula cada monto proyectado.
+
+---
+
+### Problema #6: Dificultad para corregir galones en el Wizard de pedidos
+- **Severidad:** 3  
+- **Heurística/Principio Violado:** Usabilidad - Control y libertad del usuario  
+- **Problema:**  
+  Si un gerente comete un error al indicar la cantidad de galonaje deseado en un nuevo requerimiento, y pasa al siguiente paso de confirmación, tiene que cancelar todo el pedido y comenzar de nuevo porque no hay opción para regresar y editar.  
+- **Recomendación:**  
+  Incorporar opciones de navegación de tipo "Atrás" o navegación por "Migas de pan" (breadcrumbs) en cada paso del proceso de reserva para asegurar la modificación fluida antes de la emisión oficial de un requerimiento de despacho.
+
+---
+
+Esta evaluación nos permite establecer prioridades claras antes del desarrollo del Sprint de usabilidad, garantizando que FuelTrack no solo entregue datos IoT precisos, sino que sea accesible y operativa para choferes, áreas contables y gerentes de distribución de hidrocarburos.
 
 ## 6.4. Video About-the-Product
 
