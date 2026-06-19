@@ -2622,7 +2622,7 @@ Además, el prototipado de la landing page de FuelTrack cuenta con diversas secc
 
 El diseño final del mock-up emplea una paleta de colores orientada a transmitir confianza, seguridad operativa y modernidad tecnológica, alineándose con el enfoque industrial y logístico de la plataforma FuelTrack.
 
-**Wireframe Landing Desktop**
+**Mock-up Landing Desktop**
 
 <sub>*Mock-up referencial de la estructura principal de la Landing Page de FuelTrack.*</sub>
 
@@ -2632,22 +2632,22 @@ El diseño final del mock-up emplea una paleta de colores orientada a transmitir
 
 <img width="858" height="604" alt="Landing Page FuelTrack" src="assets/cap5/Landing2.png" />
 
-<sub>*Mock-up de la sección de testimonios y planes de suscripción de FuelTrack.*</sub>
+<sub>*Mock-up de la sección del funcionamiento en pasos.*</sub>
 
 <img width="858" height="604" alt="Landing Page FuelTrack" src="assets/cap5/Landing3.png" />
 
-<sub>*Mock-up de la sección de preguntas frecuentes y contacto comercial de la Landing Page.*</sub>
+<sub>*Mock-up de la sección de contacto comercial de la Landing Page.*</sub>
 
 <img width="858" height="604" alt="Landing Page FuelTrack" src="assets/cap5/Landing4.png" />
 
 
-**Wireframe Landing Mobile**
+**Mock-up Landing Mobile**
 
 <sub>*Mock-up mobile de la sección principal y Hero Section de la Landing Page de FuelTrack.*</sub>
 
 <img width="200" height="604" alt="Landing Page FuelTrack" src="assets/cap5/MobileLading1.png" />
 
-<sub>*Wireframe mobile de la sección de propuesta de valor y beneficios principales de FuelTrack.*</sub>
+<sub>*Mock-up  mobile de la sección de propuesta de valor y beneficios principales de FuelTrack.*</sub>
 
 <img width="200" height="604" alt="Landing Page FuelTrack" src="assets/cap5/MobileLading2.png" />
 
@@ -2663,17 +2663,13 @@ El diseño final del mock-up emplea una paleta de colores orientada a transmitir
 
 <img width="200" height="604" alt="Landing Page FuelTrack" src="assets/cap5/MobileLading5.png" />
 
-<sub>*Mock-up mobile de la sección de planes y suscripciones de FuelTrack.*</sub>
+<sub>*Mock-up mobile de la sección de preguntas frecuentes y formulario de contacto de FuelTrack.*</sub>
 
 <img width="200" height="604" alt="Landing Page FuelTrack" src="assets/cap5/MobileLading6.png" />
 
-<sub>*Mock-up mobile de la sección de preguntas frecuentes y formulario de contacto de FuelTrack.*</sub>
-
-<img width="200" height="604" alt="Landing Page FuelTrack" src="assets/cap5/MobileLading7.png" />
-
 <sub>*Mock-up mobile del footer y sección de información de contacto de FuelTrack.*</sub>
 
-<img width="200" height="604" alt="Landing Page FuelTrack" src="assets/cap5/MobileLading8.png" />
+<img width="200" height="604" alt="Landing Page FuelTrack" src="assets/cap5/MobileLading7.png" />
 
 ## 5.4 Applications UX/UI Design
 
@@ -4758,31 +4754,31 @@ En esta sección se presentan los participantes entrevistados, sus perfiles, res
     <th>Entrevista</th>
     <td>1</td>
     <th>Nombre</th>
-    <td>María Elena Muñoz</td>
+    <td>Pierina Mandros</td>
   </tr>
   <tr>
     <th>Edad</th>
-    <td>23</td>
+    <td>25</td>
     <th>Distrito</th>
-    <td>Los Olivos</td>
+    <td>Surco</td>
   </tr>
   <tr>
     <th>Captura de la entrevista:</th>
     <td colspan="3">
-      <img width="350" alt="Captura de la entrevista" src="https://github.com/user-attachments/assets/a14bf3cd-9383-451d-92b1-fd454fc24a02" /><br>
-      <sub>Captura de pantalla de la entrevista realizada a María Elena Muñoz.</sub>
+      <img width="350" alt="Captura de la entrevista" src="assets/pierina.png" /><br>
+      <sub>Captura de pantalla de la entrevista realizada a Pierina Mandros.</sub>
     </td>
   </tr>
   <tr>
     <th>Resumen</th>
     <td colspan="3">
-      La empresa ...
+      Pierina Mandros, destaca que la aplicación es intuitiva, fácil de usar y simplifica considerablemente la gestión de datos que antes realizaba manualmente. Valora enormemente la organización del inventario y la seguridad de la firma digital en los pedidos. Como sugerencias, propone incluir indicadores de frecuencia de uso para evaluar la adquisición de planes premium y visualización de factores externos como el tráfico para estimar mejor los tiempos de entrega.
     </td>
   </tr>
   <tr>
     <th>URL de la grabación</th>
     <td colspan="3">
-      <a href="https://upcedupe-my.sharepoint.com/:v:/g/personal/u202310425_upc_edu_pe/IQCfkcUktPEWRauuu2W1srTQAboKi2wAirJeCJC7AZahiyY?e=MSTjfd">
+      <a href="https://drive.google.com/drive/folders/1Op0da7ydYkladh6nASQVWQkLS6_2nUxB">
         Ver grabación
       </a>
     </td>
@@ -4840,7 +4836,7 @@ En esta sección se presentan los participantes entrevistados, sus perfiles, res
 <table border="1">
   <tr>
     <th>Entrevista</th>
-    <td>1</td>
+    <td>3</td>
     <th>Nombre</th>
     <td>María Fernanda Castillo</td>
   </tr>
@@ -5113,7 +5109,10 @@ Esta evaluación nos permite establecer prioridades claras antes del desarrollo 
 
 ## 6.4. Video About-the-Product
 
- 
+![Texto alternativo](assets/product.png)
+
+ [Video del About the Product](https://drive.google.com/drive/folders/1AuV3KksbR5Sp-w3XliohkKfkipNsDekE?usp=sharing)
+
 
 ## Conclusiones
 
@@ -5233,8 +5232,7 @@ Video del prototipo de Móvil:
 
 [Ver video de Prototipo de Móvil](https://upcedupe-my.sharepoint.com/:v:/g/personal/u202310425_upc_edu_pe/IQCSSLryvintQYozrGGbks8uATQVhd5JdXBJlBfSOyeSNmM?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D&e=YGVTor)
 
-
-
+[Video del About the Product](https://drive.google.com/drive/folders/1AuV3KksbR5Sp-w3XliohkKfkipNsDekE?usp=sharing)
 
 
 
