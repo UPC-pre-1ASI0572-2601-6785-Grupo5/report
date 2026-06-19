@@ -5131,7 +5131,6 @@ Esta evaluación nos permite establecer prioridades claras antes del desarrollo 
 
  [Video del About the Product](https://drive.google.com/drive/folders/1AuV3KksbR5Sp-w3XliohkKfkipNsDekE?usp=sharing)
 
-
 ## Conclusiones
 
 1. **Resolución integral de la problemática logística B2B:** La integración de hardware IoT con una plataforma transaccional de software demuestra ser una solución altamente efectiva para erradicar los puntos ciegos operativos en la cadena de suministro de hidrocarburos. El ecosistema logra conectar el flujo físico del combustible con el flujo financiero, reduciendo la opacidad administrativa y mitigando el riesgo de mermas y robos en tránsito ("ordeño").
@@ -5169,6 +5168,13 @@ Esta evaluación nos permite establecer prioridades claras antes del desarrollo 
 
 8. **Certificación de seguridad perimetral y adopción de DevSecOps:** A medida que la plataforma escale y maneje mayores volúmenes de transacciones financieras B2B, se recomienda ejecutar pruebas de penetración periódicas (*Pentesting*) e integrar auditorías de seguridad automáticas dentro de los *pipelines* de integración y despliegue continuo (CI/CD), con miras a cumplir los estándares internacionales de la ISO 27001.
 
+## Video About-the-Team
+
+Video del About the Team:
+
+![Texto alternativo](assets/cap5/team.png)
+
+[Video del About the Team:](https://drive.google.com/drive/folders/1iu_fJCf7N1wP12vgBU4DL7w4rGYet_Xd?usp=sharing)
 
 ## Bibliografía
 
@@ -5253,6 +5259,10 @@ Video del prototipo de Móvil:
 Video del About the Product:
 
 [Video del About the Product](https://drive.google.com/drive/folders/1AuV3KksbR5Sp-w3XliohkKfkipNsDekE?usp=sharing)
+
+Video del About the Team:
+
+[Video del About the Team:](https://drive.google.com/drive/folders/1iu_fJCf7N1wP12vgBU4DL7w4rGYet_Xd?usp=sharing)
 
 
 
