@@ -4253,8 +4253,9 @@ Frontend
 *Página de los pedidos de combustible del usuario*
 
 #### 6.2.1.7. Services Documentation Evidence for Sprint Review.
-![Endpoints](assets/endpoint1.png)
-*Endpoints de la primera versión del backend*
+<img width="1920" height="999" alt="image" src="https://github.com/user-attachments/assets/951ca806-f486-41ae-a79d-65ec46f02bd2" />
+
+*Endpoints del backend*
 
 #### 6.2.1.8. Software Deployment Evidence for Sprint Review.
 A continuación, se evidenciará el enlace de acuerdo a los software desplegados para este Sprint:
