@@ -5006,19 +5006,17 @@ https://drive.google.com/file/d/1Q21yj6e89JT0l8bAUMyFZiPyDkyEuz_1/view?usp=shari
 
 Opción 2:
 https://drive.google.com/file/d/1Y4ys3PC_zt5LeDLogyo-lFhQJRm0-HLp/view?usp=sharing
+Video de Prototipo Landing:
 
-Video de Protoripo Landing:
-
-https://upcedupe-my.sharepoint.com/:v:/g/personal/u202310425_upc_edu_pe/IQDYndgrD_s8ToqPeQrt0KOlAfwYAJuHoD8ZmEAPUSUcu7A?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D&e=IMEQzn
+[Ver video de Prototipo Landing](https://upcedupe-my.sharepoint.com/:v:/g/personal/u202310425_upc_edu_pe/IQDYndgrD_s8ToqPeQrt0KOlAfwYAJuHoD8ZmEAPUSUcu7A?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D&e=IMEQzn)
 
 Video de prototipo del Frontend:
 
-https://upcedupe-my.sharepoint.com/:v:/g/personal/u202310425_upc_edu_pe/IQBPhl4ZPUEjQ7p-ws4nPWnJATF9S3d1OD6ElKPcyWfPKSI?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D&e=hAmZoi
+[Ver video de Prototipo del Frontend](https://upcedupe-my.sharepoint.com/:v:/g/personal/u202310425_upc_edu_pe/IQBPhl4ZPUEjQ7p-ws4nPWnJATF9S3d1OD6ElKPcyWfPKSI?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D&e=hAmZoi)
 
-Video del prototipo de Mobil:
+Video del prototipo de Móvil:
 
-https://upcedupe-my.sharepoint.com/:v:/g/personal/u202310425_upc_edu_pe/IQCSSLryvintQYozrGGbks8uATQVhd5JdXBJlBfSOyeSNmM?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D&e=YGVTor
-
+[Ver video de Prototipo de Móvil](https://upcedupe-my.sharepoint.com/:v:/g/personal/u202310425_upc_edu_pe/IQCSSLryvintQYozrGGbks8uATQVhd5JdXBJlBfSOyeSNmM?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D&e=YGVTor)
 
 
 
