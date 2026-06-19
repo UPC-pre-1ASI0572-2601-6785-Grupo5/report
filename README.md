@@ -5047,6 +5047,7 @@ https://drive.google.com/file/d/1Q21yj6e89JT0l8bAUMyFZiPyDkyEuz_1/view?usp=shari
 
 Opción 2:
 https://drive.google.com/file/d/1Y4ys3PC_zt5LeDLogyo-lFhQJRm0-HLp/view?usp=sharing
+
 Video de Prototipo Landing:
 
 [Ver video de Prototipo Landing](https://upcedupe-my.sharepoint.com/:v:/g/personal/u202310425_upc_edu_pe/IQCM611H3TWIQ6XmlfTIYQ5AAayUHz1d7bybtGEwJcxkF1k?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D&e=iahLUY)
