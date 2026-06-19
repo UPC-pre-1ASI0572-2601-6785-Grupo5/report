@@ -3513,11 +3513,11 @@ El sistema actualiza la configuración y confirma que la información fue modifi
 
 ### 5.5 Applications Prototyping
 
-<img width="1034" height="574" alt="image" src="https://github.com/user-attachments/assets/959bfde2-d37e-46f2-86c0-b8287d2064d0" />
+<img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/c8ab0a09-397f-4b3b-a967-59bc14323da6" />
 
 Prototipo de la Landing:
 
-[Ver video de Prototipo Landing](https://upcedupe-my.sharepoint.com/:v:/g/personal/u202310425_upc_edu_pe/IQDYndgrD_s8ToqPeQrt0KOlAfwYAJuHoD8ZmEAPUSUcu7A?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D&e=IMEQzn)
+[Ver video de Prototipo Landing](https://upcedupe-my.sharepoint.com/:v:/g/personal/u202310425_upc_edu_pe/IQCM611H3TWIQ6XmlfTIYQ5AAayUHz1d7bybtGEwJcxkF1k?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D&e=iahLUY)
 
 <img width="1010" height="581" alt="image" src="https://github.com/user-attachments/assets/0c533395-a091-4882-9ddf-5547f0827e36" />
 
