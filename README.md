@@ -4236,24 +4236,16 @@ Frontend
 
 **LANDING PAGE**
 
-<table>
-  <tr>
-    <td><img src="https://github.com/user-attachments/assets/56894e77-8c4a-40a6-924a-154e6af92593" alt="Pantalla 1" /></td>
-    <td><img src="https://github.com/user-attachments/assets/4b6e4cd1-e9c9-432e-bb4b-cbecac2bc6ed" alt="Pantalla 2" /></td>
-  </tr>
-  <tr>
-    <td><img src="https://github.com/user-attachments/assets/7c3d95fa-49ae-49b2-bc31-94084db9b005" alt="Pantalla 3" /></td>
-    <td><img src="https://github.com/user-attachments/assets/0e08c41a-2671-4d41-8e0a-155451a900bd" alt="Pantalla 4" /></td>
-  </tr>
-  <tr>
-    <td><img src="https://github.com/user-attachments/assets/56248135-f2fd-4987-acb1-aaa28811f2fd" alt="Pantalla 5" /></td>
-    <td><img src="https://github.com/user-attachments/assets/69d9063e-84bc-4731-83c8-93c16a635e02" alt="Pantalla 6" /></td>
-  </tr>
-  <tr>
-    <td><img src="https://github.com/user-attachments/assets/5e694932-23b1-4621-aa3f-ab3f85ca9d8d" alt="Pantalla 7" /></td>
-    <td><img src="https://github.com/user-attachments/assets/07cfa21f-a5e9-4e0d-92d8-e96a4c32cf75" alt="Pantalla 8" /></td>
-  </tr>
-</table>
+<div align="center">
+  <img width="100%" src="https://github.com/user-attachments/assets/56894e77-8c4a-40a6-924a-154e6af92593" />
+  <img width="100%" src="https://github.com/user-attachments/assets/4b6e4cd1-e9c9-432e-bb4b-cbecac2bc6ed" />
+  <img width="100%" src="https://github.com/user-attachments/assets/7c3d95fa-49ae-49b2-bc31-94084db9b005" />
+  <img width="100%" src="https://github.com/user-attachments/assets/0e08c41a-2671-4d41-8e0a-155451a900bd" />
+  <img width="100%" src="https://github.com/user-attachments/assets/56248135-f2fd-4987-acb1-aaa28811f2fd" />
+  <img width="100%" src="https://github.com/user-attachments/assets/69d9063e-84bc-4731-83c8-93c16a635e02" />
+  <img width="100%" src="https://github.com/user-attachments/assets/5e694932-23b1-4621-aa3f-ab3f85ca9d8d" />
+  <img width="100%" src="https://github.com/user-attachments/assets/07cfa21f-a5e9-4e0d-92d8-e96a4c32cf75" />
+</div>
 
 *Imagen de la landing page funcional desplegada*
 
