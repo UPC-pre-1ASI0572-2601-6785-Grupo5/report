@@ -117,7 +117,7 @@ El objetivo de esta sección es resumir las modificaciones relevantes que se rea
     <tr>
       <td>12/05/2026</td>
       <td>Almerco Rojas, Jocelyn Damaly</td>
-      <td>Revisión final de formato APA 7, validación general de coherencia del documento y consolidación para la entrega TP.</td>
+      <td>Revisión final de formato APA 7, validación general de coherencia del documento y consolidación para la entrega TP1.</td>
     </tr>
   </tbody>
 </table>
