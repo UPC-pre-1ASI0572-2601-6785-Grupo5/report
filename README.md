@@ -1781,29 +1781,29 @@ El equipo evaluó distintas configuraciones planteando las siguientes preguntas 
 ### 4.1.3. Software Architecture
 #### 4.1.3.1. Software Architecture System Landscape Diagram
 
-![System Landscape Diagram](/assets/SystemLandscapeDiagram.png)
+![System Landscape Diagram](assets/SystemLandscapeDiagram.png)
 *Diagrama System Landscape Diagram que muestra las interacciones de alto nivel del sistema FuelTrack.*
 
 #### 4.1.3.2. Software Architecture Context Level Diagrams
 En esta sección se presenta el diagrama de contexto de la arquitectura de software, el cual ilustra a FuelTrack en el centro de las operaciones, interactuando de manera directa con sus usuarios objetivo y los sistemas físicos (hardware) de los que depende para su funcionamiento. Este primer nivel del modelo C4 nos permite tener una visión de alto nivel del alcance del ecosistema.
 
-![Context Level Diagram](/assets/ContextLevelDiagram.png)
+![Context Level Diagram](assets/ContextLevelDiagram.png)
 *Context Level Diagram (Modelo C4) de FuelTrack, detallando actores y sistemas externos interactuantes.*
 
 #### 4.1.3.3. Software Architecture Container Level Diagrams
 En esta sección se presenta el diagrama de contenedores de la solución propuesta. Este diagrama detalla los contenedores de software y sus interrelaciones, proporcionando una visión general de la estructura interna del sistema.
 
-![Container Level Diagram](/assets/ContainerLevelDiagram.png)
+![Container Level Diagram](assets/ContainerLevelDiagram.png)
 *Container Level Diagram para FuelTrack, exponiendo la comunicación interna entre las aplicaciones y bases de datos.*
 
 #### 4.1.3.4. Software Architecture Deployment Diagrams
 
 El diagrama de despliegue muestra cómo se distribuyen los distintos componentes de software en su entorno de ejecución. El sistema está compuesto por una aplicación web (Vue.js) y una aplicación móvil (Flutter), las cuales se ejecutan en los navegadores y dispositivos de los usuarios. Estas aplicaciones se comunican mediante JSON/HTTPS con un API Gateway en la nube, el cual enruta las peticiones hacia un clúster de microservicios (IAM, Órdenes, Vouchers e IoT Monitoring) desarrollados en Python/FastAPI. Paralelamente, en el entorno físico de las cisternas, opera una Edge Application (C++) embebida que captura los datos de los sensores y los transmite vía MQTT hacia el backend. Todos los servicios internos realizan operaciones de lectura y escritura sobre un servidor de base de datos PostgreSQL centralizado. Además, la arquitectura se integra con sistemas en la nube externos como Google Maps para validación de rutas y geocercas, y Mercado Pago para procesar las transacciones B2B.
 
-![Deployment Diagram](/assets/DeploymentDiagram.png)
+![Deployment Diagram](assets/DeploymentDiagram.png)
 *Deployment Diagram del sistema FuelTrack, mostrando la distribución de contenedores en la estructura de red y nube.*
 
-![Deployment Diagram2](/assets/DeploymentDiagram2.png)
+![Deployment Diagram2](assets/DeploymentDiagram2.png)
 *Segunda parte del Deployment Diagram donde se detallan las integraciones con servicios Edge y componentes externos.*
 
 ## 4.2. Tactical-Level Domain-Driven Design
