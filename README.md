@@ -1066,7 +1066,6 @@ Para comprender a profundidad las necesidades operativas y logísticas de nuestr
     <th>URL de la grabación</th>
     <td colspan="3">
     https://youtu.be/DUMJP7xZwDY
-        Ver grabación
       </a>
     </td>
   </tr>
@@ -1153,8 +1152,7 @@ La empresa de transporte gestiona su suministro de combustible mediante procesos
   <tr>
     <th>URL de la grabación</th>
     <td colspan="3">
-      <a href="https://upcedupe-my.sharepoint.com/:v:/g/personal/u202213278_upc_edu_pe/IQBBKGS1EeQyQJQiZVX4I9YbAUxrSRpnv4n9nhrrNoL_bHo?e=vCBVeM&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D">
-        Ver grabación
+https://youtu.be/Sw6jQukvptA
       </a>
     </td>
   </tr>
@@ -1197,8 +1195,7 @@ La empresa de transporte gestiona su suministro de combustible mediante procesos
   <tr>
     <th>URL de la grabación</th>
     <td colspan="3">
-      <a href="https://drive.google.com/file/d/11L819TbztDc0YqwB2WM7qR0-Egn5gLBC/view?usp=sharing">
-        Ver grabación
+https://drive.google.com/file/d/11L819TbztDc0YqwB2WM7qR0-Egn5gLBC/view       
       </a>
     </td>
   </tr>
@@ -1241,8 +1238,7 @@ La empresa de transporte gestiona su suministro de combustible mediante procesos
   <tr>
     <th>URL de la grabación</th>
     <td colspan="3">
-      <a href="https://drive.google.com/file/d/1UBl6ci4B9Mjg_y2_GnBcxZ2FXDWzrbx9/view?usp=sharing">
-        Ver grabación
+     https://drive.google.com/file/d/1UBl6ci4B9Mjg_y2_GnBcxZ2FXDWzrbx9/view
       </a>
     </td>
   </tr>
@@ -1284,8 +1280,7 @@ La empresa de transporte gestiona su suministro de combustible mediante procesos
   <tr>
     <th>URL de la grabación</th>
     <td colspan="3">
-      <a href="https://drive.google.com/drive/folders/1F7boyBz8lgLgsvLIgOnqx1KyeuxvCFUi">
-        Ver grabación
+    https://drive.google.com/drive/folders/1F7boyBz8lgLgsvLIgOnqx1KyeuxvCFUi
       </a>
     </td>
   </tr>
