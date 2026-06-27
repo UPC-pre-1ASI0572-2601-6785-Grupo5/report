@@ -5123,7 +5123,7 @@ Esta evaluación nos permite establecer prioridades claras antes del desarrollo 
 
 ![Texto alternativo](assets/product.png)
 
- [Video del About the Product](https://drive.google.com/drive/folders/1AuV3KksbR5Sp-w3XliohkKfkipNsDekE?usp=sharing)
+https://drive.google.com/drive/folders/1AuV3KksbR5Sp-w3XliohkKfkipNsDekE
 
 ## Conclusiones
 
