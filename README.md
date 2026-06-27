@@ -1065,7 +1065,7 @@ Para comprender a profundidad las necesidades operativas y logísticas de nuestr
   <tr>
     <th>URL de la grabación</th>
     <td colspan="3">
-      <a href="https://upcedupe-my.sharepoint.com/:v:/g/personal/u202310425_upc_edu_pe/IQCfkcUktPEWRauuu2W1srTQAboKi2wAirJeCJC7AZahiyY?e=MSTjfd">
+    https://youtu.be/DUMJP7xZwDY
         Ver grabación
       </a>
     </td>
