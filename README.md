@@ -5168,7 +5168,7 @@ Video del About the Team:
 
 ![Texto alternativo](assets/cap5/team.png)
 
-[Video del About the Team:](https://drive.google.com/drive/folders/1iu_fJCf7N1wP12vgBU4DL7w4rGYet_Xd?usp=sharing)
+https://drive.google.com/drive/folders/1iu_fJCf7N1wP12vgBU4DL7w4rGYet_Xd?usp=sharing
 
 ## Bibliografía
 
