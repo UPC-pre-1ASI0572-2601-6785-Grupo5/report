@@ -4790,8 +4790,7 @@ En esta sección se presentan los participantes entrevistados, sus perfiles, res
   <tr>
     <th>URL de la grabación</th>
     <td colspan="3">
-      <a href="https://drive.google.com/drive/folders/1Op0da7ydYkladh6nASQVWQkLS6_2nUxB">
-        Ver grabación
+            https://drive.google.com/drive/folders/1Op0da7ydYkladh6nASQVWQkLS6_2nUxB
       </a>
     </td>
   </tr>
@@ -4826,8 +4825,7 @@ En esta sección se presentan los participantes entrevistados, sus perfiles, res
   <tr>
     <th>URL de la grabación</th>
     <td colspan="3">
-      <a href="https://drive.google.com/file/d/14D69XM1W0FAMPhdeiJOSHPO3bmDOciBe/view?usp=sharing">
-        Ver grabación
+       https://drive.google.com/drive/folders/1Op0da7ydYkladh6nASQVWQkLS6_2nUxB
       </a>
     </td>
   </tr>
@@ -4874,8 +4872,7 @@ En esta sección se presentan los participantes entrevistados, sus perfiles, res
   <tr>
     <th>URL de la grabación</th>
     <td colspan="3">
-      <a href="https://upcedupe-my.sharepoint.com/:v:/g/personal/u202213278_upc_edu_pe/IQBBKGS1EeQyQJQiZVX4I9YbAUxrSRpnv4n9nhrrNoL_bHo?e=vCBVeM&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D">
-        Ver grabación
+      https://drive.google.com/drive/folders/1Op0da7ydYkladh6nASQVWQkLS6_2nUxB
       </a>
     </td>
   </tr>
@@ -4917,8 +4914,7 @@ En esta sección se presentan los participantes entrevistados, sus perfiles, res
   <tr>
     <th>URL de la grabación</th>
     <td colspan="3">
-      <a href="https://drive.google.com/drive/folders/1Op0da7ydYkladh6nASQVWQkLS6_2nUxB?usp=sharing">
-        Ver grabación
+          https://drive.google.com/drive/folders/1Op0da7ydYkladh6nASQVWQkLS6_2nUxB
       </a>
     </td>
   </tr>
@@ -4961,8 +4957,7 @@ En esta sección se presentan los participantes entrevistados, sus perfiles, res
   <tr>
     <th>URL de la grabación</th>
     <td colspan="3">
-      <a href="https://drive.google.com/drive/folders/1Op0da7ydYkladh6nASQVWQkLS6_2nUxB?usp=sharing">
-        Ver grabación
+         https://drive.google.com/drive/folders/1Op0da7ydYkladh6nASQVWQkLS6_2nUxB
       </a>
     </td>
   </tr>
@@ -5004,8 +4999,7 @@ En esta sección se presentan los participantes entrevistados, sus perfiles, res
   <tr>
     <th>URL de la grabación</th>
     <td colspan="3">
-      <a href="https://drive.google.com/drive/folders/1Op0da7ydYkladh6nASQVWQkLS6_2nUxB?usp=sharing">
-        Ver grabación
+      https://drive.google.com/drive/folders/1Op0da7ydYkladh6nASQVWQkLS6_2nUxB
       </a>
     </td>
   </tr>
@@ -5252,11 +5246,10 @@ https://youtu.be/p9ayXNm6S0s
 
 Video del About the Product:
 
-[Video del About the Product](https://drive.google.com/drive/folders/1AuV3KksbR5Sp-w3XliohkKfkipNsDekE?usp=sharing)
+https://drive.google.com/drive/folders/1AuV3KksbR5Sp-w3XliohkKfkipNsDekE
 
 Video del About the Team:
 
-[Video del About the Team:](https://drive.google.com/drive/folders/1iu_fJCf7N1wP12vgBU4DL7w4rGYet_Xd?usp=sharing)
-
+https://drive.google.com/drive/folders/1iu_fJCf7N1wP12vgBU4DL7w4rGYet_Xd?usp=sharing
 
 
