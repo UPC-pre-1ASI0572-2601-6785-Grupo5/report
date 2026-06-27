@@ -3584,20 +3584,19 @@ El sistema actualiza la configuración y confirma que la información fue modifi
 
 Prototipo de la Landing:
 
-[Ver video de Prototipo Landing](https://upcedupe-my.sharepoint.com/:v:/g/personal/u202310425_upc_edu_pe/IQCM611H3TWIQ6XmlfTIYQ5AAayUHz1d7bybtGEwJcxkF1k?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D&e=iahLUY)
+https://youtu.be/b75ajqkln24
 
 <img width="1010" height="581" alt="image" src="https://github.com/user-attachments/assets/0c533395-a091-4882-9ddf-5547f0827e36" />
 
 Prototipo del Frontend:
 
-[Ver video de Prototipo del Frontend](https://upcedupe-my.sharepoint.com/:v:/g/personal/u202310425_upc_edu_pe/IQBPhl4ZPUEjQ7p-ws4nPWnJATF9S3d1OD6ElKPcyWfPKSI?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D&e=hAmZoi)
-
+https://youtu.be/RU_75NOPXXQ
 
 <img width="1057" height="581" alt="image" src="https://github.com/user-attachments/assets/a903ad5b-98c8-483a-96f5-223009a9d6c8" />
 
 Prototipo de Mobil:
 
-[Ver video de Prototipo de Móvil](https://upcedupe-my.sharepoint.com/:v:/g/personal/u202310425_upc_edu_pe/IQCSSLryvintQYozrGGbks8uATQVhd5JdXBJlBfSOyeSNmM?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D&e=YGVTor)
+https://youtu.be/p9ayXNm6S0s
 
 
 ### 5.6. IoT Device Design
@@ -5241,15 +5240,15 @@ https://drive.google.com/file/d/1Y4ys3PC_zt5LeDLogyo-lFhQJRm0-HLp/view?usp=shari
 
 Video de Prototipo Landing:
 
-[Ver video de Prototipo Landing](https://upcedupe-my.sharepoint.com/:v:/g/personal/u202310425_upc_edu_pe/IQCM611H3TWIQ6XmlfTIYQ5AAayUHz1d7bybtGEwJcxkF1k?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D&e=iahLUY)
+https://youtu.be/b75ajqkln24
 
 Video de prototipo del Frontend:
 
-[Ver video de Prototipo del Frontend](https://upcedupe-my.sharepoint.com/:v:/g/personal/u202310425_upc_edu_pe/IQBPhl4ZPUEjQ7p-ws4nPWnJATF9S3d1OD6ElKPcyWfPKSI?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D&e=hAmZoi)
+https://www.youtube.com/watch?v=RU_75NOPXXQ
 
 Video del prototipo de Móvil:
 
-[Ver video de Prototipo de Móvil](https://upcedupe-my.sharepoint.com/:v:/g/personal/u202310425_upc_edu_pe/IQCSSLryvintQYozrGGbks8uATQVhd5JdXBJlBfSOyeSNmM?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D&e=YGVTor)
+https://youtu.be/p9ayXNm6S0s
 
 Video del About the Product:
 
