@@ -1,5 +1,6 @@
 <div align="center">
-<img width="300" height="300" alt="image" src="https://github.com/user-attachments/assets/5301c790-d5aa-404e-8963-eb1409f65290" />
+![Logo de la UPC](./assets/logo-upc.png)
+ 
 # Universidad Peruana de Ciencias Aplicadas
 ## Carrera de Ingeniería de Software
  
