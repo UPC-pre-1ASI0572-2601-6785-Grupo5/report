@@ -45,6 +45,7 @@
 **Período 202610**
 
 </div>
+
 ---
 
 ## Registro de Versiones del Informe
