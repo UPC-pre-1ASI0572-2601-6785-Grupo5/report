@@ -8,21 +8,30 @@
 ---
 
 **1ASI0572**  
+
 **Desarrollo de Soluciones IoT**  
-**NRC: 6785**
+
+**NRC** 
+
+**6785**
 
 # Informe del Trabajo Final
 
 **Docente:**  
-León Baca, Marco Antonio
 
-**Equipo:** FuelTrack  
-**Proyecto:** FuelTrack
+**León Baca, Marco Antonio**
+
+**Equipo:** 
+
+**FuelTrack**  
+
+**Proyecto:**
+
+**FuelTrack**
 
 ### Integrantes
 
 | Código | Apellidos y Nombres |
-| :--- | :--- |
 | U202310425 | Aguirre Castillo, Sergio Cesar |
 | U20221G068 | Almerco Rojas, Jocelyn Damaly |
 | U202213278 | Espejo Gamarra, Bryan Ronald |
