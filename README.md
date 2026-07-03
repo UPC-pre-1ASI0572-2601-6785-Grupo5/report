@@ -1,6 +1,8 @@
 <div align="center">
-![Logo de la UPC](./assets/logo-upc.png)
  
+<div align="center"> <img src="assets/logo-upc.png" alt="Logo UPC" width="200"/> </div> 
+
+
 # Universidad Peruana de Ciencias Aplicadas
 ## Carrera de Ingeniería de Software
  
@@ -12,13 +14,16 @@ NRC
  
 # Informe de Trabajo Final
  
-Docente
+Docente:
+
 **León Baca, Marco Antonio**
  
-Equipo
+Equipo:
+
 **FuelTrack**
  
-Proyecto
+Proyecto:
+
 **FuelTrack**
  
 ### Integrantes:
