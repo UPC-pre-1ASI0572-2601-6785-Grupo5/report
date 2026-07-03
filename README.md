@@ -1,38 +1,34 @@
 <div align="center">
 
-<img src="./assets/logo-upc.png" alt="Logo UPC" width="300"/>
+<img src="./assets/logo-upc.png" alt="Logo UPC" width="200"/>
 
-**Universidad Peruana de Ciencias Aplicadas**
-
+### Universidad Peruana de Ciencias Aplicadas
 **Carrera de Ingeniería de Software**
 
-**1ASI0572**
-**Desarrollo de Soluciones IoT**
-
-NRC
-**6785**
+---
+**1ASI0572 - Desarrollo de Soluciones IoT**  
+NRC: 6785
 
 # Informe del Trabajo Final
 
-Docente:
+**Docente:**  
+León Baca, Marco Antonio
 
-**León Baca, Marco Antonio**
+**Equipo:**  
+BlackStartup
 
-Equipo:
+**Proyecto:**  
+Qahwa
 
-**BlackStartup**
-
-Proyecto:
-
-**Qahwa**
-
-### Integrantes:
+### Integrantes
 
 | Código | Apellidos y Nombres |
-| :---: | :---: |
+| :--- | :--- |
 | u20191e999 | Carranza Pérez, Jhordi Luis |
 | u202315000 | Alvarez Falen, Esteban Valentino |
 | u202311999 | Valdivia Pérez, Julio Renan |
+
+<br>
 
 **Período 202610**
 
