@@ -6,37 +6,27 @@
 **Carrera de Ingeniería de Software**
 
 ---
-**1ASI0572**
 
-**Desarrollo de Soluciones IoT**  
+#### 1ASI0572 - Desarrollo de Soluciones IoT
+**NRC:** 6785
 
-**NRC:**
+# Informe del Trabajo Final
 
-**6785**
-
-**# Informe del Trabajo Final**
-
-**Docente:** 
-
+**Docente:**  
 León Baca, Marco Antonio
 
-**Equipo:**  
-
-FuelTrack
-
-**Proyecto:**  
-
-Fueltrack
+**Equipo:** FuelTrack  
+**Proyecto:** FuelTrack
 
 ### Integrantes
 
 | Código | Apellidos y Nombres |
-| u202310425 | Aguirre Castillo, Sergio Cesar |
-| u20221G068 | Almerco Rojas, Jocelyn Damaly |
-| u202213278 | Espejo Gamarra, Bryan Ronald |
-| u202113111 | Iparraguirre Rueda, Cristian Luis |
-| u20221C275 | Luque Minaya, Renzo Andrés |
-
+| :--- | :--- |
+| U202310425 | Aguirre Castillo, Sergio Cesar |
+| U20221G068 | Almerco Rojas, Jocelyn Damaly |
+| U202213278 | Espejo Gamarra, Bryan Ronald |
+| U202113111 | Iparraguirre Rueda, Cristian Luis |
+| U20221C275 | Luque Minaya, Renzo Andrés |
 
 <br>
 
