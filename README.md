@@ -1,20 +1,16 @@
 <div align="center">
 
 # Universidad Peruana de Ciencias Aplicadas (UPC)
-## Facultad de Ingeniería 
+## Facultad de Ingeniería
 
-![Logo de la UPC](./assets/logo-upc.png)
-
-**Curso:** 1ASI0572 - Desarrollo de Soluciones IoT  
-**NRC:** 6785  
-
-
+**Curso:** 1ASI0572 - Desarrollo de Soluciones IoT
+**NRC:** 6785
 **Profesor:** Marco Antonio Leon Baca
 
 # Informe de Trabajo Final
 
-**Nombre del grupo:** FuelTrack  
-**Nombre del producto:** FuelTrack  
+**Nombre del grupo:** FuelTrack
+**Nombre del producto:** FuelTrack
 
 ### Integrantes:
 
@@ -29,8 +25,6 @@
 ### Lima – abril 2026
 
 </div>
-
-<br>
 
 ---
 
