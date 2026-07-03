@@ -1,27 +1,27 @@
 <div align="center">
 <img width="300" height="300" alt="image" src="https://github.com/user-attachments/assets/5301c790-d5aa-404e-8963-eb1409f65290" />
-# Universidad Peruana de Ciencias Aplicadas 
+# Universidad Peruana de Ciencias Aplicadas
 ## Carrera de Ingeniería de Software
-
-
-**1ASI0572**  
-
+ 
+**1ASI0572**
 **Desarrollo de Soluciones IoT**
-
-**NRC:** 
-
+ 
+NRC
 **6785**
-
-# **Informe de Trabajo Final**
-
+ 
+# Informe de Trabajo Final
+ 
 Docente
 **León Baca, Marco Antonio**
-
-**Equipo:** FuelTrack
-**Proyectto:** FuelTrack
-
+ 
+Equipo
+**FuelTrack**
+ 
+Proyecto
+**FuelTrack**
+ 
 ### Integrantes:
-
+ 
 | Código | Apellidos y Nombres |
 | :---: | :---: |
 | U202310425 | AGUIRRE CASTILLO, Sergio Cesar |
@@ -29,9 +29,9 @@ Docente
 | U202213278 | ESPEJO GAMARRA, Bryan Ronald |
 | U202113111 | IPARRAGUIRRE RUEDA, Cristian Luis |
 | U20221C275 | LUQUE MINAYA, Renzo Andrés |
-
+ 
 ### Período 202610
-
+ 
 </div>
 
 ---
