@@ -8,27 +8,27 @@
 
 ---
 
-#### 1ASI0572
+# 1ASI0572
 
-### Desarrollo de Soluciones IoT
+# Desarrollo de Soluciones IoT
 
-#### NRC:
+#### NRC
 
-#### 6785
+# 6785
 
 # Informe del Trabajo Final
 
 **Docente:**  
 
-**León Baca, Marco Antonio**
+#**León Baca, Marco Antonio**
 
 **Equipo:**  
 
-**FuelTrack**
+#**FuelTrack**
 
 **Proyecto:**  
 
-**FuelTrack**
+#**FuelTrack**
 
 ### Integrantes
 
