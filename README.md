@@ -6,27 +6,37 @@
 **Carrera de Ingeniería de Software**
 
 ---
-**1ASI0572 - Desarrollo de Soluciones IoT**  
-NRC: 6785
+**1ASI0572**
 
-# Informe del Trabajo Final
+**Desarrollo de Soluciones IoT**  
 
-**Docente:**  
+**NRC:**
+
+**6785**
+
+**# Informe del Trabajo Final**
+
+**Docente:** 
+
 León Baca, Marco Antonio
 
 **Equipo:**  
-BlackStartup
+
+FuelTrack
 
 **Proyecto:**  
-Qahwa
+
+Fueltrack
 
 ### Integrantes
 
 | Código | Apellidos y Nombres |
-| :--- | :--- |
-| u20191e999 | Carranza Pérez, Jhordi Luis |
-| u202315000 | Alvarez Falen, Esteban Valentino |
-| u202311999 | Valdivia Pérez, Julio Renan |
+| u202310425 | Aguirre Castillo, Sergio Cesar |
+| u20221G068 | Almerco Rojas, Jocelyn Damaly |
+| u202213278 | Espejo Gamarra, Bryan Ronald |
+| u202113111 | Iparraguirre Rueda, Cristian Luis |
+| u20221C275 | Luque Minaya, Renzo Andrés |
+
 
 <br>
 
