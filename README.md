@@ -2,21 +2,33 @@
 
 <img src="./assets/logo-upc.png" alt="Logo UPC" width="200"/>
 
-### Universidad Peruana de Ciencias Aplicadas
-**Carrera de Ingeniería de Software**
+## **Universidad Peruana de Ciencias Aplicadas**
+
+##**Carrera de Ingeniería de Software**
 
 ---
 
-#### 1ASI0572 - Desarrollo de Soluciones IoT
-**NRC:** 6785
+#### **1ASI0572**
+
+###**Desarrollo de Soluciones IoT**
+
+##**NRC:**
+
+##**6785**
 
 # Informe del Trabajo Final
 
-**Docente:**  
-León Baca, Marco Antonio
+##**Docente:**##
 
-**Equipo:** FuelTrack  
-**Proyecto:** FuelTrack
+##**León Baca, Marco Antonio**
+
+##**Equipo:**## 
+
+##**FuelTrack**
+
+##**Proyecto:**
+
+##**FuelTrack**
 
 ### Integrantes
 
