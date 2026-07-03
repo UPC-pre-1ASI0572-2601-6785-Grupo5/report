@@ -1,43 +1,41 @@
 <div align="center">
- 
-<div align="center"> <img src="assets/logo-upc.png" alt="Logo UPC" width="200"/> </div> 
 
+<img src="./assets/logo-upc.png" alt="Logo UPC" width="300"/>
 
-# Universidad Peruana de Ciencias Aplicadas
-## Carrera de Ingeniería de Software
- 
+**Universidad Peruana de Ciencias Aplicadas**
+
+**Carrera de Ingeniería de Software**
+
 **1ASI0572**
 **Desarrollo de Soluciones IoT**
- 
+
 NRC
 **6785**
- 
-# Informe de Trabajo Final
- 
+
+# Informe del Trabajo Final
+
 Docente:
 
 **León Baca, Marco Antonio**
- 
+
 Equipo:
 
-**FuelTrack**
- 
+**BlackStartup**
+
 Proyecto:
 
-**FuelTrack**
- 
+**Qahwa**
+
 ### Integrantes:
- 
+
 | Código | Apellidos y Nombres |
 | :---: | :---: |
-| U202310425 | AGUIRRE CASTILLO, Sergio Cesar |
-| U20221G068 | ALMERCO ROJAS, Jocelyn Damaly |
-| U202213278 | ESPEJO GAMARRA, Bryan Ronald |
-| U202113111 | IPARRAGUIRRE RUEDA, Cristian Luis |
-| U20221C275 | LUQUE MINAYA, Renzo Andrés |
- 
-### Período 202610
- 
+| u20191e999 | Carranza Pérez, Jhordi Luis |
+| u202315000 | Alvarez Falen, Esteban Valentino |
+| u202311999 | Valdivia Pérez, Julio Renan |
+
+**Período 202610**
+
 </div>
 
 ---
