@@ -4784,12 +4784,16 @@ Los archivos `.feature` de BDD se encuentran documentados en los repositorios co
 ### 6.2.3.6 Execution Evidence for Sprint Review
 
 > Nota: Inserta aquí screenshots del Dashboard Operativo final y el enlace al video de demostración de la versión final.
+> 
+<img width="1919" height="997" alt="image" src="https://github.com/user-attachments/assets/33b17108-2e6a-45a9-b528-d92e985a6839" />
 
 ---
 
 ### 6.2.3.7 Services Documentation Evidence for Sprint Review
 
 La documentación mediante OpenAPI (Swagger) ha sido actualizada. Todos los endpoints cuentan con su esquema de request/response y ejemplos de uso para facilitar la integración con clientes corporativos.
+
+<img width="473" height="1600" alt="image" src="https://github.com/user-attachments/assets/9a94b1e8-18c3-4c5e-81a6-7ded9b1965e6" />
 
 ---
 
@@ -4801,9 +4805,15 @@ Se ha consolidado el despliegue en el entorno de producción. Se configuraron ce
 
 ### 6.2.3.9 Team Collaboration Insights during Sprint
 
-Durante este sprint, el equipo utilizó GitHub para el versionamiento final del proyecto, asegurando consistencia entre las ramas `develop` y `main`.
+Durante este sprint, el equipo utilizó GitHub para el versionamiento final del proyecto, asegurando consistencia entre las ramas `main`.
 
 Se evidenció una contribución equilibrada entre los cinco miembros en las tareas de integración y cierre del proyecto.
+
+<img width="914" height="859" alt="image" src="https://github.com/user-attachments/assets/2680d6c7-375c-43ff-889d-9ed8d1766ad0" />
+
+
+<img width="913" height="704" alt="image" src="https://github.com/user-attachments/assets/9f487a3a-43d2-4a95-89ae-519a4c81ebae" />
+
 
 ## 6.3. Validation Interviews
 
