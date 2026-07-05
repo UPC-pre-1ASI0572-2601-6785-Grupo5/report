@@ -4799,7 +4799,11 @@ La documentación mediante OpenAPI (Swagger) ha sido actualizada. Todos los endp
 
 ### 6.2.3.8 Software Deployment Evidence for Sprint Review
 
-Se ha consolidado el despliegue en el entorno de producción. Se configuraron certificados SSL/TLS y se verificó la resiliencia del clúster de microservicios ante alta demanda.
+A continuación, se evidenciará el enlace de acuerdo a los software desplegados para este Sprint:
+
+- Landing Page: https://saebryxn.github.io/LandingPageIOT/
+- Web Application: https://fueltrack-frontend-vue.onrender.com/login
+- Mobile Application: https://fueltrack-28dba.firebaseapp.com/
 
 ---
 
