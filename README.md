@@ -4587,64 +4587,189 @@ Para este segundo sprint se prioriza la refactorización de artefactos, el despl
     <td>Done</td>
   </tr>
 </table>
-## 6.2.3 Sprint 3
 
-### 6.2.3.1 Sprint Planning
+### 6.2.3 Sprint 3
+
+### 6.2.3.1 Sprint Planning 3
 
 En este último Sprint, el equipo se enfocó en el cierre definitivo del ciclo de vida del producto, priorizando la estabilidad del sistema, la optimización de los servicios de telemetría y el despliegue de la versión final (Release v1.0).
 
-**Sprint #**: Sprint 3  
-**Sprint Planning Background**: Preparación final y release  
-**Date**: 2026-06-12  
-**Time**: 09:00 AM  
-**Location**: Virtual (Google Meet)  
-**Prepared By**: Aguirre Castillo, Sergio Cesar  
-**Attendees**: Aguirre Castillo, Almerco Rojas, Espejo Gamarra, Iparraguirre Rueda, Luque Minaya  
-
-**Sprint n-1 Review Summary**  
-Se validó con éxito el MVP del Sprint 2 y se completaron las entrevistas de validación.
-
-**Sprint n-1 Retrospective Summary**  
-Se optimizó la comunicación técnica entre el backend y los nodos edge para reducir latencia.
-
-**Sprint n Goal**  
-Alcanzar la estabilidad funcional para el despliegue de producción, optimizar la suite de pruebas automatizadas y consolidar la documentación técnica del proyecto.
-
-**Sprint n Velocity**: 30  
-**Sum of Story Points**: 30  
+<table>
+  <thead>
+    <tr>
+      <th style="text-align:center">Sprint #</th>
+      <th style="text-align:center">Sprint 3</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td colspan="2"><strong>Sprint Planning Background</strong></td>
+    </tr>
+    <tr>
+      <td style="text-align:center">Date</td>
+      <td style="text-align:center">12-06-2026</td>
+    </tr>
+    <tr>
+      <td style="text-align:center">Time</td>
+      <td style="text-align:center">09:00 AM</td>
+    </tr>
+    <tr>
+      <td style="text-align:center">Location</td>
+      <td style="text-align:center">Virtual (Google Meet)</td>
+    </tr>
+    <tr>
+      <td style="text-align:center">Prepared By</td>
+      <td style="text-align:center">Sergio Aguirre Castillo</td>
+    </tr>
+    <tr>
+      <td style="text-align:center">Attendees</td>
+      <td style="text-align:center">Sergio Aguirre, Almerco Rojas, Espejo Gamarra, Iparraguirre Rueda, Luque Minaya</td>
+    </tr>
+    <tr>
+      <td style="text-align:center">Sprint n – 1 Review Summary</td>
+      <td style="text-align:center">Se validó con éxito el MVP del Sprint 2 y se completaron las entrevistas de validación.</td>
+    </tr>
+    <tr>
+      <td style="text-align:center">Sprint n – 1 Retrospective Summary</td>
+      <td style="text-align:center">Se optimizó la comunicación técnica entre el backend y los nodos edge para reducir latencia.</td>
+    </tr>
+    <tr>
+      <td colspan="2"><strong>Sprint Goal & Metrics</strong></td>
+    </tr>
+    <tr>
+      <td style="text-align:center">Sprint 3 Goal</td>
+      <td style="text-align:center">Alcanzar la estabilidad funcional para el despliegue de producción, optimizar la suite de pruebas automatizadas y consolidar la documentación técnica del proyecto.</td>
+    </tr>
+    <tr>
+      <td style="text-align:center">Sprint 3 Velocity</td>
+      <td style="text-align:center">30</td>
+    </tr>
+    <tr>
+      <td style="text-align:center">Sum of Story Points</td>
+      <td style="text-align:center">30</td>
+    </tr>
+  </tbody>
+</table>
 
 ---
 
 ### 6.2.3.2 Aspect Leaders and Collaborators
 
-| Team Member | GitHub Username | Order & Payment Leader | IoT & Telemetry Leader | Deployment & Documentation |
-|-------------|----------------|------------------------|-------------------------|----------------------------|
-| Aguirre Castillo, S. | serrat15a | L | C | L |
-| Almerco Rojas, J. | Damaly29 | C | C | L |
-| Espejo Gamarra, B. | SaeBryxn | C | L | C |
-| Iparraguirre Rueda, C. | cristianipa7 | C | L | C |
-| Luque Minaya, R. | renzoluquem | L | C | C |
+<table>
+  <thead>
+    <tr>
+      <th><strong>Team Member</strong></th>
+      <th><strong>Order & Payment Leader</strong></th>
+      <th><strong>IoT & Telemetry Leader</strong></th>
+      <th><strong>Deployment & Documentation</strong></th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>Aguirre Castillo, Sergio Cesar</td>
+      <td>L</td>
+      <td>C</td>
+      <td>L</td>
+    </tr>
+    <tr>
+      <td>Almerco Rojas, Jocelyn Damaly</td>
+      <td>C</td>
+      <td>C</td>
+      <td>L</td>
+    </tr>
+    <tr>
+      <td>Espejo Gamarra, Bryan Ronald</td>
+      <td>C</td>
+      <td>L</td>
+      <td>C</td>
+    </tr>
+    <tr>
+      <td>Iparraguirre Rueda, Cristian Luis</td>
+      <td>C</td>
+      <td>L</td>
+      <td>C</td>
+    </tr>
+    <tr>
+      <td>Luque Minaya, Renzo Andrés</td>
+      <td>L</td>
+      <td>C</td>
+      <td>C</td>
+    </tr>
+  </tbody>
+</table>
 
 ---
 
 ### 6.2.3.3 Sprint Backlog 3
 
-> Nota: Inserta aquí el screenshot de tu Board de Trello/YouTrack y el URL público.
+> Nota: Inserta aquí el screenshot del Board de Trello/YouTrack y el URL público.
 
-| US/TS ID | Title | Estimation (Hours) | Assigned To | Status |
-|----------|------|---------------------|-------------|--------|
-| TS44 | Seguridad de Vouchers (Hashing) | 8 | S. Aguirre | Done |
-| TS47 | Implementación de pagos B2B | 12 | R. Luque | Done |
-| US48 | Conformidad de entrega final | 10 | J. Almerco | Done |
+<table>
+  <thead>
+    <tr>
+      <th>US/TS ID</th>
+      <th>Title</th>
+      <th>Estimation (Hours)</th>
+      <th>Assigned To</th>
+      <th>Status</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>TS44</td>
+      <td>Seguridad de Vouchers (Hashing)</td>
+      <td>8</td>
+      <td>S. Aguirre</td>
+      <td>Done</td>
+    </tr>
+    <tr>
+      <td>TS47</td>
+      <td>Implementación de pagos B2B</td>
+      <td>12</td>
+      <td>R. Luque</td>
+      <td>Done</td>
+    </tr>
+    <tr>
+      <td>US48</td>
+      <td>Conformidad de entrega final</td>
+      <td>10</td>
+      <td>J. Almerco</td>
+      <td>Done</td>
+    </tr>
+  </tbody>
+</table>
 
 ---
 
 ### 6.2.3.4 Development Evidence for Sprint Review
 
-| Repository | Branch | Commit Id | Commit Message | Date |
-|------------|--------|-----------|----------------|------|
-| fueltrack-backend | main | 9d2a1b3 | fix: security patch on voucher hashing | 15/06/2026 |
-| fueltrack-embedded | main | 7b8c9d0 | perf: optimize sensor polling rate | 16/06/2026 |
+<table>
+  <thead>
+    <tr>
+      <th>Repository</th>
+      <th>Branch</th>
+      <th>Commit Id</th>
+      <th>Commit Message</th>
+      <th>Date</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>fueltrack-backend</td>
+      <td>main</td>
+      <td>9d2a1b3</td>
+      <td>fix: security patch on voucher hashing</td>
+      <td>15/06/2026</td>
+    </tr>
+    <tr>
+      <td>fueltrack-embedded</td>
+      <td>main</td>
+      <td>7b8c9d0</td>
+      <td>perf: optimize sensor polling rate</td>
+      <td>16/06/2026</td>
+    </tr>
+  </tbody>
+</table>
 
 ---
 
@@ -4652,33 +4777,33 @@ Alcanzar la estabilidad funcional para el despliegue de producción, optimizar l
 
 Se ha completado la automatización de la suite de pruebas (Unit & Integration tests), cubriendo el 95% de los servicios core del sistema.
 
-Los archivos `.feature` de BDD se encuentran documentados en el repositorio de cada servicio.
+Los archivos `.feature` de BDD se encuentran documentados en los repositorios correspondientes.
 
 ---
 
 ### 6.2.3.6 Execution Evidence for Sprint Review
 
-> Nota: Inserta aquí screenshots de las vistas finales del Dashboard Operativo y el enlace al video de demostración de la versión final.
+> Nota: Inserta aquí screenshots del Dashboard Operativo final y el enlace al video de demostración de la versión final.
 
 ---
 
 ### 6.2.3.7 Services Documentation Evidence for Sprint Review
 
-La documentación mediante OpenAPI (Swagger) ha sido actualizada. Todos los endpoints cuentan con su esquema de request/response y ejemplos de uso para facilitar la integración con los clientes corporativos.
+La documentación mediante OpenAPI (Swagger) ha sido actualizada. Todos los endpoints cuentan con su esquema de request/response y ejemplos de uso para facilitar la integración con clientes corporativos.
 
 ---
 
 ### 6.2.3.8 Software Deployment Evidence for Sprint Review
 
-Se ha consolidado el despliegue en el entorno de producción. Se han configurado los certificados SSL/TLS y se ha verificado la resiliencia del clúster de microservicios ante alta demanda.
+Se ha consolidado el despliegue en el entorno de producción. Se configuraron certificados SSL/TLS y se verificó la resiliencia del clúster de microservicios ante alta demanda.
 
 ---
 
 ### 6.2.3.9 Team Collaboration Insights during Sprint
 
-Durante este último sprint, el equipo utilizó GitHub para gestionar el versionamiento final y asegurar coherencia total con la entrega final del proyecto.
+Durante este sprint, el equipo utilizó GitHub para el versionamiento final del proyecto, asegurando consistencia entre las ramas `develop` y `main`.
 
-Se observa una contribución equitativa y constante de los cinco miembros en las ramas de integración (develop hacia main).
+Se evidenció una contribución equilibrada entre los cinco miembros en las tareas de integración y cierre del proyecto.
 
 ## 6.3. Validation Interviews
 
