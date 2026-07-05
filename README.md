@@ -4809,8 +4809,7 @@ Durante este sprint, el equipo utilizó GitHub para el versionamiento final del 
 
 Se evidenció una contribución equilibrada entre los cinco miembros en las tareas de integración y cierre del proyecto.
 
-<img width="914" height="859" alt="image" src="https://github.com/user-attachments/assets/2680d6c7-375c-43ff-889d-9ed8d1766ad0" />
-
+<img width="923" height="462" alt="image" src="https://github.com/user-attachments/assets/0c8b662e-6e49-4312-bd67-80e2cd309ab1" />
 
 <img width="913" height="704" alt="image" src="https://github.com/user-attachments/assets/9f487a3a-43d2-4a95-89ae-519a4c81ebae" />
 
