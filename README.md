@@ -4802,7 +4802,7 @@ La documentación mediante OpenAPI (Swagger) ha sido actualizada. Todos los endp
 A continuación, se evidenciará el enlace de acuerdo a los software desplegados para este Sprint:
 
 - Landing Page: https://saebryxn.github.io/LandingPageIOT/
-- Web Application: https://fueltrack-frontend-vue.onrender.com/#/login
+- Web Application: https://fueltrack-frontend-vue.onrender.com/#/login  (borar el /login para que pueda ingresar a la Web o directo de la landing en ver plataforma)
 - Mobile Application: https://fueltrack-28dba.firebaseapp.com/
 
 ---
